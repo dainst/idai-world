@@ -1,0 +1,107 @@
+[
+  {
+    "type": "sub_nav",
+    "items": [
+      {
+        "image": "/path/to/image.png",
+        "route": "why-mission-statement/images",
+        "title": "Images"
+      },
+      {
+        "image": "/path/to/image.png",
+        "route": "why-mission-statement/objects",
+        "title": "Objects",
+        "sub_title": "Architecture & Collection"
+      }
+    ]
+  },
+  {
+    "type": "intro_text",
+    "title": "Lorem Ipsum",
+    "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "body_html": "mission-statement.intro_text.html"
+  },
+  {
+    "type": "slider_tiles",
+    "tiles": [
+      {
+        "type": "image_link",
+        "image": "images/foobar.png",
+        "headline": "Foobar 1",
+        "subhead": "sub foobar",
+        "link": { "target": "https://foo.bar.baz", "text": "foo link" }
+      },
+      {
+        "type": "text",
+        "image": "images/foobar.png",
+        "headline": "Foobar 1",
+        "subhead": "sub foobar",
+        "text": "<p>a really long text can go here...</p><p>that can contain <b>markup<b>... <p>but only certain elements are allowed...</p>",
+        "text_html": "mission-statement.slider_tile_2.html"
+      },
+      {
+        "type": "link_list",
+        "image": "images/foobar.png",
+        "headline": "Foobar 1",
+        "subhead": "sub foobar",
+        "links": [
+          { "target": "https://foo.bar.baz", "text": "foo link" },
+          { "target": "https://foo.bar.baz", "text": "foo link" }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "slider_circles",
+    "items": [
+      { "image": "images/foobar.png", "text": "circle 1" },
+      { "image": "images/foobar.png", "text": "circle 2" },
+      { "image": "images/foobar.png", "text": "circle 3" },
+      { "image": "images/foobar.png", "text": "circle 4" }
+    ]
+  },
+  {
+    "type": "org_chart",
+    "title": "Root Level",
+    "children": [
+      {
+        "title": "Level 1 | Child 1",
+        "children": [
+          { "title": "Level 2 | Child 1.1" },
+          { "title": "Level 2 | Child 1.2" }
+        ]
+      },
+      {
+        "title": "Level 1 | Child 2",
+        "children": [
+          { "title": "Level 2 | Child 2.1" },
+          { "title": "Level 2 | Child 2.2" }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "slider_image",
+    "content": [
+      "/images/foobar.png",
+      "/images/foobar2.png",
+      "/images/foobar3.png",
+      "/images/foobar4.png"
+    ]
+  },
+  {
+    "type": "info_box",
+    "headline": "Info Box Headline",
+    "content": {
+      "headline": "info box content headline",
+      "text": "info box content text",
+      "link": { "target": "https://foo.bar.baz", "text": "foo link" }
+    }
+  },
+  {
+    "type": "search_box",
+    "headline": "Search Box Headline",
+    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat ullamcorper massa non scelerisque. Morbi pellentesque blandit neque in consequat. Donec quis suscipit tortor, quis pellentesque neque. Nulla dictum lacinia sem, quis imperdiet dolor convallis non. Integer mattis enim arcu, at lacinia justo sollicitudin at. Etiam eget scelerisque urna. Nullam feugiat gravida faucibus. Nullam nec egestas metus, in cursus tellus. Donec in faucibus ex. In condimentum neque dapibus, rutrum eros vitae, commodo magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas augue eros, tristique et malesuada nec, tempus quis tortor.</p>",
+    "text_html": "mission-statement.search-box.html"
+  }
+]

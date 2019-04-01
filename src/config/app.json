@@ -1,0 +1,59 @@
+{
+  "routes": [
+    {
+      "path": "",
+      "name": "home",
+      "page": "config/pages/dai-home.json",
+      "default": true
+    },
+    {
+      "path": "why-mission-statement",
+      "menu": {
+        "group": "Why",
+        "name": "Mission Statement",
+        "order": 1
+      },
+      "page": "config/pages/dai-mission-statement.json"
+    },
+    {
+      "path": "why-strategy-and-architecture",
+      "menu": {
+        "group": "Why",
+        "name": "Strategy & Architecture"
+      },
+      "page": "config/pages/dai-strategy-and-architecture.json"
+    },
+    {
+      "path": "why-about-us",
+      "menu": {
+        "group": "Why",
+        "name": "About us"
+      },
+      "page": "config/pages/dai-about-us.json"
+    },
+    {
+      "path": "why-partner",
+      "menu": {
+        "group": "Why",
+        "name": "Partner"
+      },
+      "page": "config/pages/dai-partner.json"
+    },
+    {
+      "path": "why-contact",
+      "menu": {
+        "group": "Why",
+        "name": "Contact"
+      },
+      "page": "config/pages/dai-contact.json"
+    },
+    {
+      "path": "why-foo-bar",
+      "menu": {
+        "group": "Why.Foo",
+        "name": "Bar"
+      },
+      "page": "config/pages/dai-foobar.json"
+    }
+  ]
+}

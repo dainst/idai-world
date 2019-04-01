@@ -1,0 +1,8 @@
+<p>page works!</p>
+<p>load config from: {{ configPath }}</p>
+
+<ng-template
+  *ngFor="let component of config?.componentConfigs"
+  daiComponentSlot
+>
+</ng-template>
