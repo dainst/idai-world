@@ -1,0 +1,40 @@
+/* ------------------------------------------------------------ *\
+	Module Systems with link
+\* ------------------------------------------------------------ */
+
+/* Desktop */
+.section__systems.systems-link a {
+  max-width: 540px;
+  max-height: 250px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.section__systems.systems-link a .headline {
+  font-family: "Cargan", serif;
+  font-size: 38px;
+  text-align: center;
+  color: #557ebb;
+}
+
+.section__systems.systems-link a .description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #575853;
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  .section__systems.systems-link a {
+    padding: 15px;
+  }
+
+  .section__systems.systems-link a .headline {
+    font-size: 30px;
+  }
+
+  .section__systems.systems-link a .description {
+    font-size: 18px;
+  }
+}

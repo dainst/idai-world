@@ -1,0 +1,12 @@
+/* ------------------------------------------------------------ *\
+	Fonts
+\* ------------------------------------------------------------ */
+@font-face {
+  font-family: "Cargan";
+  src: url("assets/fonts/Cargan-Light.woff2") format("woff2"),
+    url("assets/fonts/Cargan-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@import "~@fortawesome/fontawesome-free/css/all.min.css";

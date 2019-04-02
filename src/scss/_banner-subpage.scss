@@ -1,0 +1,73 @@
+.section__subpage-banner {
+  max-height: 600px;
+  height: 100%;
+  width: 100%;
+  background: url(assets/images/banner-subpage-bg.jpg) top center no-repeat;
+  background-size: 1800px 600px;
+  padding-top: 150px;
+}
+
+.section__subpage-banner .tile {
+  max-height: 450px;
+  overflow: hidden;
+}
+
+.section__subpage-banner .tile:hover .tile__image {
+  opacity: 1;
+}
+
+.section__subpage-banner .tile__image {
+  max-height: 450px;
+  height: 100%;
+  padding-top: 50%;
+  opacity: 0.25;
+}
+
+.section__subpage-banner .tile h2,
+.section__subpage-banner .tile span {
+  color: #f4f4f4;
+}
+
+.section__subpage-banner .tile__subtitle {
+  display: inline-block;
+  position: absolute;
+  margin: 0 auto;
+  font-family: "Cargan", serif;
+  font-size: 3rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  white-space: nowrap;
+  text-align: center;
+}
+
+.section__subpage-banner .tile.active .tile__image {
+  opacity: 1;
+}
+
+.section__subpage-banner .tile.active.tile--mute .tile__image {
+  opacity: 0.2;
+}
+
+.section__subpage-banner .tile.active.tile--mute h2 {
+  opacity: 1;
+}
+
+/* Subpage-banner full (Single image) */
+.section__subpage-banner.subpage-banner-full .tile__image {
+  padding-top: 25%;
+  opacity: 1;
+  max-height: 450px;
+  min-height: 150px;
+}
+
+@media screen and (min-width: 992px) {
+  .section__subpage-banner .tile h2 {
+    font-size: 98px;
+  }
+}
+
+@media screen and (min-width: 1801px) {
+  .section__subpage-banner {
+    background-size: 100% 100%;
+  }
+}

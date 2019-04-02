@@ -1,0 +1,81 @@
+/* ------------------------------------------------------------ *\
+	Sprite
+\* ------------------------------------------------------------ */
+/*
+NOTE: The styles where added manually, since adding custom build steps 
+with angular-cli is not supported.
+TODO: evaluate options to generate the styles.
+
+*/
+.ico-access {
+  background: url(assets/images/sprite/ico-access.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  width: 592px;
+  height: 155px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0px;
+}
+.ico-arrow-down {
+  background: url(assets/images/sprite/ico-arrow-down.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  width: 66px;
+  height: 38px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0px;
+}
+.ico-griffin {
+  background: url(assets/images/sprite/ico-griffin.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  width: 89px;
+  height: 67px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0px;
+}
+.ico-link-arrow {
+  background: url(assets/images/sprite/ico-link-arrow.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  width: 16px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0px;
+}
+.ico-logo-subpage {
+  background: url(assets/images/sprite/ico-logo-subpage.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  width: 183px;
+  height: 103px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0px;
+}
+.ico-logo {
+  background: url(assets/images/sprite/ico-logo.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  width: 366px;
+  height: 103px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0px;
+}
+.ico-logos {
+  background: url(assets/images/sprite/ico-logos.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  width: 859px;
+  height: 106px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0px;
+}
+.ico-search {
+  background: url(assets/images/sprite/ico-search.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  width: 47px;
+  height: 47px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0px;
+}

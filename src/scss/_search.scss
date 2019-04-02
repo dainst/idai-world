@@ -1,0 +1,56 @@
+/* ------------------------------------------------------------ *\
+	Search
+\* ------------------------------------------------------------ */
+
+.search {
+  .search__controls {
+    position: relative;
+    width: 600px;
+  }
+
+  .search__field {
+    width: 100%;
+    padding: 15px 20px;
+    border: 0;
+    background-color: rgba(191, 198, 198, 0.7);
+    font-size: 24px;
+    font-family: $open-sans;
+  }
+
+  .search__btn {
+    font-size: 0;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    width: 47px;
+    height: 47px;
+    background: url(assets/images/search.png) no-repeat 0 0;
+    transition: 0.4s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .search {
+    .search__controls {
+      width: 300px;
+    }
+
+    .search__field {
+      font-size: 14px;
+      padding-right: 40px;
+    }
+
+    .search__btn {
+      right: 10px;
+      width: 30px;
+      height: 30px;
+      background-size: 100% 100%;
+    }
+  }
+}

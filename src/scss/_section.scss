@@ -1,0 +1,429 @@
+/* ------------------------------------------------------------ *\
+	Section
+\* ------------------------------------------------------------ */
+
+.section {
+}
+
+
+/* ------------------------------------------------------------ *\
+	Section Article
+\* ------------------------------------------------------------ */
+
+.section-articles {
+	a.link-more {
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 2;
+		color: $blue;
+		text-transform: uppercase;
+	}
+
+	.section__body {
+		position: relative;
+	}
+}
+
+@media( max-width: 1024px ) {
+	.section-articles {
+		a.link-more {
+			bottom: 10px;
+		}
+	}
+}
+
+@media( max-width: 767px ) {
+	.section-articles {
+		a.link-more {
+			white-space: nowrap;
+		}
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Section Archeological
+\* ------------------------------------------------------------ */
+
+.section-archeological {
+	.section__head {
+		text-align: center;
+		padding: 85px 0;
+		color: #fff;
+	}
+
+	.row {
+		margin: 0 -2px;
+	 }
+
+	 .custom-gutter {
+	 	padding: 0 2px;
+	 }
+}
+
+@media( max-width: 1024px ) {
+	.section-archeological {
+		.section__head {
+			padding: 30px;
+		}
+	}
+}
+
+@media( max-width: 767px ) {
+	.section-archeological {
+		.row {
+			margin: -2px 0;
+		}
+
+		.custom-gutter {
+			padding: 2px 0;
+		}
+
+		.section__head {
+			padding: 20px 0; 
+
+			h4 {
+				font-size: 22px;
+			}
+		}
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Section Publications
+\* ------------------------------------------------------------ */
+
+.section-publications {
+	padding: 100px 0;
+
+	.row {
+		margin: 0 -50px;
+	}
+
+	.custom-gutter {
+		padding: 0 50px;
+	}
+
+	.section__head {
+		text-align: center; 
+		margin-bottom: 85px;
+
+		h2 {
+			color: $blue;
+			margin-bottom: 20px;
+		}
+
+		p {
+			font-size: 30px;
+			padding: 0 100px;
+		}
+	}
+}
+
+@media( max-width: 1024px ) {
+	.section-publications {
+		padding: 40px 0;
+
+		.row {
+			margin: 0 -10px;
+		}
+
+		.custom-gutter {
+			padding: 0 10px;
+		}
+
+		.tile {
+			.tile__title {
+				font-size: 30px;
+			}
+		}
+
+	}
+}
+
+@media( max-width: 767px ) {
+	.section-publications {
+		padding: 30px 0;
+
+		.row {
+			margin: -10px 0;
+		}
+
+		.custom-gutter {
+			padding: 10px 0;
+		}
+
+		.section__head {
+			margin-bottom: 30px;
+
+			p {
+				padding: 0;
+			}
+		}
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Section Archeological Images
+\* ------------------------------------------------------------ */
+
+.section-archeological-images {
+	color: #fff;
+
+	h2 {
+		margin-bottom: 25px;
+	}
+
+	p {
+		font-size: 30px;
+	}
+
+	.section__image {
+		height: 800px;
+
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+	}
+
+	.section__content {
+		text-align: center;
+	}
+}
+
+@media( max-width: 1024px ) {
+	.section-archeological-images {
+		.section__image {
+			height: 400px;
+		}
+	}
+}
+
+@media( max-width: 767px ) {
+	.section-archeological-images {
+		h2 {
+			font-size: 38px;
+		}
+
+		p {
+			font-size: 20px;
+		}
+
+		br {
+			display: none;
+		}
+
+		.section__image {
+			height: 350px;
+		}
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Section Open Access
+\* ------------------------------------------------------------ */
+
+.section-open-access {
+	padding: 60px 0;
+	text-align: center; 
+
+	a {
+		color: $blue;
+		transition: .3s;
+		&:hover {
+			color: darken($blue, 20%);
+		}
+	}
+
+	p {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+
+	.section__head {
+		margin-bottom: 20px;
+	}
+}
+
+@media( max-width: 767px ) {
+	.section-open-access {
+		padding: 30px 0;
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Section Textbox
+\* ------------------------------------------------------------ */
+.section__textbox {
+	padding: 100px 0;
+}
+
+.section__textbox.section__text-only {
+	padding-bottom: 40px;
+}
+
+.section__textbox .section__body p {
+	padding-bottom: 25px;
+}
+
+@media( max-width: 767px ) {
+	.section__textbox {
+		padding: 50px 0;
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Section Systems
+\* ------------------------------------------------------------ */
+.section__systems {
+	padding: 100px 0;
+}
+
+/* ------------------------------------------------------------ *\
+	Section Hierarchy
+\* ------------------------------------------------------------ */
+.section__hierarchy .level-content {
+	font-family: "Open Sans", serif;
+	font-size: 30px;
+	margin-top: 25px;
+	width: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section__hierarchy .level-1 .level-content {
+	background-color: #547db1;
+	color: #fff;
+	min-height: 150px;
+}
+
+.section__hierarchy .level-2 .level-content {
+	background-color: #87a4c9;
+	color: #fff;
+	min-height: 120px;
+
+}
+
+.section__hierarchy .level-3 .level-content {
+	background-color: #b2c4dc;
+	color: #547db1;
+}
+
+.section__textbox.decoration-bg-blue .section__head h3 {
+	color: #fff;
+}
+
+/* ------------------------------------------------------------ *\
+	Section Slider
+\* ------------------------------------------------------------ */
+.section__slider {
+	padding-top: 30px;
+}
+
+.section__slider button {
+	outline: none;
+}
+
+.section__three-tiles.decoration-bg-blue {
+	border-bottom: 50px solid #d3d3cf;
+}
+
+.section__three-tiles.tiles-slider.tiles-slider-two-rows .slick-slide > div {
+	margin-bottom: 85px;
+}
+
+.section__three-tiles.tiles-slider.tiles-slider-two-rows {
+	padding-bottom: 0;
+}
+
+/* ------------------------------------------------------------ *\
+	Section Banner Image Full
+\* ------------------------------------------------------------ */
+.section__image-banner + .section__three-tiles {
+	padding-top: 30px;
+}
+
+.section__image-banner .banner-img {
+	min-height: 170px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+@media screen and (min-width: 768px) {
+	.section__image-banner .banner-img {
+		height: 270px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.section__image-banner .banner-img {
+		height: 450px;
+	}
+
+	.section__image-banner + .section__three-tiles {
+		padding-top: 100px;
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Section Two Tiles
+\* ------------------------------------------------------------ */
+.section__three-tiles.two--tiles .col-xl-auto {
+	padding: 0 42px;
+}
+
+/* ------------------------------------------------------------ *\
+	Section Overview Table
+\* ------------------------------------------------------------ */
+.section__overview-table.decoration-bg-blue {
+	border-bottom: 50px solid #d3d3cf;
+}
+
+.section__overview-table .section__body .row {
+	align-items: center;
+}
+
+.section__overview-table .section__body .category-title {
+	display: flex;
+	align-items: center;
+	font-family: "Cargan", serif;
+	font-size: 30px;
+}
+
+.section__overview-table .section__body .category-link a {
+	display: flex;
+	font-family: "Cargan", serif;
+	font-size: 24px;
+	min-height: 60px;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	margin: 25px 0;
+}
+
+.section__overview-table .section__body .category-link a.decoration-bg-lighter-gray {
+	color: #5882c2;
+}
+
+.section__overview-table.decoration-bg-blue .section__body .category-title {
+	color: #d3d3cf;
+}
+
+/* ------------------------------------------------------------ *\
+	Section Padding
+\* ------------------------------------------------------------ */
+.section__textbox + .section__three-tiles {
+	padding-top: 0;
+}
+
+.section__systems + .section__three-tiles.tiles-slider {
+	padding-top: 100px !important;
+}

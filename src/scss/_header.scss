@@ -1,0 +1,65 @@
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+
+	.header__inner {
+		padding: 25px 40px;
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+	}
+
+	.header__container {
+		width: 90px;
+		margin-bottom: 22px;
+	}
+}
+
+@media( max-width: 767px ) {
+	.header {
+		.header__inner {
+			padding: 20px;
+		}
+		
+		i.ico-griffin {
+			width: 60px; 
+			height: 45px;
+		}
+
+		.header__container {
+			width: 60px;
+			margin-bottom: 5px;
+		}
+	}
+
+}
+
+/* ------------------------------------------------------------ *\
+	Header Subpage
+\* ------------------------------------------------------------ */
+.header__subpage {
+	max-height: 150px;
+	height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+	.header__subpage .logo i {
+		width: 71px;
+		height: 40px;
+	}
+}
+
+@media screen and (min-width: 1801px) {
+	.header__subpage .header__inner {
+		/*background: url(../images/header-subpage-bg.jpg) top left no-repeat;*/
+		/*background-size: 100% 100%;*/
+		height: 150px;
+	}
+}

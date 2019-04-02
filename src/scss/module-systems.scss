@@ -1,0 +1,26 @@
+.section__systems {
+  /*max-height: 600px;*/
+}
+
+.section__systems .custom-gutter {
+  padding: 0 42px;
+}
+
+.section__systems .tile--rectangle .tile__image {
+  padding-top: 55%;
+}
+
+.section__systems .tile--rectangle .tile__image.tile--overlay:before {
+  background: rgba(100, 100, 100, .7);
+}
+
+.section__systems.decoration-bg-blue .section__head h3 {
+  font-size: 54px;
+  color: #fff;
+}
+
+.section__systems .tile__content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+}

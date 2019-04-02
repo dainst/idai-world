@@ -1,0 +1,52 @@
+.section__three-tiles .section__body {
+  padding-top: 20px;
+}
+
+.section__three-tiles .tile.tile--square {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.section__three-tiles.section__textbox p {
+  padding-bottom: 0;
+}
+
+.tile__content.tile--head-up {
+  width: 100%;
+  height: 125px;
+  color: #fff;
+  background-color: #605e59;
+  opacity: 0.8;
+  top: auto;
+  bottom: -68px;
+  text-align: left;
+  padding: 15px 30px;
+  transition: bottom 150ms, opacity 0.3s;
+}
+
+.section__three-tiles .tile:hover .tile--head-up {
+  bottom: -63px;
+  opacity: 1;
+}
+
+.tile__content.tile--head-up .headline {
+  font-family: "Cargan", serif;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.tile__content.tile--head-up .description {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1230px) {
+  .section__three-tiles .tile.tile--square {
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+  }
+}

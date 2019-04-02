@@ -1,0 +1,606 @@
+/* ------------------------------------------------------------ *\
+	Responsive Media-Queries according Bootstrap 4
+\* ------------------------------------------------------------ */
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+// Mobile Last iDAI (Desktop Version no Media Queries)
+
+/* ------------------------------ *\
+    Section padding
+\* ------------------------------ */
+.section__textbox .section__body p:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+// Extra large devices (large desktops, 1200px and below)
+@media (max-width: 1200px) {
+}
+
+// Large devices (desktops, 992px and below) ---------------------------------------------------------------------------
+@media (max-width: 992px) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  /* ------------------------------ *\
+      Header
+  \* ------------------------------ */
+  header.header {
+    max-height: 70px;
+  }
+
+  .header .header__inner {
+    align-items: center;
+    padding: 8px 10px;
+    height: 100%;
+  }
+
+  .header .header__container {
+    width: 50px;
+    margin-bottom: auto;
+  }
+
+  .nav-trigger {
+    margin-left: 5px;
+    max-height: 45px;
+    padding-top: 8px;
+  }
+
+  .nav-trigger span {
+    width: 40px;
+    height: 6px;
+  }
+
+  .nav-trigger span + span {
+    margin-top: 8px;
+  }
+
+  .nav-trigger.active span {
+    height: 5px;
+  }
+
+  .nav-trigger.active span + span {
+    margin-top: 11px;
+  }
+
+  .ico-logo-subpage {
+    width: 120px;
+    height: 60px;
+  }
+
+  .header i.ico-griffin {
+    width: 45px;
+    height: 34px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  .nav-trigger.active {
+    transform: translateY(0);
+  }
+
+  /* ------------------------------ *\
+      Subpage Banner
+  \* ------------------------------ */
+  .section__subpage-banner {
+    padding-top: 70px;
+    background-position: center -8px;
+    background-size: 940px;
+  }
+
+  .section__subpage-banner .tile h2 {
+    font-size: 42px;
+  }
+
+  .section__subpage-banner .tile .tile__subtitle {
+    font-size: 24px;
+    margin-top: -5px;
+  }
+
+  .section__subpage-banner.subpage-banner-full .tile__image {
+    padding-top: 70px;
+    opacity: 1;
+    min-height: 235px;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* ------------------------------ *\
+      Textbox
+  \* ------------------------------ */
+  .section__textbox p {
+    margin-bottom: 0;
+  }
+
+  .section__textbox .section__head h3 {
+    font-size: 30px;
+    padding: 0 20px;
+  }
+
+  .line__dotted--blue {
+    border-top: 2px dotted #557ebb;
+  }
+
+  .section__textbox .section__body p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  /* ------------------------------ *\
+      Tiles
+  \* ------------------------------ */
+  .section__three-tiles .tile.tile--square {
+    max-width: 220px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .section__three-tiles .row > div {
+    margin: 5px 0;
+  }
+
+  .tile--square .tile__image {
+    max-width: 220px;
+    height: auto;
+    margin: auto;
+  }
+
+  .tile__content.tile--head-up {
+    max-height: 85px;
+    padding: 10px;
+  }
+
+  .tile__content.tile--head-up .headline {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0;
+  }
+
+  .tile__content.tile--head-up .description {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0;
+  }
+
+  .section__three-tiles.two--tiles .col-xl-auto {
+    padding: 0;
+  }
+
+  /* ------------------------------ *\
+      Slider
+  \* ------------------------------ */
+  .tiles-slider .slick-slide {
+    width: 220px;
+    height: auto;
+    margin-right: 30px;
+  }
+
+  .tiles-slider .slick-slide .slide {
+    width: 100% !important;
+  }
+
+  .tiles-slider .slick-slide > div {
+    width: auto !important;
+  }
+
+  .tiles-slider .slick-next:before {
+    content: "";
+    background: url(assets/images/arrow-right-blue.png);
+    background-size: cover;
+    height: 50px;
+    width: 30px;
+    position: absolute;
+    left: 33px;
+    top: 15%;
+  }
+
+  .tiles-slider .slick-prev:before {
+    content: "";
+    background: url(assets/images/arrow-right-blue.png);
+    background-size: cover;
+    height: 50px;
+    width: 30px;
+    position: absolute;
+    left: -25px;
+    top: 15%;
+  }
+
+  .section__slider.partners-slider .slick-next {
+    right: 0;
+  }
+
+  .section__slider.partners-slider .slick-prev {
+    left: 0;
+  }
+
+  .section__three-tiles.tiles-slider.tiles-slider-two-rows .slick-next:before {
+    content: "";
+    background: url(assets/images/arrow-right.png);
+    background-size: cover;
+    height: 50px;
+    width: 30px;
+    position: absolute;
+    left: 33px;
+    top: 15%;
+  }
+
+  .section__three-tiles.tiles-slider.tiles-slider-two-rows .slick-prev:before {
+    content: "";
+    background: url(assets/images/arrow-right.png);
+    background-size: cover;
+    height: 50px;
+    width: 30px;
+    position: absolute;
+    left: -25px;
+    top: 15%;
+  }
+
+  /* ------------------------------ *\
+      Section Systems
+  \* ------------------------------ */
+  .section__systems .custom-gutter {
+    padding: 0 15px;
+  }
+
+  /* ------------------------------ *\
+      Hierarchy (About us)
+  \* ------------------------------ */
+  .section__hierarchy .level-content {
+    font-size: 20px;
+  }
+
+  /* ------------------------------ *\
+      Footer
+  \* ------------------------------ */
+  footer.footer {
+    padding: 30px 0;
+  }
+
+  /* ------------------------------ *\
+      Section Padding
+  \* ------------------------------ */
+  .section__textbox .section__body p {
+    padding-bottom: 0;
+  }
+
+  .section__overview-table.decoration-bg-blue {
+    padding-bottom: 70px;
+  }
+
+  .section__overview-table.decoration-bg-blue .section__body .category-title {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .section__overview-table.decoration-bg-blue
+    .section__body
+    .row:not(:first-of-type) {
+    padding-top: 50px;
+  }
+
+  .section__text-only {
+    padding-top: 50px;
+  }
+
+  .section__slider.partners-slider {
+    padding-top: 50px;
+    padding-bottom: 85px;
+  }
+
+  .section__slider.partners-slider .section__body {
+    padding-top: 0;
+  }
+
+  .section__slider.partners-slider .slider__slides {
+    margin-bottom: 0;
+  }
+}
+
+// Medium devices (tablets, 768px and below) ---------------------------------------------------------------------------
+@media (max-width: 768px) {
+}
+
+// Small devices (landscape phones, 576px and below) -------------------------------------------------------------------
+@media (max-width: 576px) {
+  /* ------------------------------ *\
+      Header
+  \* ------------------------------ */
+  header.header {
+    max-height: 55px;
+  }
+
+  .header .header__inner {
+    align-items: center;
+    padding-top: 8px;
+  }
+
+  .header .header__container {
+    width: 40px;
+  }
+
+  .header i.ico-griffin {
+    width: 40px;
+    height: 30px;
+    margin-top: 4px;
+  }
+
+  .nav-trigger {
+    margin-left: 0;
+  }
+
+  .nav-trigger span {
+    width: 27px;
+    height: 4px;
+  }
+
+  .nav-trigger.active span {
+    height: 4px;
+  }
+
+  .nav-trigger span + span {
+    margin-top: 6px;
+  }
+
+  .nav-trigger.active span + span {
+    margin-top: 4px;
+  }
+
+  .nav-trigger.active {
+    transform: translateY(0);
+  }
+
+  /* ------------------------------ *\
+      Subpage Banner
+  \* ------------------------------ */
+  .section__subpage-banner {
+    padding-top: 55px;
+    background-position: center 0;
+    background-size: 660px;
+  }
+
+  .section__subpage-banner .tile h2 {
+    font-size: 24px;
+  }
+
+  .section__subpage-banner .tile .tile__subtitle {
+    font-size: 12px;
+    margin-top: -5px;
+  }
+
+  .section__subpage-banner.subpage-banner-full .tile__image,
+  .section__subpage-banner .tile__image {
+    min-height: 124px;
+  }
+
+  /* ------------------------------ *\
+      Textbox
+  \* ------------------------------ */
+  .section__textbox p {
+    margin-bottom: 0;
+  }
+
+  .section__textbox .section__head h3 {
+    font-size: 24px;
+    padding: 0 20px;
+  }
+
+  .line__dotted--blue {
+    border-top: 2px dotted #557ebb;
+  }
+
+  .section__textbox .section__body p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  /* ------------------------------ *\
+      Tiles
+  \* ------------------------------ */
+  .section__three-tiles .tile.tile--square {
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .section__three-tiles .row > div {
+    margin: 5px 0;
+  }
+
+  .tile--square .tile__image {
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+  }
+
+  .tile__content.tile--head-up {
+    max-height: 100px;
+    padding: 15px;
+  }
+
+  .tile__content.tile--head-up .headline {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  /* ------------------------------ *\
+      Section Systems
+  \* ------------------------------ */
+  .section__systems {
+    padding: 50px 0;
+  }
+
+  .section__systems.decoration-bg-blue .section__head h3 {
+    font-size: 36px;
+  }
+
+  .section__systems .custom-gutter {
+    padding: 15px 0;
+  }
+
+  /* ------------------------------ *\
+      Slider
+  \* ------------------------------ */
+  .section__systems + .section__three-tiles.tiles-slider {
+    padding-top: 50px !important;
+  }
+
+  .section__three-tiles.tiles-slider .section__body {
+    padding-left: 25px;
+  }
+
+  .tiles-slider .slick-next:before {
+    content: "";
+    background: url(assets/images/arrow-right-blue.png);
+    background-size: cover;
+    height: 50px;
+    width: 30px;
+    position: absolute;
+    left: 15px;
+    top: 15%;
+  }
+
+  .tiles-slider .slick-prev:before {
+    content: "";
+    background: url(assets/images/arrow-right-blue.png);
+    background-size: cover;
+    height: 50px;
+    width: 30px;
+    position: absolute;
+    left: -35px;
+    top: 15%;
+  }
+
+  .section__three-tiles.tiles-slider.tiles-slider-two-rows .slick-next:before {
+    left: 15px;
+  }
+
+  .section__three-tiles.tiles-slider.tiles-slider-two-rows .slick-prev:before {
+    left: -35px;
+  }
+
+  /* ------------------------------ *\
+      Hierarchy (About us)
+  \* ------------------------------ */
+  .section__hierarchy .level-3 .level-content {
+    min-height: 50px;
+  }
+
+  /* ------------------------------ *\
+      Section Padding
+  \* ------------------------------ */
+  .section__textbox {
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+
+  .section__hierarchy {
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+
+  .section__hierarchy .level-content {
+    margin-top: 0;
+  }
+
+  .section__hierarchy .level-1 .level-content {
+    margin-top: 10px;
+  }
+
+  .section__hierarchy .level-2 .level-content {
+    margin-top: 25px;
+  }
+
+  .section__three-tiles {
+    padding-bottom: 40px;
+  }
+
+  .section__three-tiles .section__body {
+    padding-top: 10px;
+  }
+
+  .section__overview-table.decoration-bg-blue {
+    padding-bottom: 30px;
+  }
+
+  .section__overview-table.decoration-bg-blue .section__body .category-title {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .section__overview-table.decoration-bg-blue
+    .section__body
+    .row:not(:first-of-type) {
+    padding-top: 25px;
+  }
+
+  .section__systems + .section__three-tiles.tiles-slider {
+    padding-top: 40px !important;
+  }
+
+  .section__textbox.section__text-only {
+    padding-bottom: 0;
+  }
+
+  .section__slider.partners-slider {
+    padding-top: 30px;
+  }
+
+  .section__slider.partners-slider .section__body {
+    padding-top: 0;
+  }
+
+  .section__slider.partners-slider .slider__slides {
+    margin-bottom: 15px;
+  }
+}
+
+// Very small devices (portrait phones, 375px and below) -------------------------------------------------------------------
+@media (max-width: 375px) {
+  /* ------------------------------ *\
+      Slider
+  \* ------------------------------ */
+  .tiles-slider .slick-slide {
+    margin-right: 28px;
+    margin-left: 2px;
+  }
+
+  /* ------------------------------ *\
+      Systems Module
+  \* ------------------------------ */
+  .section__systems .tile__content p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  /* ------------------------------ *\
+      Tiles
+  \* ------------------------------ */
+  .section__three-tiles.two--tiles .col-xl-auto {
+    padding: 0 15px;
+  }
+}

@@ -54,6 +54,22 @@
         "name": "Bar"
       },
       "page": "config/pages/dai-foobar.json"
+    },
+    {
+      "path": "why-foo-bar2",
+      "menu": {
+        "group": "Why.Foo",
+        "name": "Bar2"
+      },
+      "page": "config/pages/dai-foobar.json"
+    },
+    {
+      "path": "why-foo-bar3",
+      "menu": {
+        "group": "Why.Foo.Bar",
+        "name": "Bar3"
+      },
+      "page": "config/pages/dai-foobar.json"
     }
   ]
 }

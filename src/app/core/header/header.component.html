@@ -1,0 +1,41 @@
+<header class="header" [ngClass]="{ header__subpage: isSubPage }">
+  <div class="header__inner">
+    <div class="header__container">
+      <a
+        class="nav-trigger"
+        (click)="onNavTriggerClick($event)"
+        [ngClass]="{ active: navigationActive }"
+      >
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+      </a>
+    </div>
+    <!-- /.header__container -->
+
+    <div class="logo">
+      <a routerLink="home">
+        <i
+          [ngClass]="{ 'ico-logo-subpage': isSubPage, 'ico-logo': !isSubPage }"
+        ></i>
+      </a>
+    </div>
+    <!-- /.logo -->
+
+    <div class="header__container">
+      <i class="ico-griffin"></i>
+    </div>
+    <!-- /.header__container -->
+  </div>
+  <!-- /.header__inner -->
+
+  <!-- <dai-navbar [active]="navigationActive" [menuEntries]="links"></dai-navbar> -->
+  <div class="navs" [ngClass]="{ active: navigationActive }">
+    <dai-navmenu class="row no-gutters" [items]="test"></dai-navmenu>
+  </div>
+
+  <!-- /.navs -->
+</header>
+<!-- /.header -->

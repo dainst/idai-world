@@ -1,0 +1,23 @@
+<div class="col-md-4" *ngFor="let group of items; index as idx">
+  <nav
+    class="nav"
+    [ngClass]="{
+      'nav--first': idx === 0 && level === 0,
+      'decoration-bg-light-gray': idx === 0
+    }"
+  >
+    <h3>
+      {{ group.group }}
+    </h3>
+
+    <ul>
+      <li *ngFor="let entry of group.items">
+        <a *ngIf="entry.name">{{ entry.name }}</a>
+
+        <a *ngIf="entry.items">
+          <dai-navmenu [level]="level + 1" [items]="entry.items"></dai-navmenu>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>

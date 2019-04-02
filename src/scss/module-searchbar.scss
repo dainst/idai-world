@@ -1,0 +1,140 @@
+/* ------------------------------------------------------------ *\
+	Module Searchbar
+\* ------------------------------------------------------------ */
+/* Desktop */
+.textbox-with-search .search-bar {
+  max-width: 900px;
+  height: 60px;
+  margin: 100px auto 0 auto;
+}
+
+.textbox-with-search .search-bar button {
+  background: #a9a8a4;
+  color: #fdfcfa;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: none;
+}
+
+.textbox-with-search .search-bar input {
+  background: #fff;
+}
+
+.textbox-with-search .search-bar button i.fa-chevron-right {
+  font-size: 24px;
+}
+
+.textbox-with-search .search-bar button i:before {
+  top: 17px;
+  position: absolute;
+  left: 20px;
+}
+
+.textbox-with-search .search-bar .ico-searchbar {
+  background: #fff;
+  border: 2px solid #fff;
+  border-radius: 0;
+}
+
+.textbox-with-search .search-bar .ico-searchbar i {
+  color: #e4e4e4;
+  font-size: 42px;
+}
+
+.textbox-with-search .search-bar .dropdown-toggle::after {
+  border: none;
+}
+
+.textbox-with-search .search-bar input {
+  height: 60px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: 2px solid #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+}
+
+.textbox-with-search  ::-webkit-input-placeholder { /* WebKit browsers */
+  direction: rtl;
+  color: #a9a8a4;
+  padding-right: 100px;
+}
+.textbox-with-search  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  direction: rtl;
+  color: #a9a8a4;
+  padding-right: 100px;
+}
+.textbox-with-search  ::-moz-placeholder { /* Mozilla Firefox 19+ but I'm not sure about working */
+  direction: rtl;
+  color: #a9a8a4;
+  padding-right: 100px;
+}
+.textbox-with-search  :-ms-input-placeholder { /* Internet Explorer 10+ */
+  direction: rtl;
+  color: #a9a8a4;
+  padding-right: 100px;
+}
+
+/* Tablet */
+@media screen and (max-width: 992px) {
+  .textbox-with-search  ::-webkit-input-placeholder { /* WebKit browsers */
+    padding-right: 50px;
+  }
+  .textbox-with-search  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    padding-right: 50px;
+  }
+  .textbox-with-search  ::-moz-placeholder { /* Mozilla Firefox 19+ but I'm not sure about working */
+    padding-right: 50px;
+  }
+  .textbox-with-search  :-ms-input-placeholder { /* Internet Explorer 10+ */
+    padding-right: 50px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+
+  .textbox-with-search .search-bar {
+    max-width: 900px;
+    height: 35px;
+    margin: 50px auto 30px auto;
+  }
+
+  .textbox-with-search .search-bar .ico-searchbar i {
+    font-size: 22px;
+  }
+
+  .textbox-with-search .search-bar button i:before {
+    top: 8px;
+    position: absolute;
+    left: 8px;
+  }
+
+  .textbox-with-search .search-bar button i.fa-chevron-down {
+    font-size: 22px;
+  }
+
+  .textbox-with-search .search-bar input {
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .textbox-with-search  ::-webkit-input-placeholder { /* WebKit browsers */
+    direction: ltr;
+    padding-right: 0;
+  }
+  .textbox-with-search  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    direction: ltr;
+    padding-right: 0;
+  }
+  .textbox-with-search  ::-moz-placeholder { /* Mozilla Firefox 19+ but I'm not sure about working */
+    direction: ltr;
+    padding-right: 0;
+  }
+  .textbox-with-search  :-ms-input-placeholder { /* Internet Explorer 10+ */
+    direction: ltr;
+    padding-right: 0;
+  }
+}
