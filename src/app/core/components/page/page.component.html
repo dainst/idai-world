@@ -5,9 +5,15 @@
     </div>
   </ng-container>
 
-  <ng-template
+  <!-- <ng-template
     *ngFor="let component of config?.componentConfigs"
     daiComponentSlot
   >
-  </ng-template>
+  </ng-template> -->
+
+  <ng-container *ngFor="let item of config?.componentConfigs">
+    <ng-container
+      *ngxComponentOutlet="item.type; context: { config: item.config }"
+    ></ng-container>
+  </ng-container>
 </div>

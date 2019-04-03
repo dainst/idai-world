@@ -7,6 +7,15 @@
       "default": true
     },
     {
+      "path": "kitchen-sink",
+      "menu": {
+        "group": "Kitchen Sink",
+        "name": "Alle Komponenten",
+        "order": 1
+      },
+      "page": "config/pages/kitchen-sink.json"
+    },
+    {
       "path": "why-mission-statement",
       "menu": {
         "group": "Why",
@@ -46,30 +55,6 @@
         "name": "Contact"
       },
       "page": "config/pages/dai-contact.json"
-    },
-    {
-      "path": "why-foo-bar",
-      "menu": {
-        "group": "Why.Foo",
-        "name": "Bar"
-      },
-      "page": "config/pages/dai-foobar.json"
-    },
-    {
-      "path": "why-foo-bar2",
-      "menu": {
-        "group": "Why.Foo",
-        "name": "Bar2"
-      },
-      "page": "config/pages/dai-foobar.json"
-    },
-    {
-      "path": "why-foo-bar3",
-      "menu": {
-        "group": "Why.Foo.Bar",
-        "name": "Bar3"
-      },
-      "page": "config/pages/dai-foobar.json"
     }
   ]
 }
