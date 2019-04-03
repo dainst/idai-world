@@ -7,6 +7,7 @@ import { ComponentSlotDirective } from './component-slot.directive';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { NavmenuComponent } from './navmenu/navmenu.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NavmenuComponent } from './navmenu/navmenu.component';
     ComponentSlotDirective,
     FooterComponent,
     HeaderComponent,
-    NavmenuComponent
+    NavmenuComponent,
+    NavigationComponent
   ],
   exports: [PageComponent, FooterComponent, HeaderComponent],
   entryComponents: [PageComponent],

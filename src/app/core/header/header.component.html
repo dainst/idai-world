@@ -1,17 +1,7 @@
 <header class="header" [ngClass]="{ header__subpage: isSubPage }">
   <div class="header__inner">
     <div class="header__container">
-      <a
-        class="nav-trigger"
-        (click)="onNavTriggerClick($event)"
-        [ngClass]="{ active: navigationActive }"
-      >
-        <span></span>
-
-        <span></span>
-
-        <span></span>
-      </a>
+      <dai-navigation></dai-navigation>
     </div>
     <!-- /.header__container -->
 
@@ -30,10 +20,6 @@
     <!-- /.header__container -->
   </div>
   <!-- /.header__inner -->
-
-  <div class="navs" [ngClass]="{ active: navigationActive }">
-    <dai-navmenu class="row no-gutters" [entries]="links"></dai-navmenu>
-  </div>
 
   <!-- /.navs -->
 </header>

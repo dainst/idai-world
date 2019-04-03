@@ -1,25 +1,24 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HeaderComponent } from './header.component';
+import { NavigationComponent } from './navigation.component';
 import { NavmenuComponent } from '../navmenu/navmenu.component';
 import { RouterTestingModule } from '@angular/router/testing';
 import { DaiAppConfig } from '../config/DaiAppConfig';
-import { NavigationComponent } from '../navigation/navigation.component';
 
-describe('HeaderComponent', () => {
-  let component: HeaderComponent;
-  let fixture: ComponentFixture<HeaderComponent>;
+describe('NavigationComponent', () => {
+  let component: NavigationComponent;
+  let fixture: ComponentFixture<NavigationComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [HeaderComponent, NavmenuComponent, NavigationComponent],
+      declarations: [NavigationComponent, NavmenuComponent],
       imports: [RouterTestingModule],
       providers: [{ provide: DaiAppConfig, useValue: new DaiAppConfig({}) }]
     }).compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HeaderComponent);
+    fixture = TestBed.createComponent(NavigationComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

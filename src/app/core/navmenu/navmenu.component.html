@@ -15,12 +15,18 @@
 
     <ul>
       <li *ngFor="let entry of group.items">
-        <a *ngIf="!entry.items">{{ entry.name }}</a>
+        <a
+          (click)="onLinkClick(entry.link)"
+          [routerLink]="entry.link"
+          *ngIf="!entry.items"
+          >{{ entry.name }}</a
+        >
 
         <dai-navmenu
           *ngIf="entry.items"
           [level]="level + 1"
           [items]="[entry]"
+          (linkClick)="onLinkClick($event)"
         ></dai-navmenu>
       </li>
     </ul>

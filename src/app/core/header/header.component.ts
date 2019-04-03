@@ -11,8 +11,6 @@ import { filter } from 'rxjs/operators';
 })
 export class HeaderComponent implements OnInit {
   isSubPage: boolean;
-  navigationActive: boolean;
-  links: MenuEntry[];
 
   constructor(private router: Router, private config: DaiAppConfig) {
     router.events
@@ -23,17 +21,9 @@ export class HeaderComponent implements OnInit {
         this.isSubPage = !isHome;
       });
 
-    this.createMenuEntries();
+    // TODO move this to routing module
+    this.router.config.unshift(...this.config.routes);
   }
 
   ngOnInit() {}
-
-  onNavTriggerClick(event) {
-    this.navigationActive = !this.navigationActive;
-  }
-
-  createMenuEntries() {
-    this.router.config.unshift(...this.config.routes);
-    this.links = this.config.menuEntries;
-  }
 }

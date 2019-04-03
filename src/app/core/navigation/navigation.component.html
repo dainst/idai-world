@@ -1,0 +1,18 @@
+<a
+  class="nav-trigger"
+  (click)="onNavTriggerClick($event)"
+  [ngClass]="{ active: navigationActive }"
+>
+  <span></span>
+
+  <span></span>
+
+  <span></span>
+</a>
+<div class="navs" [ngClass]="{ active: navigationActive }">
+  <dai-navmenu
+    class="row no-gutters"
+    (linkClick)="onLinkClick($event)"
+    [entries]="links"
+  ></dai-navmenu>
+</div>

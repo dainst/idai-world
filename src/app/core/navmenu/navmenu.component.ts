@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { clamp } from 'lodash';
 import { MenuEntry } from '../model/MenuEntry';
 import { build } from '../utils/menuBuilder';
@@ -12,6 +12,7 @@ import { MenuTree } from '../model/MenuTree';
 export class NavmenuComponent implements OnInit {
   @Input() items: MenuTree;
   @Input() level = 0;
+  @Output() linkClick: EventEmitter<any> = new EventEmitter();
 
   ngOnInit() {}
 
@@ -22,5 +23,9 @@ export class NavmenuComponent implements OnInit {
   @Input()
   public set entries(entries: MenuEntry[]) {
     this.items = build(entries);
+  }
+
+  onLinkClick(link) {
+    this.linkClick.emit(link);
   }
 }
