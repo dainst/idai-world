@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { DaiAppConfig, MenuEntry } from '../config/DaiAppConfig';
+import { DaiAppConfig } from '../config/DaiAppConfig';
+import { MenuEntry } from '../model/MenuEntry';
 import { Router, NavigationEnd, RouterEvent } from '@angular/router';
 import { filter } from 'rxjs/operators';
 
@@ -12,46 +13,6 @@ export class HeaderComponent implements OnInit {
   isSubPage: boolean;
   navigationActive: boolean;
   links: MenuEntry[];
-
-  test = [
-    {
-      name: 'FOO',
-      items: [
-        { name: 'ITEM 1', link: 'foo' },
-        { name: 'ITEM 2', link: 'foo' },
-        {
-          name: 'FOOBAR',
-          items: [
-            { name: 'FB 1', link: 'foo' },
-            { name: 'FB 2', link: 'foo' },
-            {
-              name: 'FOOBAR_1',
-              items: [
-                { name: 'FB 1_2', link: 'foo' },
-                { name: 'FB 1_2', link: 'foo' }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'BAR',
-      items: [
-        { name: 'BAR ITEM 1', link: 'foo' },
-        { name: 'BAR ITEM 2', link: 'foo' }
-      ]
-    },
-    {
-      name: 'BAZ',
-      items: [
-        { name: 'BAZ ITEM 1', link: 'foo' },
-        { name: 'BAZ ITEM 2', link: 'foo' }
-      ]
-    }
-    // { name: 'BAZ', items: [{ name: 'BAZ ITEM 1' }, { name: 'BAZ ITEM 2' }] },
-    // { name: 'BAZ', items: [{ name: 'BAZ ITEM 1' }, { name: 'BAZ ITEM 2' }] }
-  ];
 
   constructor(private router: Router, private config: DaiAppConfig) {
     router.events

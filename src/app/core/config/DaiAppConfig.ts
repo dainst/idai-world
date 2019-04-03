@@ -1,12 +1,6 @@
 import { Routes } from '@angular/router';
 import { PageComponent } from '../page/page.component';
-
-export class MenuEntry {
-  name: string;
-  link: string;
-  order: number;
-  group: string;
-}
+import { MenuEntry } from '../model/MenuEntry';
 
 export class DaiAppConfig {
   public routes: Routes;
