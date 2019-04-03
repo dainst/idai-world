@@ -7,10 +7,13 @@ const createGroup = (name: string, items: MenuItem[]): MenuGroup => ({
   name,
   items
 });
-const createItem = (name: string, link: string): MenuItem => ({
-  name,
-  link
-});
+const createItem = (name: string, link: string, order: number): MenuItem => {
+  const item: MenuItem = { name, link };
+  if (order) {
+    item.order = order;
+  }
+  return item;
+};
 const getOrCreateGroup = (key, collection: MenuTree) => {
   const segments = key.split('.');
   let currentGroup;
@@ -36,13 +39,18 @@ const addToGroup = (
 ) => {
   const group = getOrCreateGroup(key, collection);
   group.items.push(item);
+
+  const getCompareValue = (item: MenuItem) =>
+    item.order !== undefined ? item.order : Infinity;
+
+  group.items.sort((a, b) => getCompareValue(a) - getCompareValue(b));
 };
 
 export const build = (entries: MenuEntry[] = []) =>
   entries.reduce<MenuTree>((result, entry) => {
-    const { group: groupKey, link, name, order = Infinity } = entry;
+    const { group: groupKey, link, name, order } = entry;
 
-    const item = createItem(name, link);
+    const item = createItem(name, link, order);
     addToGroup(item, groupKey, result);
 
     return result;

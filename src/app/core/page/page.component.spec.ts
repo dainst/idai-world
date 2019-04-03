@@ -1,6 +1,10 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PageComponent } from './page.component';
+import { RouterTestingModule } from '@angular/router/testing';
+
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { ComponentResolver } from '../component-resolver.service';
 
 describe('PageComponent', () => {
   let component: PageComponent;
@@ -8,7 +12,14 @@ describe('PageComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [PageComponent]
+      declarations: [PageComponent],
+      imports: [RouterTestingModule, HttpClientTestingModule],
+      providers: [
+        {
+          provide: ComponentResolver,
+          useValue: new ComponentResolver({})
+        }
+      ]
     }).compileComponents();
   }));
 

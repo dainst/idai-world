@@ -1,6 +1,9 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { HeaderComponent } from './header.component';
+import { NavmenuComponent } from '../navmenu/navmenu.component';
+import { RouterTestingModule } from '@angular/router/testing';
+import { DaiAppConfig } from '../config/DaiAppConfig';
 
 describe('HeaderComponent', () => {
   let component: HeaderComponent;
@@ -8,9 +11,10 @@ describe('HeaderComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HeaderComponent ]
-    })
-    .compileComponents();
+      declarations: [HeaderComponent, NavmenuComponent],
+      imports: [RouterTestingModule],
+      providers: [{ provide: DaiAppConfig, useValue: new DaiAppConfig({}) }]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
