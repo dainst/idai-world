@@ -6,7 +6,9 @@
     class="nav"
     [ngClass]="{
       'nav--first': idx === 0 && level === 0,
-      'decoration-bg-light-gray': idx === 0
+      'decoration-bg-light-gray': idx === 0,
+      'decoration-bg-gray': idx === 1,
+      'decoration-bg-dark-gray': idx > 2
     }"
   >
     <h3>
