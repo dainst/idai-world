@@ -1,5 +1,10 @@
 <div style="min-height: 100vh;">
-  Work inprogress...
+  <ng-container *ngIf="!config || !config.componentConfigs">
+    <div style="margin-top: 48vh" class="alert alert-warning" role="alert">
+      No config available at: {{ configPath }}
+    </div>
+  </ng-container>
+
   <ng-template
     *ngFor="let component of config?.componentConfigs"
     daiComponentSlot
