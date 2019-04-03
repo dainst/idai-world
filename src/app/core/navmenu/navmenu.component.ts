@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { clamp } from 'lodash';
 
 @Component({
   selector: 'dai-navmenu',
@@ -9,7 +10,9 @@ export class NavmenuComponent implements OnInit {
   @Input() items;
   @Input() level = 0;
 
-  constructor() {}
-
   ngOnInit() {}
+
+  getColumnSize() {
+    return clamp(Math.round(12 / this.items.length), 2, 12);
+  }
 }

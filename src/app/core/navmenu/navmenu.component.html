@@ -1,4 +1,7 @@
-<div class="col-md-4" *ngFor="let group of items; index as idx">
+<div
+  *ngFor="let group of items; index as idx"
+  class="col-md-{{ getColumnSize() }}"
+>
   <nav
     class="nav"
     [ngClass]="{
@@ -7,16 +10,18 @@
     }"
   >
     <h3>
-      {{ group.group }}
+      {{ group.name }}
     </h3>
 
     <ul>
       <li *ngFor="let entry of group.items">
-        <a *ngIf="entry.name">{{ entry.name }}</a>
+        <a *ngIf="!entry.items">{{ entry.name }}</a>
 
-        <a *ngIf="entry.items">
-          <dai-navmenu [level]="level + 1" [items]="entry.items"></dai-navmenu>
-        </a>
+        <dai-navmenu
+          *ngIf="entry.items"
+          [level]="level + 1"
+          [items]="[entry]"
+        ></dai-navmenu>
       </li>
     </ul>
   </nav>

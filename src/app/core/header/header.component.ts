@@ -15,25 +15,42 @@ export class HeaderComponent implements OnInit {
 
   test = [
     {
-      group: 'FOO',
+      name: 'FOO',
       items: [
-        { name: 'ITEM 1' },
-        { name: 'ITEM 2' }
-        // {
-        //   group: 'FOOBAR',
-        //   items: [
-        //     { name: 'FB 1' },
-        //     { name: 'FB 1' },
-        //     {
-        //       group: 'FOOBAR_1',
-        //       items: [{ name: 'FB 1_2' }, { name: 'FB 1_2' }]
-        //     }
-        //   ]
-        // }
+        { name: 'ITEM 1', link: 'foo' },
+        { name: 'ITEM 2', link: 'foo' },
+        {
+          name: 'FOOBAR',
+          items: [
+            { name: 'FB 1', link: 'foo' },
+            { name: 'FB 2', link: 'foo' },
+            {
+              name: 'FOOBAR_1',
+              items: [
+                { name: 'FB 1_2', link: 'foo' },
+                { name: 'FB 1_2', link: 'foo' }
+              ]
+            }
+          ]
+        }
       ]
     },
-    { group: 'BAR', items: [{ name: 'BAR ITEM 1' }, { name: 'BAR ITEM 2' }] },
-    { group: 'BAZ', items: [{ name: 'BAZ ITEM 1' }, { name: 'BAZ ITEM 2' }] }
+    {
+      name: 'BAR',
+      items: [
+        { name: 'BAR ITEM 1', link: 'foo' },
+        { name: 'BAR ITEM 2', link: 'foo' }
+      ]
+    },
+    {
+      name: 'BAZ',
+      items: [
+        { name: 'BAZ ITEM 1', link: 'foo' },
+        { name: 'BAZ ITEM 2', link: 'foo' }
+      ]
+    }
+    // { name: 'BAZ', items: [{ name: 'BAZ ITEM 1' }, { name: 'BAZ ITEM 2' }] },
+    // { name: 'BAZ', items: [{ name: 'BAZ ITEM 1' }, { name: 'BAZ ITEM 2' }] }
   ];
 
   constructor(private router: Router, private config: DaiAppConfig) {
