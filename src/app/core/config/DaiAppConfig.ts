@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
-import { PageComponent } from '../page/page.component';
+
 import { MenuEntry } from '../model/MenuEntry';
+import { PageComponent } from '../components/page/page.component';
 
 export class DaiAppConfig {
   public routes: Routes;

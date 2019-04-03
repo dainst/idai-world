@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { CoreModule } from './core/core.module';
-import { ComponentResolver } from './core/component-resolver.service';
+import { ComponentResolver } from './core/service/component-resolver.service';
 import { IntroTextComponent } from './components/intro-text/intro-text.component';
 import { SliderTilesComponent } from './components/slider-tiles/slider-tiles.component';
 import { SliderCirclesComponent } from './components/slider-circles/slider-circles.component';

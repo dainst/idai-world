@@ -7,9 +7,9 @@ import {
   ComponentFactoryResolver
 } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ConfigLoaderService } from '../config-loader.service';
-import { DaiPageConfig } from '../config/DaiPageConfig';
-import { ComponentSlotDirective } from '../component-slot.directive';
+import { DaiPageConfig } from '../../config/DaiPageConfig';
+import { ComponentSlotDirective } from '../../directives/component-slot.directive';
+import { ConfigLoaderService } from '../../service/config-loader.service';
 
 @Component({
   selector: 'dai-page',

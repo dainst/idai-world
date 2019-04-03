@@ -1,8 +1,8 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { clamp } from 'lodash';
-import { MenuEntry } from '../model/MenuEntry';
-import { build } from '../utils/menuBuilder';
-import { MenuTree } from '../model/MenuTree';
+import { MenuTree } from '../../model/MenuTree';
+import { MenuEntry } from '../../model/MenuEntry';
+import { build } from '../../utils/menuBuilder';
 
 @Component({
   selector: 'dai-navmenu',

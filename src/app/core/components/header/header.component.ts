@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { DaiAppConfig } from '../config/DaiAppConfig';
-import { MenuEntry } from '../model/MenuEntry';
 import { Router, NavigationEnd, RouterEvent } from '@angular/router';
 import { filter } from 'rxjs/operators';
+import { DaiAppConfig } from '../../config/DaiAppConfig';
 
 @Component({
   selector: 'dai-header',

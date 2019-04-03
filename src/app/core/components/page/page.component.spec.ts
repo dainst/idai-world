@@ -4,7 +4,7 @@ import { PageComponent } from './page.component';
 import { RouterTestingModule } from '@angular/router/testing';
 
 import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { ComponentResolver } from '../component-resolver.service';
+import { ComponentResolver } from '../../service/component-resolver.service';
 
 describe('PageComponent', () => {
   let component: PageComponent;

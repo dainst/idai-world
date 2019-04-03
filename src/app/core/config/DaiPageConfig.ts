@@ -1,5 +1,5 @@
 import { Type } from '@angular/core';
-import { ComponentResolver } from '../component-resolver.service';
+import { ComponentResolver } from '../service/component-resolver.service';
 
 export interface ComponentDefinition {
   type: string;

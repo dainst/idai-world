@@ -1,9 +1,8 @@
 import { Injectable } from '@angular/core';
 
-import { DaiPageConfig, ComponentDefinition } from './config/DaiPageConfig';
+import { DaiPageConfig, ComponentDefinition } from '../config/DaiPageConfig';
 import { HttpClient } from '@angular/common/http';
 import { ComponentResolver } from './component-resolver.service';
-import { empty } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'

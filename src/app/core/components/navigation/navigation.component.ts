@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { DaiAppConfig } from '../config/DaiAppConfig';
-import { MenuEntry } from '../model/MenuEntry';
+import { DaiAppConfig } from '../../config/DaiAppConfig';
+import { MenuEntry } from '../../model/MenuEntry';
 
 @Component({
   selector: 'dai-navigation',

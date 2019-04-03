@@ -3,8 +3,9 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { HeaderComponent } from './header.component';
 import { NavmenuComponent } from '../navmenu/navmenu.component';
 import { RouterTestingModule } from '@angular/router/testing';
-import { DaiAppConfig } from '../config/DaiAppConfig';
+
 import { NavigationComponent } from '../navigation/navigation.component';
+import { DaiAppConfig } from '../../config/DaiAppConfig';
 
 describe('HeaderComponent', () => {
   let component: HeaderComponent;
