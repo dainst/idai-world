@@ -2,7 +2,6 @@
   "routes": [
     {
       "path": "",
-      "name": "home",
       "page": "config/pages/dai-home.json",
       "default": true
     },

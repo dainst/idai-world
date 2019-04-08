@@ -1,3 +1,5 @@
+import 'simplebar';
+// import 'simplebar/dist/simplebar.css';
 import './js/main.js';
 
 import { enableProdMode } from '@angular/core';

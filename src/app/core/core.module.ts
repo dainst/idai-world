@@ -10,6 +10,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NavmenuComponent } from './components/navmenu/navmenu.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { LinkComponent } from './components/link/link.component';
 
 @NgModule({
   declarations: [
@@ -18,10 +19,11 @@ import { NavigationComponent } from './components/navigation/navigation.componen
     FooterComponent,
     HeaderComponent,
     NavmenuComponent,
-    NavigationComponent
+    NavigationComponent,
+    LinkComponent
   ],
-  exports: [PageComponent, FooterComponent, HeaderComponent],
-  entryComponents: [PageComponent],
+  exports: [PageComponent, FooterComponent, HeaderComponent, LinkComponent],
+  entryComponents: [PageComponent, LinkComponent],
   imports: [CommonModule, RouterModule, HttpClientModule, NgxdModule]
 })
 export class CoreModule {}

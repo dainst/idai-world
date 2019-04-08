@@ -1,0 +1,13 @@
+<ng-container *ngIf="text">
+  <a *ngIf="type === LinkType.ROUTE" [routerLink]="link" [innerHtml]="text">
+  </a>
+  <a *ngIf="type === LinkType.HREF" [href]="link" [innerHtml]="text"> </a>
+</ng-container>
+<ng-container *ngIf="!text">
+  <a *ngIf="type === LinkType.ROUTE" [routerLink]="link">
+    <ng-content></ng-content>
+  </a>
+  <a *ngIf="type === LinkType.HREF" [href]="link">
+    <ng-content></ng-content>
+  </a>
+</ng-container>
