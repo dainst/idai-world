@@ -1,17 +1,11 @@
-<div style="min-height: 100vh;">
-  <ng-container *ngIf="!config || !config.componentConfigs">
+<div>
+  <ng-container *ngIf="!pageConfig || !pageConfig.componentConfigs">
     <div style="margin-top: 48vh" class="alert alert-warning" role="alert">
       No config available at: {{ configPath }}
     </div>
   </ng-container>
 
-  <!-- <ng-template
-    *ngFor="let component of config?.componentConfigs"
-    daiComponentSlot
-  >
-  </ng-template> -->
-
-  <ng-container *ngFor="let item of config?.componentConfigs">
+  <ng-container *ngFor="let item of pageConfig?.componentConfigs">
     <ng-container
       *ngxComponentOutlet="item.type; context: { config: item.config }"
     ></ng-container>

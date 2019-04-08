@@ -39,29 +39,31 @@ export class ConfigLoaderService {
 
   private async processConfig(config) {
     await Promise.all(
-      config.map(definition =>
-        Promise.all(
+      config.map(definition => {
+        return Promise.all(
           Object.keys(definition)
             .filter(key => key.endsWith('_html'))
-            .map(key => {
-              const filePath = definition[key];
-
-              return this.loadHtml(filePath).then(r => {
-                key = key.replace('_html', '');
-                if (r) {
-                  definition[key] = r;
-                } else {
-                  definition[key] =
-                    '<div class="alert alert-warning">error loading template file from ' +
-                    filePath +
-                    '</div>';
-                }
-              });
-            })
-        )
-      )
+            .map(this.resolveHtml(definition))
+        );
+      })
     );
     return config;
+  }
+
+  private resolveHtml = definition => key => {
+    const filePath = definition[key];
+
+    return this.loadHtml(filePath).then(r => {
+      key = key.replace('_html', '');
+      if (r) {
+        definition[key] = r;
+      } else {
+        definition[key] =
+          '<div class="alert alert-warning">error loading template file from ' +
+          filePath +
+          '</div>';
+      }
+    });
   }
 
   private loadHtml(path: string = '') {

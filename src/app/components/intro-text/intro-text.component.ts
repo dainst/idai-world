@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ConfigurableComponent } from 'src/app/core/components/configurable/ConfigurableComponent';
 
 @Component({
@@ -7,7 +7,9 @@ import { ConfigurableComponent } from 'src/app/core/components/configurable/Conf
   styleUrls: ['./intro-text.component.scss']
 })
 export class IntroTextComponent extends ConfigurableComponent {
+  @Input()
   public title = '';
+  @Input()
   public body = '';
 
   constructor() {

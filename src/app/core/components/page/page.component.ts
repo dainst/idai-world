@@ -10,7 +10,7 @@ import { ConfigLoaderService } from '../../service/config-loader.service';
 })
 export class PageComponent implements OnInit, AfterViewInit {
   public configPath: string;
-  public config: DaiPageConfig;
+  public pageConfig: DaiPageConfig;
 
   constructor(
     private route: ActivatedRoute,
@@ -20,7 +20,7 @@ export class PageComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
     this.configPath = this.route.snapshot.data.config;
     this.configLoader.getConfig(this.configPath).then(config => {
-      this.config = config;
+      this.pageConfig = config;
     });
   }
 

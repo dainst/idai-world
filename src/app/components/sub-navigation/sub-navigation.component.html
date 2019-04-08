@@ -1,3 +1,21 @@
-<p>
-  sub-navigation works!
-</p>
+<section class="section__subpage-banner decoration-bg-blue">
+  <div class="section__body">
+    <div class="row no-gutters">
+      <div *ngFor="let item of items" class="col-6">
+        <a [routerLink]="item.route" class="tile tile--rectangle">
+          <div
+            class="tile__image"
+            [style.background]="'url(' + item.image + ')'"
+          >
+            <div class="tile__content">
+              <h2 class="tile__title" [innerHtml]="item.title"></h2>
+              <span *ngIf="item.sub_title" class="tile__subtitle">{{
+                item.sub_title
+              }}</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

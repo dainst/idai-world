@@ -8,9 +8,10 @@ import { SliderImageComponent } from './slider-image/slider-image.component';
 import { InfoBoxComponent } from './info-box/info-box.component';
 import { SearchBoxComponent } from './search-box/search-box.component';
 import { SubNavigationComponent } from './sub-navigation/sub-navigation.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   declarations: [
     IntroTextComponent,
     SliderTilesComponent,

@@ -3,13 +3,13 @@
     "type": "sub_nav",
     "items": [
       {
-        "image": "/path/to/image.png",
-        "route": "why-mission-statement/images",
+        "image": "assets/images/content/banner-images.jpg",
+        "route": "/why-mission-statement/images",
         "title": "Images"
       },
       {
-        "image": "/path/to/image.png",
-        "route": "why-mission-statement/objects",
+        "image": "assets/images/content/banner-objects.jpg",
+        "route": "/why-mission-statement/objects",
         "title": "Objects",
         "sub_title": "Architecture & Collection"
       }
@@ -45,7 +45,7 @@
         "headline": "Foobar 1",
         "subhead": "sub foobar",
         "links": [
-          { "target": "https://foo.bar.baz", "text": "foo link" },
+          { "target": "route://some/route", "text": "foo link" },
           { "target": "https://foo.bar.baz", "text": "foo link" }
         ]
       }

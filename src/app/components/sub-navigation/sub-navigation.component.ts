@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ConfigurableComponent } from 'src/app/core/components/configurable/ConfigurableComponent';
 
 @Component({
@@ -8,11 +8,13 @@ import { ConfigurableComponent } from 'src/app/core/components/configurable/Conf
 })
 export class SubNavigationComponent extends ConfigurableComponent
   implements OnInit {
+  @Input() items: any[] = [];
+
   constructor() {
     super();
   }
 
-  ngOnInit() {
-    console.log('config', this.config);
+  onSetConfig(config) {
+    this.items = config ? config.items : [];
   }
 }

@@ -16,6 +16,14 @@
       "page": "config/pages/kitchen-sink.json"
     },
     {
+      "path": "why-mission-statement/images",
+      "page": "config/pages/test-images.json"
+    },
+    {
+      "path": "why-mission-statement/objects",
+      "page": "config/pages/test-objects.json"
+    },
+    {
       "path": "why-mission-statement",
       "menu": {
         "group": "Why",
