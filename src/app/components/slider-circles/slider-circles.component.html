@@ -1,3 +1,18 @@
-<p>
-  slider-circles works!
-</p>
+<section
+  class="section__slider partners-slider section__three-tiles section__textbox section-open-access decoration-bg-lighter-gray"
+>
+  <div class="container">
+    <header class="section__head">
+      <h3>Our Partners</h3>
+      <hr class="line__dotted--blue" />
+    </header>
+    <!-- /.section__head -->
+    <div class="section__body">
+      <div #slides class="slider__slides">
+        <div class="slide" *ngFor="let item of items">
+          <img class="rounded-circle" [src]="item.image" [alt]="item.alt" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

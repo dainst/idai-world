@@ -29,46 +29,46 @@ import * as $ from "jquery";
     autoplaySpeed: 2000
   });
 
-  $(".partners-slider .slider__slides").slick({
-    slidesToShow: 1,
-    sidesToScroll: 1,
-    infinite: false,
-    mobileFirst: true,
-    responsive: [
-      {
-        breakpoint: 767,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: false
-        }
-      },
+  // $(".partners-slider .slider__slides").slick({
+  //   slidesToShow: 1,
+  //   sidesToScroll: 1,
+  //   infinite: false,
+  //   mobileFirst: true,
+  //   responsive: [
+  //     {
+  //       breakpoint: 767,
+  //       settings: {
+  //         slidesToShow: 3,
+  //         slidesToScroll: 1,
+  //         infinite: false
+  //       }
+  //     },
 
-      {
-        breakpoint: 1023,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1
-        }
-      },
+  //     {
+  //       breakpoint: 1023,
+  //       settings: {
+  //         slidesToShow: 3,
+  //         slidesToScroll: 1
+  //       }
+  //     },
 
-      {
-        breakpoint: 1439,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1
-        }
-      },
+  //     {
+  //       breakpoint: 1439,
+  //       settings: {
+  //         slidesToShow: 4,
+  //         slidesToScroll: 1
+  //       }
+  //     },
 
-      {
-        breakpoint: 1799,
-        settings: {
-          slidesToShow: 5,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  });
+  //     {
+  //       breakpoint: 1799,
+  //       settings: {
+  //         slidesToShow: 5,
+  //         slidesToScroll: 1
+  //       }
+  //     }
+  //   ]
+  // });
 
   $(".tiles-slider-one-row .slider__slides").slick({
     slidesToShow: 1,

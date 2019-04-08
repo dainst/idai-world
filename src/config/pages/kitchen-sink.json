@@ -86,10 +86,43 @@
   {
     "type": "slider_circles",
     "items": [
-      { "image": "images/foobar.png", "text": "circle 1" },
-      { "image": "images/foobar.png", "text": "circle 2" },
-      { "image": "images/foobar.png", "text": "circle 3" },
-      { "image": "images/foobar.png", "text": "circle 4" }
+      {
+        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC",
+        "alt": "Foobar "
+      },
+      {
+        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
+      },
+      {
+        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
+      },
+      {
+        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
+      },
+      {
+        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
+      },
+      {
+        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
+      },
+      {
+        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
+      },
+      {
+        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
+      },
+      {
+        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
+      },
+      {
+        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
+      },
+      {
+        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
+      },
+      {
+        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
+      }
     ]
   },
   {
