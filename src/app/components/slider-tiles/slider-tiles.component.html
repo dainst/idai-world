@@ -1,16 +1,16 @@
 <section
-  class="section__three-tiles section__textbox section-open-access decoration-bg-lighter-gray"
+  class="section__three-tiles tiles-slider tiles-slider-two-rows section__textbox section-open-access decoration-bg-lighter-gray"
 >
   <div class="container">
     <header class="section__head">
       <h3 [innerHtml]="title"></h3>
       <hr class="line__dotted--blue" />
     </header>
-    <!-- /.section__head -->
+
     <div class="section__body">
-      <div class="row justify-content-md-between">
+      <div #slides class="slider__slides">
         <ng-container *ngFor="let tileConfig of tiles">
-          <div class="col-xl-auto col-md-4">
+          <div class="slide">
             <ng-container
               *ngxComponentOutlet="
                 tileConfig.type;
@@ -21,20 +21,5 @@
         </ng-container>
       </div>
     </div>
-    <!-- /.section__body -->
   </div>
-  <!-- /.container -->
 </section>
-<!-- /.section__three-tiles -->
-
-<!--
-{
-  "type": "image_link",
-  "image": "images/foobar.png",
-  "headline": "Foobar 1",
-  "subhead": "sub foobar",
-  "link": { "target": "https://foo.bar.baz", "text": "foo link" }
-}
--->
-
-<!-- <dai-slider-image-link [config]="item.config"></dai-slider-image-link> -->

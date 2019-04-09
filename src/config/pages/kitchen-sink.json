@@ -85,6 +85,7 @@
   },
   {
     "type": "slider_circles",
+    "title": "Circle Slider",
     "items": [
       {
         "image": "https://via.placeholder.com/150/9c9b97/CCCCCC",
