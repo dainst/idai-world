@@ -1,20 +1,17 @@
-import * as $ from 'jquery';
+import { Component, Input } from '@angular/core';
 
-import {
-  Component,
-  OnInit,
-  Input,
-  ElementRef,
-  ViewChild,
-  AfterViewInit
-} from '@angular/core';
-import { ConfigurableComponent } from 'src/app/core/components/configurable/ConfigurableComponent';
 import { ImageLinkTileComponent } from './image-link-tile/image-link-tile.component';
 import { LinkListTileComponent } from './link-list-tile/link-list-tile.component';
 import { TextTileComponent } from './text-tile/text-tile.component';
+import { SliderBase } from 'src/app/core/components/slider/slider.base';
 
-function initSlider(element) {
-  $(element).slick({
+@Component({
+  selector: 'dai-slider-tiles',
+  templateUrl: './slider-tiles.component.html',
+  styleUrls: ['./slider-tiles.component.scss']
+})
+export class SliderTilesComponent extends SliderBase {
+  sliderConfig = {
     slidesToShow: 1,
     sidesToScroll: 1,
     infinite: false,
@@ -59,16 +56,7 @@ function initSlider(element) {
         }
       }
     ]
-  });
-}
-@Component({
-  selector: 'dai-slider-tiles',
-  templateUrl: './slider-tiles.component.html',
-  styleUrls: ['./slider-tiles.component.scss']
-})
-export class SliderTilesComponent extends ConfigurableComponent
-  implements OnInit, AfterViewInit {
-  @ViewChild('slides') slides: ElementRef;
+  };
   @Input()
   public tiles: any[] = [];
 
@@ -77,10 +65,6 @@ export class SliderTilesComponent extends ConfigurableComponent
 
   constructor() {
     super();
-  }
-
-  ngAfterViewInit() {
-    initSlider(this.slides.nativeElement);
   }
 
   onSetConfig = (config = { title: '', tiles: [] }) => {

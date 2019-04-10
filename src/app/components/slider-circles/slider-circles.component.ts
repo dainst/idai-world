@@ -1,15 +1,13 @@
-import * as $ from 'jquery';
-import {
-  Component,
-  OnInit,
-  ViewChild,
-  ElementRef,
-  AfterViewInit
-} from '@angular/core';
-import { ConfigurableComponent } from 'src/app/core/components/configurable/ConfigurableComponent';
+import { Component } from '@angular/core';
+import { SliderBase } from 'src/app/core/components/slider/slider.base';
 
-function initSlider(element) {
-  $(element).slick({
+@Component({
+  selector: 'dai-slider-circles',
+  templateUrl: './slider-circles.component.html',
+  styleUrls: ['./slider-circles.component.scss']
+})
+export class SliderCirclesComponent extends SliderBase {
+  sliderConfig = {
     slidesToShow: 1,
     sidesToScroll: 1,
     infinite: false,
@@ -48,17 +46,7 @@ function initSlider(element) {
         }
       }
     ]
-  });
-}
-
-@Component({
-  selector: 'dai-slider-circles',
-  templateUrl: './slider-circles.component.html',
-  styleUrls: ['./slider-circles.component.scss']
-})
-export class SliderCirclesComponent extends ConfigurableComponent
-  implements OnInit, AfterViewInit {
-  @ViewChild('slides') slides: ElementRef;
+  };
 
   public items: any[];
   public title: string;
@@ -71,9 +59,5 @@ export class SliderCirclesComponent extends ConfigurableComponent
     const { items = [], title = '' } = config || {};
     this.items = items;
     this.title = title;
-  }
-
-  ngAfterViewInit() {
-    initSlider(this.slides.nativeElement);
   }
 }
