@@ -148,11 +148,31 @@
   },
   {
     "type": "slider_image",
+    "title": "Image Slider",
+    "description": "an optional <b>description</b> for all images without a description property",
     "content": [
-      "/images/foobar.png",
-      "/images/foobar2.png",
-      "/images/foobar3.png",
-      "/images/foobar4.png"
+      "assets/images/temp/arch-1.jpg",
+      "assets/images/temp/arch-2.jpg",
+      "assets/images/temp/arch-3.jpg",
+      "assets/images/temp/arch-4.jpg",
+      {
+        "src": "assets/images/temp/arch-1.jpg",
+        "description": "An image <b>description</b> overrides the general description."
+      },
+      {
+        "src": "assets/images/temp/arch-2.jpg",
+        "title": "an optional image title override the general title"
+      },
+      {
+        "src": "assets/images/temp/arch-3.jpg",
+        "title": "",
+        "description": "an empty title overrides the general title and removes it"
+      },
+      {
+        "src": "assets/images/temp/arch-4.jpg",
+        "title": "an empty description overrides the general description and removes it",
+        "description": ""
+      }
     ]
   },
   {

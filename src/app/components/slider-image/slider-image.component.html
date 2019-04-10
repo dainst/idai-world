@@ -1,3 +1,31 @@
-<p>
-  slider-image works!
-</p>
+<div class="section-archeological-images">
+  <div class="section__body">
+    <div #slides class="slider-arch-images">
+      <div *ngFor="let image of images" class="slider__clip">
+        <div class="slider__slides">
+          <div class="slider__slide">
+            <div
+              class="section__image"
+              [style.backgroundImage]="'url(' + image.src + ')'"
+              style="background-image: url(assets/images/temp/arch-1.jpg);"
+            >
+              <div
+                *ngIf="image.title || image.description"
+                class="section__content"
+              >
+                <div class="container">
+                  <h2 *ngIf="image.title" [innerHtml]="image.title"></h2>
+
+                  <p
+                    *ngIf="image.description"
+                    [innerHtml]="image.description"
+                  ></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
