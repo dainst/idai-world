@@ -102,39 +102,3 @@ export class SliderTilesComponent extends ConfigurableComponent
     }
   }
 }
-
-/*
-{
-    "type": "slider_tiles",
-    "tiles": [
-      {
-        "type": "image_link",
-        "image": "images/foobar.png",
-        "headline": "Foobar 1",
-        "subhead": "sub foobar",
-        "link": { "target": "https://foo.bar.baz", "text": "foo link" }
-      },
-      {
-        "type": "text",
-        "image": "images/foobar.png",
-        "headline": "Foobar 1",
-        "subhead": "sub foobar",
-        "text": "<p>a really long text can go here...</p><p>that can contain <b>markup<b>... <p>but only certain elements are allowed...</p>",
-        "text_html": "mission-statement.slider_tile_2.html"
-      },
-      {
-        "type": "link_list",
-        "image": "images/foobar.png",
-        "headline": "Foobar 1",
-        "subhead": "sub foobar",
-        "links": [
-          { "target": "route://some/route", "text": "foo link" },
-          { "target": "https://foo.bar.baz", "text": "foo link" }
-        ]
-      }
-    ]
-  }
-
-
-
-*/
