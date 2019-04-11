@@ -3,7 +3,8 @@
 \* ------------------------------------------------------------ */
 
 /* Desktop */
-.section__systems.systems-link a {
+.section__systems.systems-link a,
+.section__systems.systems-link dai-link {
   max-width: 540px;
   max-height: 250px;
   margin: 0 auto;
@@ -26,7 +27,8 @@
 
 /* Mobile */
 @media screen and (max-width: 576px) {
-  .section__systems.systems-link a {
+  .section__systems.systems-link a,
+  .section__systems.systems-link dai-link {
     padding: 15px;
   }
 

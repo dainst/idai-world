@@ -187,10 +187,10 @@
   },
   {
     "type": "info_box",
-    "headline": "Info Box Headline",
+    "headline": "Search in our Image and Object System",
     "content": {
-      "headline": "info box content headline",
-      "text": "info box content text",
+      "headline": "iDAI.Arachne",
+      "text": "Repository for images and objects as a common information infrastructure",
       "link": {
         "target": "route:///why-mission-statement",
         "alt": "foo link"
