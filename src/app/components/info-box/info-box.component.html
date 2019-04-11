@@ -1,3 +1,26 @@
-<p>
-  info-box works!
-</p>
+<section
+  class="section__systems systems-link section-publications decoration-bg-blue"
+>
+  <header class="section__head">
+    <div class="container">
+      <h3 [innerHtml]="config?.headline"></h3>
+    </div>
+  </header>
+
+  <div class="section__body">
+    <div class="container">
+      <div class="row">
+        <div class="col custom-gutter">
+          <dai-link
+            [useContent]="true"
+            [data]="config?.content?.link"
+            class="tile tile--rectangle decoration-bg-lighter-gray"
+          >
+            <p class="headline" [innerHtml]="config?.content?.headline"></p>
+            <p class="description" [innerHtml]="config?.content?.text"></p>
+          </dai-link>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
