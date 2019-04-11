@@ -9,6 +9,7 @@ import { parseLink, LinkType } from '../../utils/linkParser';
 })
 export class LinkComponent {
   LinkType = LinkType;
+  @Input() useContent = false;
 
   @Input() set data(value: LinkConfig) {
     const { target = '', text = '' } = value || {};

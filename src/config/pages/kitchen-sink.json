@@ -64,6 +64,16 @@
         }
       },
       {
+        "type": "image_link",
+        "image": "assets/images/temp/area-hover.jpg",
+        "headline": "GO Home",
+        "subhead": "I am an internal link",
+        "link": {
+          "target": "route://",
+          "text": "Internal link to home"
+        }
+      },
+      {
         "type": "text",
         "image": "assets/images/temp/circle-hover.jpg",
         "headline": "Text Tile",
@@ -181,7 +191,10 @@
     "content": {
       "headline": "info box content headline",
       "text": "info box content text",
-      "link": { "target": "https://foo.bar.baz", "text": "foo link" }
+      "link": {
+        "target": "route:///why-mission-statement",
+        "alt": "foo link"
+      }
     }
   },
   {

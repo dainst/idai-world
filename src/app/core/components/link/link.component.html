@@ -1,13 +1,14 @@
-<ng-container *ngIf="text">
+<ng-template #content><ng-content></ng-content></ng-template>
+<ng-container *ngIf="!useContent">
   <a *ngIf="type === LinkType.ROUTE" [routerLink]="link" [innerHtml]="text">
   </a>
   <a *ngIf="type === LinkType.HREF" [href]="link" [innerHtml]="text"> </a>
 </ng-container>
-<ng-container *ngIf="!text">
+<ng-container *ngIf="useContent">
   <a *ngIf="type === LinkType.ROUTE" [routerLink]="link">
-    <ng-content></ng-content>
+    <ng-container *ngTemplateOutlet="content"></ng-container>
   </a>
   <a *ngIf="type === LinkType.HREF" [href]="link">
-    <ng-content></ng-content>
+    <ng-container *ngTemplateOutlet="content"></ng-container>
   </a>
 </ng-container>
