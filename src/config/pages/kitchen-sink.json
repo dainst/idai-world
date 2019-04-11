@@ -138,20 +138,27 @@
   },
   {
     "type": "org_chart",
-    "title": "Root Level",
-    "children": [
+    "headline": "Central Scientific Services",
+    "text": "Some text explaining the services...",
+    "nodes": [
       {
-        "title": "Level 1 | Child 1",
+        "title": "Secretary  General",
         "children": [
-          { "title": "Level 2 | Child 1.1" },
-          { "title": "Level 2 | Child 1.2" }
-        ]
-      },
-      {
-        "title": "Level 1 | Child 2",
-        "children": [
-          { "title": "Level 2 | Child 2.1" },
-          { "title": "Level 2 | Child 2.2" }
+          {
+            "title": "Director Informationtechnology",
+            "children": [
+              { "title": "Technical IT" },
+              { "title": "Scientific IT" }
+            ]
+          },
+          {
+            "title": "Director Libraries",
+            "children": [
+              { "title": "Editorial Office Berlin" },
+              { "title": "Libraries" },
+              { "title": "Archieves" }
+            ]
+          }
         ]
       }
     ]

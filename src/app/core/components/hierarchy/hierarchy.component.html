@@ -1,0 +1,14 @@
+<div class="row level-{{ level }}">
+  <div
+    *ngFor="let node of nodes"
+    class="{{ level > 1 ? 'col-md-' + 12 / nodes.length : '' }} col-12 "
+  >
+    <div class="level-content" [innerHtml]="node.title"></div>
+    <ng-container *ngIf="node.children && node.children.length > 0"
+      ><dai-hierarchy
+        [nodes]="node.children"
+        [level]="level + 1"
+      ></dai-hierarchy
+    ></ng-container>
+  </div>
+</div>

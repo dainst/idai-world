@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { NavmenuComponent } from './components/navmenu/navmenu.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { LinkComponent } from './components/link/link.component';
+import { HierarchyComponent } from './components/hierarchy/hierarchy.component';
 
 @NgModule({
   declarations: [
@@ -20,10 +21,17 @@ import { LinkComponent } from './components/link/link.component';
     HeaderComponent,
     NavmenuComponent,
     NavigationComponent,
-    LinkComponent
+    LinkComponent,
+    HierarchyComponent
   ],
-  exports: [PageComponent, FooterComponent, HeaderComponent, LinkComponent],
-  entryComponents: [PageComponent, LinkComponent],
+  exports: [
+    PageComponent,
+    FooterComponent,
+    HeaderComponent,
+    LinkComponent,
+    HierarchyComponent
+  ],
+  entryComponents: [PageComponent, LinkComponent, HierarchyComponent],
   imports: [CommonModule, RouterModule, HttpClientModule, NgxdModule]
 })
 export class CoreModule {}
