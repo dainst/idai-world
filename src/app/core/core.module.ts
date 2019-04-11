@@ -12,6 +12,7 @@ import { NavmenuComponent } from './components/navmenu/navmenu.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { LinkComponent } from './components/link/link.component';
 import { HierarchyComponent } from './components/hierarchy/hierarchy.component';
+import { ArachneSearchbarComponent } from './components/arachne-searchbar/arachne-searchbar.component';
 
 @NgModule({
   declarations: [
@@ -22,16 +23,23 @@ import { HierarchyComponent } from './components/hierarchy/hierarchy.component';
     NavmenuComponent,
     NavigationComponent,
     LinkComponent,
-    HierarchyComponent
+    HierarchyComponent,
+    ArachneSearchbarComponent
   ],
   exports: [
     PageComponent,
     FooterComponent,
     HeaderComponent,
     LinkComponent,
-    HierarchyComponent
+    HierarchyComponent,
+    ArachneSearchbarComponent
   ],
-  entryComponents: [PageComponent, LinkComponent, HierarchyComponent],
+  entryComponents: [
+    PageComponent,
+    LinkComponent,
+    HierarchyComponent,
+    ArachneSearchbarComponent
+  ],
   imports: [CommonModule, RouterModule, HttpClientModule, NgxdModule]
 })
 export class CoreModule {}

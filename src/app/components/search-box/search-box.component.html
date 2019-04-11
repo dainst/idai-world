@@ -1,3 +1,20 @@
-<p>
-  search-box works!
-</p>
+<section
+  class="section__textbox textbox-with-search section-open-access decoration-bg-lighter-gray"
+>
+  <div class="container">
+    <header class="section__head">
+      <h3 [innerHtml]="config?.headline"></h3>
+      <hr class="line__dotted--blue" />
+    </header>
+    <!-- /.section__head -->
+
+    <div class="section__body">
+      <div [innerHtml]="config?.text"></div>
+      <!-- Search bar -->
+      <dai-arachne-searchbar></dai-arachne-searchbar>
+    </div>
+    <!-- /.section__body -->
+  </div>
+  <!-- /.container -->
+</section>
+<!-- /.section__textbox -->

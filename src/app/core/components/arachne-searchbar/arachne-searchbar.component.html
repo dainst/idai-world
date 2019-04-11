@@ -1,0 +1,50 @@
+<div class="search-bar input-group">
+  <!-- Dropdown handle Desktop -->
+  <div class="input-group-prepend d-none d-md-flex">
+    <button
+      class="btn dropdown-toggle"
+      type="button"
+      data-toggle=""
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
+      <span><i class="fas fa-chevron-right fa-fw"></i>Categories</span>
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Category 1</a>
+      <a class="dropdown-item" href="#">Category 2</a>
+      <a class="dropdown-item" href="#">Category ...</a>
+    </div>
+    <span class="input-group-text ico-searchbar">
+      <i class="fas fa-search fa-lg"></i>
+    </span>
+  </div>
+  <!-- Dropdown handle Mobile -->
+  <div class="input-group-prepend d-md-none d-flex">
+    <button
+      class="btn dropdown-toggle"
+      type="button"
+      data-toggle=""
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
+      <span><i class="fas fa-chevron-down"></i></span>
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Category 1</a>
+      <a class="dropdown-item" href="#">Category 2</a>
+      <a class="dropdown-item" href="#">Category ...</a>
+    </div>
+  </div>
+  <input
+    type="text"
+    class="form-control"
+    placeholder="Search within all 12345678 images"
+    aria-label="Search"
+  />
+  <div class="input-group-append d-flex d-md-none">
+    <span class="input-group-text ico-searchbar"
+      ><i class="fas fa-search fa-lg"></i
+    ></span>
+  </div>
+</div>
