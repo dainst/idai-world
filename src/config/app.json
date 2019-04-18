@@ -9,7 +9,7 @@
     },
 
     {
-      "disabled": true,
+      "disabled": false,
       "comment": "KITCHEN SINK",
       "=================================================================": "",
       "path": "kitchen-sink",

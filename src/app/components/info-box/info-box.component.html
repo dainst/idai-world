@@ -10,14 +10,14 @@
   <div class="section__body">
     <div class="container">
       <div class="row">
-        <div class="col custom-gutter">
+        <div *ngFor="let item of content" class="col custom-gutter">
           <dai-link
             [useContent]="true"
-            [data]="config?.content?.link"
+            [data]="item.link"
             class="tile tile--rectangle decoration-bg-lighter-gray"
           >
-            <p class="headline" [innerHtml]="config?.content?.headline"></p>
-            <p class="description" [innerHtml]="config?.content?.text"></p>
+            <p class="headline" [innerHtml]="item.headline"></p>
+            <p class="description" [innerHtml]="item.text"></p>
           </dai-link>
         </div>
       </div>

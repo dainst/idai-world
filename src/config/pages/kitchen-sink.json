@@ -195,14 +195,24 @@
   {
     "type": "info_box",
     "headline": "Search in our Image and Object System",
-    "content": {
-      "headline": "iDAI.Arachne",
-      "text": "Repository for images and objects as a common information infrastructure",
-      "link": {
-        "target": "route:///why-mission-statement",
-        "alt": "foo link"
+    "content": [
+      {
+        "headline": "iDAI.Arachne",
+        "text": "Repository for images and objects as a common information infrastructure",
+        "link": {
+          "target": "route:///why-mission-statement",
+          "alt": "foo link"
+        }
+      },
+      {
+        "headline": "iDAI.Arachne",
+        "text": "Repository for images and objects as a common information infrastructure",
+        "link": {
+          "target": "route:///why-mission-statement",
+          "alt": "foo link"
+        }
       }
-    }
+    ]
   },
   {
     "type": "search_box",

@@ -7,7 +7,18 @@ import { ConfigurableComponent } from 'src/app/core/components/configurable/Conf
   styleUrls: ['./info-box.component.scss']
 })
 export class InfoBoxComponent extends ConfigurableComponent {
+  public content: any[];
+
   constructor() {
     super();
+  }
+
+  onSetConfig(config) {
+    let content = config.content;
+    if (!Array.isArray(content)) {
+      content = [content];
+    }
+
+    this.content = content;
   }
 }
