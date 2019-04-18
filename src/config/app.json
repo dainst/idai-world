@@ -33,8 +33,8 @@
     {
       "comment": "WHAT",
       "=================================================================": "",  
-      "path": "what-archives-and-libraries",
-      "page": "config/pages/what-archives-and-libraries.json",
+      "path": "what/archives-and-libraries",
+      "page": "config/pages/what/archives-and-libraries.json",
       "menu": {                
         "group": "What",
         "name": "Archives & Libraries",
@@ -43,8 +43,8 @@
     },
     
     {
-      "path": "what-objects-and-documentation",
-      "page": "config/pages/what-objects-and-documentation.json",
+      "path": "what\/objects-and-documentation",
+      "page": "config/pages/what/objects-and-documentation.json",
       "menu": {                
         "group": "What",
         "name": "Objects & Documentation"        
@@ -52,8 +52,8 @@
     },
     
     {
-      "path": "what-space-and-time",
-      "page": "config/pages/what-space-and-time.json",
+      "path": "what/space-and-time",
+      "page": "config/pages/space-and-time.json",
       "menu": {                
         "group": "What",
         "name": "Space & Time"        
@@ -61,8 +61,8 @@
     },
     
     {
-      "path": "what-publications",
-      "page": "config/pages/what-publications.json",
+      "path": "what/publications",
+      "page": "config/pages/publications.json",
       "menu": {                
         "group": "What",
         "name": "Publications"        
@@ -70,8 +70,8 @@
     },
     
     {
-      "path": "what-images",
-      "page": "config/pages/what-images.json",
+      "path": "what/images",
+      "page": "config/pages/images.json",
       "menu": {                
         "group": "What",
         "name": "Images"        
@@ -79,8 +79,8 @@
     },
     
     {
-      "path": "what-tutorials",
-      "page": "config/pages/what-tutorials.json",
+      "path": "what/tutorials",
+      "page": "config/pages/tutorials.json",
       "menu": {                
         "group": "What",
         "name": "Tutorials"        
@@ -95,7 +95,7 @@
     {
       "comment": "WHY",
       "=================================================================": "",  
-      "path": "why-mission-statement",
+      "path": "why/mission-statement",
       "menu": {                
         "group": "Why",
         "name": "Mission Statement",
@@ -104,15 +104,15 @@
       "page": "config/pages/dai-mission-statement.json"
     },
     {
-      "path": "why-mission-statement/images",
+      "path": "why/mission-statement/images",
       "page": "config/pages/test-images.json"
     },
     {
-      "path": "why-mission-statement/objects",
+      "path": "why/mission-statement/objects",
       "page": "config/pages/test-objects.json"
     },
     {
-      "path": "why-strategy-and-architecture",
+      "path": "why/strategy-and-architecture",
       "menu": {
         "group": "Why",
         "name": "Strategy & Architecture"
@@ -120,7 +120,7 @@
       "page": "config/pages/dai-strategy-and-architecture.json"
     },
     {
-      "path": "why-about-us",
+      "path": "why/about-us",
       "menu": {
         "group": "Why",
         "name": "About us"
@@ -128,7 +128,7 @@
       "page": "config/pages/dai-about-us.json"
     },
     {
-      "path": "why-partner",
+      "path": "why/partner",
       "menu": {
         "group": "Why",
         "name": "Partner"
@@ -136,7 +136,7 @@
       "page": "config/pages/dai-partner.json"
     },
     {
-      "path": "why-contact",
+      "path": "why/contact",
       "menu": {
         "group": "Why",
         "name": "Contact"
@@ -151,8 +151,8 @@
     {
       "comment": "HOW",
       "=================================================================": "",  
-      "path": "how-get-access",
-      "page": "config/pages/how-get-access.json",
+      "path": "how/get-access",
+      "page": "config/pages/get-access.json",
       "menu": {                
         "group": "How",
         "name": "Get Access",
@@ -161,8 +161,8 @@
     },
     
     {
-      "path": "how-guidlines",
-      "page": "config/pages/how-guidlines.json",
+      "path": "how/guidlines",
+      "page": "config/pages/guidlines.json",
       "menu": {                
         "group": "How",
         "name": "Guidelines"        
@@ -170,8 +170,8 @@
     },
     
     {
-      "path": "how-architektur-der-idai-world",
-      "page": "config/pages/how-architektur-der-idai-world.json",
+      "path": "how/architektur-der-idai-world",
+      "page": "config/pages/architektur-der-idai-world.json",
       "menu": {                
         "group": "How",
         "name": "Architektur der iDAI World"        
@@ -179,8 +179,8 @@
     },
     
     {
-      "path": "how-digitale-denkmalregister-weltweit",
-      "page": "config/pages/how-digitale-denkmalregister-weltweit.json",
+      "path": "how/digitale-denkmalregister-weltweit",
+      "page": "config/pages/digitale-denkmalregister-weltweit.json",
       "menu": {                
         "group": "How",
         "name": "Digitale Denkmalregister Weltweit"        
@@ -188,8 +188,8 @@
     },
     
     {
-      "path": "how-normdaten",
-      "page": "config/pages/how-normdaten.json",
+      "path": "how/normdaten",
+      "page": "config/pages/normdaten.json",
       "menu": {                
         "group": "How",
         "name": "Normdaten"        
@@ -197,8 +197,8 @@
     },
     
     {
-      "path": "how-digitale-forschungstools",
-      "page": "config/pages/how-digitale-forschungstools.json",
+      "path": "how/digitale-forschungstools",
+      "page": "config/pages/digitale-forschungstools.json",
       "menu": {                
         "group": "How",
         "name": "Digitale Forschungstools"        
@@ -206,8 +206,8 @@
     },
     
     {
-      "path": "how-strategie-und-langzeitsicherung",
-      "page": "config/pages/how-strategie-und-langzeitsicherung.json",
+      "path": "how/strategie-und-langzeitsicherung",
+      "page": "config/pages/strategie-und-langzeitsicherung.json",
       "menu": {                
         "group": "How",
         "name": "Strategie und Langzeitsicherung"        
