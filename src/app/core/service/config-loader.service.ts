@@ -38,8 +38,10 @@ export class ConfigLoaderService {
   }
 
   private async processConfig(config) {
+    const components = Array.isArray(config) ? config : config.components;
+
     await Promise.all(
-      config.map(definition => {
+      components.map(definition => {
         return Promise.all(
           Object.keys(definition)
             .filter(key => key.endsWith('_html'))

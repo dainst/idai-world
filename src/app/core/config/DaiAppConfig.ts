@@ -16,6 +16,8 @@ export class DaiAppConfig {
   }
 
   parse(config) {
+    // TODO check all page configs if configured route links are valid
+
     const routeConfigs = (config.routes || []).filter(route => !route.disabled);
 
     this.routes = routeConfigs.map(({ path, page }) => ({

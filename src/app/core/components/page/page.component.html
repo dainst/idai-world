@@ -5,6 +5,17 @@
     </div>
   </ng-container>
 
+  <dai-title-banner
+    *ngIf="bannerConfig"
+    [title]="bannerConfig?.title"
+    [image]="bannerConfig?.image"
+  ></dai-title-banner>
+
+  <dai-sub-navigation
+    *ngIf="subnavConfig"
+    [items]="subnavConfig"
+  ></dai-sub-navigation>
+
   <ng-container *ngFor="let item of pageConfig?.componentConfigs">
     <ng-container
       *ngxComponentOutlet="item.type; context: { config: item.config }"

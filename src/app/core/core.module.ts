@@ -13,6 +13,8 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { LinkComponent } from './components/link/link.component';
 import { HierarchyComponent } from './components/hierarchy/hierarchy.component';
 import { ArachneSearchbarComponent } from './components/arachne-searchbar/arachne-searchbar.component';
+import { SubNavigationComponent } from './components/sub-navigation/sub-navigation.component';
+import { TitleBannerComponent } from './components/title-banner/title-banner.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ArachneSearchbarComponent } from './components/arachne-searchbar/arachn
     NavigationComponent,
     LinkComponent,
     HierarchyComponent,
-    ArachneSearchbarComponent
+    ArachneSearchbarComponent,
+    SubNavigationComponent,
+    TitleBannerComponent
   ],
   exports: [
     PageComponent,
@@ -32,13 +36,17 @@ import { ArachneSearchbarComponent } from './components/arachne-searchbar/arachn
     HeaderComponent,
     LinkComponent,
     HierarchyComponent,
-    ArachneSearchbarComponent
+    ArachneSearchbarComponent,
+    SubNavigationComponent,
+    TitleBannerComponent
   ],
   entryComponents: [
     PageComponent,
     LinkComponent,
     HierarchyComponent,
-    ArachneSearchbarComponent
+    ArachneSearchbarComponent,
+    SubNavigationComponent,
+    TitleBannerComponent
   ],
   imports: [CommonModule, RouterModule, HttpClientModule, NgxdModule]
 })

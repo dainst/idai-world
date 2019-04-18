@@ -7,7 +7,6 @@ import { OrganizationChartComponent } from './organization-chart/organization-ch
 import { SliderImageComponent } from './slider-image/slider-image.component';
 import { InfoBoxComponent } from './info-box/info-box.component';
 import { SearchBoxComponent } from './search-box/search-box.component';
-import { SubNavigationComponent } from './sub-navigation/sub-navigation.component';
 import { RouterModule } from '@angular/router';
 import { ImageLinkTileComponent } from './slider-tiles/image-link-tile/image-link-tile.component';
 import { TextTileComponent } from './slider-tiles/text-tile/text-tile.component';
@@ -25,7 +24,6 @@ import { CoreModule } from '../core/core.module';
     SliderImageComponent,
     InfoBoxComponent,
     SearchBoxComponent,
-    SubNavigationComponent,
     ImageLinkTileComponent,
     TextTileComponent,
     LinkListTileComponent
@@ -40,8 +38,7 @@ import { CoreModule } from '../core/core.module';
     OrganizationChartComponent,
     SliderImageComponent,
     InfoBoxComponent,
-    SearchBoxComponent,
-    SubNavigationComponent
+    SearchBoxComponent
   ]
 })
 export class ComponentsModule {}

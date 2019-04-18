@@ -14,7 +14,8 @@ import { SliderImageComponent } from './components/slider-image/slider-image.com
 import { InfoBoxComponent } from './components/info-box/info-box.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
 import { ComponentsModule } from './components/components.module';
-import { SubNavigationComponent } from './components/sub-navigation/sub-navigation.component';
+import { SubNavigationComponent } from './core/components/sub-navigation/sub-navigation.component';
+import { TitleBannerComponent } from './core/components/title-banner/title-banner.component';
 
 @NgModule({
   imports: [BrowserModule, AppRoutingModule, CoreModule, ComponentsModule],
@@ -30,7 +31,8 @@ import { SubNavigationComponent } from './components/sub-navigation/sub-navigati
         org_chart: OrganizationChartComponent,
         slider_image: SliderImageComponent,
         info_box: InfoBoxComponent,
-        search_box: SearchBoxComponent
+        search_box: SearchBoxComponent,
+        title_banner: TitleBannerComponent
       })
     }
   ],
