@@ -4,12 +4,12 @@
     "items": [
       {
         "image": "assets/images/content/banner-archives.jpg",
-        "route": "/what/archives.json",
+        "route": "/what/archives",
         "title": "Archives"
       },
       {
         "image": "assets/images/content/banner-libraries.jpg",
-        "route": "/what/libraries.json",
+        "route": "/what/libraries",
         "title": "Libraries"
       }
     ]
