@@ -16,13 +16,15 @@ export class DaiAppConfig {
   }
 
   parse(config) {
-    this.routes = (config.routes || []).map(({ path, page }) => ({
+    const routeConfigs = (config.routes || []).filter(route => !route.disabled);
+
+    this.routes = routeConfigs.map(({ path, page }) => ({
       path,
       component: PageComponent,
       data: { config: page }
     }));
 
-    this.menuEntries = (config.routes || [])
+    this.menuEntries = routeConfigs
       .filter(route => !!route.menu)
       .map(({ path, menu }) => ({ ...menu, link: path }));
   }
