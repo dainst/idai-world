@@ -1,11 +1,21 @@
-{
+{ 
+  
   "routes": [
     {
+      "comment": "STARTPAGE",
+      "=================================================================": "",
       "path": "",
       "page": "config/pages/dai-home.json",
       "default": true
     },
+    
+    
+    
+    
+    
     {
+      "comment": "KITCHEN SINK",
+      "=================================================================": "",
       "path": "kitchen-sink",
       "menu": {
         "group": "Kitchen Sink",
@@ -14,6 +24,85 @@
       },
       "page": "config/pages/kitchen-sink.json"
     },
+    
+    
+    
+    
+       
+    
+    {
+      "comment": "WHAT",
+      "=================================================================": "",  
+      "path": "what-archives-and-libraries",
+      "page": "config/pages/what-archives-and-libraries.json",
+      "menu": {                
+        "group": "What",
+        "name": "Archives & Libraries",
+        "order": 1
+      }      
+    },
+    
+    {
+      "path": "what-objects-and-documentation",
+      "page": "config/pages/what-objects-and-documentation.json",
+      "menu": {                
+        "group": "What",
+        "name": "Objects & Documentation"        
+      }     
+    },
+    
+    {
+      "path": "what-space-and-time",
+      "page": "config/pages/what-space-and-time.json",
+      "menu": {                
+        "group": "What",
+        "name": "Space & Time"        
+      }     
+    },
+    
+    {
+      "path": "what-publications",
+      "page": "config/pages/what-publications.json",
+      "menu": {                
+        "group": "What",
+        "name": "Publications"        
+      }     
+    },
+    
+    {
+      "path": "what-images",
+      "page": "config/pages/what-images.json",
+      "menu": {                
+        "group": "What",
+        "name": "Images"        
+      }     
+    },
+    
+    {
+      "path": "what-tutorials",
+      "page": "config/pages/what-tutorials.json",
+      "menu": {                
+        "group": "What",
+        "name": "Tutorials"        
+      }     
+    },
+    
+    
+    
+    
+    
+    
+    {
+      "comment": "WHY",
+      "=================================================================": "",  
+      "path": "why-mission-statement",
+      "menu": {                
+        "group": "Why",
+        "name": "Mission Statement",
+        "order": 1
+      },
+      "page": "config/pages/dai-mission-statement.json"
+    },
     {
       "path": "why-mission-statement/images",
       "page": "config/pages/test-images.json"
@@ -21,15 +110,6 @@
     {
       "path": "why-mission-statement/objects",
       "page": "config/pages/test-objects.json"
-    },
-    {
-      "path": "why-mission-statement",
-      "menu": {
-        "group": "Why",
-        "name": "Mission Statement",
-        "order": 1
-      },
-      "page": "config/pages/dai-mission-statement.json"
     },
     {
       "path": "why-strategy-and-architecture",
@@ -62,6 +142,77 @@
         "name": "Contact"
       },
       "page": "config/pages/dai-contact.json"
-    }
+    },
+    
+    
+    
+    
+    
+    {
+      "comment": "HOW",
+      "=================================================================": "",  
+      "path": "how-get-access",
+      "page": "config/pages/how-get-access.json",
+      "menu": {                
+        "group": "How",
+        "name": "Get Access",
+        "order": 1
+      }      
+    },
+    
+    {
+      "path": "how-guidlines",
+      "page": "config/pages/how-guidlines.json",
+      "menu": {                
+        "group": "How",
+        "name": "Guidelines"        
+      }     
+    },
+    
+    {
+      "path": "how-architektur-der-idai-world",
+      "page": "config/pages/how-architektur-der-idai-world.json",
+      "menu": {                
+        "group": "How",
+        "name": "Architektur der iDAI World"        
+      }     
+    },
+    
+    {
+      "path": "how-digitale-denkmalregister-weltweit",
+      "page": "config/pages/how-digitale-denkmalregister-weltweit.json",
+      "menu": {                
+        "group": "How",
+        "name": "Digitale Denkmalregister Weltweit"        
+      }     
+    },
+    
+    {
+      "path": "how-normdaten",
+      "page": "config/pages/how-normdaten.json",
+      "menu": {                
+        "group": "How",
+        "name": "Normdaten"        
+      }     
+    },
+    
+    {
+      "path": "how-digitale-forschungstools",
+      "page": "config/pages/how-digitale-forschungstools.json",
+      "menu": {                
+        "group": "How",
+        "name": "Digitale Forschungstools"        
+      }     
+    },
+    
+    {
+      "path": "how-strategie-und-langzeitsicherung",
+      "page": "config/pages/how-strategie-und-langzeitsicherung.json",
+      "menu": {                
+        "group": "How",
+        "name": "Strategie und Langzeitsicherung"        
+      }     
+    }    
+    
   ]
 }
