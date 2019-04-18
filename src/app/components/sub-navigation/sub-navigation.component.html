@@ -2,7 +2,11 @@
   <div class="section__body">
     <div class="row no-gutters">
       <div *ngFor="let item of items" class="col-6">
-        <a [routerLink]="item.route" class="tile tile--rectangle">
+        <a
+          [routerLink]="item.route"
+          [routerLinkActive]="'active'"
+          class="tile tile--rectangle"
+        >
           <div
             class="tile__image"
             [style.background]="'url(' + item.image + ')'"
