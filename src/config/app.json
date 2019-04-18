@@ -43,7 +43,7 @@
     },
     
     {
-      "path": "what\/objects-and-documentation",
+      "path": "what/objects-and-documentation",
       "page": "config/pages/what/objects-and-documentation.json",
       "menu": {                
         "group": "What",
