@@ -3,6 +3,10 @@
 \* ------------------------------------------------------------ */
 
 .wrapper {
-	position: relative; 
-	overflow: hidden;
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }

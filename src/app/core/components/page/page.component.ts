@@ -13,6 +13,7 @@ export class PageComponent implements OnInit, AfterViewInit {
   public pageConfig: DaiPageConfig;
   public subnavConfig: any;
   public bannerConfig: any;
+  public isLoading = false;
 
   constructor(
     private route: ActivatedRoute,
@@ -21,13 +22,18 @@ export class PageComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
     this.configPath = this.route.snapshot.data.config;
-    this.configLoader.getConfig(this.configPath).then(config => {
-      this.pageConfig = config;
-      const hasSubnavConfig =
-        config.bannerConfig && Array.isArray(config.bannerConfig);
-      this.subnavConfig = hasSubnavConfig ? config.bannerConfig : undefined;
-      this.bannerConfig = hasSubnavConfig ? undefined : config.bannerConfig;
-    });
+
+    this.isLoading = true;
+    this.configLoader
+      .getConfig(this.configPath)
+      .then(config => {
+        this.pageConfig = config;
+        const hasSubnavConfig =
+          config.bannerConfig && Array.isArray(config.bannerConfig);
+        this.subnavConfig = hasSubnavConfig ? config.bannerConfig : undefined;
+        this.bannerConfig = hasSubnavConfig ? undefined : config.bannerConfig;
+      })
+      .finally(() => (this.isLoading = false));
   }
 
   ngAfterViewInit() {}
