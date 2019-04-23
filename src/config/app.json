@@ -38,12 +38,16 @@
     },
 
     {
-      "path": "what/objects-and-documentation",
-      "page": "config/pages/what/objects-and-documentation.json",
+      "path": "what/images",
+      "page": "config/pages/what/images.json",
       "menu": {
         "group": "What",
-        "name": "Objects & Documentation"
+        "name": "Objects & Images"
       }
+    },
+    {
+      "path": "what/objects",
+      "page": "config/pages/what/objects.json"      
     },
 
     {
