@@ -140,11 +140,17 @@
   {
     "type": "info_box",
     "headline": "Access to memory and archiving of data",
-    "content": {
-      "headline": "iDAI.Archives",
-      "text": "AtoM gives Access to Memory with the Open Source Archival Description Software"
-    }
-  },
+    "content": [
+        {
+            "headline": "iDAI.Archives",
+            "text": "AtoM gives Access to Memory with the Open Source Archival Description Software"
+        },         
+        {
+            "headline": "IANUS",
+            "text": "Long-term archiving according to the OAIS standard"
+        }
+    ]
+  },  
   {
     "type": "slider_tiles",
     "title": "Archive projects of the DAI",
