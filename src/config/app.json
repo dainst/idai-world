@@ -32,6 +32,10 @@
         "order": 1
       }
     },
+    {
+      "path": "what/libraries",
+      "page": "config/pages/what/libraries.json"      
+    },
 
     {
       "path": "what/objects-and-documentation",
