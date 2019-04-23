@@ -4,210 +4,168 @@
     "items": [
       {
         "image": "assets/images/content/banner-images.jpg",
-        "route": "/why-mission-statement/images",
+        "route": "/what/images",
         "title": "Images"
       },
       {
         "image": "assets/images/content/banner-objects.jpg",
-        "route": "/why-mission-statement/objects",
-        "title": "Objects",
-        "sub_title": "Architecture & Collection"
+        "route": "/what/images",
+        "title": "Objects"
       }
     ]
   },
   {
     "type": "intro_text",
-    "title": "Lorem Ipsum",
-    "body": "<script>alert('FOO')</script><h3>TEST</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>",
-    "body_html": "config/pages/kitchen-sink/kitchen-sink.intro_text.html"
-  },
+    "title": "Search for images in digital photo libraries",
+    "body": "Find and compare millions of individual photographs from photo libraries of the DAI and partner institutions. The spectrum ranges from early glass plate negatives to digital photography. Since the 1990s, the photo libraries have been digitized in cooperation with the Research Archive for Ancient Sculpture in Cologne. Today, many institutions use this infrastructure to digitize their photo collections, make them accessible and work together on a strong infrastructure."
+  },  
   {
     "type": "slider_tiles",
-    "title": "Standards & Methodologies",
+    "title": "Photo libraries of cooperation partners",
     "tiles": [
       {
         "type": "image_link",
-        "image": "assets/images/temp/area-hover.jpg",
-        "headline": "Image Tile",
-        "subhead": "imge tile subheading",
+        "image": "assets/images/content/what/images/idai_images_research_archive_cologne.jpg",
+        "headline": "Research Archive for Ancient Sculpture, Cologne",
+        "subhead": "",
         "link": {
-          "target": "https://google.de",
-          "text": "External Link to 'Google'"
-        }
-      },
-      {
-        "type": "text",
-        "image": "assets/images/temp/circle-hover.jpg",
-        "headline": "Text Tile",
-        "subhead": "text tile subheading",
-        "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed...",
-        "text_html": "config/pages/kitchen-sink/kitchen-sink.slider_tile_2.html"
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/temp/statue-hover.jpg",
-        "headline": "Link List",
-        "subhead": "link list subheading",
-        "links": [
-          { "target": "route://", "text": "Internal Link to 'Home'" },
-          { "target": "https://google.de", "text": "External Link to 'Google'" }
-        ]
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/temp/area-hover.jpg",
-        "headline": "Image Tile",
-        "subhead": "imge tile subheading",
-        "link": {
-          "target": "https://google.de",
-          "text": "External Link to 'Google'"
+          "target": "http://archaeologie.uni-koeln.de/forschungsarchiv.html",
+          "text": "External Link to 'Research Archive for Ancient Sculpture, Cologne'"
         }
       },
       {
         "type": "image_link",
-        "image": "assets/images/temp/area-hover.jpg",
-        "headline": "GO Home",
-        "subhead": "I am an internal link",
+        "image": "assets/images/content/what/images/idai_images_max_oppenheim_collections.jpg",
+        "headline": "Collection of Max von Oppenheim, Cologne",
+        "subhead": "",
         "link": {
-          "target": "route://",
-          "text": "Internal link to home"
+          "target": "https://arachne.dainst.org/project/oppenheim",
+          "text": "External Link to 'Collection of Max von Oppenheim, Cologne'"
         }
       },
       {
-        "type": "text",
-        "image": "assets/images/temp/circle-hover.jpg",
-        "headline": "Text Tile",
-        "subhead": "text tile subheading",
-        "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed...",
-        "text_html": "config/pages/kitchen-sink/kitchen-sink.slider_tile_2.html"
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/temp/statue-hover.jpg",
-        "headline": "Link List",
-        "subhead": "link list subheading",
-        "links": [
-          { "target": "route://", "text": "Internal Link to 'Home'" },
-          { "target": "https://google.de", "text": "External Link to 'Google'" }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "slider_circles",
-    "title": "Circle Slider",
-    "items": [
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC",
-        "alt": "Foobar "
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      }
-    ]
-  },
-  {
-    "type": "org_chart",
-    "headline": "Central Scientific Services",
-    "text": "Some text explaining the services...",
-    "nodes": [
-      {
-        "title": "Secretary  General",
-        "children": [
-          {
-            "title": "Director Informationtechnology",
-            "children": [
-              { "title": "Technical IT" },
-              { "title": "Scientific IT" }
-            ]
-          },
-          {
-            "title": "Director Libraries",
-            "children": [
-              { "title": "Editorial Office Berlin" },
-              { "title": "Libraries" },
-              { "title": "Archieves" }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "slider_image",
-    "title": "Image Slider",
-    "description": "an optional <b>description</b> for all images without a description property",
-    "content": [
-      "assets/images/temp/arch-1.jpg",
-      "assets/images/temp/arch-2.jpg",
-      "assets/images/temp/arch-3.jpg",
-      "assets/images/temp/arch-4.jpg",
-      {
-        "src": "assets/images/temp/arch-1.jpg",
-        "description": "An image <b>description</b> overrides the general description."
-      },
-      {
-        "src": "assets/images/temp/arch-2.jpg",
-        "title": "an optional image title override the general title"
-      },
-      {
-        "src": "assets/images/temp/arch-3.jpg",
-        "title": "",
-        "description": "an empty title overrides the general title and removes it"
-      },
-      {
-        "src": "assets/images/temp/arch-4.jpg",
-        "title": "an empty description overrides the general description and removes it",
-        "description": ""
+        "type": "image_link",
+        "image": "assets/images/content/what/images/idai_images_munich_lmu.jpg",
+        "headline": "Munich Photo Library of the LMU",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/fotothekmuenchen",
+          "text": "External Link to 'Munich Photo Library of the LMU'"
+        }
       }
     ]
   },
   {
     "type": "info_box",
-    "headline": "Search in our Image and Object System",
-    "content": {
-      "headline": "iDAI.Arachne",
-      "text": "Repository for images and objects as a common information infrastructure",
-      "link": {
-        "target": "route:///why-mission-statement",
-        "alt": "foo link"
-      }
-    }
-  },
+    "headline": "Search in our image and object system",
+    "content": [
+        {
+            "headline": "iDAI.Objects",
+            "text": "Repository for images and objects as a common information infrastructure, also called Arachne",
+            "link": {
+                "target": "https://arachne.dainst.org/",
+                "alt": "Repository for images and objects as a common information infrastructure, also called Arachne"
+            }
+        }
+    ]
+  },  
   {
-    "type": "search_box",
-    "headline": "Search Box Headline",
-    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat ullamcorper massa non scelerisque. Morbi pellentesque blandit neque in consequat. Donec quis suscipit tortor, quis pellentesque neque. Nulla dictum lacinia sem, quis imperdiet dolor convallis non. Integer mattis enim arcu, at lacinia justo sollicitudin at. Etiam eget scelerisque urna. Nullam feugiat gravida faucibus. Nullam nec egestas metus, in cursus tellus. Donec in faucibus ex. In condimentum neque dapibus, rutrum eros vitae, commodo magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas augue eros, tristique et malesuada nec, tempus quis tortor.</p>",
-    "text_html": "config/pages/kitchen-sink/kitchen-sink.search_box.html"
+      "type": "slider_image",
+      "title": "",
+      "description": "",
+      "content": [
+        "assets/images/content/what/images/slider/idai_images_slider_2.jpg",
+        "assets/images/content/what/images/slider/idai_images_slider_1.jpg",
+        "assets/images/content/what/images/slider/idai_images_slider_3.jpg",
+        "assets/images/content/what/images/slider/idai_images_slider_4.jpg",
+        "assets/images/content/what/images/slider/idai_images_slider_5.jpg",
+        "assets/images/content/what/images/slider/idai_images_slider_6.jpg"        
+      ]
+    },
+  {
+    "type": "slider_tiles",
+    "title": "DAI photo libraries",
+    "tiles": [
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/images/idai_images_photothek_berlin.jpg",
+        "headline": "Berlin head office",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/fotoarchivdaiberlin",
+          "text": "Berlin head office"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/images/idai_images_photothek_orient_department.jpg",
+        "headline": "Berlin orient department",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/daiorient",
+          "text": "Berlin orient department"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/images/idai_images_photothek_cairo.jpg",
+        "headline": "Cairo department",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/fotokairo",
+          "text": "Cairo department"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/images/idai_images_photothek_damascus.jpg",
+        "headline": "Damascus branch",
+        "subhead": "",
+        "link": {
+          "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/124822",
+          "text": "Damascus branch"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/images/idai_images_photothek_istanbul.jpg",
+        "headline": "Istanbul department",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/fotoistanbul",
+          "text": "Istanbul department"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/images/idai_images_photothek_madrid.jpg",
+        "headline": "Madrid department",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/fotomadrid",
+          "text": "Madrid department"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/images/idai_images_photothek_rome.jpg",
+        "headline": "Rome department",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/fotorom",
+          "text": "Rome department"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/images/idai_images_photothek_teheran.jpg",
+        "headline": "Teheran branch",
+        "subhead": "",
+        "link": {
+          "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/71364",
+          "text": "Teheran branch"
+        }
+      }      
+    ]  
   }
 ]
