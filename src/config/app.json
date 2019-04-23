@@ -52,7 +52,7 @@
 
     {
       "path": "what/space-and-time",
-      "page": "config/pages/space-and-time.json",
+      "page": "config/pages/what/space-and-time.json",
       "menu": {
         "group": "What",
         "name": "Space & Time"
