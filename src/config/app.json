@@ -42,7 +42,7 @@
       "page": "config/pages/what/images.json",
       "menu": {
         "group": "What",
-        "name": "Objects & Images"
+        "name": "Images & Objects"
       }
     },
     {
@@ -59,6 +59,15 @@
       }
     },
 
+    {
+      "path": "what/documentation",
+      "page": "config/pages/what/documentation.json",
+      "menu": {
+        "group": "What",
+        "name": "Documentation"
+      }
+    },
+    
     {
       "path": "what/publications",
       "page": "config/pages/publications.json",
