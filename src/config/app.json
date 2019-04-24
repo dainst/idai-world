@@ -128,7 +128,7 @@
         "group": "Why",
         "name": "About us"
       },
-      "page": "config/pages/dai-about-us.json"
+      "page": "config/pages/why/dai-about-us.json"
     },
     {
       "path": "why/partner",
