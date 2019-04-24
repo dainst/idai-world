@@ -115,12 +115,12 @@
       "page": "config/pages/test-objects.json"
     },
     {
-      "path": "why/strategy-and-architecture",
+      "path": "why/open-science",
       "menu": {
         "group": "Why",
-        "name": "Strategy & Architecture"
+        "name": "Open Science"
       },
-      "page": "config/pages/dai-strategy-and-architecture.json"
+      "page": "config/pages/why/open-science.json"
     },
     {
       "path": "why/about-us",
