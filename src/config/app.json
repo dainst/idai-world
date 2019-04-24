@@ -144,7 +144,7 @@
         "group": "Why",
         "name": "Contact"
       },
-      "page": "config/pages/dai-contact.json"
+      "page": "config/pages/why/dai-contact.json"
     },
     {
       "path": "why/data-policy",
