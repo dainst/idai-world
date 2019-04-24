@@ -1,0 +1,29 @@
+[
+  {
+    "type": "title_banner",
+    "title": "Mission Statement",
+    "image": "assets/images/content/banner-why.jpg"
+  },  
+    
+  {
+    "type": "intro_text",
+    "title": "Advanced digital development by international cooperation",
+    "body": "The success of the iDAI.world is based on worldwide cooperation. Its foundation stone was laid in the early 1990s at the Research Archive for Ancient Sculpture in Cologne. Its constant development takes place in cooperation with national and international partners, and strengthens reliable international cooperation through free and equal access to knowledge resources. The principles of open access and open sources are combined with the openness for cooperation. Use the Chance for open data in trustful co-operation."
+  },  
+  {
+    "type": "intro_text",
+    "title": "Strong research infrastructures in an open science world",
+    "body": "The iDAI.world is a digital research environment based on tools and repositories that enable researchers to collect, analyze, visualize, publish and store research data and creative output. It supports research and scholarly communication in archaeology and related academic fields with digital tools for documentation, normative data and analysis tools. Systems for digital publication and long-term archiving complete the spectrum. Multilingualism and worldwide access are guiding principles of iDAI.world."
+  },  
+  {
+    "type": "intro_text",
+    "title": "Promotion of digital research",
+    "body": "With its digital services, DAI promotes digital research processes. It conducts and supports the practical application, development and integration of digital tools into the research process as well as their theoretical and methodological discussion. It organizes internal and external training, provides training material and promotes national and international exchange on digital research."
+  },  
+  {
+    "type": "intro_text",
+    "title": "Protection, preservation and promotion of cultural heritage in a digital world",
+    "body": "The DAI supports the development of digital heritage registers. The digitization of old analog documentation, the preservation of digital legacy data and the application and further development of new methods of documentation are fundamental for the protection and preservation of the cultural heritage. Likewise important for archaeology and the protection of cultural heritage are new forms of digital publication as well as the provision and the methodological reflection of tools for modelling and simulations. Sharing heritage and knowledge transfer are central to DAI’s mission."
+  } 
+ 
+]

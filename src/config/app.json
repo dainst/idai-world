@@ -98,13 +98,13 @@
     {
       "comment": "WHY",
       "=================================================================": "",
-      "path": "why/mission-statement",
+      "path": "why/dai-mission-statement",
       "menu": {
         "group": "Why",
         "name": "Mission Statement",
         "order": 1
       },
-      "page": "config/pages/dai-mission-statement.json"
+      "page": "config/pages/why/dai-mission-statement.json"
     },
     {
       "path": "why/mission-statement/images",
