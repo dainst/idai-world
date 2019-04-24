@@ -146,6 +146,14 @@
       },
       "page": "config/pages/dai-contact.json"
     },
+    {
+      "path": "why/data-policy",
+      "menu": {
+        "group": "Why",
+        "name": "Data Policy"
+      },
+      "page": "config/pages/why/data-policy.json"
+    },
 
     {
       "comment": "HOW",
