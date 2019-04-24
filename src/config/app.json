@@ -70,7 +70,7 @@
     
     {
       "path": "what/publications",
-      "page": "config/pages/publications.json",
+      "page": "config/pages/what/publications.json",
       "menu": {
         "group": "What",
         "name": "Publications"

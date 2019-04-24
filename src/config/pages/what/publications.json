@@ -1,213 +1,287 @@
 [
   {
-    "type": "sub_nav",
-    "items": [
-      {
-        "image": "assets/images/content/banner-images.jpg",
-        "route": "/why-mission-statement/images",
-        "title": "Images"
-      },
-      {
-        "image": "assets/images/content/banner-objects.jpg",
-        "route": "/why-mission-statement/objects",
-        "title": "Objects",
-        "sub_title": "Architecture & Collection"
-      }
-    ]
-  },
+    "type": "title_banner",
+    "title": "Publications",
+    "image": "assets/images/content/banner-how.jpg"
+  },  
+    
   {
     "type": "intro_text",
-    "title": "Lorem Ipsum",
-    "body": "<script>alert('FOO')</script><h3>TEST</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>",
-    "body_html": "config/pages/kitchen-sink/kitchen-sink.intro_text.html"
-  },
+    "title": "Read our publications open access",
+    "body": "DAI has contributed to archaeological literature since its foundation in the early 19th century. From our regular journals featuring our latest research projects, to digitized versions of series and comprehensive monographs on specific fields of research - we publish and share knowledge that scholars can build on and freely use for their own research. Our publications are accessible via iDAI.publications/journals and iDAI.publications/books. Both systems are networked with other digital resources and complemented by the publication of databases. The publications of the DAI undergo a peer review process and are editorially supervised."
+  },  
   {
-    "type": "slider_tiles",
-    "title": "Standards & Methodologies",
-    "tiles": [
-      {
-        "type": "image_link",
-        "image": "assets/images/temp/area-hover.jpg",
-        "headline": "Image Tile",
-        "subhead": "imge tile subheading",
-        "link": {
-          "target": "https://google.de",
-          "text": "External Link to 'Google'"
+      "type": "slider_tiles",
+      "title": "Journals",
+      "tiles": [        
+        {
+          "type": "link_list",
+          "image": "assets/images/content/what/publications/slider/idai_publications_slider_aa_2017_2.jpg",
+          "headline": "Archäologischer Anzeiger",
+          "subhead": "Articles on current global research projects",
+          "links": [
+            { 
+                "text": "AA 2017, 2" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/165"                    
+            },            
+            { 
+                "text": "AA 2017, 1" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/154"                    
+            },            
+            { 
+                "text": "AA 2016, 2" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/153"                    
+            },            
+            { 
+                "text": "AA 2016, 1" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/152"                    
+            },            
+            { 
+                "text": "AA 2015, 2" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/150"                    
+            },            
+            { 
+                "text": "AA 2015, 1" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/149"                    
+            },            
+            { 
+                "text": "AA 2014, 2" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/137"                    
+            },            
+            { 
+                "text": "AA 2014, 1" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/136"                    
+            },            
+            { 
+                "text": "AA 2013, 2" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/135"                    
+            }            
+          ]
+        },
+        {
+          "type": "link_list",
+          "image": "assets/images/temp/statue-hover.jpg",
+          "headline": "Chiron",
+          "subhead": "Articles on Ancient History and Epigraphy",
+          "link": {
+            "target": "https://publications.dainst.org/journals/index.php/chiron",
+            "text": "Chiron"
+          },      
+          "links": [
+            { 
+                "text": "Chiron 44, 2014" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/63"                    
+            },            
+            { 
+                "text": "Chiron 43, 2013" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/64"                    
+            },            
+            { 
+                "text": "Chiron 42, 2012" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/62"                    
+            },            
+            { 
+                "text": "Chiron 41, 2011" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/61"                    
+            },            
+            { 
+                "text": "Chiron 40, 2010" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/60"                    
+            },            
+            { 
+                "text": "Chiron 39, 2009" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/59"                    
+            },            
+            { 
+                "text": "Chiron 38, 2008" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/56"                    
+            },            
+            { 
+                "text": "Chiron 37, 2007" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/55"                    
+            }           
+          ]
+        },
+        {
+          "type": "link_list",
+          "image": "assets/images/temp/statue-hover.jpg",
+          "headline": "Research E-Papers",
+          "subhead": "Current research results of DAI projects",
+          "link": {
+            "target": "https://publications.dainst.org/journals/index.php/efb",
+            "text": "Research E-Papers"
+          },      
+          "links": [
+            { 
+                "text": "eDAI-F 2019, 1" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/168"                    
+            },           
+            { 
+                "text": "eDAI-F 2018, 2" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/166"                    
+            },           
+            { 
+                "text": "eDAI-F 2018, 1" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/162"                    
+            },           
+            { 
+                "text": "eDAI-F 2017, 2" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/157"                    
+            },           
+            { 
+                "text": "eDAI-F 2017, 1" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/155"                    
+            },           
+            { 
+                "text": "eDAI-F 2016, 3" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/125"                    
+            },           
+            { 
+                "text": "eDAI-F 2016, 2" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/126"                    
+            },           
+            { 
+                "text": "eDAI-F 2016, 1" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/128"                    
+            },           
+            { 
+                "text": "eDAI-F 2015, 3" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/129"                    
+            }           
+          ]
+        },
+        {
+          "type": "link_list",
+          "image": "assets/images/temp/statue-hover.jpg",
+          "headline": "Römische Mitteilungen",
+          "subhead": "Archaeology in Italy and neighbouring regions",
+          "link": {
+            "target": "https://publications.dainst.org/journals/index.php/rm",
+            "text": "Römische Mitteilungen"
+          },      
+          "links": [
+            { 
+                "text": "RM 121: Bukowiecki – Wulf-Rheidt" ,
+                "target": "https://publications.dainst.org/journals/rm/issue/169"                    
+            }           
+          ]
         }
-      },
-      {
-        "type": "text",
-        "image": "assets/images/temp/circle-hover.jpg",
-        "headline": "Text Tile",
-        "subhead": "text tile subheading",
-        "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed...",
-        "text_html": "config/pages/kitchen-sink/kitchen-sink.slider_tile_2.html"
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/temp/statue-hover.jpg",
-        "headline": "Link List",
-        "subhead": "link list subheading",
-        "links": [
-          { "target": "route://", "text": "Internal Link to 'Home'" },
-          { "target": "https://google.de", "text": "External Link to 'Google'" }
-        ]
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/temp/area-hover.jpg",
-        "headline": "Image Tile",
-        "subhead": "imge tile subheading",
-        "link": {
-          "target": "https://google.de",
-          "text": "External Link to 'Google'"
+      ]
+    },
+    
+  {
+      "type": "slider_tiles",
+      "title": "Series and monographs",
+      "tiles": [          
+        {
+             "type": "image_link",
+             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_antike_plastik_31.jpg",
+             "headline": "Antike Plastik",
+             "subhead": "Edited volumes on selected works of Ancient Sculpture",
+             "link": {
+               "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/62",
+               "text": "No. 31, Selected works of Ancient Sculpture"
+            }            
+        },
+        {
+             "type": "image_link",
+             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_bogazkoe.jpg",
+             "headline": "Boğazköy-Hattuša",
+             "subhead": "Results of archaeological research. Boğazköy/Turkey",
+             "link": {
+               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/boghattusa",
+               "text": "Results of archaeological research. Boğazköy/Turkey"
+            }            
+        },
+        {
+             "type": "image_link",
+             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_das_dai.jpg",
+             "headline": "Das DAI. Geschichte und Dokumente",
+             "subhead": "",
+             "link": {
+               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/DAIGeschDok",
+               "text": "Das DAI. Geschichte und Dokumente"
+            }            
+        },
+        {
+             "type": "image_link",
+             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_forschung_aussereuropaeischer.jpg",
+             "headline": "Forschungen zur Archäologie Außereuropäischer Kulturen",
+             "subhead": "",
+             "link": {
+               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/faak",
+               "text": "Forschungen zur Archäologie Außereuropäischer Kulturen"
+            }            
         }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/temp/area-hover.jpg",
-        "headline": "GO Home",
-        "subhead": "I am an internal link",
-        "link": {
-          "target": "route://",
-          "text": "Internal link to home"
-        }
-      },
-      {
-        "type": "text",
-        "image": "assets/images/temp/circle-hover.jpg",
-        "headline": "Text Tile",
-        "subhead": "text tile subheading",
-        "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed...",
-        "text_html": "config/pages/kitchen-sink/kitchen-sink.slider_tile_2.html"
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/temp/statue-hover.jpg",
-        "headline": "Link List",
-        "subhead": "link list subheading",
-        "links": [
-          { "target": "route://", "text": "Internal Link to 'Home'" },
-          { "target": "https://google.de", "text": "External Link to 'Google'" }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "slider_circles",
-    "title": "Circle Slider",
-    "items": [
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC",
-        "alt": "Foobar "
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      },
-      {
-        "image": "https://via.placeholder.com/150/9c9b97/CCCCCC"
-      }
-    ]
-  },
-  {
-    "type": "org_chart",
-    "headline": "Central Scientific Services",
-    "text": "Some text explaining the services...",
-    "nodes": [
-      {
-        "title": "Secretary  General",
-        "children": [
-          {
-            "title": "Director Informationtechnology",
-            "children": [
-              { "title": "Technical IT" },
-              { "title": "Scientific IT" }
-            ]
-          },
-          {
-            "title": "Director Libraries",
-            "children": [
-              { "title": "Editorial Office Berlin" },
-              { "title": "Libraries" },
-              { "title": "Archieves" }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "slider_image",
-    "title": "Image Slider",
-    "description": "an optional <b>description</b> for all images without a description property",
-    "content": [
-      "assets/images/temp/arch-1.jpg",
-      "assets/images/temp/arch-2.jpg",
-      "assets/images/temp/arch-3.jpg",
-      "assets/images/temp/arch-4.jpg",
-      {
-        "src": "assets/images/temp/arch-1.jpg",
-        "description": "An image <b>description</b> overrides the general description."
-      },
-      {
-        "src": "assets/images/temp/arch-2.jpg",
-        "title": "an optional image title override the general title"
-      },
-      {
-        "src": "assets/images/temp/arch-3.jpg",
-        "title": "",
-        "description": "an empty title overrides the general title and removes it"
-      },
-      {
-        "src": "assets/images/temp/arch-4.jpg",
-        "title": "an empty description overrides the general description and removes it",
-        "description": ""
-      }
-    ]
-  },
+      ]
+  },  
+    
   {
     "type": "info_box",
-    "headline": "Search in our Image and Object System",
-    "content": {
-      "headline": "iDAI.Arachne",
-      "text": "Repository for images and objects as a common information infrastructure",
-      "link": {
-        "target": "route:///why-mission-statement",
-        "alt": "foo link"
-      }
-    }
+    "headline": "Search in iDAI.Publications systems",
+    "content": [
+        {
+            "headline": "Journals",
+            "text": "Via iDAI.publications/journals the DAI provides numerous articles of its journals open accessible",
+            "link": {
+                "target": "https://publications.dainst.org/journals",
+                "alt": "Journals"
+            }
+        },
+        {
+            "headline": "Books",
+            "text": "Via iDAI.publications/books the DAI provides numerous of its series and monographs open accessible",
+            "link": {
+                "target": "https://publications.dainst.org/books",
+                "alt": "Books"
+            }
+        }
+    ]       
   },
   {
-    "type": "search_box",
-    "headline": "Search Box Headline",
-    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat ullamcorper massa non scelerisque. Morbi pellentesque blandit neque in consequat. Donec quis suscipit tortor, quis pellentesque neque. Nulla dictum lacinia sem, quis imperdiet dolor convallis non. Integer mattis enim arcu, at lacinia justo sollicitudin at. Etiam eget scelerisque urna. Nullam feugiat gravida faucibus. Nullam nec egestas metus, in cursus tellus. Donec in faucibus ex. In condimentum neque dapibus, rutrum eros vitae, commodo magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas augue eros, tristique et malesuada nec, tempus quis tortor.</p>",
-    "text_html": "config/pages/kitchen-sink/kitchen-sink.search_box.html"
+      "type": "slider_tiles",
+      "title": "Data enhanced print publications with partners",
+      "tiles": [          
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_antike_plastik_5.0.jpg",
+          "headline": "Antike Plastik 5.0.://",
+          "subhead": "Media of documentation in archaeology",
+          "link": {
+            "target": "https://arachne.dainst.org/project/antikeplastik?lang=de",
+            "text": "External Link to 'Antike Plastik 5.0.://'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_roemische_hafenanlagen.jpg",
+          "headline": "Depictions and Imaginations of Roman Harbours",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/hafen?lang=de",
+            "text": "External Link to 'Depictions and Imaginations of Roman Harbours'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_basilika_aemilia.jpg",
+          "headline": "The Basilica Aemilia on the Forum Romanum",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/basilaemil",
+            "text": "External Link to 'The Basilica Aemilia on the Forum Romanum'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_corpus_of_minoan_seals.jpg",
+          "headline": "Corpus of Minoan and Mycenaean Seals",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/corpusminmyk",
+            "text": "External Link to 'Corpus of Minoan and Mycenaean Seals'"
+          }
+        }
+      ]
   }
 ]
