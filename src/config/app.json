@@ -193,22 +193,12 @@
         "name": "Digital Monument Records"
       }
     },
-
     {
-      "path": "how/normdaten",
-      "page": "config/pages/normdaten.json",
+      "path": "how/tools-of-documentation",
+      "page": "config/pages/how/tools-of-documentation.json",
       "menu": {
         "group": "How",
-        "name": "Normdaten"
-      }
-    },
-
-    {
-      "path": "how/digitale-forschungstools",
-      "page": "config/pages/digitale-forschungstools.json",
-      "menu": {
-        "group": "How",
-        "name": "Digitale Forschungstools"
+        "name": "Documentation and Simulation"
       }
     },
 
