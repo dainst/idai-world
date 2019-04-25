@@ -213,11 +213,11 @@
     },
 
     {
-      "path": "how/strategie-und-langzeitsicherung",
-      "page": "config/pages/strategie-und-langzeitsicherung.json",
+      "path": "how/strategies-for-digitization",
+      "page": "config/pages/how/strategies-for-digitization.json",
       "menu": {
         "group": "How",
-        "name": "Strategie und Langzeitsicherung"
+        "name": "Strategies for Digitization"
       }
     }
   ]
