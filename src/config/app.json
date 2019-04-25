@@ -186,11 +186,11 @@
     },
 
     {
-      "path": "how/digitale-denkmalregister-weltweit",
-      "page": "config/pages/digitale-denkmalregister-weltweit.json",
+      "path": "how/digital-monument-records",
+      "page": "config/pages/how/digital-monument-records.json",
       "menu": {
         "group": "How",
-        "name": "Digitale Denkmalregister Weltweit"
+        "name": "Digital Monument Records"
       }
     },
 

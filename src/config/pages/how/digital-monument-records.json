@@ -1,0 +1,47 @@
+[
+  {
+    "type": "title_banner",
+    "title": "Digital Monument Records",
+    "image": "assets/images/content/banner-why.jpg"
+  },  
+    
+  {
+    "type": "intro_text",
+    "title": "",
+    "body": "<p>Digital monument records are a vital instrument in the protection of world heritage. The photographic and excavation archives on the many excavations undertaken since the 19th century are not necessarily directly accessible in the countries where the archaeological sites are today. Consequently what needs to be done is to create multilingual research environments, to digitize and geo-reference the data and make these data archives available for research purposes independently of their physical location – as well as to develop modalities for using them. These data archives – themselves a part of cultural heritage – are the prerequisite for research-based activities towards the preservation of world heritage. This way it will be possible to support the creation, on an international scale, of national records of sites and monuments such as exist in digital form already in many German federal states and were called for by Friedrich Schinkel 200 years ago as a necessary basis for heritage conservation in Germany.</p>"
+  },  
+
+  {
+    "type": "intro_text",
+    "title": "Monument registers are important tools for the protection of cultural heritage",
+    "body": "<p>Therefore monument registers become a standard institution in many countries but not in all of them. When it comes to planning procedure, infrastructure development and the extraction of natural resources, in many countries there is no information available in advance that would make it possible to ensure the protection of monuments or at least to document them before they are destroyed. This being so, the DAI has set up an easy-to-use rapid registration system for monuments and has designed its digital environment (iDAI.world) in such a way that data for compiling monuments records can be made available in host and partner countries. With the destruction of world heritage sites on the increase at the present time, digital monument records and digitized research data are often the only means of ascertaining the extent of damage at world heritage sites after the conflicts have ended.</p>"
+  },  
+  
+  {
+      "type": "slider_tiles",
+      "title": "Examples for digital monument registers",
+      "tiles": [        
+        {
+          "type": "link_list",
+          "image": "assets/images/temp/statue-hover.jpg",
+          "headline": "",
+          "subhead": "",
+          "links": [
+            { 
+                "text": "AYDA – Ancient Yemen Digital Atlas",
+                "target": "https://www.archernet.org/2018/10/25/ayda-ein-digitales-denkmalregister-fuer-den-jemen/"
+            },
+            { 
+                "text": "A Monument Register for Syria: Syrian Heritage Archive Project",
+                "target": "https://arachne.dainst.org/project/syrher"
+            },
+            { 
+                "text": "A Monument Register for Sudan: Friedrich Hinkel Archive",
+                "target": "https://arachne.dainst.org/project/hinkel"
+            }
+          ]
+        }        
+      ]
+    }
+ 
+]
