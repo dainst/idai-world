@@ -158,11 +158,11 @@
     {
       "comment": "HOW",
       "=================================================================": "",
-      "path": "how/get-access",
-      "page": "config/pages/get-access.json",
+      "path": "how/thesauri-and-controlled-vocabularies",
+      "page": "config/pages/how/thesauri-and-controlled-vocabularies.json",
       "menu": {
         "group": "How",
-        "name": "Get Access",
+        "name": "Thesauri and controlled vocabularies",
         "order": 1
       }
     },
