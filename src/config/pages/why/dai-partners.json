@@ -34,6 +34,202 @@
             "target": "https://www.htw-dresden.de/news-2016/article/archaeocopter-bei-cnn-1.html",
             "text": "External Link to 'Archaeocopter and Archaeonautic'"
           }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/why/partners/idai_partners_carare.jpg",
+          "headline": "CARARE",
+          "subhead": "Connecting archeology and architecture in Europeana",
+          "link": {
+            "target": "https://arachne.dainst.org/project/carare",
+            "text": "External Link to 'CARARE'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/why/partners/idai_partners_cidoc.jpg",
+          "headline": "CIDOC Conceptual Reference Model (CRM)",
+          "subhead": "CiDOC Special Interest Group",
+          "link": {
+            "target": "http://www.cidoc-crm.org/Resources/the-arachne-project",
+            "text": "External Link to 'CIDOC Conceptual Reference Model (CRM)'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/why/partners/idai_partners_dariah_de.jpg",
+          "headline": "DARIAH-DE",
+          "subhead": "Digitale Forschungsinfrastruktur für die Geistes- und Kulturwissenschaften",
+          "link": {
+            "target": "https://de.dariah.eu/der-forschungsverbund",
+            "text": "External Link to 'DARIAH-DE'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/why/partners/idai_partners_dariah_eu.jpg",
+          "headline": "Dariah-EU",
+          "subhead": "A pan-european infrastructure for arts and humanities scholars working with computational methods",
+          "link": {
+            "target": "https://www.dariah.eu/2019/03/20/working-groups-stories-6-setting-up-e-infrastructure-for-collaborative-work-on-thesaurus-integration/",
+            "text": "External Link to 'Dariah-EU'"
+          }
+        }
+      ]
+    },
+    {
+      "type": "slider_tiles",
+      "title": "Our partners",
+      "tiles": [
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "Antikensammlung Berlin",
+          "subhead": "",
+          "link": {
+            "target": "https://www.smb.museum/museen-und-einrichtungen/antikensammlung/home.html",
+            "text": "External Link to 'Antikensammlung Berlin'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "ArchaeoBio Center at LMU Munich",
+          "subhead": "",
+          "link": {
+            "target": "https://www.en.archaeobiocenter.uni-muenchen.de/index.html",
+            "text": "External Link to 'ArchaeoBio Center at LMU Munich'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "Archaeocopter and Archaeonautic",
+          "subhead": "",
+          "link": {
+            "target": "http://www.archaeocopter.de",
+            "text": "External Link to 'Archaeocopter and Archaeonautic'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "Chair for Archaeoinformatics at the University of Cologne",
+          "subhead": "",
+          "link": {
+            "target": "http://archaeologie.uni-koeln.de/archit.html",
+            "text": "External Link to 'Chair for Archaeoinformatics at the University of Cologne'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "Chair for Archaeoinformatics (Data Science) at CAU Kiel",
+          "subhead": "",
+          "link": {
+            "target": "https://www.ai.informatik.uni-kiel.de/ai/team/prof-dr-matthias-renz",
+            "text": "External Link to 'Chair for Archaeoinformatics (Data Science) at CAU Kiel'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "Chair for Database Systems and Data Mining at LMU Munich",
+          "subhead": "",
+          "link": {
+            "target": "http://www.dbs.ifi.lmu.de/cms/",
+            "text": "External Link to 'Chair for Database Systems and Data Mining at LMU Munich'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "Chair for Digital Humanities at the University of Cologne",
+          "subhead": "",
+          "link": {
+            "target": "http://dh.uni-koeln.de/oeide.html?&L=1",
+            "text": "External Link to 'Chair for Digital Humanities at the University of Cologne'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "Carare",
+          "subhead": "",
+          "link": {
+            "target": "http://www.carare.eu",
+            "text": "External Link to 'Carare'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "Museum für Islamische Kunst Berlin",
+          "subhead": "",
+          "link": {
+            "target": "https://www.smb.museum/museen-und-einrichtungen/museum-fuer-islamische-kunst/home.html",
+            "text": "External Link to 'Museum für Islamische Kunst Berlin'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "Nomisma",
+          "subhead": "Stable digital representations of numismatic concepts according to the principles of Linked Open Data",
+          "link": {
+            "target": "http://nomisma.org",
+            "text": "External Link to 'Nomisma'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "Open Context",
+          "subhead": "",
+          "link": {
+            "target": "https://opencontext.org",
+            "text": "External Link to 'Open Context'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "Perseus Digital Library",
+          "subhead": "",
+          "link": {
+            "target": "http://www.perseus.tufts.edu/hopper/",
+            "text": "External Link to 'Perseus Digital Library'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "Pleiades",
+          "subhead": "",
+          "link": {
+            "target": "https://pleiades.stoa.org",
+            "text": "External Link to 'Pleiades'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "Regional Computing Centre at the University of Cologne",
+          "subhead": "",
+          "link": {
+            "target": "https://rrzk.uni-koeln.de/rrzk.html?&L=1",
+            "text": "External Link to 'Regional Computing Centre at the University of Cologne'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "",
+          "headline": "Research Archive for Ancient Sculpture",
+          "subhead": "",
+          "link": {
+            "target": "http://archaeologie.uni-koeln.de/forschungsarchiv.html",
+            "text": "External Link to 'Research Archive for Ancient Sculpture'"
+          }
         }
       ]
     }
