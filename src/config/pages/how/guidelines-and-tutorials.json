@@ -1,0 +1,63 @@
+[
+  {
+    "type": "title_banner",
+    "title": "Guidelines & Tutorials",
+    "image": "assets/images/content/banner-why.jpg"
+  },  
+    
+  {
+    "type": "intro_text",
+    "title": "",
+    "body": "<p>To explore, preserve and communicate cultural heritage requires knowledge and Guidelines. This includes technological knowledge for documentation, for storage and simulation. The DAI and its partners are building multilingual services and guidelines in different languages.</p>"
+  },  
+  {
+    "type": "intro_text",
+    "title": "Best practice Guidelines IT",
+    "body": "<p>The IT-recommendations describe minimum standards and best practices for the use of information techniques in classical studies.  They describe the ideal procedure for research activities from the project conception, through the application, implementation, publication, presentation to long-term data retention. For long-term archiving, suitable data formats are described as well as background information and practical examples.</p>"
+  },  
+  {
+    "type": "intro_text",
+    "title": "International Standards  and Principles",
+    "body": "<p>The services of the DAI are based on international standards. The OAIS reference model is based on the long-term archiving service IANUS. The database Arachne is contributing to and using the CIDOC Conceptual Reference Model (CRM). The basis of the Hellespont Project is the combination of text and object data using the metadata format CIDOC CRM.</p>"
+  },  
+  {
+    "type": "intro_text",
+    "title": "Translation of international standards",
+    "body": "<p>In the framework of the project \"Zero Hour - A Future for the Aftermath of the Crisis\", funded by the Federal Foreign Office, international standards were also translated into Arabic, including the DFG practice guidelines „Digitalisierung“, Dublin Core Metadata Initiative (DCMI), Open Archival Information System. Reference Model (OAIS) and a primer for the CIDOC-CRM.</p>"
+  },  
+  {
+      "type": "slider_tiles",
+      "title": "Tutorial Resources",
+      "tiles": [        
+        {
+          "type": "link_list",
+          "image": "assets/images/temp/statue-hover.jpg",
+          "headline": "Service for Partners",
+          "subhead": "",
+          "links": [
+            { 
+                "text": "IT Guidelines 1",
+                "target": "http://dx.doi.org/10.13149/000.111000-a"
+            },
+            { 
+                "text": "IT Guidelines 2",
+                "target": "http://www.ianus-fdz.de/it-empfehlungen/"
+            },
+            { 
+                "text": "Online Courses for Cultural Heritage Professionals",
+                "target": "https://moocs.dainst.org"
+            },
+            { 
+                "text": "The Hellespont Project: Integrating Arachne and Perseus via CIDOC CRM",
+                "target": "http://hellespont.dainst.org/startpage/"
+            },
+            { 
+                "text": "Arabic Translations of international standards and guidelines",
+                "target": "https://moocs.dainst.org/course/view.php?id=18"
+            }
+          ]
+        }        
+      ]
+    }
+ 
+]

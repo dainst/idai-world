@@ -168,11 +168,11 @@
     },
 
     {
-      "path": "how/guidlines",
-      "page": "config/pages/guidlines.json",
+      "path": "how/guidelines-and-tutorials",
+      "page": "config/pages/how/guidelines-and-tutorials.json",
       "menu": {
         "group": "How",
-        "name": "Guidelines"
+        "name": "Guidelines & Tutorials"
       }
     },
 
