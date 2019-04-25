@@ -177,11 +177,11 @@
     },
 
     {
-      "path": "how/architektur-der-idai-world",
-      "page": "config/pages/architektur-der-idai-world.json",
+      "path": "how/idai-world-architecture",
+      "page": "config/pages/how/idai-world-architecture.json",
       "menu": {
         "group": "How",
-        "name": "Architektur der iDAI World"
+        "name": "iDAI world architecture"
       }
     },
 

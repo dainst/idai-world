@@ -1,0 +1,137 @@
+[
+  {
+    "type": "title_banner",
+    "title": "iDAI world architecture",
+    "image": "assets/images/content/banner-why.jpg"
+  },  
+    
+  {
+    "type": "intro_text",
+    "title": "",
+    "body": "<p>The iDAI.world is a grown structure. It consists of modules developed in cooperation with many partners. It includes the systematic development of analogue and digital information such as archives, library collections, but also rich photographic libraries and image productions. We provide standard data that can be localized in time and space. We develop open source tools for documentation.</p><p>The iDAI.world is constantly evolving. It is a permanent beta system with clear goals and visions.</p>"
+  },  
+
+  {
+      "type": "slider_tiles",
+      "title": "iDAI.cloud",
+      "tiles": [        
+        {
+          "type": "link_list",
+          "image": "assets/images/temp/statue-hover.jpg",
+          "headline": "Publications",
+          "subhead": "",
+          "links": [
+            { 
+                "text": "iDAI.publications/journals",
+                "target": "https://publications.dainst.org/journals/"
+            },
+            { 
+                "text": "iDAI.publications/books",
+                "target": "https://publications.dainst.org/books/index.php/dai"
+            },
+            { 
+                "text": "Enhanced and data publications",
+                "target": "route://what/publications"
+            }
+          ]
+        },
+        {
+          "type": "link_list",
+          "image": "assets/images/temp/statue-hover.jpg",
+          "headline": "Libraries & Archives",
+          "subhead": "",
+          "links": [
+            { 
+                "text": "iDAI.bibliography",
+                "target": "https://zenon.dainst.org/"
+            },
+            { 
+                "text": "iDAI.bookbrowser",
+                "target": "https://arachne.dainst.org/project/idaibookbrowser"
+            },
+            { 
+                "text": "iDAI.Archives",
+                "target": ""
+            }
+          ]
+        },
+        {
+          "type": "link_list",
+          "image": "assets/images/temp/statue-hover.jpg",
+          "headline": "Images & Objects",
+          "subhead": "",
+          "links": [
+            { 
+                "text": "iDAI.objects",
+                "target": "https://arachne.dainst.org/"
+            },
+            { 
+                "text": "iDAI.shapes (under development)",
+                "target": ""
+            },
+            { 
+                "text": "Corpora",
+                "target": "route://what/objects"
+            }
+          ]
+        },
+        {
+          "type": "link_list",
+          "image": "assets/images/temp/statue-hover.jpg",
+          "headline": "Time & Space",
+          "subhead": "",
+          "links": [
+            { 
+                "text": "iDAI.gazetteer",
+                "target": "https://gazetteer.dainst.org/app/#!/home"
+            },
+            { 
+                "text": "iDAI.chronontology",
+                "target": "https://chronontology.dainst.org/"
+            },
+            { 
+                "text": "iDAI.geoserver",
+                "target": "https://geoserver.dainst.org//"
+            }
+          ]
+        },
+        {
+          "type": "link_list",
+          "image": "assets/images/temp/statue-hover.jpg",
+          "headline": "Documentation and Long-Term Storage",
+          "subhead": "",
+          "links": [
+            { 
+                "text": "iDAI.field",
+                "target": "https://github.com/dainst/idai-field"
+            },
+            { 
+                "text": "IANUS",
+                "target": "https://www.ianus-fdz.de/"
+            }
+          ]
+        },
+        {
+          "type": "link_list",
+          "image": "assets/images/temp/statue-hover.jpg",
+          "headline": "Wording & rights",
+          "subhead": "",
+          "links": [
+            { 
+                "text": "iDAI.thesauri",
+                "target": "http://thesauri.dainst.org/de.html"
+            },
+            { 
+                "text": "iDAI.vocab",
+                "target": "http://archwort.dainst.org/de/vocab/"
+            },
+            { 
+                "text": "iDAI.rights (under development)",
+                "target": ""
+            }
+          ]
+        }
+      ]
+    }
+ 
+]
