@@ -193,21 +193,6 @@
         "group": "How",
         "name": "Strategies for Digitization"
       }
-    },
-    
-
-        
-    {
-      "comment": "KITCHEN SINK",
-      "=================================================================": "",
-      "path": "kitchen-sink",
-      "menu": {
-        "group": "Kitchen Sink",
-        "name": "Alle Komponenten",
-        "order": 1
-      },
-      "page": "config/pages/kitchen-sink.json",
-      "disabled": false      
     }
 
   ]
