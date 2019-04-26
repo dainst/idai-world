@@ -17,7 +17,7 @@
   {
     "type": "intro_text",
     "title": "Discover our rich historical archives",
-    "body": "Our archives date back to the 19th century. They contain not only archaeological finds, but also detailed excavation documents, letters, journals, administrative documents, etc. They are being digitized to let future generations retrace specific projects, to build monument registers and to stimulate new research. All archives are in the process of being recorded with the archive software ATOM. IANUS was developed for the long-term archiving of digital data. It builds on the OAIS reference model."
+    "body": "<p>Our archives date back to the 19th century. They contain not only archaeological finds, but also detailed excavation documents, letters, journals, administrative documents, etc. They are being digitized to let future generations retrace specific projects, to build monument registers and to stimulate new research. All archives are in the process of being recorded with the archive software ATOM. IANUS was developed for the long-term archiving of digital data. It builds on the OAIS reference model.</p>"
   },
   {
     "type": "slider_tiles",
@@ -141,16 +141,16 @@
     "type": "info_box",
     "headline": "Access to memory and archiving of data",
     "content": [
-        {
-            "headline": "iDAI.Archives",
-            "text": "AtoM gives Access to Memory with the Open Source Archival Description Software"
-        },         
-        {
-            "headline": "IANUS",
-            "text": "Long-term archiving according to the OAIS standard"
-        }
+      {
+        "headline": "iDAI.Archives",
+        "text": "AtoM gives Access to Memory with the Open Source Archival Description Software"
+      },
+      {
+        "headline": "IANUS",
+        "text": "Long-term archiving according to the OAIS standard"
+      }
     ]
-  },  
+  },
   {
     "type": "slider_tiles",
     "title": "Archive projects of the DAI",
