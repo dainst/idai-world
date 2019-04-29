@@ -15,10 +15,10 @@
     ]
   },
   {
-    "type": "intro_text",
-    "title": "Search for objects, architecture and collections",
-    "body": "Search in the Arachne/iDAI.objects database for objects of material culture, for architecture and in collections. A challenge in object and architectural research is the identification of form and material, the determination of origin and function as well as the temporal classification and distribution, up to the contextualization. Traditionally this has been done via corpora. Today, digital formats are common. standardized criteria and vocabularies facilitate the search. You can also search for specific monuments, for objects in collections and for architecture."
-  },  
+  "type": "search_box",
+  "headline": "Search for objects, architecture and collections",
+  "text": "<p>Search in the Arachne/iDAI.objects database for objects of material culture, for architecture and in collections. A challenge in object and architectural research is the identification of form and material, the determination of origin and function as well as the temporal classification and distribution, up to the contextualization. Traditionally this has been done via corpora. Today, digital formats are common. standardized criteria and vocabularies facilitate the search. You can also search for specific monuments, for objects in collections and for architecture."
+  },
   {
     "type": "slider_tiles",
     "title": "Architecture and monuments",
@@ -26,8 +26,8 @@
       {
         "type": "image_link",
         "image": "assets/images/content/what/objects/idai_objects_pergamon_altar_browser.jpg",
-        "headline": "Pergamon Altar browser: Pergamon Museum Berlin",
-        "subhead": "",
+        "headline": "Pergamon Altar browser",
+        "subhead": "Pergamon Museum Berlin",
         "link": {
           "target": "https://arachne.dainst.org/project/pergaltarbrowser",
           "text": "External Link to 'Pergamon Altar browser: Pergamon Museum Berlin'"

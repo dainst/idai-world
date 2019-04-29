@@ -67,17 +67,6 @@
     },
 
     {
-      "path": "what/images",
-      "page": "config/pages/images.json",
-      "menu": {
-        "group": "What",
-        "name": "Images"
-      }
-    },
-
-
-
-    {
       "comment": "WHY",
       "=================================================================": "",
       "path": "why/dai-mission-statement",

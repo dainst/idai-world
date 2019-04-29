@@ -15,10 +15,10 @@
     ]
   },
   {
-    "type": "intro_text",
-    "title": "Search for images in digital photo libraries",
-    "body": "Find and compare millions of individual photographs from photo libraries of the DAI and partner institutions. The spectrum ranges from early glass plate negatives to digital photography. Since the 1990s, the photo libraries have been digitized in cooperation with the Research Archive for Ancient Sculpture in Cologne. Today, many institutions use this infrastructure to digitize their photo collections, make them accessible and work together on a strong infrastructure."
-  },  
+    "type": "search_box",
+    "headline": "Search for images in digital photo libraries",
+    "text": "<p>Find and compare millions of individual photographs from photo libraries of the DAI and partner institutions. The spectrum ranges from early glass plate negatives to digital photography. Since the 1990s, the photo libraries have been digitized in cooperation with the Research Archive for Ancient Sculpture in Cologne. Today, many institutions use this infrastructure to digitize their photo collections, make them accessible and work together on a strong infrastructure.</p>"
+  },
   {
     "type": "slider_tiles",
     "title": "Photo libraries of cooperation partners",

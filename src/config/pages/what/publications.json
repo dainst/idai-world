@@ -11,49 +11,13 @@
     "body": "DAI has contributed to archaeological literature since its foundation in the early 19th century. From our regular journals featuring our latest research projects, to digitized versions of series and comprehensive monographs on specific fields of research - we publish and share knowledge that scholars can build on and freely use for their own research. Our publications are accessible via iDAI.publications/journals and iDAI.publications/books. Both systems are networked with other digital resources and complemented by the publication of databases. The publications of the DAI undergo a peer review process and are editorially supervised."
   },  
   {
-    "type": "slider_tiles",
+    "type": "slider_image",
     "title": "",
-    "tiles": [
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/publications/slider/idai_publications_slider_antike_plastik_31.jpg",
-        "headline": "",
-        "subhead": "",
-        "link": {
-          "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/62",
-          "text": "Antike Plastik 31"
-        }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/publications/slider/idai_publications_slider_aa_2017_2.jpg",
-        "headline": "",
-        "subhead": "",
-        "link": {
-          "target": "https://publications.dainst.org/journals/aa/issue/165",
-          "text": "Archäologischer Anzeiger 2017, 2"
-        }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/publications/slider/idai_publications_slider_e-papers1.19.jpg",
-        "headline": "",
-        "subhead": "",
-        "link": {
-          "target": "https://publications.dainst.org/journals/efb/issue/168",
-          "text": "Research E-Papers: Fascicle 1/2019"
-        }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/publications/slider/idai_publications_slider_pf_17.jpg",
-        "headline": "",
-        "subhead": "",
-        "link": {
-          "target": "https://arachne.dainst.org/project/pergamenischeforschungen17?lang=de",
-          "text": "Pergamenische Forschungen 17: Terracottas from Pergamon"
-        }
-      }
+    "content" : [
+      "assets/images/content/what/publications/slider/idai_publications_slider_antike_plastik_31.jpg",
+      "assets/images/content/what/publications/slider/idai_publications_slider_aa_2017_2.jpg",
+      "assets/images/content/what/publications/slider/idai_publications_slider_e-papers1.19.jpg",
+      "assets/images/content/what/publications/slider/idai_publications_slider_pf_17.jpg"
     ]
   },
   {
@@ -223,7 +187,7 @@
              "type": "image_link",
              "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_antike_plastik_31.jpg",
              "headline": "Antike Plastik",
-             "subhead": "Edited volumes on selected works of Ancient Sculpture",
+             "subhead": "Edited volumes on Ancient Sculpture",
              "link": {
                "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/62",
                "text": "No. 31, Selected works of Ancient Sculpture"
@@ -233,7 +197,7 @@
              "type": "image_link",
              "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_bogazkoe.jpg",
              "headline": "Boğazköy-Hattuša",
-             "subhead": "Results of archaeological research. Boğazköy/Turkey",
+             "subhead": "Archaeological research: Boğazköy/Turkey",
              "link": {
                "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/boghattusa",
                "text": "Results of archaeological research. Boğazköy/Turkey"

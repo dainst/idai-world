@@ -57,7 +57,7 @@
   },
   {
     "type": "slider_tiles",
-    "title": "Archives hosted for partners",
+    "title": "Archives in cooperation with partners",
     "tiles": [
       {
         "type": "image_link",
@@ -108,8 +108,8 @@
       {
         "type": "image_link",
         "image": "assets/images/content/what/archives/",
-        "headline": "Athens department: A scientific legacy archive",
-        "subhead": "",
+        "headline": "Athens department",
+        "subhead": "A scientific legacy archive",
         "link": {
           "target": "https://arachne.dainst.org/project/athenDigita",
           "text": "External Link to 'Athens department: A scientific legacy archive'"
@@ -118,8 +118,8 @@
       {
         "type": "image_link",
         "image": "assets/images/content/what/archives/idai_archive_dai_1_antike_Zeichnung.jpg",
-        "headline": "Rome department: Historical drawings",
-        "subhead": "",
+        "headline": "Rome department",
+        "subhead": "Historical drawings",
         "link": {
           "target": "https://arachne.dainst.org/project/handzeichnungen",
           "text": "External Link to 'Rome department: Historical drawings'"
@@ -128,8 +128,8 @@
       {
         "type": "image_link",
         "image": "assets/images/content/what/archives/idai_archive_dai_2_gelehrten.jpg",
-        "headline": "Rome department: Scholars, Excavators and Art Dealers",
-        "subhead": "link list subheading",
+        "headline": "Rome department",
+        "subhead": "Scholars, Excavators and Art Dealers",
         "link": {
           "target": "https://arachne.dainst.org/project/gelehrtenbriefe",
           "text": "External Link to 'Rome department: Scholars, Excavators and Art Dealers'"
@@ -158,11 +158,11 @@
       {
         "type": "image_link",
         "image": "assets/images/content/what/archives/",
-        "headline": "Athens department: A scientific legacy archive",
-        "subhead": "",
+        "headline": "Athens department",
+        "subhead": " A scientific legacy archive",
         "link": {
-          "target": "",
-          "text": ""
+          "target": "https://arachne.dainst.org/project/athenDigita",
+          "text": "External Link to 'Athens department: A scientific legacy archive'"
         }
       },
       {

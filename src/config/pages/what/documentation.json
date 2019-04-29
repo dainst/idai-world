@@ -11,7 +11,7 @@
     "body": "Traditional pen-and-paper techniques and methods of documentation, such as drawing and photography, excavation diaries and find registers are being replaced by digital equivalents. This transition is by no means straight forward as new technologies continue to challenge traditional working habits and research processes. To accommodate the need for flexible new tools, the customizable database client iDAi.field 2 has been designed as a powerful digital tool for documenting and publishing excavations. Learn more about the latest documentation technologies, such as 3D scanning/LiDAR, Structure from Motion and much more, on these pages."
   },  
   {
-    "type": "slider_image",
+    "type": "slider_tiles",
     "title": "Digital documentation technologies",
     "description": "Beyond replacing traditional pen-and-paper tools with software and digital devices, modern technological developments have also produced entirely new tools that have had profound impacts on the practice of archaeological surveying and recording. Since the 1990s, laser scanning devices (both terrestrial and aerial, in the form of LiDAR) have allowed archaeologists to capture artefacts, monuments and sites in full 3D and with unprecedented detail. More recently, these powerful but expensive, hardware-based technologies have been complemented by  much cheaper and more efficient software-based approaches. Most importantly, full 3D reconstruction from series of overlapping images has become a routine tool, thanks to innovations in the areas of Structure from Motion and Multi-View Stereo.",
     "tiles": [
@@ -58,7 +58,7 @@
     ]
   },
   {
-    "type": "slider_image",
+    "type": "slider_tiles",
     "title": "Visualization and modelling",
     "description": "With the availability of new, ever more cost-efficient digital data capturing tools, ever more powerful means of visualizing and modelling rich datasets are being devised. Desktop-based 3D reconstruction and VR modelling solutions are increasingly accompanied or even substituted by online systems that allow seamless data visualization and publication on the Internet.",
     "tiles": [
@@ -106,8 +106,8 @@
       {
         "type": "image_link",
         "image": "assets/images/content/what/documentation/idai_documentation_mayaarch3d.jpg",
-        "headline": "MayaArch3D - A web-based 3D GIS for archaeological research",
-        "subhead": "",
+        "headline": "MayaArch3D",
+        "subhead": "Web-based GIS for archaeological research",
         "link": {
           "target": "http://www.mayaarch3d.org/language/en/sample-page/",
           "text": "MayaArch3D - A web-based 3D GIS for archaeological research"
@@ -116,8 +116,8 @@
       {
         "type": "image_link",
         "image": "assets/images/content/what/documentation/idai_documentation_karakorum.jpg",
-        "headline": "Karakorum, The reconstruction of the ‘Great Hall’",
-        "subhead": "",
+        "headline": "Karakorum",
+        "subhead": "The reconstruction of the ‘Great Hall’",
         "link": {
           "target": "https://youtu.be/ZXA8V04CaBs",
           "text": "Karakorum, The reconstruction of the ‘Great Hall’"
