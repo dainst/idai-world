@@ -1,7 +1,7 @@
 <div href="#" class="tile tile--square d-block">
   <div class="tile__image" [style.backgroundImage]="'url(' + image + ')'">
     <div class="tile__content tile--head-up tile--head-up-full" data-simplebar>
-      <p class="headline">Link List</p>
+      <p class="headline" [innerHtml]="headline"></p>
       <ul class="tile-link-list">
         <li *ngFor="let link of links">
           <dai-link [data]="link"></dai-link>
