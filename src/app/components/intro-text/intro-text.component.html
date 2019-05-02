@@ -2,7 +2,7 @@
   class="section__textbox section-open-access decoration-bg-lighter-gray"
 > -->
 <div class="container">
-  <header class="section__head">
+  <header *ngIf="title" class="section__head">
     <h3 [innerHtml]="title"></h3>
     <hr class="line__dotted--blue" />
   </header>
