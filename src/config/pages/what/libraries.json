@@ -3,7 +3,7 @@
     "type": "sub_nav",
     "items": [
       {
-        "image": "assets/images/content/banner-archives.jpg",
+        "image": "assets/images/temp/circle-hover.jpg",
         "route": "/what/archives",
         "title": "Archives"
       },
@@ -64,37 +64,37 @@
         }
       }
     ]
-  },  
+  },
   {
     "type": "info_box",
     "headline": "Search in our library systems",
     "content": [
-        {
-            "headline": "iDAI.Bibliography",
-            "text": "Search in one of the largest bibliographical databases on ancient studies",
-            "link": {
-                "target": "https://zenon.dainst.org/",
-                "alt": "iDAI.Bibliography"
-            }
-        },         
-        {
-            "headline": "iDAI.Bookbrowser",
-            "text": "Rare publications and engravings digitally saved and readable online",
-            "link": {
-                "target": "https://arachne.dainst.org/project/idaibookbrowser",
-                "alt": "iDAI.Bookbrowser"
-            }    
-        },
-        {
-            "headline": "iDAI.Thesauri",
-            "text": "Historical and modern controlled vocabularies of the DAI, mapped on the DARIAH Backbone Thesaurus",
-            "link": {
-                "target": "http://thesauri.dainst.org/de.html",
-                "alt": "iDAI.Thesauri"
-            }    
+      {
+        "headline": "iDAI.Bibliography",
+        "text": "Search in one of the largest bibliographical databases on ancient studies",
+        "link": {
+          "target": "https://zenon.dainst.org/",
+          "alt": "iDAI.Bibliography"
         }
+      },
+      {
+        "headline": "iDAI.Bookbrowser",
+        "text": "Rare publications and engravings digitally saved and readable online",
+        "link": {
+          "target": "https://arachne.dainst.org/project/idaibookbrowser",
+          "alt": "iDAI.Bookbrowser"
+        }
+      },
+      {
+        "headline": "iDAI.Thesauri",
+        "text": "Historical and modern controlled vocabularies of the DAI, mapped on the DARIAH Backbone Thesaurus",
+        "link": {
+          "target": "http://thesauri.dainst.org/de.html",
+          "alt": "iDAI.Thesauri"
+        }
+      }
     ]
-  },  
+  },
   {
     "type": "slider_tiles",
     "title": "DAI libraries worldwide",
@@ -259,7 +259,6 @@
           "text": "DAI Library Teheran Branch"
         }
       }
-      
     ]
   }
 ]
