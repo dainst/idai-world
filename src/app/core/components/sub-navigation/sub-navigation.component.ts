@@ -6,8 +6,7 @@ import { ConfigurableComponent } from 'src/app/core/components/configurable/Conf
   templateUrl: './sub-navigation.component.html',
   styleUrls: ['./sub-navigation.component.scss']
 })
-export class SubNavigationComponent extends ConfigurableComponent
-  implements OnInit {
+export class SubNavigationComponent extends ConfigurableComponent {
   @Input() items: any[] = [];
 
   constructor() {

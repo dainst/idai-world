@@ -16,6 +16,7 @@ import { SearchBoxComponent } from './components/search-box/search-box.component
 import { ComponentsModule } from './components/components.module';
 import { SubNavigationComponent } from './core/components/sub-navigation/sub-navigation.component';
 import { TitleBannerComponent } from './core/components/title-banner/title-banner.component';
+import { AmountDocumentsComponent } from './components/amount-documents/amount-documents.component';
 
 @NgModule({
   imports: [BrowserModule, AppRoutingModule, CoreModule, ComponentsModule],
@@ -32,7 +33,8 @@ import { TitleBannerComponent } from './core/components/title-banner/title-banne
         slider_image: SliderImageComponent,
         info_box: InfoBoxComponent,
         search_box: SearchBoxComponent,
-        title_banner: TitleBannerComponent
+        title_banner: TitleBannerComponent,
+        amount_docs: AmountDocumentsComponent
       })
     }
   ],

@@ -19,36 +19,27 @@
   ],
   "components": [
     {
-      "type": "title_banner",
-      "title": "Banner Title",
-      "image": "assets/images/content/bg-subpage-why.jpg"
-    },
-    {
-      "type": "sub_nav",
-      "items": [
-        {
-          "image": "assets/images/content/banner-images.jpg",
-          "route": "/why-mission-statement/images",
-          "title": "Images"
-        },
-        {
-          "image": "assets/images/content/banner-objects.jpg",
-          "route": "/why-mission-statement/objects",
-          "title": "Objects",
-          "sub_title": "Architecture & Collection"
-        }
-      ]
-    },
-    {
-      "type": "intro_text",
-      "title": "Lorem Ipsum",
-      "body": "<script>alert('FOO')</script><h3>TEST</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>",
-      "body_html": "config/pages/kitchen-sink/kitchen-sink.intro_text.html"
+      "type": "amount_docs",
+      "amount": 23455,
+      "text": "number of awesome documents"
     },
     {
       "type": "slider_tiles",
       "title": "Standards & Methodologies",
       "tiles": [
+        {
+          "type": "link_list",
+          "image": "assets/images/temp/statue-hover.jpg",
+          "headline": "Link List",
+          "subhead": "link list subheading",
+          "links": [
+            { "target": "route://", "text": "Internal Link to 'Home'" },
+            {
+              "target": "https://google.de",
+              "text": "External Link to 'Google'"
+            }
+          ]
+        },
         {
           "type": "image_link",
           "image": "assets/images/temp/area-hover.jpg",
@@ -67,19 +58,7 @@
           "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed...",
           "text_html": "config/pages/kitchen-sink/kitchen-sink.slider_tile_2.html"
         },
-        {
-          "type": "link_list",
-          "image": "assets/images/temp/statue-hover.jpg",
-          "headline": "Link List",
-          "subhead": "link list subheading",
-          "links": [
-            { "target": "route://", "text": "Internal Link to 'Home'" },
-            {
-              "target": "https://google.de",
-              "text": "External Link to 'Google'"
-            }
-          ]
-        },
+
         {
           "type": "image_link",
           "image": "assets/images/temp/area-hover.jpg",
@@ -122,6 +101,39 @@
           ]
         }
       ]
+    },
+
+    {
+      "type": "title_banner",
+      "title": "Banner Title",
+      "image": "assets/images/content/bg-subpage-why.jpg"
+    },
+    {
+      "type": "sub_nav",
+      "items": [
+        {
+          "image": "assets/images/content/banner-images.jpg",
+          "route": "/why-mission-statement/images",
+          "title": "Images"
+        },
+        {
+          "image": "assets/images/content/banner-objects.jpg",
+          "route": "/why-mission-statement/objects",
+          "title": "Objects",
+          "sub_title": "Architecture & Collection"
+        }
+      ]
+    },
+    {
+      "type": "intro_text",
+      "title": "Lorem Ipsum",
+      "body": "<script>alert('FOO')</script><h3>TEST</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>",
+      "body_html": "config/pages/kitchen-sink/kitchen-sink.intro_text.html"
+    },
+    {
+      "type": "amount_docs",
+      "amount": 23455,
+      "text": "number of awesome documents"
     },
     {
       "type": "slider_circles",

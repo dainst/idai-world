@@ -13,6 +13,7 @@ import { TextTileComponent } from './slider-tiles/text-tile/text-tile.component'
 import { LinkListTileComponent } from './slider-tiles/link-list-tile/link-list-tile.component';
 import { NgxdModule } from '@ngxd/core';
 import { CoreModule } from '../core/core.module';
+import { AmountDocumentsComponent } from './amount-documents/amount-documents.component';
 
 @NgModule({
   imports: [CommonModule, RouterModule, NgxdModule, CoreModule],
@@ -26,19 +27,21 @@ import { CoreModule } from '../core/core.module';
     SearchBoxComponent,
     ImageLinkTileComponent,
     TextTileComponent,
-    LinkListTileComponent
+    LinkListTileComponent,
+    AmountDocumentsComponent
   ],
   entryComponents: [
     IntroTextComponent,
     SliderTilesComponent,
-    LinkListTileComponent,
-    TextTileComponent,
-    ImageLinkTileComponent,
     SliderCirclesComponent,
     OrganizationChartComponent,
     SliderImageComponent,
     InfoBoxComponent,
-    SearchBoxComponent
+    SearchBoxComponent,
+    ImageLinkTileComponent,
+    TextTileComponent,
+    LinkListTileComponent,
+    AmountDocumentsComponent
   ]
 })
 export class ComponentsModule {}

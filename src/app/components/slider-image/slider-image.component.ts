@@ -12,8 +12,7 @@ import { SliderBase } from 'src/app/core/components/slider/slider.base';
   templateUrl: './slider-image.component.html',
   styleUrls: ['./slider-image.component.scss']
 })
-export class SliderImageComponent extends SliderBase
-  implements OnInit, AfterViewInit {
+export class SliderImageComponent extends SliderBase {
   @ViewChild('slides') slides: ElementRef;
   public images: any[] = [];
 

@@ -1,6 +1,6 @@
 import { Input, OnInit } from '@angular/core';
 
-export class ConfigurableComponent<T = any> implements OnInit {
+export class ConfigurableComponent<T = any> {
   // tslint:disable-next-line: variable-name
   private _config: T;
   @Input() set config(value: T) {
@@ -10,8 +10,6 @@ export class ConfigurableComponent<T = any> implements OnInit {
   get config(): T {
     return this._config;
   }
-
-  ngOnInit() {}
 
   onSetConfig(config: T) {}
 }
