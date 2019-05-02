@@ -1,25 +1,22 @@
-<section
+<!-- <section
   class="section__three-tiles tiles-slider tiles-slider-two-rows section__textbox section-open-access decoration-bg-lighter-gray"
->
-  <div class="container">
-    <header class="section__head">
-      <h3 [innerHtml]="title"></h3>
-      <hr class="line__dotted--blue" />
-    </header>
+> -->
+<div class="container">
+  <header class="section__head">
+    <h3 [innerHtml]="title"></h3>
+    <hr class="line__dotted--blue" />
+  </header>
 
-    <div class="section__body">
-      <div #slides class="slider__slides">
-        <ng-container *ngFor="let tileConfig of tiles">
-          <div class="slide">
-            <ng-container
-              *ngxComponentOutlet="
-                tileConfig.type;
-                context: { data: tileConfig }
-              "
-            ></ng-container>
-          </div>
-        </ng-container>
-      </div>
+  <div class="section__body">
+    <div #slides class="slider__slides">
+      <ng-container *ngFor="let tileConfig of tiles">
+        <div class="slide">
+          <ng-container
+            *ngxComponentOutlet="tileConfig.type; context: { data: tileConfig }"
+          ></ng-container>
+        </div>
+      </ng-container>
     </div>
   </div>
-</section>
+</div>
+<!-- </section> -->

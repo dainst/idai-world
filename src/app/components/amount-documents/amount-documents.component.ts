@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ConfigurableComponent } from 'src/app/core/components/configurable/ConfigurableComponent';
 
 @Component({
-  selector: 'dai-amount-docs',
+  selector: 'dai-amount-docs .section__amount-docs .decoration-bg-lighter-gray',
   templateUrl: './amount-documents.component.html',
   styleUrls: ['./amount-documents.component.scss']
 })

@@ -1,18 +1,18 @@
-<section
+<!-- <section
   class="section__slider partners-slider section__three-tiles section__textbox section-open-access decoration-bg-lighter-gray"
->
-  <div class="container">
-    <header class="section__head">
-      <h3 [innerHtml]="title"></h3>
-      <hr class="line__dotted--blue" />
-    </header>
+> -->
+<div class="container">
+  <header class="section__head">
+    <h3 [innerHtml]="title"></h3>
+    <hr class="line__dotted--blue" />
+  </header>
 
-    <div class="section__body">
-      <div #slides class="slider__slides">
-        <div class="slide" *ngFor="let item of items">
-          <img class="rounded-circle" [src]="item.image" [alt]="item.alt" />
-        </div>
+  <div class="section__body">
+    <div #slides class="slider__slides">
+      <div class="slide" *ngFor="let item of items">
+        <img class="rounded-circle" [src]="item.image" [alt]="item.alt" />
       </div>
     </div>
   </div>
-</section>
+</div>
+<!-- </section> -->

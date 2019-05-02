@@ -1,14 +1,8 @@
-import {
-  Component,
-  OnInit,
-  ViewChild,
-  ElementRef,
-  AfterViewInit
-} from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
 import { SliderBase } from 'src/app/core/components/slider/slider.base';
 
 @Component({
-  selector: 'dai-slider-image',
+  selector: 'dai-slider-image .section-archeological-images',
   templateUrl: './slider-image.component.html',
   styleUrls: ['./slider-image.component.scss']
 })

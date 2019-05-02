@@ -1,26 +1,26 @@
-<section
+<!-- <section
   class="section__systems systems-link section-publications decoration-bg-blue"
->
-  <header class="section__head">
-    <div class="container">
-      <h3 [innerHtml]="config?.headline"></h3>
-    </div>
-  </header>
+> -->
+<header class="section__head">
+  <div class="container">
+    <h3 [innerHtml]="config?.headline"></h3>
+  </div>
+</header>
 
-  <div class="section__body">
-    <div class="container">
-      <div class="row">
-        <div *ngFor="let item of content" class="col custom-gutter">
-          <dai-link
-            [useContent]="true"
-            [data]="item.link"
-            class="tile tile--rectangle decoration-bg-lighter-gray"
-          >
-            <p class="headline" [innerHtml]="item.headline"></p>
-            <p class="description" [innerHtml]="item.text"></p>
-          </dai-link>
-        </div>
+<div class="section__body">
+  <div class="container">
+    <div class="row">
+      <div *ngFor="let item of content" class="col custom-gutter">
+        <dai-link
+          [useContent]="true"
+          [data]="item.link"
+          class="tile tile--rectangle decoration-bg-lighter-gray"
+        >
+          <p class="headline" [innerHtml]="item.headline"></p>
+          <p class="description" [innerHtml]="item.text"></p>
+        </dai-link>
       </div>
     </div>
   </div>
-</section>
+</div>
+<!-- </section> -->

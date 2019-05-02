@@ -2,7 +2,9 @@ import { Component } from '@angular/core';
 import { SliderBase } from 'src/app/core/components/slider/slider.base';
 
 @Component({
-  selector: 'dai-slider-circles',
+  selector:
+    // tslint:disable-next-line: max-line-length
+    'dai-slider-circles .section__slider .partners-slider .section__three-tiles .section__textbox .section-open-access .decoration-bg-lighter-gray',
   templateUrl: './slider-circles.component.html',
   styleUrls: ['./slider-circles.component.scss']
 })

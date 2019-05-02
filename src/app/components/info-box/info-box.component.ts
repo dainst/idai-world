@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { ConfigurableComponent } from 'src/app/core/components/configurable/ConfigurableComponent';
 
 @Component({
-  selector: 'dai-info-box',
+  selector:
+    'dai-info-box .section__systems .systems-link .section-publications .decoration-bg-blue',
   templateUrl: './info-box.component.html',
   styleUrls: ['./info-box.component.scss']
 })

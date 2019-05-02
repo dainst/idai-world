@@ -6,7 +6,9 @@ import { TextTileComponent } from './text-tile/text-tile.component';
 import { SliderBase } from 'src/app/core/components/slider/slider.base';
 
 @Component({
-  selector: 'dai-slider-tiles',
+  selector:
+    // tslint:disable-next-line: max-line-length
+    'dai-slider-tiles .section__three-tiles .tiles-slider .tiles-slider-two-rows .section__textbox .section-open-access .decoration-bg-lighter-gray',
   templateUrl: './slider-tiles.component.html',
   styleUrls: ['./slider-tiles.component.scss']
 })
