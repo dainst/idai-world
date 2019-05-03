@@ -8,7 +8,7 @@
             [style.backgroundImge]="'url(' + image + ')'"
           >
             <div class="tile__content">
-              <h2 class="tile__title">{{ title }}</h2>
+              <h2 class="tile__title" [innerHtml]="title"></h2>
             </div>
           </div>
         </div>

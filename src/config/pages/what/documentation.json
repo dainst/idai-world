@@ -1,15 +1,15 @@
 [
   {
     "type": "title_banner",
-    "title": "Documentation Tools & Instruments",
+    "title": "Documentation <wbr> Tools & Instruments",
     "image": "assets/images/content/banner-how.jpg"
-  },  
-    
+  },
+
   {
     "type": "intro_text",
     "title": "Digital tools and methods for documentation",
     "body": "Traditional pen-and-paper techniques and methods of documentation, such as drawing and photography, excavation diaries and find registers are being replaced by digital equivalents. This transition is by no means straight forward as new technologies continue to challenge traditional working habits and research processes. To accommodate the need for flexible new tools, the customizable database client iDAi.field 2 has been designed as a powerful digital tool for documenting and publishing excavations. Learn more about the latest documentation technologies, such as 3D scanning/LiDAR, Structure from Motion and much more, on these pages."
-  },  
+  },
   {
     "type": "slider_tiles",
     "title": "Digital documentation technologies",
@@ -83,22 +83,22 @@
         }
       }
     ]
-  },  
+  },
   {
     "type": "info_box",
     "headline": "Recording systems of field projects",
-    "description": "Recording data on site is still at the heart of archaeological fieldwork. Excavations, large-area surveys, monument surveys and related activities require means to capture data digitally that are as fast and flexible as the traditional notebook but result in borne-digital data without the need for a separate digitization workflow. The DAI’s primary client for field data recording is iDAI.field2, an open source approach to customizable database design, deployment and maintenance, including reliable ad hoc data synchronization and backup methods. Our client is designed to provide a basic workflow and data structure that matches the essential characteristics of most archaeological field workers. But it is also highly customizable to cater for the individual settings and objects of interest encountered in the vast variety of working environments and research projects. Modern technologies such as NoSQL backend and JSON-based data structures make iDAI.field2 a flexible, open source tool for free use on all major operating systems.",        
+    "description": "Recording data on site is still at the heart of archaeological fieldwork. Excavations, large-area surveys, monument surveys and related activities require means to capture data digitally that are as fast and flexible as the traditional notebook but result in borne-digital data without the need for a separate digitization workflow. The DAI’s primary client for field data recording is iDAI.field2, an open source approach to customizable database design, deployment and maintenance, including reliable ad hoc data synchronization and backup methods. Our client is designed to provide a basic workflow and data structure that matches the essential characteristics of most archaeological field workers. But it is also highly customizable to cater for the individual settings and objects of interest encountered in the vast variety of working environments and research projects. Modern technologies such as NoSQL backend and JSON-based data structures make iDAI.field2 a flexible, open source tool for free use on all major operating systems.",
     "content": [
-        {
-            "headline": "IDAI.field2",
-            "text": "Recording systems of field projects",
-            "link": {
-                "target": "https://github.com/dainst/idai-field",
-                "alt": "IDAI.field2"
-            }
-        }        
+      {
+        "headline": "IDAI.field2",
+        "text": "Recording systems of field projects",
+        "link": {
+          "target": "https://github.com/dainst/idai-field",
+          "alt": "IDAI.field2"
+        }
+      }
     ]
-  },  
+  },
   {
     "type": "slider_tiles",
     "title": "The world in 3D",
@@ -162,7 +162,7 @@
           "target": "https://arachne.dainst.org/3d?id=71",
           "text": "Uruk, Kinderskelett"
         }
-      }      
-    ]  
+      }
+    ]
   }
 ]
