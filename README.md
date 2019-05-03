@@ -28,8 +28,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Docker
 
-Run `docker-compose up` to build the image and start a container locally. The
-running container can then be accessed under http://localhost:8080.
+Run `docker-compose build` to build the image and `docker-compose up` to start a
+container locally. The running container can then be accessed under
+http://localhost:8080.
 
 Run the following commands to publish a new version `x.x.x` on dockerhub:
 
