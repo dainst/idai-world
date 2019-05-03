@@ -138,6 +138,11 @@
     ]
   },
   {
+    "type": "amount_docs",
+    "amount": 1234567,
+    "text": "Number of digital Archive Documents"
+  },
+  {
     "type": "info_box",
     "headline": "Access to memory and archiving of data",
     "content": [
