@@ -430,10 +430,9 @@
 
 .section-open-access
   + ngx-component-outlet-do-check-only
-  + .section-open-access {
-  padding-top: 0 !important;
-}
-
-.section__textbox + ngx-component-outlet-do-check-only + .section__textbox {
+  + .section-open-access,
+.section__textbox + ngx-component-outlet-do-check-only + .section__textbox,
+.section__textbox + ngx-component-outlet-do-check-only + .section__amount-docs,
+.section__amount-docs + ngx-component-outlet-do-check-only + .section__textbox {
   padding-top: 0 !important;
 }
