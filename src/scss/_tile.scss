@@ -187,16 +187,14 @@
 
   .tile .tile--head-up {
     &.tile--head-up-full {
-      transition: 0.2s bottom;
-      top: auto;
-      bottom: -480px;
+      transition: 0.2s top;
+      top: calc(150% - 119px);
     }
   }
 
   .tile:hover .tile--head-up {
     &.tile--head-up-full {
-      top: auto;
-      bottom: -200px !important;
+      top: 50%;
     }
 
     .reveal-on-hov {
@@ -208,15 +206,7 @@
 @media (hover: hover) and (max-width: 992px) {
   .tile .tile--head-up {
     &.tile--head-up-full {
-      top: auto;
-      bottom: -270px;
-    }
-  }
-
-  .tile:hover .tile--head-up {
-    &.tile--head-up-full {
-      top: auto;
-      bottom: -110px !important;
+      top: calc(150% - 60px);
     }
   }
 }

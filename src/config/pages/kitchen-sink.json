@@ -20,12 +20,13 @@
   "components": [
     {
       "type": "amount_docs",
-      "amount": 23455,
+      "amount": 23478955,
       "text": "number of awesome documents"
     },
     {
       "type": "slider_tiles",
       "title": "Standards & Methodologies",
+      "enableSliding": false,
       "tiles": [
         {
           "type": "link_list",
@@ -102,7 +103,86 @@
         }
       ]
     },
+    {
+      "type": "slider_tiles",
+      "title": "Standards & Methodologies",
+      "enableSliding": true,
+      "tiles": [
+        {
+          "type": "link_list",
+          "image": "assets/images/temp/statue-hover.jpg",
+          "headline": "Link List",
+          "subhead": "link list subheading",
+          "links": [
+            { "target": "route://", "text": "Internal Link to 'Home'" },
+            {
+              "target": "https://google.de",
+              "text": "External Link to 'Google'"
+            }
+          ]
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/temp/area-hover.jpg",
+          "headline": "Image Tile",
+          "subhead": "imge tile subheading",
+          "link": {
+            "target": "https://google.de",
+            "text": "External Link to 'Google'"
+          }
+        },
+        {
+          "type": "text",
+          "image": "assets/images/temp/circle-hover.jpg",
+          "headline": "Text Tile",
+          "subhead": "text tile subheading",
+          "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed...",
+          "text_html": "config/pages/kitchen-sink/kitchen-sink.slider_tile_2.html"
+        },
 
+        {
+          "type": "image_link",
+          "image": "assets/images/temp/area-hover.jpg",
+          "headline": "Image Tile",
+          "subhead": "imge tile subheading",
+          "link": {
+            "target": "https://google.de",
+            "text": "External Link to 'Google'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/temp/area-hover.jpg",
+          "headline": "GO Home",
+          "subhead": "I am an internal link",
+          "link": {
+            "target": "route://",
+            "text": "Internal link to home"
+          }
+        },
+        {
+          "type": "text",
+          "image": "assets/images/temp/circle-hover.jpg",
+          "headline": "Text Tile",
+          "subhead": "text tile subheading",
+          "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed...",
+          "text_html": "config/pages/kitchen-sink/kitchen-sink.slider_tile_2.html"
+        },
+        {
+          "type": "link_list",
+          "image": "assets/images/temp/statue-hover.jpg",
+          "headline": "Link List",
+          "subhead": "link list subheading",
+          "links": [
+            { "target": "route://", "text": "Internal Link to 'Home'" },
+            {
+              "target": "https://google.de",
+              "text": "External Link to 'Google'"
+            }
+          ]
+        }
+      ]
+    },
     {
       "type": "title_banner",
       "title": "Banner Title",

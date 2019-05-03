@@ -3,7 +3,7 @@
 }
 
 .section__three-tiles.infinite-tiles .row:after {
-  content: '';
+  content: "";
   flex: auto;
 }
 
@@ -11,19 +11,19 @@
   padding-bottom: 0;
 }
 
-@media screen and (min-width: 1200px) {
-  .section__three-tiles.infinite-tiles .row [class*=" col-"] {
-    padding-bottom: 2%;
-  }
+// @media screen and (min-width: 1200px) {
+//   .section__three-tiles.infinite-tiles .row [class*=" col-"] {
+//     padding-bottom: 2%;
+//   }
 
-  .section__three-tiles.infinite-tiles .row:last-of-type [class*=" col-"]:nth-of-type(3n+5),
-  .section__three-tiles.infinite-tiles .row:last-of-type [class*=" col-"]:nth-of-type(3n+6) {
-    padding-left: 5%;
-  }
-}
+//   .section__three-tiles.infinite-tiles .row:last-of-type [class*=" col-"]:nth-of-type(3n+5),
+//   .section__three-tiles.infinite-tiles .row:last-of-type [class*=" col-"]:nth-of-type(3n+6) {
+//     padding-left: 5%;
+//   }
+// }
 
-@media screen and (min-width: 1440px) {
-  .section__three-tiles.infinite-tiles .row [class*=" col-"] {
-    padding-bottom: 6%;
-  }
-}
+// @media screen and (min-width: 1440px) {
+//   .section__three-tiles.infinite-tiles .row [class*=" col-"] {
+//     padding-bottom: 6%;
+//   }
+// }

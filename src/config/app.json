@@ -8,8 +8,6 @@
       "default": true
     },
 
-
-
     {
       "comment": "WHAT",
       "=================================================================": "",
@@ -23,7 +21,7 @@
     },
     {
       "path": "what/libraries",
-      "page": "config/pages/what/libraries.json"      
+      "page": "config/pages/what/libraries.json"
     },
 
     {
@@ -36,7 +34,7 @@
     },
     {
       "path": "what/objects",
-      "page": "config/pages/what/objects.json"      
+      "page": "config/pages/what/objects.json"
     },
 
     {
@@ -56,7 +54,7 @@
         "name": "Documentation"
       }
     },
-    
+
     {
       "path": "what/publications",
       "page": "config/pages/what/publications.json",
@@ -126,8 +124,6 @@
       "page": "config/pages/why/data-policy.json"
     },
 
-
-
     {
       "comment": "HOW",
       "=================================================================": "",
@@ -183,6 +179,5 @@
         "name": "Strategies for Digitization"
       }
     }
-
   ]
 }

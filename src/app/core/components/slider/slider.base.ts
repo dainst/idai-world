@@ -1,16 +1,20 @@
 import * as $ from 'jquery';
 
 import { ConfigurableComponent } from '../configurable/ConfigurableComponent';
-import { ViewChild, ElementRef, AfterViewInit } from '@angular/core';
+import { ViewChild, ElementRef, AfterViewInit, Input } from '@angular/core';
 
 export class SliderBase extends ConfigurableComponent implements AfterViewInit {
   @ViewChild('slides') slides: ElementRef;
+
+  enableSliding = true;
 
   jQ = $;
   sliderConfig: any;
 
   ngAfterViewInit() {
-    this.initSlider(this.slides.nativeElement);
+    if (this.enableSliding) {
+      this.initSlider(this.slides.nativeElement);
+    }
   }
 
   initSlider(element) {

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, HostBinding, AfterViewInit } from '@angular/core';
 
 import { ImageLinkTileComponent } from './image-link-tile/image-link-tile.component';
 import { LinkListTileComponent } from './link-list-tile/link-list-tile.component';
@@ -12,7 +12,10 @@ import { SliderBase } from 'src/app/core/components/slider/slider.base';
   templateUrl: './slider-tiles.component.html',
   styleUrls: ['./slider-tiles.component.scss']
 })
-export class SliderTilesComponent extends SliderBase {
+export class SliderTilesComponent extends SliderBase implements AfterViewInit {
+  // alternatively also the host parameter in the @Component()` decorator can be used
+  @HostBinding('class.infinite-tiles') addCls = false;
+
   sliderConfig = {
     slidesToShow: 1,
     sidesToScroll: 1,
@@ -59,6 +62,7 @@ export class SliderTilesComponent extends SliderBase {
       }
     ]
   };
+
   @Input()
   public tiles: any[] = [];
 
@@ -69,12 +73,16 @@ export class SliderTilesComponent extends SliderBase {
     super();
   }
 
-  onSetConfig = (config = { title: '', tiles: [] }) => {
+  onSetConfig = (config = { title: '', tiles: [], enableSliding: true }) => {
+    this.enableSliding =
+      config.enableSliding === undefined ? true : config.enableSliding;
     this.title = config.title;
     this.tiles = config.tiles.map(tileConfig => ({
       ...tileConfig,
       type: this.getTypeForTile(tileConfig.type)
     }));
+
+    this.addCls = !this.enableSliding;
   }
 
   getTypeForTile(type) {
