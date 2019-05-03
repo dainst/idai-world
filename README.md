@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Docker
+
+Run `docker-compose up` to build the image and start a container locally. The
+running container can then be accessed under http://localhost:8080.
+
+Run the following commands to publish a new version `x.x.x` on dockerhub:
+
+    yarn build
+    docker build -t dainst/idai-portal-nginx:x.x.x .
+    docker login
+    docker push dainst/idai-portal-nginx:x.x.x
