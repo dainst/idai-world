@@ -26,6 +26,8 @@
     {
       "type": "slider_tiles",
       "title": "Standards & Methodologies",
+      "text": "<p>Foo</p> <p>Bar</p>",
+      "text_html": "config/pages/kitchen-sink/kitchen-sink.intro_text.html",
       "enableSliding": false,
       "tiles": [
         {

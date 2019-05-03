@@ -25,5 +25,10 @@
         </div>
       </ng-container>
     </div>
+    <div
+      *ngIf="config.text"
+      style="padding-bottom: 85px;"
+      [innerHtml]="text"
+    ></div>
   </div>
 </div>

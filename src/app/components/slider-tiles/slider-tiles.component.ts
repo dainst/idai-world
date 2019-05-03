@@ -69,11 +69,18 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
   @Input()
   public title = '';
 
+  @Input()
+  public text = '';
+
   constructor() {
     super();
   }
 
-  onSetConfig = (config = { title: '', tiles: [], enableSliding: true }) => {
+  onSetConfig = (
+    config = { title: '', tiles: [], text: '', enableSliding: true }
+  ) => {
+    this.text = config.text;
+
     this.enableSliding =
       config.enableSliding === undefined ? true : config.enableSliding;
     this.title = config.title;
