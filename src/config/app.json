@@ -9,6 +9,19 @@
     },
 
     {
+      "comment": "DEMO",
+      "=================================================================": "",
+      "path": "sink",
+      "page": "config/pages/kitchen-sink.json",
+      "disabled": true,
+      "menu": {
+        "group": "DEMO",
+        "name": "Kitchen Sink",
+        "order": 1
+      }
+    },
+
+    {
       "comment": "WHAT",
       "=================================================================": "",
       "path": "what/archives",

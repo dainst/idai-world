@@ -4,7 +4,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { NgxdModule } from '@ngxd/core';
 
-import { ComponentSlotDirective } from './directives/component-slot.directive';
 import { PageComponent } from './components/page/page.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -15,11 +14,11 @@ import { HierarchyComponent } from './components/hierarchy/hierarchy.component';
 import { ArachneSearchbarComponent } from './components/arachne-searchbar/arachne-searchbar.component';
 import { SubNavigationComponent } from './components/sub-navigation/sub-navigation.component';
 import { TitleBannerComponent } from './components/title-banner/title-banner.component';
+import { HtmlComponent } from './components/html/html.component';
 
 @NgModule({
   declarations: [
     PageComponent,
-    ComponentSlotDirective,
     FooterComponent,
     HeaderComponent,
     NavmenuComponent,
@@ -28,7 +27,8 @@ import { TitleBannerComponent } from './components/title-banner/title-banner.com
     HierarchyComponent,
     ArachneSearchbarComponent,
     SubNavigationComponent,
-    TitleBannerComponent
+    TitleBannerComponent,
+    HtmlComponent
   ],
   exports: [
     PageComponent,
@@ -38,7 +38,8 @@ import { TitleBannerComponent } from './components/title-banner/title-banner.com
     HierarchyComponent,
     ArachneSearchbarComponent,
     SubNavigationComponent,
-    TitleBannerComponent
+    TitleBannerComponent,
+    HtmlComponent
   ],
   entryComponents: [
     PageComponent,
@@ -46,7 +47,8 @@ import { TitleBannerComponent } from './components/title-banner/title-banner.com
     HierarchyComponent,
     ArachneSearchbarComponent,
     SubNavigationComponent,
-    TitleBannerComponent
+    TitleBannerComponent,
+    HtmlComponent
   ],
   imports: [CommonModule, RouterModule, HttpClientModule, NgxdModule]
 })

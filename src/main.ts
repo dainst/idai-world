@@ -1,6 +1,14 @@
+declare global {
+  interface Window {
+    $: any;
+  }
+}
+
+import * as $ from 'jquery';
+window.$ = $;
 import 'simplebar';
-// import 'simplebar/dist/simplebar.css';
-import './js/main.js';
+import 'slick-carousel';
+import 'bootstrap';
 
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';

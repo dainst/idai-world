@@ -1,0 +1,9 @@
+{
+  "components": [
+    {
+      "type": "html",
+      "script": "config/pages/home/home.js",
+      "content_html": "config/pages/home/home.html"
+    }
+  ]
+}
