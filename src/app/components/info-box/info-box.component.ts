@@ -10,9 +10,8 @@ import { ConfigurableComponent } from 'src/app/core/components/configurable/Conf
 export class InfoBoxComponent extends ConfigurableComponent {
   public content: any[];
 
-  constructor() {
-    super();
-  }
+  public headlineLimit: number;
+  public contentTextLimit: number;
 
   onSetConfig(config) {
     let content = config.content;
@@ -20,6 +19,9 @@ export class InfoBoxComponent extends ConfigurableComponent {
       content = [content];
     }
 
-    this.content = content;
+    this.content = content.map(item => item);
+
+    this.headlineLimit = this.getTextLimit('headline');
+    this.contentTextLimit = this.getTextLimit('text');
   }
 }

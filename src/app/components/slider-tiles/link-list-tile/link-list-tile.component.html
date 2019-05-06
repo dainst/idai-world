@@ -6,7 +6,7 @@
       <p class="description" *ngIf="text" [innerHtml]="text"></p>
       <ul class="tile-link-list reveal-on-hov">
         <li *ngFor="let link of links">
-          <dai-link [data]="link"></dai-link>
+          <dai-link [data]="link" [textLimit]="getTextLimit('text')"></dai-link>
         </li>
       </ul>
     </div>

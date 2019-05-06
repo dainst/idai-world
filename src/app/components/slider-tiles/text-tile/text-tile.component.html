@@ -3,7 +3,10 @@
     <div class="tile__content tile--head-up tile--head-up-full" data-simplebar>
       <p class="headline" [innerHtml]="headline"></p>
       <p class="description" [innerHtml]="subhead"></p>
-      <p class="description reveal-on-hov" [innerHtml]="text"></p>
+      <p
+        class="description reveal-on-hov"
+        [innerHtml]="text | slice: 0:getTextLimit('text')"
+      ></p>
     </div>
   </div>
 </div>

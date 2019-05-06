@@ -7,8 +7,4 @@ import { ConfigurableComponent } from 'src/app/core/components/configurable/Conf
   templateUrl: './search-box.component.html',
   styleUrls: ['./search-box.component.scss']
 })
-export class SearchBoxComponent extends ConfigurableComponent {
-  constructor() {
-    super();
-  }
-}
+export class SearchBoxComponent extends ConfigurableComponent {}

@@ -3,7 +3,7 @@
 > -->
 <header class="section__head">
   <div class="container">
-    <h3 [innerHtml]="config?.headline"></h3>
+    <h3 [innerHtml]="config?.headline | slice: 0:headlineLimit"></h3>
   </div>
 </header>
 
@@ -14,10 +14,16 @@
         <dai-link
           [useContent]="true"
           [data]="item.link"
-          class="tile tile--rectangle decoration-bg-lighter-gray"
+          class="tile tile--rectangle decoration-bg-lighter-gray h-100"
         >
-          <p class="headline" [innerHtml]="item.headline"></p>
-          <p class="description" [innerHtml]="item.text"></p>
+          <p
+            class="headline"
+            [innerHtml]="item.headline | slice: 0:contentHeadlineLimit"
+          ></p>
+          <p
+            class="description"
+            [innerHtml]="item.text | slice: 0:contentTextLimit"
+          ></p>
         </dai-link>
       </div>
     </div>

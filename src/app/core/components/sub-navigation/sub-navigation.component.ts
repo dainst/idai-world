@@ -9,10 +9,6 @@ import { ConfigurableComponent } from 'src/app/core/components/configurable/Conf
 export class SubNavigationComponent extends ConfigurableComponent {
   @Input() items: any[] = [];
 
-  constructor() {
-    super();
-  }
-
   onSetConfig(config) {
     this.items = config ? config.items : [];
   }

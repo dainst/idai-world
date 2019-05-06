@@ -1,10 +1,5 @@
 import { Component, Inject } from '@angular/core';
-import {
-  Router,
-  ActivatedRoute,
-  NavigationEnd,
-  RouterEvent
-} from '@angular/router';
+import { Router, NavigationEnd, RouterEvent } from '@angular/router';
 import { DOCUMENT } from '@angular/common';
 import { filter } from 'rxjs/operators';
 
@@ -26,6 +21,4 @@ export class AppComponent {
         }
       });
   }
-
-  ngOnInit() {}
 }

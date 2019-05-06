@@ -58,8 +58,7 @@
           "image": "assets/images/temp/circle-hover.jpg",
           "headline": "Text Tile",
           "subhead": "text tile subheading",
-          "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed...",
-          "text_html": "config/pages/kitchen-sink/kitchen-sink.slider_tile_2.html"
+          "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed..."
         },
 
         {
@@ -87,8 +86,7 @@
           "image": "assets/images/temp/circle-hover.jpg",
           "headline": "Text Tile",
           "subhead": "text tile subheading",
-          "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed...",
-          "text_html": "config/pages/kitchen-sink/kitchen-sink.slider_tile_2.html"
+          "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed..."
         },
         {
           "type": "link_list",

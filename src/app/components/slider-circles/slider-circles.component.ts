@@ -53,10 +53,6 @@ export class SliderCirclesComponent extends SliderBase {
   public items: any[];
   public title: string;
 
-  constructor() {
-    super();
-  }
-
   onSetConfig(config) {
     const { items = [], title = '' } = config || {};
     this.items = items;

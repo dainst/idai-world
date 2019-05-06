@@ -1,4 +1,22 @@
 {
+  "text_limits": {
+    "intro_text": { "title": 48, "body": 600 },
+    "info_box": { "headline": 48, "text": 88 },
+    "slider_tiles": {
+      "title": 48,
+      "headline": 48,
+      "subhead": 48,
+      "tiles": {
+        "link_list": {
+          "comment": "tiles can have overrides, here as example",
+          "headline": 24,
+          "subhead": 48,
+          "text": 30
+        },
+        "text": { "text": 355 }
+      }
+    }
+  },
   "routes": [
     {
       "comment": "STARTPAGE",

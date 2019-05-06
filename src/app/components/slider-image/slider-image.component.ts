@@ -18,10 +18,6 @@ export class SliderImageComponent extends SliderBase {
     autoplaySpeed: 2000
   };
 
-  constructor() {
-    super();
-  }
-
   onSetConfig = (config = { title: '', description: '', content: [] }) => {
     const { title = '', description = '', content = [] } = config;
 

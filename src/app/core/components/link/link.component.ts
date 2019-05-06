@@ -11,6 +11,8 @@ export class LinkComponent {
   LinkType = LinkType;
   @Input() useContent = false;
 
+  @Input() textLimit = Infinity;
+
   @Input() set data(value: LinkConfig) {
     const { target = '', text = '' } = value || {};
     this.text = text;

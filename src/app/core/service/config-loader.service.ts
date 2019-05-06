@@ -1,9 +1,9 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Inject } from '@angular/core';
 
 import { DaiPageConfig, ComponentDefinition } from '../config/DaiPageConfig';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { ComponentResolver } from './component-resolver.service';
-import { map } from 'rxjs/operators';
+import { TextLimits } from './text-limits.service';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +11,11 @@ import { map } from 'rxjs/operators';
 export class ConfigLoaderService {
   private configs: { [key: string]: any } = {};
 
-  constructor(private http: HttpClient, private resolver: ComponentResolver) {}
+  constructor(
+    private http: HttpClient,
+    private resolver: ComponentResolver,
+    private limits: TextLimits
+  ) {}
 
   async getConfig(path: string): Promise<DaiPageConfig> {
     let config = this.configs[path];
@@ -34,7 +38,7 @@ export class ConfigLoaderService {
       .get<ComponentDefinition[]>(path)
       .toPromise()
       .then(config => this.processConfig(config))
-      .then(config => new DaiPageConfig(config, this.resolver));
+      .then(config => new DaiPageConfig(config, this.resolver, this.limits));
   }
 
   private async processConfig(config) {

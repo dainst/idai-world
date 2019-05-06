@@ -6,6 +6,7 @@ import { PageComponent } from '../components/page/page.component';
 export class DaiAppConfig {
   public routes: Routes;
   public menuEntries: MenuEntry[];
+  public textLimits: any = {};
 
   private config: object;
 
@@ -23,11 +24,13 @@ export class DaiAppConfig {
     this.routes = routeConfigs.map(({ path, page }) => ({
       path,
       component: PageComponent,
-      data: { config: page }
+      data: { config: page, textLimits: config.text_limits }
     }));
 
     this.menuEntries = routeConfigs
       .filter(route => !!route.menu)
       .map(({ path, menu }) => ({ ...menu, link: path }));
+
+    this.textLimits = config.text_limits || {};
   }
 }

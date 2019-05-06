@@ -1,8 +1,17 @@
 <ng-template #content><ng-content></ng-content></ng-template>
 <ng-container *ngIf="!useContent">
-  <a *ngIf="type === LinkType.ROUTE" [routerLink]="link" [innerHtml]="text">
+  <a
+    *ngIf="type === LinkType.ROUTE"
+    [routerLink]="link"
+    [innerHtml]="text | slice: 0:textLimit"
+  >
   </a>
-  <a *ngIf="type === LinkType.HREF" [href]="link" [innerHtml]="text"> </a>
+  <a
+    *ngIf="type === LinkType.HREF"
+    [href]="link"
+    [innerHtml]="text | slice: 0:textLimit"
+  >
+  </a>
 </ng-container>
 <ng-container *ngIf="useContent">
   <a *ngIf="type === LinkType.ROUTE" [routerLink]="link">

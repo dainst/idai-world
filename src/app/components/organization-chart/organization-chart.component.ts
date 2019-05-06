@@ -10,8 +10,4 @@ import { OrgConfig } from 'src/app/core/model/OrgConfig';
 })
 export class OrganizationChartComponent extends ConfigurableComponent<
   OrgConfig
-> {
-  constructor() {
-    super();
-  }
-}
+> {}

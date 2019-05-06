@@ -1,5 +1,6 @@
 import { Type } from '@angular/core';
 import { ComponentResolver } from '../service/component-resolver.service';
+import { TextLimits } from '../service/text-limits.service';
 
 export interface SubnavItemConfig {
   route: string;
@@ -34,7 +35,8 @@ export class DaiPageConfig {
 
   constructor(
     config: ComponentDefinition[] | PageConfig,
-    resolver: ComponentResolver
+    resolver: ComponentResolver,
+    limits: TextLimits
   ) {
     const pageConfig: PageConfig = Array.isArray(config)
       ? { components: config }
@@ -53,9 +55,11 @@ export class DaiPageConfig {
           );
         }
 
+        const textLimits = limits.getLimitsFor(definition.type);
+
         return {
           type,
-          config: { ...definition }
+          config: { ...definition, textLimits }
         };
       })
       .filter(comp => !!comp.type);

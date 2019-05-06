@@ -72,10 +72,6 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
   @Input()
   public text = '';
 
-  constructor() {
-    super();
-  }
-
   onSetConfig = (
     config = { title: '', tiles: [], text: '', enableSliding: true }
   ) => {
@@ -83,13 +79,34 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
 
     this.enableSliding =
       config.enableSliding === undefined ? true : config.enableSliding;
-    this.title = config.title;
+
+    this.title = this.limitText(config.title, this.getTextLimit('title'));
+
     this.tiles = config.tiles.map(tileConfig => ({
       ...tileConfig,
+      textLimits: this.getLimitsForType(tileConfig.type),
       type: this.getTypeForTile(tileConfig.type)
     }));
 
     this.addCls = !this.enableSliding;
+  }
+
+  getLimitsForType(type: string) {
+    if (!this.config.textLimits) {
+      return {};
+    }
+
+    const limits = this.config.textLimits;
+    const tileLimits = limits.tiles ? limits.tiles[type] : {};
+    return { ...limits, ...tileLimits };
+    // switch (type) {
+    //   case 'image_link':
+    //     return limits;
+    //   case 'link_list':
+    //     return limits;
+    //   case 'text':
+    //     return limits;
+    // }
   }
 
   getTypeForTile(type) {
