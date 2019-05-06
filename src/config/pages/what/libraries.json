@@ -66,6 +66,11 @@
     ]
   },
   {
+    "type": "amount_docs",
+    "amount": 1.25,
+    "text": "million titles"
+  },
+  {
     "type": "info_box",
     "headline": "Search in our library systems",
     "content": [

@@ -49,46 +49,35 @@
   {
     "type": "slider_tiles",
     "title": "Archives in cooperation with partners",
+    "enableSliding": false,
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_hinkel.jpg",
         "headline": "Friedrich Hinkel Archive of Sudan",
         "subhead": "",
-        "link": {
-          "target": "https://arachne.dainst.org/project/hinkel",
-          "text": "External Link to 'Friedrich Hinkel Archive of Sudan'"
-        }
+        "text": "<p class='description'>Das Archiv von Friedrich W. Hinkel stellt eines der größten Forschungsarchive zum antiken Sudan dar und spiegelt die über 40 Jahre währende Grabungs- und Forschungstätigkeit Dr. Hinkels im Sudan wider. Beginnend mit seiner Teilnahme an den Ausgrabungen in Musawwarat es Sufra der Humboldt Universität Berlin im Jahr 1961 führte den Architekten Dr. Friedrich W. Hinkel (1925 – 2007) nicht nur ein reges Forschungsinteresse immer wieder in den Sudan, für den er nach Freistellung durch die Akademie ab 1962 auch direkt tätig war, sondern auch eine enge Verbundenheit mit Land und Leuten.</p><p class='description'><a title='External Link to Friedrich Hinkel Archive of Sudan' href='https://arachne.dainst.org/project/hinkel'> >> read more</a>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_kossack.jpg",
         "headline": "Scientific Legacy of Georg Kossack",
         "subhead": "",
-        "link": {
-          "target": "https://arachne.dainst.org/project/kossack",
-          "text": "External Link to 'Scientific Legacy of Georg Kossack'"
-        }
+        "text": "<p class='description'>Prof. Dr. Georg Kossack (1923-2004) gehörte zu den bedeutendsten deutschen Prähistorikern der letzten fünf Jahrzehnte. Wie kaum eine andere Persönlichkeit der archäologischen Forschung wirkte er weit über Deutschland hinaus auf die Entwicklung des Faches und besonders auf die Bronze- und Hallstattzeitforschung Mittel- und Osteuropas.</p><p class='description'><a title='External Link to Scientific Legacy of Georg Kossack' href='https://arachne.dainst.org/project/kossack'> >> read more</a>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_steinhoff.jpg",
         "headline": "Scientific Legacy of Georg Steindorff",
         "subhead": "",
-        "link": {
-          "target": "https://arachne.dainst.org/project/steindorff",
-          "text": "External Link to 'Scientific Legacy of Georg Steindorff'"
-        }
+        "text": "<p class='description'>Die Selbstreflexion einer Disziplin ist stets auch ein Spiegelbild des Bewusstseins um die Zeitgebundenheit geisteswissenschaftlicher Forschung. Die Möglichkeit einer fundierten Beschreibung von historischen Wissenschaftskulturen steht und fällt freilich mit geeigneten, hinreichend expliziten und komplexen Quellenlagen. Archivalien sind nicht aufgrund ihrer anekdotenhaften Einzelaussage von Interesse, vielmehr hängt die Qualität immer auch von der Möglichkeit einer Vielansichtigkeit ab, die eine Kontrolle der Beobachtungen erlaubt.</p><p class='description'><a title='External Link to Scientific Legacy of Georg Steindorff' href='https://arachne.dainst.org/project/steindorff'> >> read more</a>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/archives/idai_archive_dai_4_syrian.jpg",
         "headline": "Syrian Heritage Archive Project",
         "subhead": "",
-        "link": {
-          "target": "https://arachne.dainst.org/project/syrher",
-          "text": "External Link to 'Syrian Heritage Archive Project'"
-        }
+        "text": "<p class='description'>Der inzwischen seit mehr als vier Jahren andauernde Bürgerkrieg in Syrien hat sowohl zu einer humanitären Katastrophe ungeheuren Ausmaßes als auch zur Gefährdung und Zerstörung zahlloser Kulturgüter im Land geführt.\n\nDie Kulturlandschaft Syrien gehört hinsichtlich der Anzahl und historischen Bedeutung der dort vorhandenen Denkmäler zu den herausragenden Regionen weltweit. </p><p class='description'><a title='External Link to Syrian Heritage Archive Project' href='https://arachne.dainst.org/project/syrher'> >> read more</a>"
       }
     ]
   },
@@ -97,34 +86,25 @@
     "title": "Archive projects of the DAI",
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/archives/",
         "headline": "Athens department",
         "subhead": "A scientific legacy archive",
-        "link": {
-          "target": "https://arachne.dainst.org/project/athenDigita",
-          "text": "External Link to 'Athens department: A scientific legacy archive'"
-        }
+        "text": "<p class='description'>Forschungen zur Geschichte der Archäologie im Allgemeinen, aber auch der institutseigenen Geschichte des DAI verdeutlichen immer mehr, wie wichtig die Sichtung und Aufarbeitung unserer Archive ist. Zwischen 2016 und 2017 wurden im Rahmen des Projekts „AthenDigital: Das Nachlassarchiv“, das durch das Auswärtige Amt (Sondermittel Kulturerhalt) gefördert wurde, die drei größten, im Archiv des Deutschen Archäologischen Instituts, Abteilung Athen aufbewahrten Nachlässe erschlossen und digitalisiert.</p><p class='description'><a title='External Link to Athens department: A scientific legacy archive' href='https://arachne.dainst.org/project/athenDigital'> >> read more</a>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/archives/idai_archive_dai_1_antike_Zeichnung.jpg",
         "headline": "Rome department",
         "subhead": "Historical drawings",
-        "link": {
-          "target": "https://arachne.dainst.org/project/handzeichnungen",
-          "text": "External Link to 'Rome department: Historical drawings'"
-        }
+        "text": "<p class='description'>Unter den umfangreichen wissenschaftlichen Apparaten des Deutschen Archäologischen Instituts, Abteilung Rom befinden sich die beiden Sammlungen „Historische Handzeichnungen“ vornehmlich aus der Zeit 1829-1915 und „Planzeichnungen des Architekturreferats“ aus den Jahren 1953-2000.</p><p class='description'><a title='External Link to Rome department: Historical drawings' href='https://arachne.dainst.org/project/handzeichnungen'> >> read more</a>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/archives/idai_archive_dai_2_gelehrten.jpg",
         "headline": "Rome department",
         "subhead": "Scholars, Excavators and Art Dealers",
-        "link": {
-          "target": "https://arachne.dainst.org/project/gelehrtenbriefe",
-          "text": "External Link to 'Rome department: Scholars, Excavators and Art Dealers'"
-        }
+        "text": "<p class='description'>Die Basis für das Instituto di Corrispondenza Archeologica – Institut Archäologischer Korrespondenz – bildete ein europaweit gespanntes Netzwerk von Mitgliedern und Korrespondenten, darunter Altertumsgelehrte, Künstler und Architekten, Sammler und Ausgräber sowie archäologisch interessierte Laien.</p><p class='description'><a title='External Link to Rome department: Scholars, Excavators and Art Dealers' href='https://arachne.dainst.org/project/gelehrtenbriefe'> >> read more</a>"
       }
     ]
   },
