@@ -85,6 +85,7 @@
   {
     "type": "slider_tiles",
     "title": "DAI photo libraries",
+    "enableSliding": false,
     "tiles": [
       {
         "type": "image_link",
