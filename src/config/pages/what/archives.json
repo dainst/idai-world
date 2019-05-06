@@ -24,34 +24,25 @@
     "title": "Archives hosted for partners",
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/archives/idai_archive_hosted_partners_1_aaa.jpg",
         "headline": "African Archaeological Archive Cologne",
         "subhead": "",
-        "link": {
-          "target": "https://arachne.dainst.org/project/afrarchcologne",
-          "text": "External Link to 'African Archaeological Archive Cologne'"
-        }
+        "text": "<p class='description'>Seit über fünfzig Jahren findet am Institut für Ur- und Frühgeschichte der Universität zu Köln archäologische Forschung in Afrika statt. Neben der 1963 begonnen Felsbildforschung in Namibia etablierte sich Anfang der 1980er Jahre Nordostafrika als zweite Schwerpunktregion – beides Gebiete, die bis dahin weitgehend „terra incognita“ prähistorischer Forschung waren. </p><p class='description'><a title='External Link to African Archaeological Archive Cologne' href='https://arachne.dainst.org/project/afrarchcologne'> >> read more</a>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/archives/idai_archive_hosted_partners_2_rww.jpg",
         "headline": "Archive of Rhine-Westphalian Economy",
         "subhead": "",
-        "link": {
-          "target": "https://arachne.dainst.org/project/rwwa",
-          "text": "External Link to 'Archive of Rhine-Westphalian Economy'"
-        }
+        "text": "<p class='description'>Diese Glasnegative, wie auch weitere Fotos, wurden zusammen mit dem Aktenmaterial der verschiedenen Unternehmen dem RWWA übergeben und sind damit Teil der historischen Quellen, die der Forschung zur Verfügung zu stellen sind.</p><p class='description'><a title='External Link to Archive of Rhine-Westphalian Economy' href='https://arachne.dainst.org/project/rwwa'> >> read more</a>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_oppenheim.jpg",
         "headline": "Collection of Max von Oppenheim",
         "subhead": "",
-        "link": {
-          "target": "https://arachne.dainst.org/project/oppenheim",
-          "text": "External Link to 'Collection of Max von Oppenheim'"
-        }
+        "text": "<p class='description'>Max Freiherr von Oppenheim (1860-1946) war zu Lebzeiten ein bekannter Forschungsreisender, Orientalia-Sammler und Diplomat. Als Mitarbeiter des Deutschen Generalkonsulats in Kairo beobachtete er die arabische Welt, in Syrien grub er den Tell Halaf aus. Auf zahlreichen, teils mehrjährigen Reisen erforschte er die Region zwischen Levante und Mesopotamien.</p><p class='description'><a title='External Link to Collection of Max von Oppenheim' href='https://arachne.dainst.org/project/oppenheim'> >> read more</a>"
       }
     ]
   },
