@@ -26,7 +26,7 @@
       "tiles": [        
         {
           "type": "link_list",
-          "image": "assets/images/content/what/publications/slider/idai_publications_slider_aa_2017_2.jpg",
+          "image": "assets/images/content/what/publications/idai_publications_journals_aa.jpg",
           "headline": "Archäologischer Anzeiger",
           "subhead": "Articles on current global research projects",
           "links": [
@@ -65,12 +65,56 @@
             { 
                 "text": "AA 2013, 2" ,
                 "target": "https://publications.dainst.org/journals/aa/issue/135"                    
-            }            
+            },            
+            { 
+                "text": "AA 2013, 1" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/19"                    
+            },            
+            { 
+                "text": "AA 2012, 2" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/13"                    
+            },            
+            { 
+                "text": "AA 2012, 1" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/12"                    
+            },            
+            { 
+                "text": "AA 2011, 2" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/11"                    
+            },            
+            { 
+                "text": "AA 2011, 1" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/10"                    
+            },
+            { 
+                "text": "AA 2010, 2" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/9"                    
+            },
+            { 
+                "text": "AA 2010, 1" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/8"                    
+            },
+            { 
+                "text": "AA 2009, 2" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/6"                    
+            },
+            { 
+                "text": "AA 2009, 1" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/7"                    
+            },
+            { 
+                "text": "AA 2008, 2" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/1"                    
+            },
+            { 
+                "text": "AA 2008, 1" ,
+                "target": "https://publications.dainst.org/journals/aa/issue/148"                    
+            }
           ]
         },
         {
           "type": "link_list",
-          "image": "assets/images/temp/statue-hover.jpg",
+          "image": "assets/images/content/what/publications/idai_publications_journals_chiron.jpg",
           "headline": "Chiron",
           "subhead": "Articles on Ancient History and Epigraphy",
           "link": {
@@ -109,12 +153,156 @@
             { 
                 "text": "Chiron 37, 2007" ,
                 "target": "https://publications.dainst.org/journals/chiron/issue/55"                    
-            }           
+            },           
+            { 
+                "text": "Chiron 36, 2006" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/54"                    
+            },
+            { 
+                "text": "Chiron 35, 2005" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/83"                    
+            },
+            { 
+                "text": "Chiron 34, 2004" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/84"                    
+            },
+            { 
+                "text": "Chiron 33, 2003" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/93"                    
+            },
+            { 
+                "text": "Chiron 32, 2002" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/94"                    
+            },
+            { 
+                "text": "Chiron 31, 2001" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/95"                    
+            },
+            { 
+                "text": "Chiron 30, 2000" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/49"                    
+            },
+            { 
+                "text": "Chiron 29, 1999" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/97"                    
+            },
+            { 
+                "text": "Chiron 28, 1998" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/98"                    
+            },
+            { 
+                "text": "Chiron 27, 1997" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/99"                    
+            },
+            { 
+                "text": "Chiron 26, 1996" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/100"                    
+            },
+            { 
+                "text": "Chiron 25, 1995" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/101"                    
+            },
+            { 
+                "text": "Chiron 24, 1994" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/102"                    
+            },
+            { 
+                "text": "Chiron 23, 1993" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/103"                    
+            },
+            { 
+                "text": "Chiron 22, 1992" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/104"                    
+            },
+            { 
+                "text": "Chiron 21, 1991" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/105"                    
+            },
+            { 
+                "text": "Chiron 20, 1990" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/106"                    
+            },
+            { 
+                "text": "Chiron 19, 1989" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/107"                    
+            },
+            { 
+                "text": "Chiron 18, 1988" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/108"                    
+            },
+            { 
+                "text": "Chiron 17, 1987" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/109"                    
+            },
+            { 
+                "text": "Chiron 16, 1986" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/110"                    
+            },
+            { 
+                "text": "Chiron 15, 1985" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/111"                    
+            },
+            { 
+                "text": "Chiron 14, 1984" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/112"                    
+            },
+            { 
+                "text": "Chiron 13, 1983" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/114"                    
+            },
+            { 
+                "text": "Chiron 12, 1982" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/115"                    
+            },
+            { 
+                "text": "Chiron 11, 1981" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/116"                    
+            },
+            { 
+                "text": "Chiron 10, 1980" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/117"                    
+            },
+            { 
+                "text": "Chiron 9, 1979" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/118"                    
+            },
+            { 
+                "text": "Chiron 8, 1978" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/119"                    
+            },
+            { 
+                "text": "Chiron 7, 1977" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/120"                    
+            },
+            { 
+                "text": "Chiron 6, 1976" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/121"                    
+            },
+            { 
+                "text": "Chiron 5, 1975" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/122"                    
+            },
+            { 
+                "text": "Chiron 4, 1974" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/123"                    
+            },
+            { 
+                "text": "Chiron 3, 1973" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/79"                    
+            },
+            { 
+                "text": "Chiron 2, 1972" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/53"                    
+            },
+            { 
+                "text": "Chiron 1, 1971" ,
+                "target": "https://publications.dainst.org/journals/chiron/issue/51"                    
+            }            
           ]
         },
         {
           "type": "link_list",
-          "image": "assets/images/temp/statue-hover.jpg",
+          "image": "assets/images/content/what/publications/idai_publications_journals_e_reports.jpg",
           "headline": "Research E-Papers",
           "subhead": "Current research results of DAI projects",
           "link": {
@@ -157,12 +345,65 @@
             { 
                 "text": "eDAI-F 2015, 3" ,
                 "target": "https://publications.dainst.org/journals/efb/issue/129"                    
-            }           
+            },
+            { 
+                "text": "eDAI-F 2015, 2" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/130"                    
+            },
+            { 
+                "text": "eDAI-F 2015, 1" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/131"                    
+            },
+            { 
+                "text": "eDAI-F 2014, 3" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/132"                    
+            },
+            { 
+                "text": "eDAI-F 2014, 2" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/133"                    
+            },
+            { 
+                "text": "eDAI-F 2014, 1" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/2"                    
+            }
           ]
         },
         {
           "type": "link_list",
-          "image": "assets/images/temp/statue-hover.jpg",
+          "image": "assets/images/content/what/publications/idai_publications_journals_e_annual_reports.jpg",
+          "headline": "Annual E-Report",
+          "subhead": "Reports on the institute´s activities",
+          "link": {
+            "target": "https://publications.dainst.org/journals/index.php/ejb",
+            "text": "Annual E-Report"
+          },      
+          "links": [
+            { 
+                "text": "eDAI-J 2017" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/168"                    
+            },
+            { 
+                "text": "eDAI-J 2016" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/134"                    
+            },
+            { 
+                "text": "eDAI-J 2015" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/69"                    
+            },
+            { 
+                "text": "eDAI-J 2014" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/21"                    
+            },
+            { 
+                "text": "eDAI-J 2013" ,
+                "target": "https://publications.dainst.org/journals/efb/issue/20"                    
+            }
+            
+          ]
+        },
+        {
+          "type": "link_list",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_roemische_mitteilungen.jpg",
           "headline": "Römische Mitteilungen",
           "subhead": "Archaeology in Italy and neighbouring regions",
           "link": {
@@ -184,44 +425,197 @@
       "title": "Series and monographs",
       "tiles": [          
         {
-             "type": "image_link",
+             "type": "link_list",
              "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_antike_plastik_31.jpg",
              "headline": "Antike Plastik",
-             "subhead": "Edited volumes on Ancient Sculpture",
+             "subhead": "Edited volumes on selected works of Ancient Sculpture",
              "link": {
-               "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/62",
-               "text": "No. 31, Selected works of Ancient Sculpture"
-            }            
+               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/antpl",
+               "text": "Antike Plastik"
+             },            
+             "links": [
+                { 
+                   "text": "No. 31, Selected works of Ancient Sculpture" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/62"                    
+                }
+             ]
         },
         {
-             "type": "image_link",
+             "type": "link_list",
              "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_bogazkoe.jpg",
-             "headline": "Boğazköy-Hattuša",
-             "subhead": "Archaeological research: Boğazköy/Turkey",
+             "headline": "Boğazköy-Hattuša.",
+             "subhead": "Results of archaeological research. Boğazköy/Turkey",
              "link": {
                "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/boghattusa",
-               "text": "Results of archaeological research. Boğazköy/Turkey"
-            }            
+               "text": "Boğazköy-Hattuša."
+             },            
+             "links": [
+                { 
+                   "text": "No. 24: Excavations in the Upper City" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/38"                    
+                }
+             ]
         },
         {
-             "type": "image_link",
+             "type": "link_list",
              "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_das_dai.jpg",
              "headline": "Das DAI. Geschichte und Dokumente",
-             "subhead": "",
+             "subhead": "Edited volumes on selected works of Ancient Sculpture",
              "link": {
                "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/DAIGeschDok",
                "text": "Das DAI. Geschichte und Dokumente"
-            }            
+             },            
+             "links": [
+                { 
+                   "text": "No. 11: Berlin Head Office" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/65"                    
+                }
+             ]
         },
         {
-             "type": "image_link",
+             "type": "link_list",
              "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_forschung_aussereuropaeischer.jpg",
              "headline": "Forschungen zur Archäologie Außereuropäischer Kulturen",
              "subhead": "",
              "link": {
                "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/faak",
                "text": "Forschungen zur Archäologie Außereuropäischer Kulturen"
-            }            
+             },            
+             "links": [
+                { 
+                   "text": "No. 15: Urban structure of Mayan Cities" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/40"                    
+                }
+             ]
+        },
+        {
+             "type": "link_list",
+             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_olympische_forschungen.jpg",
+             "headline": "Olympische Forschungen",
+             "subhead": "Results of archaeological research in Olympia/Greece",
+             "link": {
+               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/of",
+               "text": "Olympische Forschungen"
+             },            
+             "links": [
+                { 
+                   "text": "No. 5: Workshop of Pheidias" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/11"                    
+                },
+                { 
+                   "text": "No. 4:  Lion-head Gargoyles" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/23"                    
+                },
+                { 
+                   "text": "No. 3: Tripod Cauldrons" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/13"                    
+                },
+                { 
+                   "text": "No. 2: Archaic Shield Attachments" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/28"                    
+                },
+                { 
+                   "text": "No. 1: Philippeion, Nymphaeum, Roof Terracottas, Weapons" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/14"                    
+                }
+             ]
+        },
+        {
+             "type": "link_list",
+             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_palilia_26.jpg",
+             "headline": "Palilia",
+             "subhead": "Archaeology in Italy and neighbouring regions",
+             "link": {
+               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/antpl",
+               "text": "Palilia"
+             },            
+             "links": [
+                { 
+                   "text": "No. 26: Wall paintings in the Campanian Antique Sites" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/71"                    
+                },
+                { 
+                   "text": "No. 25: Republican otium-villas at Tivoli" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/70"                    
+                },
+                { 
+                   "text": "No. 24: Basilica Aemilia" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/69"                    
+                },
+                { 
+                   "text": "No. 20: Military in Rome" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/68"                    
+                }
+             ]
+        },
+        {
+             "type": "link_list",
+             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_terrakotten_pergamon.jpg",
+             "headline": "Pergamenische Forschungen",
+             "subhead": "Results of archaeological research. Pergamon/Turkey",
+             "link": {
+               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/pf",
+               "text": "Pergamenische Forschungen"
+             },            
+             "links": [
+                { 
+                   "text": "No. 17: Terracottas from Pergamon" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/67"                    
+                }
+             ]
+        },
+        {
+             "type": "link_list",
+             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_resafa_7.jpg",
+             "headline": "Resafa",
+             "subhead": "Results of archaeological research. Resafa/Syria",
+             "link": {
+               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/Resafa",
+               "text": "Resafa"
+             },            
+             "links": [
+                { 
+                   "text": "No. 7: Research in Resafa" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/60"                    
+                }
+             ]
+        },
+        {
+             "type": "link_list",
+             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_samos_23.jpg",
+             "headline": "Samos",
+             "subhead": "Results of archaeological research in Samos/Greece",
+             "link": {
+               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/samos",
+               "text": "Samos"
+             },            
+             "links": [
+                { 
+                   "text": "No. 23: Panathenaic Amphorae" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/66"                    
+                },
+                { 
+                   "text": "No. 13: Faience Material from Samos" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/63"                    
+                }
+             ]
+        },
+        
+        {
+             "type": "link_list",
+             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_tayma.jpg",
+             "headline": "Tayma",
+             "subhead": "Archaeological research in Taymāʾ/Saudi Arabia",
+             "link": {
+               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/Tayma",
+               "text": "Tayma"
+             },            
+             "links": [
+                { 
+                   "text": "No. 1: Arch. Exploration, Palaeoenvironment" ,
+                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/61"                    
+                }
+             ]
         }
       ]
   },  
@@ -290,6 +684,218 @@
           "link": {
             "target": "https://arachne.dainst.org/project/corpusminmyk",
             "text": "External Link to 'Corpus of Minoan and Mycenaean Seals'"
+          }
+        },
+        
+        
+        
+        
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_ostia.jpg",
+          "headline": "Domestic Culture in Late Antique Ostia",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/wohnkulturOstia",
+            "text": "Domestic Culture in Late Antique Ostia"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_kanathan.jpg",
+          "headline": "Sanctuaries in Kanatha",
+          "subhead": "From Hellenism to Late Antiquity",
+          "link": {
+            "target": "https://arachne.dainst.org/project/kanatha",
+            "text": "Sanctuaries in Kanatha"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_mit_wissen_geschmueckt.jpg",
+          "headline": "Figurative Reception of Greek Poets and Philosophers",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/langwiss",
+            "text": "Figurative Reception of Greek Poets and Philosophers"
+          }
+        },
+        {
+          "type": "link_list",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_palilia.jpg",
+          "headline": "Palilia",
+          "subhead": "Archaeology in Italy and neighbouring regions",
+          "link": {
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/palilia",
+            "text": "Palilia"
+          },
+          "links": [
+                { 
+                   "text": "No. 26: Wall Paintings Campania" ,
+                   "target": "https://arachne.dainst.org/project/palilia26"                    
+                },
+                { 
+                   "text": "No. 25: Republican otium-villas Tivoli" ,
+                   "target": "https://arachne.dainst.org/project/palilia25"                    
+                },
+                { 
+                   "text": "No. 24: Basilica Aemilia" ,
+                   "target": "https://arachne.dainst.org/project/lippsbasilica"                    
+                },
+                { 
+                   "text": "No. 20: Military in Rome" ,
+                   "target": "https://arachne.dainst.org/project/palilia20"                    
+                }
+          ]
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_pergamenische_forschungen.jpg",
+          "headline": "Pergamenische Forschungen",
+          "subhead": "Results of archaeological research. Pergamon/Turkey",
+          "link": {
+            "target": "https://arachne.dainst.org/project/pergamenischeforschungen17?lang=de",
+            "text": "No. 17: Terracottas from Pergamon"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_roemische_mitteilungen.jpg",
+          "headline": "Römische Mitteilungen",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/rm121",
+            "text": "No.121: Brick Stamps Palatine Hill"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_roman_terrakotte_masks.jpg",
+          "headline": "Roman Terracotta Masks",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/roseterra",
+            "text": "Roman Terracotta Masks"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_meerwesen.jpg",
+          "headline": "See Creatures on Roman Sarcophagi",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/schulzmeer?lang=de",
+            "text": "See Creatures on Roman Sarcophagi"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_dressed_to_kill.jpg",
+          "headline": "Dressed to Drill. Roman Centurions' Equipment",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/centurions",
+            "text": "Dressed to Drill. Roman Centurions' Equipment"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_cast_collection_berlin.jpg",
+          "headline": "Berlin Universities, Staatliche Museen",
+          "subhead": "Cast collection of ancient sculpture",
+          "link": {
+            "target": "https://arachne.dainst.org/project/berlinsamml",
+            "text": "Berlin Universities, Staatliche Museen"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_plaster_cast_collection_bonn.jpg",
+          "headline": "Akademisches Kunstmuseum Bonn",
+          "subhead": "Plaster cast collection",
+          "link": {
+            "target": "https://arachne.dainst.org/project/sammlakakunst",
+            "text": "Akademisches Kunstmuseum Bonn"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_catalog_of_sculptures_berlin.jpg",
+          "headline": "Complete catalogue of sculptures",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/antiksammlberlin",
+            "text": "Staatliche Museen Berlin"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_fasanerie_fulda.jpg",
+          "headline": "Fasanerie Castle Fulda",
+          "subhead": "Catalogue of the ancient sculptures",
+          "link": {
+            "target": "https://arachne.dainst.org/project/schlossfulda",
+            "text": "Fasanerie Castle Fulda"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_plaster_cast_collection_leipzig.jpg",
+          "headline": "Leipzig University",
+          "subhead": "Antiquities and plaster cast collection",
+          "link": {
+            "target": "https://arachne.dainst.org/project/gipsleipzigsamml",
+            "text": "Leipzig University"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_villa_wolkonsky.jpg",
+          "headline": "Villa Wolkonsky Rome",
+          "subhead": "Antiquities collection",
+          "link": {
+            "target": "https://arachne.dainst.org/project/villaWolkonsky",
+            "text": "Villa Wolkonsky Rome"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_plaster_cast_collection_saarbruecken.jpg",
+          "headline": "Saarbrücken University",
+          "subhead": "Plaster cast collection",
+          "link": {
+            "target": "https://arachne.dainst.org/project/sammlsaarbr",
+            "text": "Saarbrücken University"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_sl_museum_aachen.jpg",
+          "headline": "Suermondt-Ludwig-Museum Aachen",
+          "subhead": "Antiquities collection",
+          "link": {
+            "target": "https://arachne.dainst.org/project/spornsiegel",
+            "text": "Suermondt-Ludwig-Museum Aachen"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_winckelmann_museum_stendal.jpg",
+          "headline": "Winckelmann Museum Stendal",
+          "subhead": "Collection of paintings and drawings",
+          "link": {
+            "target": "https://arachne.dainst.org/project/stendal",
+            "text": "Winckelmann Museum Stendal"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_sculptures_thessaloniki.jpg",
+          "headline": "Archaeological Museum Thessaloniki",
+          "subhead": "Catalogue of scupltures",
+          "link": {
+            "target": "https://arachne.dainst.org/project/katalogskulpthess",
+            "text": "Archaeological Museum Thessaloniki"
           }
         }
       ]
