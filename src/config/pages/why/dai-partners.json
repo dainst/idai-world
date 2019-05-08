@@ -13,6 +13,7 @@
 
   {
       "type": "slider_tiles",
+      "enableSliding": false,  
       "title": "Cooperation in national and international infrastructures",
       "tiles": [
         {
@@ -66,13 +67,113 @@
           }
         },
         {
-          "type": "image_link",
+          "type": "link_list",
           "image": "assets/images/content/why/partners/idai_partners_dariah_eu.jpg",
           "headline": "Dariah-EU",
           "subhead": "A pan-european infrastructure for arts and humanities scholars working with computational methods",
           "link": {
             "target": "https://www.dariah.eu/2019/03/20/working-groups-stories-6-setting-up-e-infrastructure-for-collaborative-work-on-thesaurus-integration/",
             "text": "External Link to 'Dariah-EU'"
+          },
+          "link": [
+            { 
+                "text": "Dariah-EU" ,
+                "target": "https://www.dariah.eu/2019/03/20/working-groups-stories-6-setting-up-e-infrastructure-for-collaborative-work-on-thesaurus-integration/"                    
+            },
+            { 
+                "text": "Vocabs" ,
+                "target": "https://vocabs.dariah.eu/backbone_thesaurus/en/page/?uri=https%3A%2F%2Fvocabs.dariah.eu%2Fbbt%2FConcept%2F000001"                    
+            }
+          ]
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/why/partners/idai_partners_e-rihs.jpg",
+          "headline": "E-RiHS",
+          "subhead": "European Research Infrastructure for Heritage Science",
+          "link": {
+            "target": "http://www.e-rihs.eu/partners/dai-de/",
+            "text": "E-RiHS"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/why/partners/idai_partners_ianus.jpg",
+          "headline": "IANUS",
+          "subhead": "A research data centre",
+          "link": {
+            "target": "https://www.ianus-fdz.de",
+            "text": "IANUS"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/why/partners/idai_partners_nahan.jpg",
+          "headline": "NAHAN",
+          "subhead": "North African Heritage Archives Network",
+          "link": {
+            "target": "http://www.nahanweb.org/",
+            "text": "NAHAN"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/why/partners/idai_partners_open_context.jpg",
+          "headline": "Open Context",
+          "subhead": "Web based research data publishing",
+          "link": {
+            "target": "https://opencontext.dainst.org",
+            "text": "Open Context"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/why/partners/idai_partners_ocre.jpg",
+          "headline": "OCRE",
+          "subhead": "Online Coins of the Roman Empire",
+          "link": {
+            "target": "http://numismatics.org/ocre/",
+            "text": "OCRE"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/why/partners/idai_partners_pelagios.jpg",
+          "headline": "Pelagios",
+          "subhead": "Linking the places of our past",
+          "link": {
+            "target": "http://commons.pelagios.org/2012/06/arachne-void-descriptions/",
+            "text": "Pelagios"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/why/partners/idai_partners_perseus.jpg",
+          "headline": "Perseus Digital Library",
+          "subhead": "The Hellespont Project: integrating Arachne and Perseus",
+          "link": {
+            "target": "http://hellespont.dainst.org/startpage/",
+            "text": "Perseus Digital Library"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/why/partners/idai_partners_prophylaeum.jpg",
+          "headline": "Propylaeum",
+          "subhead": "Specialized information service classics",
+          "link": {
+            "target": "https://www.hsozkult.de/debate/id/diskussionen-3879",
+            "text": "Propylaeum"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/why/partners/idai_partners_sshoc.jpg",
+          "headline": "SSHOC",
+          "subhead": "Social Sciences and Humanities Open Cloud",
+          "link": {
+            "target": "https://sshopencloud.eu/partners",
+            "text": "SSHOC"
           }
         }
       ]
