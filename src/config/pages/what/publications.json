@@ -646,6 +646,7 @@
       "type": "slider_tiles",
       "enableSliding": false,    
       "title": "Data enhanced print publications with partners",
+      "enableSliding": false,
       "tiles": [          
         {
           "type": "image_link",
