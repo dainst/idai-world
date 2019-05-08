@@ -12,9 +12,10 @@
   },  
 
   {
-      "type": "slider_tiles",
-      "title": "Cooperation in national and international infrastructures",
-      "tiles": [
+    "type": "slider_tiles",
+    "title": "Cooperation in national and international infrastructures",
+    "enableSliding": false,
+    "tiles": [
         {
           "type": "image_link",
           "image": "assets/images/content/why/partners/idai_partners_ariadne.jpg",

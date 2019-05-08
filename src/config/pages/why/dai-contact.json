@@ -8,7 +8,7 @@
   {
     "type": "intro_text",
     "title": "Location",
-    "body": "<p style=\"text-align:center\">Central Scientific Services<br/>IT Department<br/>Podbielskiallee 69-71<br/>14195 Berlin<br/>Deutschland</p>"
+    "body": "<p class='center'>Central Scientific Services<br/>IT Department<br/>Podbielskiallee 69-71<br/>14195 Berlin<br/>Deutschland</p>"
   },  
   {
     "type": "intro_text",
