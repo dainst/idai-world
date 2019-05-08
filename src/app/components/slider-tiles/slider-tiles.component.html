@@ -9,14 +9,14 @@
       #slides
       [ngClass]="{
         slider__slides: enableSliding,
-        'row justify-content-md-between': !enableSliding
+        'row justify-content-md-between pb-4': !enableSliding
       }"
     >
       <ng-container *ngFor="let tileConfig of tiles">
         <div
           [ngClass]="{
             slide: enableSliding,
-            'col-md-4': !enableSliding
+            'col-md-4 mb-md-4': !enableSliding
           }"
         >
           <ng-container
