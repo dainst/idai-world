@@ -269,6 +269,10 @@
   padding-bottom: 25px;
 }
 
+.section__textbox .section__body p.center {
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   .section__textbox {
     padding: 50px 0;

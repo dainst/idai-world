@@ -1,6 +1,6 @@
 {
   "text_limits": {
-    "intro_text": { "title": 48, "body": 600 },
+    "intro_text": { "title": 89, "body": 800 },
     "info_box": { "headline": 48, "text": 88 },
     "slider_tiles": {
       "title": 48,
@@ -13,7 +13,7 @@
           "subhead": 48,
           "text": 30
         },
-        "text": { "text": 355 }
+        "text": { "text": 855 }
       }
     }
   },

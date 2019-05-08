@@ -37,35 +37,10 @@
         }
       ]
     },
-    {
-      "type": "slider_tiles",
-      "title": "",
-      "tiles": [        
-        {
-          "type": "link_list",
-          "image": "assets/images/temp/statue-hover.jpg",
-          "headline": "Contacts",
-          "subhead": "",
-          "links": [
-            { 
-                "target": "bibliothek@dainst.de", 
-                "text": "bibliothek@dainst.de" 
-            },
-            { 
-                "target": "redaktion@dainst.de", 
-                "text": "redaktion@dainst.de" 
-            },
-            { 
-                "target": "itleitung@dainst.de", 
-                "text": "itleitung@dainst.de" 
-            },
-            { 
-                "target": "archiv@dainst.de", 
-                "text": "archiv@dainst.de" 
-            }            
-          ]
-        }        
-      ]
-    }
+  {
+    "type": "intro_text",
+    "title": "",
+    "body": "<h2>Contacts</h2><ul><li><a href='mailto:bibliothek@dainst.de'>bibliothek@dainst.de</a></li><li><a href='mailto:redaktion@dainst.de'>redaktion@dainst.de</a></li><li><a href='mailto:itleitung@dainst.de'>itleitung@dainst.de</a></li><li><a href='mailto:archiv@dainst.de'>archiv@dainst.de</a></li></ul>"
+  }
  
 ]
