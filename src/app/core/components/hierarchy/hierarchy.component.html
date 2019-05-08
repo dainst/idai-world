@@ -3,7 +3,11 @@
     *ngFor="let node of nodes"
     class="{{ level > 1 ? 'col-md-' + 12 / nodes.length : '' }} col-12 "
   >
-    <div class="level-content" [innerHtml]="node.title"></div>
+    <div class="level-content d-flex flex-column">
+      <div class="heading" [innerHtml]="node.title"></div>
+      <a class="email" href="{{ 'mailto:' + node.email }}">{{ node.email }}</a>
+    </div>
+
     <ng-container *ngIf="node.children && node.children.length > 0"
       ><dai-hierarchy
         [nodes]="node.children"
