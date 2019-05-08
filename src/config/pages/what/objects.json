@@ -51,7 +51,7 @@
     "tiles": [
       {
         "type": "image_link",
-        "image": "",
+        "image": "assets/images/content/what/objects/idai_objects_creb.jpg",
         "headline": "Corpus of Roman Finds in the European Babaricum (CRFB)",
         "subhead": ""
       },

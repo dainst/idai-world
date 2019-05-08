@@ -445,3 +445,10 @@
 .section__amount-docs + ngx-component-outlet-do-check-only + .section__textbox {
   padding-top: 0 !important;
 }
+
+
+@media (min-width: 768px) {
+  .mb-md-4, .my-md-4 {
+    margin-bottom: 3.5rem !important;
+  }
+}

@@ -87,7 +87,7 @@
     "tiles": [
       {
         "type": "text",
-        "image": "assets/images/content/what/archives/",
+        "image": "assets/images/content/what/archives/idai_archive_athen_department.jpg",
         "headline": "Athens department",
         "subhead": "A scientific legacy archive",
         "text": "<p class='description'>Forschungen zur Geschichte der Archäologie im Allgemeinen, aber auch der institutseigenen Geschichte des DAI verdeutlichen immer mehr, wie wichtig die Sichtung und Aufarbeitung unserer Archive ist. Zwischen 2016 und 2017 wurden im Rahmen des Projekts „AthenDigital: Das Nachlassarchiv“, das durch das Auswärtige Amt (Sondermittel Kulturerhalt) gefördert wurde, die drei größten, im Archiv des Deutschen Archäologischen Instituts, Abteilung Athen aufbewahrten Nachlässe erschlossen und digitalisiert.</p><p class='description'><a title='External Link to Athens department: A scientific legacy archive' href='https://arachne.dainst.org/project/athenDigital'> >> read more</a>"
@@ -119,11 +119,13 @@
     "content": [
       {
         "headline": "iDAI.Archives",
-        "text": "AtoM gives Access to Memory with the Open Source Archival Description Software"
+        "text": "AtoM gives Access to Memory with the Open Source Archival Description Software",
+        "link": { "target": "https://archives.dainst.org", "text": "foo link" }
       },
       {
         "headline": "IANUS",
-        "text": "Long-term archiving according to the OAIS standard"
+        "text": "Long-term archiving according to the OAIS standard",
+        "link": { "target": "https://www.ianus-fdz.de/", "text": "" }
       }
     ]
   },
@@ -133,32 +135,52 @@
     "tiles": [
       {
         "type": "image_link",
-        "image": "assets/images/content/what/archives/",
+        "image": "assets/images/content/what/archives/idai_archive_athen_department.jpg",
         "headline": "Athens department",
         "subhead": " A scientific legacy archive",
         "link": {
-          "target": "https://arachne.dainst.org/project/athenDigita",
+          "target": "https://arachne.dainst.org/project/athenDigital",
           "text": "External Link to 'Athens department: A scientific legacy archive'"
         }
       },
       {
         "type": "image_link",
-        "image": "",
-        "headline": "",
-        "subhead": "",
+        "image": "assets/images/content/what/archives/idai_archive_teheran_archiv.jpg",
+        "headline": "Teheran branch",
+        "subhead": "Digitisation of the archive",
         "link": {
-          "target": "",
-          "text": ""
+          "target": "https://arachne.dainst.org/project/teheran_digital",
+          "text": "External Link to 'Teheran branch'"
         }
       },
       {
         "type": "image_link",
-        "image": "",
-        "headline": "",
-        "subhead": "",
+        "image": "assets/images/content/what/archives/idai_archive_berlin_head_office.jpg",
+        "headline": "Berlin Head Office",
+        "subhead": "Digitisation of the archive",
         "link": {
-          "target": "",
-          "text": ""
+          "target": "https://archives.dainst.org/index.php/deutschland-deutsches-archaologisches-archive-archiv-der-zentrale",
+          "text": "External Link to 'Berlin Head Office'"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/archives/idai_archive_eduard_gerhard.jpg",
+        "headline": "Berlin Head Office",
+        "subhead": "The archive of Eduard Gerhard",
+        "link": {
+          "target": "https://archives.dainst.org/index.php/nachlass-gerhard-eduard",
+          "text": "External Link to 'The archive of Eduard Gerhard'"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/archives/idai_archive_frankfurt_commision.jpg",
+        "headline": "Frankfurt Commission",
+        "subhead": "Digitisation of the archive",
+        "link": {
+          "target": "https://archives.dainst.org/index.php/deutsches-archaologisches-institut-romisch-germanische-kommission-archiv",
+          "text": "External Link to 'Frankfurt Commission'"
         }
       }
     ]
