@@ -644,6 +644,7 @@
   },
   {
       "type": "slider_tiles",
+      "enableSliding": false,    
       "title": "Data enhanced print publications with partners",
       "tiles": [          
         {
@@ -686,10 +687,6 @@
             "text": "External Link to 'Corpus of Minoan and Mycenaean Seals'"
           }
         },
-        
-        
-        
-        
         {
           "type": "image_link",
           "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_ostia.jpg",
