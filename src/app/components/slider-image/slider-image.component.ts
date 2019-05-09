@@ -24,7 +24,7 @@ export class SliderImageComponent extends SliderBase {
     speed: 2000,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 5000
+    autoplaySpeed: 2000
   };
 
   onSetConfig = (
