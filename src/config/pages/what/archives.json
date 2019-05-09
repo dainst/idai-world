@@ -1,188 +1,196 @@
-[
-  {
-    "type": "sub_nav",
-    "items": [
-      {
-        "image": "assets/images/temp/circle-hover.jpg",
-        "route": "/what/archives",
-        "title": "Archives"
-      },
-      {
-        "image": "assets/images/content/banner-libraries.jpg",
-        "route": "/what/libraries",
-        "title": "Libraries"
-      }
-    ]
-  },
-  {
-    "type": "intro_text",
-    "title": "Discover our rich historical archives",
-    "body": "<p>Our archives date back to the 19th century. They contain not only archaeological finds, but also detailed excavation documents, letters, journals, administrative documents, etc. They are being digitized to let future generations retrace specific projects, to build monument registers and to stimulate new research. All archives are in the process of being recorded with the archive software ATOM. IANUS was developed for the long-term archiving of digital data. It builds on the OAIS reference model.</p>"
-  },
-  {
-    "type": "slider_tiles",
-    "title": "Archives hosted for partners",
-    "tiles": [
-      {
-        "type": "text",
-        "image": "assets/images/content/what/archives/idai_archive_hosted_partners_1_aaa.jpg",
-        "headline": "African Archaeological Archive Cologne",
-        "subhead": "",
-        "text": "<p class='description'>Seit über fünfzig Jahren findet am Institut für Ur- und Frühgeschichte der Universität zu Köln archäologische Forschung in Afrika statt. Neben der 1963 begonnen Felsbildforschung in Namibia etablierte sich Anfang der 1980er Jahre Nordostafrika als zweite Schwerpunktregion – beides Gebiete, die bis dahin weitgehend „terra incognita“ prähistorischer Forschung waren. </p><p class='description'><a title='External Link to African Archaeological Archive Cologne' href='https://arachne.dainst.org/project/afrarchcologne'> >> read more</a>"
-      },
-      {
-        "type": "text",
-        "image": "assets/images/content/what/archives/idai_archive_hosted_partners_2_rww.jpg",
-        "headline": "Archive of Rhine-Westphalian Economy",
-        "subhead": "",
-        "text": "<p class='description'>Diese Glasnegative, wie auch weitere Fotos, wurden zusammen mit dem Aktenmaterial der verschiedenen Unternehmen dem RWWA übergeben und sind damit Teil der historischen Quellen, die der Forschung zur Verfügung zu stellen sind.</p><p class='description'><a title='External Link to Archive of Rhine-Westphalian Economy' href='https://arachne.dainst.org/project/rwwa'> >> read more</a>"
-      },
-      {
-        "type": "text",
-        "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_oppenheim.jpg",
-        "headline": "Collection of Max von Oppenheim",
-        "subhead": "",
-        "text": "<p class='description'>Max Freiherr von Oppenheim (1860-1946) war zu Lebzeiten ein bekannter Forschungsreisender, Orientalia-Sammler und Diplomat. Als Mitarbeiter des Deutschen Generalkonsulats in Kairo beobachtete er die arabische Welt, in Syrien grub er den Tell Halaf aus. Auf zahlreichen, teils mehrjährigen Reisen erforschte er die Region zwischen Levante und Mesopotamien.</p><p class='description'><a title='External Link to Collection of Max von Oppenheim' href='https://arachne.dainst.org/project/oppenheim'> >> read more</a>"
-      }
-    ]
-  },
-  {
-    "type": "slider_tiles",
-    "title": "Archives in cooperation with partners",
-    "enableSliding": false,
-    "tiles": [
-      {
-        "type": "text",
-        "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_hinkel.jpg",
-        "headline": "Friedrich Hinkel Archive of Sudan",
-        "subhead": "",
-        "text": "<p class='description'>Das Archiv von Friedrich W. Hinkel stellt eines der größten Forschungsarchive zum antiken Sudan dar und spiegelt die über 40 Jahre währende Grabungs- und Forschungstätigkeit Dr. Hinkels im Sudan wider. Beginnend mit seiner Teilnahme an den Ausgrabungen in Musawwarat es Sufra der Humboldt Universität Berlin im Jahr 1961 führte den Architekten Dr. Friedrich W. Hinkel (1925 – 2007) nicht nur ein reges Forschungsinteresse immer wieder in den Sudan, für den er nach Freistellung durch die Akademie ab 1962 auch direkt tätig war, sondern auch eine enge Verbundenheit mit Land und Leuten.</p><p class='description'><a title='External Link to Friedrich Hinkel Archive of Sudan' href='https://arachne.dainst.org/project/hinkel'> >> read more</a>"
-      },
-      {
-        "type": "text",
-        "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_kossack.jpg",
-        "headline": "Scientific Legacy of Georg Kossack",
-        "subhead": "",
-        "text": "<p class='description'>Prof. Dr. Georg Kossack (1923-2004) gehörte zu den bedeutendsten deutschen Prähistorikern der letzten fünf Jahrzehnte. Wie kaum eine andere Persönlichkeit der archäologischen Forschung wirkte er weit über Deutschland hinaus auf die Entwicklung des Faches und besonders auf die Bronze- und Hallstattzeitforschung Mittel- und Osteuropas.</p><p class='description'><a title='External Link to Scientific Legacy of Georg Kossack' href='https://arachne.dainst.org/project/kossack'> >> read more</a>"
-      },
-      {
-        "type": "text",
-        "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_steinhoff.jpg",
-        "headline": "Scientific Legacy of Georg Steindorff",
-        "subhead": "",
-        "text": "<p class='description'>Die Selbstreflexion einer Disziplin ist stets auch ein Spiegelbild des Bewusstseins um die Zeitgebundenheit geisteswissenschaftlicher Forschung. Die Möglichkeit einer fundierten Beschreibung von historischen Wissenschaftskulturen steht und fällt freilich mit geeigneten, hinreichend expliziten und komplexen Quellenlagen. Archivalien sind nicht aufgrund ihrer anekdotenhaften Einzelaussage von Interesse, vielmehr hängt die Qualität immer auch von der Möglichkeit einer Vielansichtigkeit ab, die eine Kontrolle der Beobachtungen erlaubt.</p><p class='description'><a title='External Link to Scientific Legacy of Georg Steindorff' href='https://arachne.dainst.org/project/steindorff'> >> read more</a>"
-      },
-      {
-        "type": "text",
-        "image": "assets/images/content/what/archives/idai_archive_dai_4_syrian.jpg",
-        "headline": "Syrian Heritage Archive Project",
-        "subhead": "",
-        "text": "<p class='description'>Der inzwischen seit mehr als vier Jahren andauernde Bürgerkrieg in Syrien hat sowohl zu einer humanitären Katastrophe ungeheuren Ausmaßes als auch zur Gefährdung und Zerstörung zahlloser Kulturgüter im Land geführt.\n\nDie Kulturlandschaft Syrien gehört hinsichtlich der Anzahl und historischen Bedeutung der dort vorhandenen Denkmäler zu den herausragenden Regionen weltweit. </p><p class='description'><a title='External Link to Syrian Heritage Archive Project' href='https://arachne.dainst.org/project/syrher'> >> read more</a>"
-      }
-    ]
-  },
-  {
-    "type": "slider_tiles",
-    "title": "Archive projects of the DAI",
-    "tiles": [
-      {
-        "type": "text",
-        "image": "assets/images/content/what/archives/idai_archive_athen_department.jpg",
-        "headline": "Athens department",
-        "subhead": "A scientific legacy archive",
-        "text": "<p class='description'>Forschungen zur Geschichte der Archäologie im Allgemeinen, aber auch der institutseigenen Geschichte des DAI verdeutlichen immer mehr, wie wichtig die Sichtung und Aufarbeitung unserer Archive ist. Zwischen 2016 und 2017 wurden im Rahmen des Projekts „AthenDigital: Das Nachlassarchiv“, das durch das Auswärtige Amt (Sondermittel Kulturerhalt) gefördert wurde, die drei größten, im Archiv des Deutschen Archäologischen Instituts, Abteilung Athen aufbewahrten Nachlässe erschlossen und digitalisiert.</p><p class='description'><a title='External Link to Athens department: A scientific legacy archive' href='https://arachne.dainst.org/project/athenDigital'> >> read more</a>"
-      },
-      {
-        "type": "text",
-        "image": "assets/images/content/what/archives/idai_archive_dai_1_antike_Zeichnung.jpg",
-        "headline": "Rome department",
-        "subhead": "Historical drawings",
-        "text": "<p class='description'>Unter den umfangreichen wissenschaftlichen Apparaten des Deutschen Archäologischen Instituts, Abteilung Rom befinden sich die beiden Sammlungen „Historische Handzeichnungen“ vornehmlich aus der Zeit 1829-1915 und „Planzeichnungen des Architekturreferats“ aus den Jahren 1953-2000.</p><p class='description'><a title='External Link to Rome department: Historical drawings' href='https://arachne.dainst.org/project/handzeichnungen'> >> read more</a>"
-      },
-      {
-        "type": "text",
-        "image": "assets/images/content/what/archives/idai_archive_dai_2_gelehrten.jpg",
-        "headline": "Rome department",
-        "subhead": "Scholars, Excavators and Art Dealers",
-        "text": "<p class='description'>Die Basis für das Instituto di Corrispondenza Archeologica – Institut Archäologischer Korrespondenz – bildete ein europaweit gespanntes Netzwerk von Mitgliedern und Korrespondenten, darunter Altertumsgelehrte, Künstler und Architekten, Sammler und Ausgräber sowie archäologisch interessierte Laien.</p><p class='description'><a title='External Link to Rome department: Scholars, Excavators and Art Dealers' href='https://arachne.dainst.org/project/gelehrtenbriefe'> >> read more</a>"
-      }
-    ]
-  },
-  {
-    "type": "amount_docs",
-    "amount": 1234567,
-    "text": "Number of digital Archive Documents"
-  },
-  {
-    "type": "info_box",
-    "headline": "Access to memory and archiving of data",
-    "content": [
-      {
-        "headline": "iDAI.Archives",
-        "text": "AtoM gives Access to Memory with the Open Source Archival Description Software",
-        "link": { "target": "https://archives.dainst.org", "text": "foo link" }
-      },
-      {
-        "headline": "IANUS",
-        "text": "Long-term archiving according to the OAIS standard",
-        "link": { "target": "https://www.ianus-fdz.de/", "text": "" }
-      }
-    ]
-  },
-  {
-    "type": "slider_tiles",
-    "title": "Archive projects of the DAI",
-    "tiles": [
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/archives/idai_archive_athen_department.jpg",
-        "headline": "Athens department",
-        "subhead": " A scientific legacy archive",
-        "link": {
-          "target": "https://arachne.dainst.org/project/athenDigital",
-          "text": "External Link to 'Athens department: A scientific legacy archive'"
+{
+  "components": [
+    {
+      "type": "sub_nav",
+      "items": [
+        {
+          "image": "assets/images/temp/circle-hover.jpg",
+          "route": "/what/archives",
+          "title": "Archives"
+        },
+        {
+          "image": "assets/images/content/banner-libraries.jpg",
+          "route": "/what/libraries",
+          "title": "Libraries"
         }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/archives/idai_archive_teheran_archiv.jpg",
-        "headline": "Teheran branch",
-        "subhead": "Digitisation of the archive",
-        "link": {
-          "target": "https://arachne.dainst.org/project/teheran_digital",
-          "text": "External Link to 'Teheran branch'"
+      ]
+    },
+    {
+      "type": "intro_text",
+      "title": "Discover our rich historical archives",
+      "body": "<p>Our archives date back to the 19th century. They contain not only archaeological finds, but also detailed excavation documents, letters, journals, administrative documents, etc. They are being digitized to let future generations retrace specific projects, to build monument registers and to stimulate new research. All archives are in the process of being recorded with the archive software ATOM. IANUS was developed for the long-term archiving of digital data. It builds on the OAIS reference model.</p>"
+    },
+    {
+      "type": "slider_tiles",
+      "title": "Archives hosted for partners",
+      "tiles": [
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_hosted_partners_1_aaa.jpg",
+          "headline": "African Archaeological Archive Cologne",
+          "subhead": "",
+          "text": "<p class='description'>Seit über fünfzig Jahren findet am Institut für Ur- und Frühgeschichte der Universität zu Köln archäologische Forschung in Afrika statt. Neben der 1963 begonnen Felsbildforschung in Namibia etablierte sich Anfang der 1980er Jahre Nordostafrika als zweite Schwerpunktregion – beides Gebiete, die bis dahin weitgehend „terra incognita“ prähistorischer Forschung waren. </p><p class='description'><a title='External Link to African Archaeological Archive Cologne' href='https://arachne.dainst.org/project/afrarchcologne'> >> read more</a>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_hosted_partners_2_rww.jpg",
+          "headline": "Archive of Rhine-Westphalian Economy",
+          "subhead": "",
+          "text": "<p class='description'>Diese Glasnegative, wie auch weitere Fotos, wurden zusammen mit dem Aktenmaterial der verschiedenen Unternehmen dem RWWA übergeben und sind damit Teil der historischen Quellen, die der Forschung zur Verfügung zu stellen sind.</p><p class='description'><a title='External Link to Archive of Rhine-Westphalian Economy' href='https://arachne.dainst.org/project/rwwa'> >> read more</a>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_oppenheim.jpg",
+          "headline": "Collection of Max von Oppenheim",
+          "subhead": "",
+          "text": "<p class='description'>Max Freiherr von Oppenheim (1860-1946) war zu Lebzeiten ein bekannter Forschungsreisender, Orientalia-Sammler und Diplomat. Als Mitarbeiter des Deutschen Generalkonsulats in Kairo beobachtete er die arabische Welt, in Syrien grub er den Tell Halaf aus. Auf zahlreichen, teils mehrjährigen Reisen erforschte er die Region zwischen Levante und Mesopotamien.</p><p class='description'><a title='External Link to Collection of Max von Oppenheim' href='https://arachne.dainst.org/project/oppenheim'> >> read more</a>"
         }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/archives/idai_archive_berlin_head_office.jpg",
-        "headline": "Berlin Head Office",
-        "subhead": "Digitisation of the archive",
-        "link": {
-          "target": "https://archives.dainst.org/index.php/deutschland-deutsches-archaologisches-archive-archiv-der-zentrale",
-          "text": "External Link to 'Berlin Head Office'"
+      ]
+    },
+    {
+      "type": "slider_tiles",
+      "title": "Archives in cooperation with partners",
+      "enableSliding": false,
+      "tiles": [
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_hinkel.jpg",
+          "headline": "Friedrich Hinkel Archive of Sudan",
+          "subhead": "",
+          "text": "<p class='description'>Das Archiv von Friedrich W. Hinkel stellt eines der größten Forschungsarchive zum antiken Sudan dar und spiegelt die über 40 Jahre währende Grabungs- und Forschungstätigkeit Dr. Hinkels im Sudan wider. Beginnend mit seiner Teilnahme an den Ausgrabungen in Musawwarat es Sufra der Humboldt Universität Berlin im Jahr 1961 führte den Architekten Dr. Friedrich W. Hinkel (1925 – 2007) nicht nur ein reges Forschungsinteresse immer wieder in den Sudan, für den er nach Freistellung durch die Akademie ab 1962 auch direkt tätig war, sondern auch eine enge Verbundenheit mit Land und Leuten.</p><p class='description'><a title='External Link to Friedrich Hinkel Archive of Sudan' href='https://arachne.dainst.org/project/hinkel'> >> read more</a>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_kossack.jpg",
+          "headline": "Scientific Legacy of Georg Kossack",
+          "subhead": "",
+          "text": "<p class='description'>Prof. Dr. Georg Kossack (1923-2004) gehörte zu den bedeutendsten deutschen Prähistorikern der letzten fünf Jahrzehnte. Wie kaum eine andere Persönlichkeit der archäologischen Forschung wirkte er weit über Deutschland hinaus auf die Entwicklung des Faches und besonders auf die Bronze- und Hallstattzeitforschung Mittel- und Osteuropas.</p><p class='description'><a title='External Link to Scientific Legacy of Georg Kossack' href='https://arachne.dainst.org/project/kossack'> >> read more</a>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_steinhoff.jpg",
+          "headline": "Scientific Legacy of Georg Steindorff",
+          "subhead": "",
+          "text": "<p class='description'>Die Selbstreflexion einer Disziplin ist stets auch ein Spiegelbild des Bewusstseins um die Zeitgebundenheit geisteswissenschaftlicher Forschung. Die Möglichkeit einer fundierten Beschreibung von historischen Wissenschaftskulturen steht und fällt freilich mit geeigneten, hinreichend expliziten und komplexen Quellenlagen. Archivalien sind nicht aufgrund ihrer anekdotenhaften Einzelaussage von Interesse, vielmehr hängt die Qualität immer auch von der Möglichkeit einer Vielansichtigkeit ab, die eine Kontrolle der Beobachtungen erlaubt.</p><p class='description'><a title='External Link to Scientific Legacy of Georg Steindorff' href='https://arachne.dainst.org/project/steindorff'> >> read more</a>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_dai_4_syrian.jpg",
+          "headline": "Syrian Heritage Archive Project",
+          "subhead": "",
+          "text": "<p class='description'>Der inzwischen seit mehr als vier Jahren andauernde Bürgerkrieg in Syrien hat sowohl zu einer humanitären Katastrophe ungeheuren Ausmaßes als auch zur Gefährdung und Zerstörung zahlloser Kulturgüter im Land geführt.\n\nDie Kulturlandschaft Syrien gehört hinsichtlich der Anzahl und historischen Bedeutung der dort vorhandenen Denkmäler zu den herausragenden Regionen weltweit. </p><p class='description'><a title='External Link to Syrian Heritage Archive Project' href='https://arachne.dainst.org/project/syrher'> >> read more</a>"
         }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/archives/idai_archive_eduard_gerhard.jpg",
-        "headline": "Berlin Head Office",
-        "subhead": "The archive of Eduard Gerhard",
-        "link": {
-          "target": "https://archives.dainst.org/index.php/nachlass-gerhard-eduard",
-          "text": "External Link to 'The archive of Eduard Gerhard'"
+      ]
+    },
+    {
+      "type": "slider_tiles",
+      "title": "Archive projects of the DAI",
+      "tiles": [
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_athen_department.jpg",
+          "headline": "Athens department",
+          "subhead": "A scientific legacy archive",
+          "text": "<p class='description'>Forschungen zur Geschichte der Archäologie im Allgemeinen, aber auch der institutseigenen Geschichte des DAI verdeutlichen immer mehr, wie wichtig die Sichtung und Aufarbeitung unserer Archive ist. Zwischen 2016 und 2017 wurden im Rahmen des Projekts „AthenDigital: Das Nachlassarchiv“, das durch das Auswärtige Amt (Sondermittel Kulturerhalt) gefördert wurde, die drei größten, im Archiv des Deutschen Archäologischen Instituts, Abteilung Athen aufbewahrten Nachlässe erschlossen und digitalisiert.</p><p class='description'><a title='External Link to Athens department: A scientific legacy archive' href='https://arachne.dainst.org/project/athenDigital'> >> read more</a>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_dai_1_antike_Zeichnung.jpg",
+          "headline": "Rome department",
+          "subhead": "Historical drawings",
+          "text": "<p class='description'>Unter den umfangreichen wissenschaftlichen Apparaten des Deutschen Archäologischen Instituts, Abteilung Rom befinden sich die beiden Sammlungen „Historische Handzeichnungen“ vornehmlich aus der Zeit 1829-1915 und „Planzeichnungen des Architekturreferats“ aus den Jahren 1953-2000.</p><p class='description'><a title='External Link to Rome department: Historical drawings' href='https://arachne.dainst.org/project/handzeichnungen'> >> read more</a>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_dai_2_gelehrten.jpg",
+          "headline": "Rome department",
+          "subhead": "Scholars, Excavators and Art Dealers",
+          "text": "<p class='description'>Die Basis für das Instituto di Corrispondenza Archeologica – Institut Archäologischer Korrespondenz – bildete ein europaweit gespanntes Netzwerk von Mitgliedern und Korrespondenten, darunter Altertumsgelehrte, Künstler und Architekten, Sammler und Ausgräber sowie archäologisch interessierte Laien.</p><p class='description'><a title='External Link to Rome department: Scholars, Excavators and Art Dealers' href='https://arachne.dainst.org/project/gelehrtenbriefe'> >> read more</a>"
         }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/archives/idai_archive_frankfurt_commision.jpg",
-        "headline": "Frankfurt Commission",
-        "subhead": "Digitisation of the archive",
-        "link": {
-          "target": "https://archives.dainst.org/index.php/deutsches-archaologisches-institut-romisch-germanische-kommission-archiv",
-          "text": "External Link to 'Frankfurt Commission'"
+      ]
+    },
+    {
+      "type": "amount_docs",
+      "amount": 1234567,
+      "text": "Number of digital Archive Documents"
+    },
+    {
+      "type": "info_box",
+      "headline": "Access to memory and archiving of data",
+      "content": [
+        {
+          "headline": "iDAI.Archives",
+          "text": "AtoM gives Access to Memory with the Open Source Archival Description Software",
+          "link": {
+            "target": "https://archives.dainst.org",
+            "text": "foo link"
+          }
+        },
+        {
+          "headline": "IANUS",
+          "text": "Long-term archiving according to the OAIS standard",
+          "link": {
+            "target": "https://www.ianus-fdz.de/",
+            "text": ""
+          }
         }
-      }
-    ]
-  }
-]
+      ]
+    },
+    {
+      "type": "slider_tiles",
+      "title": "Archive projects of the DAI",
+      "tiles": [
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/archives/idai_archive_athen_department.jpg",
+          "headline": "Athens department",
+          "subhead": " A scientific legacy archive",
+          "link": {
+            "target": "https://arachne.dainst.org/project/athenDigital",
+            "text": "External Link to 'Athens department: A scientific legacy archive'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/archives/idai_archive_teheran_archiv.jpg",
+          "headline": "Teheran branch",
+          "subhead": "Digitisation of the archive",
+          "link": {
+            "target": "https://arachne.dainst.org/project/teheran_digital",
+            "text": "External Link to 'Teheran branch'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/archives/idai_archive_berlin_head_office.jpg",
+          "headline": "Berlin Head Office",
+          "subhead": "Digitisation of the archive",
+          "link": {
+            "target": "https://archives.dainst.org/index.php/deutschland-deutsches-archaologisches-archive-archiv-der-zentrale",
+            "text": "External Link to 'Berlin Head Office'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/archives/idai_archive_eduard_gerhard.jpg",
+          "headline": "Berlin Head Office",
+          "subhead": "The archive of Eduard Gerhard",
+          "link": {
+            "target": "https://archives.dainst.org/index.php/nachlass-gerhard-eduard",
+            "text": "External Link to 'The archive of Eduard Gerhard'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/archives/idai_archive_frankfurt_commision.jpg",
+          "headline": "Frankfurt Commission",
+          "subhead": "Digitisation of the archive",
+          "link": {
+            "target": "https://archives.dainst.org/index.php/deutsches-archaologisches-institut-romisch-germanische-kommission-archiv",
+            "text": "External Link to 'Frankfurt Commission'"
+          }
+        }
+      ]
+    }
+  ]
+}

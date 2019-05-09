@@ -1,190 +1,190 @@
-[
-  {
-    "type": "title_banner",
+{
+  "banner": {
     "title": "Space & Time",
-    "image": "assets/images/content/banner-how.jpg"
-  },  
-    
-  {
-    "type": "intro_text",
-    "title": "Travel and search in time and space",
-    "body": "Every fragment of archaeological research is connected to a specific place and a specific date. To improve and facilitate the research process, the DAI is putting a new focus on all place related data in the institute. Historic and modern names of a place, in different ancient and modern languages, are searchable in iDAI.Gazeteer. Localization in places, though, needs support by localization in time, through iDAI.Chronontology. Modern technology helps gather and represent geospatial data and widen the understanding for archaeological interrelationships. One implementation: the iDAI.Geoserver and connected geographic information systems (GIS)."
-  },  
-  {
-    "type": "slider_tiles",
-    "title": "Cartographic projects from the Geoserver",
-    "text": "<p>To accommodate the role of Geoinformation Systems (GIS) as a key technology in archaeology, iDAI.geoserver has been designed as a low-barrier, open access portal for GIS data and services. Registered users can upload data in standard GIS formats without the need for data conversion. Uploaded data can be made available, using a sophisticated system of finely grained access privilege management, to other users, groups or everyone. Simple but effective metadata facilities ensure the reusability of hosted data, and user-friendly online map editors allow cartographically enriched data publication. In addition to its role as an online geodata repository, iDAI.geoserver can be used as a shared data backend to allow collaborative work on datasets using any desktop GIS that supports OGC protocols (WMS, WFS, WCS).</p>",
-    "description": "To accommodate the role of Geoinformation Systems (GIS) as a key technology in archaeology, iDAI.geoserver has been designed as a low-barrier, open access portal for GIS data and services. Registered users can upload data in standard GIS formats without the need for data conversion. Uploaded data can be made available, using a sophisticated system of finely grained access privilege management, to other users, groups or everyone. Simple but effective metadata facilities ensure the reusability of hosted data, and user-friendly online map editors allow cartographically enriched data publication. In addition to its role as an online geodata repository, iDAI.geoserver can be used as a shared data backend to allow collaborative work on datasets using any desktop GIS that supports OGC protocols (WMS, WFS, WCS).",
-    "tiles": [
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/space-and-time/idai_space_time_al_idrisi.jpg",
-        "headline": "Al Idrisi - Archaeological Atlas of Algeria and Tunisia",
-        "subhead": "",
-        "link": {
-          "target": "https://geoserver.dainst.org/maps/984",
-          "text": "External Link to 'Al Idrisi - Archaeological Atlas of Algeria and Tunisia'"
-        }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/space-and-time/idai_space_time_lead_ingots.jpg",
-        "headline": "Lead Ingots from Shipwrecks (Bizerte)",
-        "subhead": "",
-        "link": {
-          "target": "https://geoserver.dainst.org/maps/981",
-          "text": "External Link to 'Lead Ingots from Shipwrecks (Bizerte)'"
-        }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/space-and-time/idai_space_time_palmyra_gis_video.jpg",
-        "headline": "Palmyra-GIS",
-        "subhead": "",
-        "link": {
-          "target": "https://www.quantarch.org/files/palmyra_gis_video1.mp4",
-          "text": "External Link to 'Palmyra-GIS'"
-        }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/space-and-time/idai_space_time_palmyra_digital_atlas.jpg",
-        "headline": "Palmyra Digital Atlas",
-        "subhead": "",
-        "link": {
-          "target": "https://geoserver.dainst.org/maps/4935",
-          "text": "External Link to 'Palmyra Digital Atlas'"
-        }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/space-and-time/idai_space_time_triphylia.jpg",
-        "headline": "Triphylia - Map of a Greek landscape",
-        "subhead": "",
-        "link": {
-          "target": "https://geoserver.dainst.org/maps/980",
-          "text": "Triphylia - Map of a Greek landscape'"
-        }
-      }
-    ]
+    "image": "assets/images/content/header/idai_space_time_header.jpg"
   },
-  {
-    "type": "slider_tiles",
-    "title": "Curated collections of chronontology data",
-    "text": "<p>The DAI’s contribution to making space-time research data more accessible is iDAI.chronontology. This online service allows researchers to manage the vast variety of regional and fragmentary chronological systems and dating sequences and derive absolute dates from them.</p>",
-    "description": "The DAI’s contribution to making space-time research data more accessible is iDAI.chronontology. This online service allows researchers to manage the vast variety of regional and fragmentary chronological systems and dating sequences and derive absolute dates from them.",
-    "tiles": [
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/space-and-time/idai_space_time_roman_chronology.jpg",
-        "headline": "Roman chronology",
-        "subhead": "",
-        "link": {
-          "target": "http://chronontology.dainst.org/search?q=*&fq=tags:%27roman_chronology%27",
-          "text": "External Link to 'Roman chronology'"
-        }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/space-and-time/idai_space_time_ancient_egypt_chronology.jpg",
-        "headline": "Ancient egyptian chronology",
-        "subhead": "",
-        "link": {
-          "target": "http://chronontology.dainst.org/search?q=*&fq=tags:%27ancient_egypt%27",
-          "text": "External Link to 'Ancient egyptian chronology'"
-        }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/space-and-time/idai_space_time_europ_bronzeage_chronology.jpg",
-        "headline": "European bronze age chronology",
-        "subhead": "",
-        "link": {
-          "target": "http://chronontology.dainst.org/search?q=*&fq=tags:%27bronze_age_europe%27",
-          "text": "External Link to 'European bronze age chronology'"
-        }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/space-and-time/idai_space_time_geological_timescale.jpg",
-        "headline": "Geological time scale",
-        "subhead": "",
-        "link": {
-          "target": "http://chronontology.dainst.org/search?q=*&fq=tags:%27geological_time_scale%27",
-          "text": "External Link to 'Geological time scale'"
-        }
-      }
-    ]
-  },  
-  {
-    "type": "intro_text",
-    "title": "Gazetteer",
-    "body": "Geography and time are intimately linked and many inhabited places around the world have a long and dramatic history of fading into and out of political significance. The iDAI.gazetteer ist the DAI’s geographic registry of ancient and modern places. It provides detailed data about administrative units, populated places and sites, including their hierarchical relationships, multiple toponyms and transcriptions, and other essential attributes. The data hosted on this platform grows continuously and flexible import pathways exist for uploading single or multiple place entries, as do export facilities for generating geographic datasets in plain CSV or GIS data formats."
-  },
-  {
-    "type": "info_box",
-    "headline": "Search in our Space & Time systems",
-    "content": [
+  "components": [
+    {
+      "type": "intro_text",
+      "title": "Travel and search in time and space",
+      "body": "Every fragment of archaeological research is connected to a specific place and a specific date. To improve and facilitate the research process, the DAI is putting a new focus on all place related data in the institute. Historic and modern names of a place, in different ancient and modern languages, are searchable in iDAI.Gazeteer. Localization in places, though, needs support by localization in time, through iDAI.Chronontology. Modern technology helps gather and represent geospatial data and widen the understanding for archaeological interrelationships. One implementation: the iDAI.Geoserver and connected geographic information systems (GIS)."
+    },
+    {
+      "type": "slider_tiles",
+      "title": "Cartographic projects from the Geoserver",
+      "text": "<p>To accommodate the role of Geoinformation Systems (GIS) as a key technology in archaeology, iDAI.geoserver has been designed as a low-barrier, open access portal for GIS data and services. Registered users can upload data in standard GIS formats without the need for data conversion. Uploaded data can be made available, using a sophisticated system of finely grained access privilege management, to other users, groups or everyone. Simple but effective metadata facilities ensure the reusability of hosted data, and user-friendly online map editors allow cartographically enriched data publication. In addition to its role as an online geodata repository, iDAI.geoserver can be used as a shared data backend to allow collaborative work on datasets using any desktop GIS that supports OGC protocols (WMS, WFS, WCS).</p>",
+      "description": "To accommodate the role of Geoinformation Systems (GIS) as a key technology in archaeology, iDAI.geoserver has been designed as a low-barrier, open access portal for GIS data and services. Registered users can upload data in standard GIS formats without the need for data conversion. Uploaded data can be made available, using a sophisticated system of finely grained access privilege management, to other users, groups or everyone. Simple but effective metadata facilities ensure the reusability of hosted data, and user-friendly online map editors allow cartographically enriched data publication. In addition to its role as an online geodata repository, iDAI.geoserver can be used as a shared data backend to allow collaborative work on datasets using any desktop GIS that supports OGC protocols (WMS, WFS, WCS).",
+      "tiles": [
         {
-            "headline": "iDAI.Chronontology",
-            "text": "A webservice that connects period terms to datings and applies them to geodata, textual data and object data",
-            "link": {
-                "target": "http://chronontology.dainst.org",
-                "alt": "iDAI.Chronontology"
-            }
+          "type": "image_link",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_al_idrisi.jpg",
+          "headline": "Al Idrisi - Archaeological Atlas of Algeria and Tunisia",
+          "subhead": "",
+          "link": {
+            "target": "https://geoserver.dainst.org/maps/984",
+            "text": "External Link to 'Al Idrisi - Archaeological Atlas of Algeria and Tunisia'"
+          }
         },
         {
-            "headline": "iDAI.Gazetteer",
-            "text": "The iDAI.gazetteer is a webservice, which connects toponyms with coordinates and objects",
-            "link": {
-                "target": "https://gazetteer.dainst.org/app/#!/home",
-                "alt": "iDAI.Gazetteer"
-            }
+          "type": "image_link",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_lead_ingots.jpg",
+          "headline": "Lead Ingots from Shipwrecks (Bizerte)",
+          "subhead": "",
+          "link": {
+            "target": "https://geoserver.dainst.org/maps/981",
+            "text": "External Link to 'Lead Ingots from Shipwrecks (Bizerte)'"
+          }
         },
         {
-            "headline": "iDAI.Geoserver",
-            "text": "This is an open platform for sharing geospatial data and maps.",
-            "link": {
-                "target": "http://chronontology.dainst.org",
-                "alt": "iDAI.Geoserver"
-            }
+          "type": "image_link",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_palmyra_gis_video.jpg",
+          "headline": "Palmyra-GIS",
+          "subhead": "",
+          "link": {
+            "target": "https://www.quantarch.org/files/palmyra_gis_video1.mp4",
+            "text": "External Link to 'Palmyra-GIS'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_palmyra_digital_atlas.jpg",
+          "headline": "Palmyra Digital Atlas",
+          "subhead": "",
+          "link": {
+            "target": "https://geoserver.dainst.org/maps/4935",
+            "text": "External Link to 'Palmyra Digital Atlas'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_triphylia.jpg",
+          "headline": "Triphylia - Map of a Greek landscape",
+          "subhead": "",
+          "link": {
+            "target": "https://geoserver.dainst.org/maps/980",
+            "text": "Triphylia - Map of a Greek landscape'"
+          }
         }
-    ]
-  },  
-  {
-    "type": "slider_tiles",
-    "title": "Working on digital monument registers",
-    "tiles": [
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/space-and-time/idai_space_time_ayda.jpg",
-        "headline": "AYDA",
-        "subhead": "Ancient Yemen Digital Atlas",
-        "link": {
-          "target": "https://www.archernet.org/2018/10/25/ayda-ein-digitales-denkmalregister-fuer-den-jemen/",
-          "text": "AYDA – Ancient Yemen Digital Atlas"
+      ]
+    },
+    {
+      "type": "slider_tiles",
+      "title": "Curated collections of chronontology data",
+      "text": "<p>The DAI’s contribution to making space-time research data more accessible is iDAI.chronontology. This online service allows researchers to manage the vast variety of regional and fragmentary chronological systems and dating sequences and derive absolute dates from them.</p>",
+      "description": "The DAI’s contribution to making space-time research data more accessible is iDAI.chronontology. This online service allows researchers to manage the vast variety of regional and fragmentary chronological systems and dating sequences and derive absolute dates from them.",
+      "tiles": [
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_roman_chronology.jpg",
+          "headline": "Roman chronology",
+          "subhead": "",
+          "link": {
+            "target": "http://chronontology.dainst.org/search?q=*&fq=tags:%27roman_chronology%27",
+            "text": "External Link to 'Roman chronology'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_ancient_egypt_chronology.jpg",
+          "headline": "Ancient egyptian chronology",
+          "subhead": "",
+          "link": {
+            "target": "http://chronontology.dainst.org/search?q=*&fq=tags:%27ancient_egypt%27",
+            "text": "External Link to 'Ancient egyptian chronology'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_europ_bronzeage_chronology.jpg",
+          "headline": "European bronze age chronology",
+          "subhead": "",
+          "link": {
+            "target": "http://chronontology.dainst.org/search?q=*&fq=tags:%27bronze_age_europe%27",
+            "text": "External Link to 'European bronze age chronology'"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_geological_timescale.jpg",
+          "headline": "Geological time scale",
+          "subhead": "",
+          "link": {
+            "target": "http://chronontology.dainst.org/search?q=*&fq=tags:%27geological_time_scale%27",
+            "text": "External Link to 'Geological time scale'"
+          }
         }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/space-and-time/idai_space_time_syrian_heritage_project.jpg",
-        "headline": "Syrian Heritage Archive",
-        "subhead": "A monument register for Syria",
-        "link": {
-          "target": "https://arachne.dainst.org/project/syrher",
-          "text": "Syrian Heritage Archive Project: A monument register for Syria"
+      ]
+    },
+    {
+      "type": "intro_text",
+      "title": "Gazetteer",
+      "body": "Geography and time are intimately linked and many inhabited places around the world have a long and dramatic history of fading into and out of political significance. The iDAI.gazetteer ist the DAI’s geographic registry of ancient and modern places. It provides detailed data about administrative units, populated places and sites, including their hierarchical relationships, multiple toponyms and transcriptions, and other essential attributes. The data hosted on this platform grows continuously and flexible import pathways exist for uploading single or multiple place entries, as do export facilities for generating geographic datasets in plain CSV or GIS data formats."
+    },
+    {
+      "type": "info_box",
+      "headline": "Search in our Space & Time systems",
+      "content": [
+        {
+          "headline": "iDAI.Chronontology",
+          "text": "A webservice that connects period terms to datings and applies them to geodata, textual data and object data",
+          "link": {
+            "target": "http://chronontology.dainst.org",
+            "alt": "iDAI.Chronontology"
+          }
+        },
+        {
+          "headline": "iDAI.Gazetteer",
+          "text": "The iDAI.gazetteer is a webservice, which connects toponyms with coordinates and objects",
+          "link": {
+            "target": "https://gazetteer.dainst.org/app/#!/home",
+            "alt": "iDAI.Gazetteer"
+          }
+        },
+        {
+          "headline": "iDAI.Geoserver",
+          "text": "This is an open platform for sharing geospatial data and maps.",
+          "link": {
+            "target": "http://chronontology.dainst.org",
+            "alt": "iDAI.Geoserver"
+          }
         }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/space-and-time/idai_space_time_friedrich_hinkel_archive.jpg",
-        "headline": "Friedrich Hinkel Archive",
-        "subhead": "A monument register for Sudan",
-        "link": {
-          "target": "https://arachne.dainst.org/project/hinkel",
-          "text": "Friedrich Hinkel Archive: A monument register for Sudan"
+      ]
+    },
+    {
+      "type": "slider_tiles",
+      "title": "Working on digital monument registers",
+      "tiles": [
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_ayda.jpg",
+          "headline": "AYDA",
+          "subhead": "Ancient Yemen Digital Atlas",
+          "link": {
+            "target": "https://www.archernet.org/2018/10/25/ayda-ein-digitales-denkmalregister-fuer-den-jemen/",
+            "text": "AYDA – Ancient Yemen Digital Atlas"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_syrian_heritage_project.jpg",
+          "headline": "Syrian Heritage Archive",
+          "subhead": "A monument register for Syria",
+          "link": {
+            "target": "https://arachne.dainst.org/project/syrher",
+            "text": "Syrian Heritage Archive Project: A monument register for Syria"
+          }
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_friedrich_hinkel_archive.jpg",
+          "headline": "Friedrich Hinkel Archive",
+          "subhead": "A monument register for Sudan",
+          "link": {
+            "target": "https://arachne.dainst.org/project/hinkel",
+            "text": "Friedrich Hinkel Archive: A monument register for Sudan"
+          }
         }
-      }      
-    ]  
-  }
-]
+      ]
+    }
+  ]
+}

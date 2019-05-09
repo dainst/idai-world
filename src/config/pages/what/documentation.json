@@ -18,18 +18,18 @@
       {
         "type": "image_link",
         "image": "assets/images/content/what/documentation/idai_documentation_archaeocopter.jpg",
-        "headline": "Archaeocopter: UAV-based Structure from Motion",
-        "subhead": "",
+        "headline": "Archaeocopter",
+        "subhead": "UAV-based Structure from Motion",
         "link": {
-          "target": "www.archaeocopter.de",
+          "target": "http://www.archaeocopter.de",
           "text": "External Link to 'Archaeocopter: UAV-based Structure from Motion'"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/documentation/idai_documentation_arcland.jpg",
-        "headline": "ArcLand (LiDAR, Remote Sensing)",
-        "subhead": "",
+        "headline": "ArcLand",
+        "subhead": "(LiDAR, Remote Sensing)",
         "link": {
           "target": "http://arcland.eu/",
           "text": "External Link to 'ArcLand (LiDAR, Remote Sensing)'"
@@ -38,8 +38,8 @@
       {
         "type": "image_link",
         "image": "assets/images/content/what/documentation/idai_documentation_field2.jpg",
-        "headline": "iDAI.field 2: Replacing pen and paper with digital clients",
-        "subhead": "",
+        "headline": "iDAI.field 2",
+        "subhead": "Replacing pen and paper with digital clients",
         "link": {
           "target": "https://github.com/dainst/idai-field",
           "text": "External Link to 'iDAI.field 2: Replacing pen and paper with digital clients'"
@@ -48,8 +48,8 @@
       {
         "type": "image_link",
         "image": "assets/images/content/what/documentation/idai_objects_trojans_column.jpg",
-        "headline": "Survey2GIS: Automated survey data processing for GIS",
-        "subhead": "",
+        "headline": "Survey2GIS",
+        "subhead": "Automated survey data processing for GIS",
         "link": {
           "target": "https://www.survey-tools.org/",
           "text": "External Link to 'Survey2GIS: Automated survey data processing for GIS'"
