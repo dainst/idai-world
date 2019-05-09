@@ -103,7 +103,8 @@
   {
     "type": "slider_tiles",
     "title": "DAI libraries worldwide",
-    "enableSliding": false,
+    "enableSliding": true,
+    "rows": 2,
     "tiles": [
       {
         "type": "image_link",

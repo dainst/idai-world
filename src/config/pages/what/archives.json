@@ -50,14 +50,14 @@
     {
       "type": "slider_tiles",
       "title": "Archives in cooperation with partners",
-      "enableSliding": false,
+      "enableSliding": true,
       "tiles": [
         {
           "type": "text",
           "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_hinkel.jpg",
           "headline": "Friedrich Hinkel Archive of Sudan",
           "subhead": "",
-          "text": "<p class='description'>Das Archiv von Friedrich W. Hinkel stellt eines der größten Forschungsarchive zum antiken Sudan dar und spiegelt die über 40 Jahre währende Grabungs- und Forschungstätigkeit Dr. Hinkels im Sudan wider. Beginnend mit seiner Teilnahme an den Ausgrabungen in Musawwarat es Sufra der Humboldt Universität Berlin im Jahr 1961 führte den Architekten Dr. Friedrich W. Hinkel (1925 – 2007) nicht nur ein reges Forschungsinteresse immer wieder in den Sudan, für den er nach Freistellung durch die Akademie ab 1962 auch direkt tätig war, sondern auch eine enge Verbundenheit mit Land und Leuten.</p><p class='description'><a title='External Link to Friedrich Hinkel Archive of Sudan' href='https://arachne.dainst.org/project/hinkel'> >> read more</a>"
+          "text": "<p class='description'>Das Archiv von Friedrich W. Hinkel stellt eines der größten Forschungsarchive zum antiken Sudan dar und spiegelt die über 40 Jahre währende Grabungs- und Forschungstätigkeit Dr. Hinkels im Sudan wider. Beginnend mit seiner Teilnahme an den Ausgrabungen in Musawwarat es Sufra der Humboldt Universität Berlin im Jahr 1961 führte den Architekten Dr. Friedrich W. Hinkel (1925 – 2007) nicht nur ein reges Forschungsinteresse immer wieder in den Sudan...</p><p class='description'><a title='External Link to Friedrich Hinkel Archive of Sudan' href='https://arachne.dainst.org/project/hinkel'> >> read more</a>"
         },
         {
           "type": "text",
