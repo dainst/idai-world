@@ -10,6 +10,8 @@ export class SliderImageComponent extends SliderBase {
   @ViewChild('slides') slides: ElementRef;
   public images: any[] = [];
 
+  public slideHeight: string;
+
   sliderConfig = {
     fade: true,
     speed: 2000,
@@ -18,10 +20,19 @@ export class SliderImageComponent extends SliderBase {
     autoplaySpeed: 2000
   };
 
-  onSetConfig = (config = { title: '', description: '', content: [] }) => {
-    const { title = '', description = '', content = [] } = config;
+  onSetConfig = (
+    config = { title: '', description: '', content: [], height: '' }
+  ) => {
+    const {
+      title = '',
+      description = '',
+      content = [],
+      height = '400px'
+    } = config;
 
     const defaultTarget = 'route://.';
+
+    this.slideHeight = height;
 
     this.images = content.map(item => {
       if (typeof item === 'string') {
