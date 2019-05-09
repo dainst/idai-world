@@ -19,7 +19,7 @@ export class DaiAppConfig {
   parse(config) {
     // TODO check all page configs if configured route links are valid
 
-    const routeConfigs = (config.routes || []).filter(route => !route.disabled);
+    const routeConfigs = config.routes || []; // .filter(route => !route.disabled);
 
     this.routes = routeConfigs.map(({ path, page }) => ({
       path,
@@ -29,6 +29,7 @@ export class DaiAppConfig {
 
     this.menuEntries = routeConfigs
       .filter(route => !!route.menu)
+      .filter(route => !route.disabled)
       .map(({ path, menu }) => ({ ...menu, link: path }));
 
     this.textLimits = config.text_limits || {};
