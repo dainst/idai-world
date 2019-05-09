@@ -14,10 +14,10 @@ export class SliderImageComponent extends SliderBase {
 
   sliderConfig = {
     fade: true,
-    speed: 2000,
+    speed: 5000,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 2000
+    autoplaySpeed: 0
   };
 
   onSetConfig = (
