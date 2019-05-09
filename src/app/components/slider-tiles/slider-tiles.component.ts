@@ -74,10 +74,10 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
   public text = '';
 
   onSetConfig = (
-    config = { title: '', tiles: [], text: '', enableSliding: true }
+    config = { title: '', tiles: [], text: '', enableSliding: true, rows: 1 }
   ) => {
     this.text = config.text;
-
+    this.numRows = config.rows;
     this.enableSliding =
       config.enableSliding === undefined ? true : config.enableSliding;
 

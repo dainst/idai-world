@@ -8,6 +8,8 @@ export class SliderBase extends ConfigurableComponent implements AfterViewInit {
 
   enableSliding = true;
 
+  numRows = 1;
+
   jQ = $;
   sliderConfig: any;
 
@@ -19,6 +21,8 @@ export class SliderBase extends ConfigurableComponent implements AfterViewInit {
 
   initSlider(element) {
     const sliderConfig = this.sliderConfig;
+    sliderConfig.rows = this.numRows;
+
     if (!sliderConfig) {
       console.warn(
         `no config for slider provided. Add field "sliderConfig" to class [${

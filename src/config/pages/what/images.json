@@ -59,33 +59,34 @@
     "type": "info_box",
     "headline": "Search in our image and object system",
     "content": [
-        {
-            "headline": "iDAI.Objects",
-            "text": "Repository for images and objects as a common information infrastructure, also called Arachne",
-            "link": {
-                "target": "https://arachne.dainst.org/",
-                "alt": "Repository for images and objects as a common information infrastructure, also called Arachne"
-            }
+      {
+        "headline": "iDAI.Objects",
+        "text": "Repository for images and objects as a common information infrastructure, also called Arachne",
+        "link": {
+          "target": "https://arachne.dainst.org/",
+          "alt": "Repository for images and objects as a common information infrastructure, also called Arachne"
         }
+      }
     ]
-  },  
+  },
   {
-      "type": "slider_image",
-      "title": "",
-      "description": "",
-      "content": [
-        "assets/images/content/what/images/slider/idai_images_slider_2.jpg",
-        "assets/images/content/what/images/slider/idai_images_slider_1.jpg",
-        "assets/images/content/what/images/slider/idai_images_slider_3.jpg",
-        "assets/images/content/what/images/slider/idai_images_slider_4.jpg",
-        "assets/images/content/what/images/slider/idai_images_slider_5.jpg",
-        "assets/images/content/what/images/slider/idai_images_slider_6.jpg"        
-      ]
-    },
+    "type": "slider_image",
+    "title": "",
+    "description": "",
+    "content": [
+      "assets/images/content/what/images/slider/idai_images_slider_2.jpg",
+      "assets/images/content/what/images/slider/idai_images_slider_1.jpg",
+      "assets/images/content/what/images/slider/idai_images_slider_3.jpg",
+      "assets/images/content/what/images/slider/idai_images_slider_4.jpg",
+      "assets/images/content/what/images/slider/idai_images_slider_5.jpg",
+      "assets/images/content/what/images/slider/idai_images_slider_6.jpg"
+    ]
+  },
   {
     "type": "slider_tiles",
     "title": "DAI photo libraries",
-    "enableSliding": false,
+    "enableSliding": true,
+    "rows": 2,
     "tiles": [
       {
         "type": "image_link",
@@ -166,7 +167,7 @@
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/71364",
           "text": "Teheran branch"
         }
-      }      
-    ]  
+      }
+    ]
   }
 ]
