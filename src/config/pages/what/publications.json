@@ -2,7 +2,7 @@
   {
     "type": "title_banner",
     "title": "Publications",
-    "image": "assets/images/content/banner-how.jpg"
+    "image": "assets/images/content/header/idai_publications_header.jpg"
   },  
     
   {
@@ -429,51 +429,51 @@
             },
             {
               "text": "Germania 85.1, 2007" ,
-              "target": "https://publications.dainst.org/journals/eger/issue/320"
+              "target": "https://publications.dainst.org/journals/ger/issue/320"
             },
             {
               "text": "Germania 84.1, 2006" ,
-              "target": "https://publications.dainst.org/journals/eger/issue/324"
+              "target": "https://publications.dainst.org/journals/ger/issue/324"
             },
             {
               "text": "Germania 83.2, 2005" ,
-              "target": "https://publications.dainst.org/journals/eger/issue/316"
+              "target": "https://publications.dainst.org/journals/ger/issue/316"
             },
             {
               "text": "Germania 83.1, 2005" ,
-              "target": "https://publications.dainst.org/journals/eger/issue/315"
+              "target": "https://publications.dainst.org/journals/ger/issue/315"
             },
             {
               "text": "Germania 82.2, 2004" ,
-              "target": "https://publications.dainst.org/journals/eger/issue/314"
+              "target": "https://publications.dainst.org/journals/ger/issue/314"
             },
             {
               "text": "Germania 81.1, 2003" ,
-              "target": "https://publications.dainst.org/journals/eger/issue/313"
+              "target": "https://publications.dainst.org/journals/ger/issue/313"
             },
             {
               "text": "Germania 80.2, 2002" ,
-              "target": "https://publications.dainst.org/journals/eger/issue/322"
+              "target": "https://publications.dainst.org/journals/ger/issue/322"
             },
             {
               "text": "Germania 80.1, 2002" ,
-              "target": "https://publications.dainst.org/journals/eger/issue/312"
+              "target": "https://publications.dainst.org/journals/ger/issue/312"
             },
             {
               "text": "Germania 79.2, 2001" ,
-              "target": "https://publications.dainst.org/journals/eger/issue/311"
+              "target": "https://publications.dainst.org/journals/ger/issue/311"
             },
             {
               "text": "Germania 79.1, 2001" ,
-              "target": "https://publications.dainst.org/journals/eger/issue/310"
+              "target": "https://publications.dainst.org/journals/ger/issue/310"
             },
             {
               "text": "Germania 78.2, 2000" ,
-              "target": "https://publications.dainst.org/journals/eger/issue/309"
+              "target": "https://publications.dainst.org/journals/ger/issue/309"
             },
             {
               "text": "Germania 78.1, 2000" ,
-              "target": "https://publications.dainst.org/journals/eger/issue/308"
+              "target": "https://publications.dainst.org/journals/ger/issue/308"
             },
             {
               "text": "Germania 77.2, 1999",
@@ -1027,22 +1027,6 @@
               "text": "Germania 1.1, 1917",
               "target": "https://publications.dainst.org/journals/ger/issue/171"
             }
-          ]
-        },
-        {
-          "type": "link_list",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_roemische_mitteilungen.jpg",
-          "headline": "Römische Mitteilungen",
-          "subhead": "Archaeology in Italy and neighbouring regions",
-          "link": {
-            "target": "https://publications.dainst.org/journals/index.php/rm",
-            "text": "Römische Mitteilungen"
-          },      
-          "links": [
-            { 
-                "text": "RM 121: Bukowiecki – Wulf-Rheidt" ,
-                "target": "https://publications.dainst.org/journals/rm/issue/169"                    
-            }           
           ]
         }
       ]

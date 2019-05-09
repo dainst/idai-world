@@ -86,7 +86,6 @@
     "type": "slider_tiles",
     "title": "DAI photo libraries",
     "enableSliding": true,
-    "rows": 2,
     "tiles": [
       {
         "type": "image_link",
@@ -170,4 +169,5 @@
       }
     ]
   }
+
 ]
