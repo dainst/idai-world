@@ -14,7 +14,11 @@
   </a>
 </ng-container>
 <ng-container *ngIf="useContent">
-  <a *ngIf="type === LinkType.ROUTE" [routerLink]="link">
+  <a
+    *ngIf="type === LinkType.ROUTE"
+    [routerLink]="link"
+    [class.no-point]="link === '.'"
+  >
     <ng-container *ngTemplateOutlet="content"></ng-container>
   </a>
   <a *ngIf="type === LinkType.HREF" [href]="link">

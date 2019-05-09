@@ -13,10 +13,10 @@ $(".slider-intro .slider__slides").slick({
   ]
 });
 
-$(".slider-arch-images .slider__slides").slick({
-  fade: true,
-  speed: 2000,
-  arrows: false,
-  autoplay: true,
-  autoplaySpeed: 2000
-});
+// $(".slider-arch-images .slider__slides").slick({
+//   fade: true,
+//   speed: 2000,
+//   arrows: false,
+//   autoplay: true,
+//   autoplaySpeed: 2000
+// });

@@ -21,18 +21,24 @@ export class SliderImageComponent extends SliderBase {
   onSetConfig = (config = { title: '', description: '', content: [] }) => {
     const { title = '', description = '', content = [] } = config;
 
+    const defaultTarget = 'route://.';
+
     this.images = content.map(item => {
       if (typeof item === 'string') {
         return {
           src: item,
           title,
-          description
+          description,
+          link: { target: defaultTarget }
         };
       }
+
+      const target = item.target || defaultTarget;
 
       return {
         src: item.src,
         title: item.hasOwnProperty('title') ? item.title : title,
+        link: { target },
         description: item.hasOwnProperty('description')
           ? item.description
           : description

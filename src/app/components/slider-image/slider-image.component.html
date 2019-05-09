@@ -2,28 +2,30 @@
 <div class="section__body">
   <div #slides class="slider-arch-images">
     <div *ngFor="let image of images" class="slider__clip">
-      <div class="slider__slides">
-        <div class="slider__slide">
-          <div
-            class="section__image"
-            [style.backgroundImage]="'url(' + image.src + ')'"
-          >
+      <dai-link [useContent]="true" [data]="image.link">
+        <div class="slider__slides">
+          <div class="slider__slide">
             <div
-              *ngIf="image.title || image.description"
-              class="section__content"
+              class="section__image"
+              [style.backgroundImage]="'url(' + image.src + ')'"
             >
-              <div class="container">
-                <h2 *ngIf="image.title" [innerHtml]="image.title"></h2>
+              <div
+                *ngIf="image.title || image.description"
+                class="section__content"
+              >
+                <div class="container">
+                  <h2 *ngIf="image.title" [innerHtml]="image.title"></h2>
 
-                <p
-                  *ngIf="image.description"
-                  [innerHtml]="image.description"
-                ></p>
+                  <p
+                    *ngIf="image.description"
+                    [innerHtml]="image.description"
+                  ></p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </dai-link>
     </div>
   </div>
 </div>

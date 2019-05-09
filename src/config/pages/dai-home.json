@@ -3,7 +3,37 @@
     {
       "type": "html",
       "script": "config/pages/home/home.js",
-      "content_html": "config/pages/home/home.html"
+      "content_html": "config/pages/home/home-top.html"
+    },
+    {
+      "type": "slider_image",
+      "content": [
+        {
+          "src": "assets/images/content/home/idai_home_images_objects_1.jpg",
+          "title": "Images & Objects",
+          "target": "route://what/images",
+          "description": "From our very beginnings 1829 to the future – <br /> We constantly share and digitise archeological objects for a better understanding of the world."
+        },
+        {
+          "src": "assets/images/content/home/idai_home_images_objects_2.jpg",
+          "title": "Archeological Images",
+          "description": "From our very beginnings 1829 to the future – <br /> We constantly share and digitise archeological objects for a better understanding of the world."
+        },
+        {
+          "src": "assets/images/content/home/idai_home_images_objects_3.jpg",
+          "title": "Archeological Images",
+          "description": "From our very beginnings 1829 to the future – <br /> We constantly share and digitise archeological objects for a better understanding of the world."
+        },
+        {
+          "src": "assets/images/content/home/idai_home_images_objects_4.jpg",
+          "title": "Archeological Images",
+          "description": "From our very beginnings 1829 to the future – <br /> We constantly share and digitise archeological objects for a better understanding of the world."
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "content_html": "config/pages/home/home-bottom.html"
     }
   ]
 }
