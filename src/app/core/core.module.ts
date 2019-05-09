@@ -15,6 +15,7 @@ import { ArachneSearchbarComponent } from './components/arachne-searchbar/arachn
 import { SubNavigationComponent } from './components/sub-navigation/sub-navigation.component';
 import { TitleBannerComponent } from './components/title-banner/title-banner.component';
 import { HtmlComponent } from './components/html/html.component';
+import { SpinnerComponent } from './components/spinner/spinner.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HtmlComponent } from './components/html/html.component';
     ArachneSearchbarComponent,
     SubNavigationComponent,
     TitleBannerComponent,
-    HtmlComponent
+    HtmlComponent,
+    SpinnerComponent
   ],
   exports: [
     PageComponent,
@@ -39,7 +41,8 @@ import { HtmlComponent } from './components/html/html.component';
     ArachneSearchbarComponent,
     SubNavigationComponent,
     TitleBannerComponent,
-    HtmlComponent
+    HtmlComponent,
+    SpinnerComponent
   ],
   entryComponents: [
     PageComponent,

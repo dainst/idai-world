@@ -7,16 +7,13 @@
   >
     No config available at: {{ configPath }}
   </div>
-  <div
-    *ngIf="isLoading"
-    class="progress"
-    style="width:100vw; position:absolute; top:45vh;"
-  >
-    <div
+  <div *ngIf="isLoading" style="width:100vw; position:absolute; top:29vh;">
+    <!-- <div
       class="progress-bar progress-bar-striped progress-bar-animated"
       role="progressbar"
       style="width: 100%"
-    ></div>
+    ></div> -->
+    <dai-spinner></dai-spinner>
   </div>
 
   <dai-title-banner
