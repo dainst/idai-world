@@ -400,7 +400,7 @@
             }
             
           ]
-        },
+        },        
         {
           "type": "link_list",
           "image": "assets/images/content/what/publications/idai_publications_journals_germania.jpg",
@@ -408,7 +408,7 @@
           "subhead": "Römisch-Germanische Kommission",
           "link": {
             "target": "https://publications.dainst.org/journals/index.php/ger",
-            "text": "Annual E-Report"
+            "text": "Germania"
           },
           "links": [
             {
@@ -424,58 +424,609 @@
               "target": "https://publications.dainst.org/journals/ger/issue/317"
             },
             {
-              "text": "Germania 85,2, 2007" ,
+              "text": "Germania 85.2, 2007" ,
               "target": "https://publications.dainst.org/journals/ger/issue/321"
             },
             {
-              "text": "Germania 85,1, 2007" ,
+              "text": "Germania 85.1, 2007" ,
               "target": "https://publications.dainst.org/journals/eger/issue/320"
             },
             {
-              "text": "Germania 84,1, 2006" ,
+              "text": "Germania 84.1, 2006" ,
               "target": "https://publications.dainst.org/journals/eger/issue/324"
             },
             {
-              "text": "Germania 83,2, 2005" ,
+              "text": "Germania 83.2, 2005" ,
               "target": "https://publications.dainst.org/journals/eger/issue/316"
             },
             {
-              "text": "Germania 83,1, 2005" ,
+              "text": "Germania 83.1, 2005" ,
               "target": "https://publications.dainst.org/journals/eger/issue/315"
             },
             {
-              "text": "Germania 82,2, 2004" ,
+              "text": "Germania 82.2, 2004" ,
               "target": "https://publications.dainst.org/journals/eger/issue/314"
             },
             {
-              "text": "Germania 81,1, 2003" ,
+              "text": "Germania 81.1, 2003" ,
               "target": "https://publications.dainst.org/journals/eger/issue/313"
             },
             {
-              "text": "Germania 80,2, 2002" ,
+              "text": "Germania 80.2, 2002" ,
               "target": "https://publications.dainst.org/journals/eger/issue/322"
             },
             {
-              "text": "Germania 80,1, 2002" ,
+              "text": "Germania 80.1, 2002" ,
               "target": "https://publications.dainst.org/journals/eger/issue/312"
             },
             {
-              "text": "Germania 79,2, 2001" ,
+              "text": "Germania 79.2, 2001" ,
               "target": "https://publications.dainst.org/journals/eger/issue/311"
             },
             {
-              "text": "Germania 79,1, 2001" ,
+              "text": "Germania 79.1, 2001" ,
               "target": "https://publications.dainst.org/journals/eger/issue/310"
             },
             {
-              "text": "Germania 78,2, 2000" ,
+              "text": "Germania 78.2, 2000" ,
               "target": "https://publications.dainst.org/journals/eger/issue/309"
             },
             {
-              "text": "Germania 78,1, 2000" ,
+              "text": "Germania 78.1, 2000" ,
               "target": "https://publications.dainst.org/journals/eger/issue/308"
+            },
+            {
+              "text": "Germania 77.2, 1999",
+              "target": "https://publications.dainst.org/journals/ger/issue/307"
+            },
+            {
+              "text": "Germania 77.1, 1999",
+              "target": "https://publications.dainst.org/journals/ger/issue/306"
+            },
+            {
+              "text": "Germania 76.2, 1998",
+              "target": "https://publications.dainst.org/journals/ger/issue/305"
+            },
+            {
+              "text": "Germania 74.2, 1996",
+              "target": "https://publications.dainst.org/journals/ger/issue/304"
+            },
+            {
+              "text": "Germania 74.1, 1996",
+              "target": "https://publications.dainst.org/journals/ger/issue/303"
+            },
+            {
+              "text": "Germania 73.2, 1995",
+              "target": "https://publications.dainst.org/journals/ger/issue/302"
+            },
+            {
+              "text": "Germania 73.1, 1995",
+              "target": "https://publications.dainst.org/journals/ger/issue/301"
+            },
+            {
+              "text": "Germania 72.2, 1994",
+              "target": "https://publications.dainst.org/journals/ger/issue/300"
+            },
+            {
+              "text": "Germania 71.1, 1993",
+              "target": "https://publications.dainst.org/journals/ger/issue/299"
+            },
+            {
+              "text": "Germania 70.2, 1992",
+              "target": "https://publications.dainst.org/journals/ger/issue/298"
+            },
+            {
+              "text": "Germania 70.1, 1992",
+              "target": "https://publications.dainst.org/journals/ger/issue/297"
+            },
+            {
+              "text": "Germania 69.2, 1991",
+              "target": "https://publications.dainst.org/journals/ger/issue/296"
+            },
+            {
+              "text": "Germania 69.1, 1991",
+              "target": "https://publications.dainst.org/journals/ger/issue/295"
+            },
+            {
+              "text": "Germania 68.1, 1990",
+              "target": "https://publications.dainst.org/journals/ger/issue/323"
+            },
+            {
+              "text": "Germania 66.2, 1988",
+              "target": "https://publications.dainst.org/journals/ger/issue/294"
+            },
+            {
+              "text": "Germania 65.2, 1987",
+              "target": "https://publications.dainst.org/journals/ger/issue/293"
+            },
+            {
+              "text": "Germania 65.1, 1987",
+              "target": "https://publications.dainst.org/journals/ger/issue/292"
+            },
+            {
+              "text": "Germania 64.2, 1986",
+              "target": "https://publications.dainst.org/journals/ger/issue/291"
+            },
+            {
+              "text": "Germania 64.1, 1986",
+              "target": "https://publications.dainst.org/journals/ger/issue/290"
+            },
+            {
+              "text": "Germania 63.2, 1985",
+              "target": "https://publications.dainst.org/journals/ger/issue/289"
+            },
+            {
+              "text": "Germania 63.1, 1985",
+              "target": "https://publications.dainst.org/journals/ger/issue/288"
+            },
+            {
+              "text": "Germania 38.3/4, 1960",
+              "target": "https://publications.dainst.org/journals/ger/issue/287"
+            },
+            {
+              "text": "Germania 38.1/2, 1960",
+              "target": "https://publications.dainst.org/journals/ger/issue/286"
+            },
+            {
+              "text": "Germania 37.1/4, 1959",
+              "target": "https://publications.dainst.org/journals/ger/issue/285"
+            },
+            {
+              "text": "Germania 36.3/4, 1958",
+              "target": "https://publications.dainst.org/journals/ger/issue/284"
+            },
+            {
+              "text": "Germania 36.1/2, 1958",
+              "target": "https://publications.dainst.org/journals/ger/issue/283"
+            },
+            {
+              "text": "Germania 35.3/4, 1957",
+              "target": "https://publications.dainst.org/journals/ger/issue/282"
+            },
+            {
+              "text": "Germania 35.1/2, 1957",
+              "target": "https://publications.dainst.org/journals/ger/issue/281"
+            },
+            {
+              "text": "Germania 34.3/4, 1956",
+              "target": "https://publications.dainst.org/journals/ger/issue/280"
+            },
+            {
+              "text": "Germania 34.1/2, 1956",
+              "target": "https://publications.dainst.org/journals/ger/issue/279"
+            },
+            {
+              "text": "Germania 33.4, 1955",
+              "target": "https://publications.dainst.org/journals/ger/issue/278"
+            },
+            {
+              "text": "Germania 33.3, 1955",
+              "target": "https://publications.dainst.org/journals/ger/issue/277"
+            },
+            {
+              "text": "Germania 33.1/2, 1955",
+              "target": "https://publications.dainst.org/journals/ger/issue/276"
+            },
+            {
+              "text": "Germania 32.4, 1954",
+              "target": "https://publications.dainst.org/journals/ger/issue/275"
+            },
+            {
+              "text": "Germania 32.3, 1954",
+              "target": "https://publications.dainst.org/journals/ger/issue/274"
+            },
+            {
+              "text": "Germania 32.1/2, 1954",
+              "target": "https://publications.dainst.org/journals/ger/issue/273"
+            },
+            {
+              "text": "Germania 31.3/4, 1953",
+              "target": "https://publications.dainst.org/journals/ger/issue/272"
+            },
+            {
+              "text": "Germania 31.1/2, 1953",
+              "target": "https://publications.dainst.org/journals/ger/issue/271"
+            },
+            {
+              "text": "Germania 30.3/4, 1952",
+              "target": "https://publications.dainst.org/journals/ger/issue/270"
+            },
+            {
+              "text": "Germania 30.2, 1952",
+              "target": "https://publications.dainst.org/journals/ger/issue/269"
+            },
+            {
+              "text": "Germania 30.1, 1952",
+              "target": "https://publications.dainst.org/journals/ger/issue/268"
+            },
+            {
+              "text": "Germania 29.3/4, 1951",
+              "target": "https://publications.dainst.org/journals/ger/issue/267"
+            },
+            {
+              "text": "Germania 29.1/2, 1951",
+              "target": "https://publications.dainst.org/journals/ger/issue/266"
+            },
+            {
+              "text": "Germania 28.3/4, 1950",
+              "target": "https://publications.dainst.org/journals/ger/issue/265"
+            },
+            {
+              "text": "Germania 28.1/2, 1950",
+              "target": "https://publications.dainst.org/journals/ger/issue/264"
+            },
+            {
+              "text": "Germania 27.3/4, 1943",
+              "target": "https://publications.dainst.org/journals/ger/issue/263"
+            },
+            {
+              "text": "Germania 27.2, 1943",
+              "target": "https://publications.dainst.org/journals/ger/issue/262"
+            },
+            {
+              "text": "Germania 27.1, 1943",
+              "target": "https://publications.dainst.org/journals/ger/issue/261"
+            },
+            {
+              "text": "Germania 26.4, 1942",
+              "target": "https://publications.dainst.org/journals/ger/issue/260"
+            },
+            {
+              "text": "Germania 26.2/3, 1942",
+              "target": "https://publications.dainst.org/journals/ger/issue/259"
+            },
+            {
+              "text": "Germania 26.1, 1942",
+              "target": "https://publications.dainst.org/journals/ger/issue/258"
+            },
+            {
+              "text": "Germania 25.4, 1941",
+              "target": "https://publications.dainst.org/journals/ger/issue/257"
+            },
+            {
+              "text": "Germania 25.3, 1941",
+              "target": "https://publications.dainst.org/journals/ger/issue/256"
+            },
+            {
+              "text": "Germania 25.2, 1941",
+              "target": "https://publications.dainst.org/journals/ger/issue/255"
+            },
+            {
+              "text": "Germania 25.1, 1941",
+              "target": "https://publications.dainst.org/journals/ger/issue/254"
+            },
+            {
+              "text": "Germania 24.4, 1940",
+              "target": "https://publications.dainst.org/journals/ger/issue/253"
+            },
+            {
+              "text": "Germania 24.3, 1940",
+              "target": "https://publications.dainst.org/journals/ger/issue/252"
+            },
+            {
+              "text": "Germania 24.2, 1940",
+              "target": "https://publications.dainst.org/journals/ger/issue/251"
+            },
+            {
+              "text": "Germania 24.1, 1940",
+              "target": "https://publications.dainst.org/journals/ger/issue/250"
+            },
+            {
+              "text": "Germania 23.4, 1939",
+              "target": "https://publications.dainst.org/journals/ger/issue/249"
+            },
+            {
+              "text": "Germania 23.3, 1939",
+              "target": "https://publications.dainst.org/journals/ger/issue/248"
+            },
+            {
+              "text": "Germania 23.2, 1939",
+              "target": "https://publications.dainst.org/journals/ger/issue/247"
+            },
+            {
+              "text": "Germania 23.1, 1939",
+              "target": "https://publications.dainst.org/journals/ger/issue/246"
+            },
+            {
+              "text": "Germania 22.4, 1938",
+              "target": "https://publications.dainst.org/journals/ger/issue/245"
+            },
+            {
+              "text": "Germania 22.3, 1938",
+              "target": "https://publications.dainst.org/journals/ger/issue/244"
+            },
+            {
+              "text": "Germania 22.2, 1938",
+              "target": "https://publications.dainst.org/journals/ger/issue/243"
+            },
+            {
+              "text": "Germania 22.1, 1938",
+              "target": "https://publications.dainst.org/journals/ger/issue/242"
+            },
+            {
+              "text": "Germania 21.4, 1937",
+              "target": "https://publications.dainst.org/journals/ger/issue/241"
+            },
+            {
+              "text": "Germania 21.3, 1937",
+              "target": "https://publications.dainst.org/journals/ger/issue/240"
+            },
+            {
+              "text": "Germania 21.2, 1937",
+              "target": "https://publications.dainst.org/journals/ger/issue/239"
+            },
+            {
+              "text": "Germania 21.1, 1937",
+              "target": "https://publications.dainst.org/journals/ger/issue/238"
+            },
+            {
+              "text": "Germania 20.4, 1936",
+              "target": "https://publications.dainst.org/journals/ger/issue/237"
+            },
+            {
+              "text": "Germania 20.3, 1936",
+              "target": "https://publications.dainst.org/journals/ger/issue/236"
+            },
+            {
+              "text": "Germania 20.2, 1936",
+              "target": "https://publications.dainst.org/journals/ger/issue/235"
+            },
+            {
+              "text": "Germania 20.1, 1936",
+              "target": "https://publications.dainst.org/journals/ger/issue/234"
+            },
+            {
+              "text": "Germania 19.4, 1935",
+              "target": "https://publications.dainst.org/journals/ger/issue/233"
+            },
+            {
+              "text": "Germania 19.3, 1935",
+              "target": "https://publications.dainst.org/journals/ger/issue/232"
+            },
+            {
+              "text": "Germania 19.2, 1935",
+              "target": "https://publications.dainst.org/journals/ger/issue/231"
+            },
+            {
+              "text": "Germania 19.1, 1935",
+              "target": "https://publications.dainst.org/journals/ger/issue/230"
+            },
+            {
+              "text": "Germania 18.4, 1934",
+              "target": "https://publications.dainst.org/journals/ger/issue/229"
+            },
+            {
+              "text": "Germania 18.3, 1934",
+              "target": "https://publications.dainst.org/journals/ger/issue/228"
+            },
+            {
+              "text": "Germania 18.2, 1934",
+              "target": "https://publications.dainst.org/journals/ger/issue/227"
+            },
+            {
+              "text": "Germania 18.1, 1934",
+              "target": "https://publications.dainst.org/journals/ger/issue/226"
+            },
+            {
+              "text": "Germania 17.4, 1933",
+              "target": "https://publications.dainst.org/journals/ger/issue/225"
+            },
+            {
+              "text": "Germania 17.3, 1933",
+              "target": "https://publications.dainst.org/journals/ger/issue/224"
+            },
+            {
+              "text": "Germania 17.2, 1933",
+              "target": "https://publications.dainst.org/journals/ger/issue/223"
+            },
+            {
+              "text": "Germania 17.1, 1933",
+              "target": "https://publications.dainst.org/journals/ger/issue/222"
+            },
+            {
+              "text": "Germania 16.4, 1932",
+              "target": "https://publications.dainst.org/journals/ger/issue/221"
+            },
+            {
+              "text": "Germania 16.3, 1932",
+              "target": "https://publications.dainst.org/journals/ger/issue/220"
+            },
+            {
+              "text": "Germania 16.2, 1932",
+              "target": "https://publications.dainst.org/journals/ger/issue/219"
+            },
+            {
+              "text": "Germania 16.1, 1932",
+              "target": "https://publications.dainst.org/journals/ger/issue/218"
+            },
+            {
+              "text": "Germania 15.4, 1931",
+              "target": "https://publications.dainst.org/journals/ger/issue/217"
+            },
+            {
+              "text": "Germania 15.3, 1931",
+              "target": "https://publications.dainst.org/journals/ger/issue/216"
+            },
+            {
+              "text": "Germania 15.2, 1931",
+              "target": "https://publications.dainst.org/journals/ger/issue/215"
+            },
+            {
+              "text": "Germania 15.1, 1931",
+              "target": "https://publications.dainst.org/journals/ger/issue/214"
+            },
+            {
+              "text": "Germania 14.5, 1930",
+              "target": "https://publications.dainst.org/journals/ger/issue/213"
+            },
+            {
+              "text": "Germania 14.4, 1930",
+              "target": "https://publications.dainst.org/journals/ger/issue/212"
+            },
+            {
+              "text": "Germania 14.3, 1930",
+              "target": "https://publications.dainst.org/journals/ger/issue/211"
+            },
+            {
+              "text": "Germania 14.1/2, 1930",
+              "target": "https://publications.dainst.org/journals/ger/issue/210"
+            },
+            {
+              "text": "Germania 13.4, 1929",
+              "target": "https://publications.dainst.org/journals/ger/issue/209"
+            },
+            {
+              "text": "Germania 13.3, 1929",
+              "target": "https://publications.dainst.org/journals/ger/issue/208"
+            },
+            {
+              "text": "Germania 13.1/2, 1929",
+              "target": "https://publications.dainst.org/journals/ger/issue/207"
+            },
+            {
+              "text": "Germania 12.4, 1928",
+              "target": "https://publications.dainst.org/journals/ger/issue/206"
+            },
+            {
+              "text": "Germania 12.3, 1928",
+              "target": "https://publications.dainst.org/journals/ger/issue/205"
+            },
+            {
+              "text": "Germania 12.1/2, 1928",
+              "target": "https://publications.dainst.org/journals/ger/issue/204"
+            },
+            {
+              "text": "Germania 11.2, 1927",
+              "target": "https://publications.dainst.org/journals/ger/issue/203"
+            },
+            {
+              "text": "Germania 11.1, 1927",
+              "target": "https://publications.dainst.org/journals/ger/issue/202"
+            },
+            {
+              "text": "Germania 10.2, 1926",
+              "target": "https://publications.dainst.org/journals/ger/issue/201"
+            },
+            {
+              "text": "Germania 10.1, 1026",
+              "target": "https://publications.dainst.org/journals/ger/issue/200"
+            },
+            {
+              "text": "Germania 9.3, 1925",
+              "target": "https://publications.dainst.org/journals/ger/issue/199"
+            },
+            {
+              "text": "Germania 9.2, 1925",
+              "target": "https://publications.dainst.org/journals/ger/issue/198"
+            },
+            {
+              "text": "Germania 9.1, 1925",
+              "target": "https://publications.dainst.org/journals/ger/issue/197"
+            },
+            {
+              "text": "Germania 8.2, 1924",
+              "target": "https://publications.dainst.org/journals/ger/issue/196"
+            },
+            {
+              "text": "Germania 8.1, 1924",
+              "target": "https://publications.dainst.org/journals/ger/issue/195"
+            },
+            {
+              "text": "Germania 7.2, 1923",
+              "target": "https://publications.dainst.org/journals/ger/issue/194"
+            },
+            {
+              "text": "Germania 7.1, 1923",
+              "target": "https://publications.dainst.org/journals/ger/issue/193"
+            },
+            {
+              "text": "Germania 6.3, 1922",
+              "target": "https://publications.dainst.org/journals/ger/issue/192"
+            },
+            {
+              "text": "Germania 6.2, 1922",
+              "target": "https://publications.dainst.org/journals/ger/issue/191"
+            },
+            {
+              "text": "Germania 6.1, 1922",
+              "target": "https://publications.dainst.org/journals/ger/issue/190"
+            },
+            {
+              "text": "Germania 5.3, 1921",
+              "target": "https://publications.dainst.org/journals/ger/issue/189"
+            },
+            {
+              "text": "Germania 5.2, 1921",
+              "target": "https://publications.dainst.org/journals/ger/issue/188"
+            },
+            {
+              "text": "Germania 5.1, 1921",
+              "target": "https://publications.dainst.org/journals/ger/issue/187"
+            },
+            {
+              "text": "Germania 4.3/6, 1920",
+              "target": "https://publications.dainst.org/journals/ger/issue/186"
+            },
+            {
+              "text": "Germania 4.1/2, 1920",
+              "target": "https://publications.dainst.org/journals/ger/issue/185"
+            },
+            {
+              "text": "Germania 3.5/6, 1919",
+              "target": "https://publications.dainst.org/journals/ger/issue/184"
+            },
+            {
+              "text": "Germania 3.3/4, 1919",
+              "target": "https://publications.dainst.org/journals/ger/issue/183"
+            },
+            {
+              "text": "Germania 3.2, 1919",
+              "target": "https://publications.dainst.org/journals/ger/issue/182"
+            },
+            {
+              "text": "Germania 3.1, 1919",
+              "target": "https://publications.dainst.org/journals/ger/issue/181"
+            },
+            {
+              "text": "Germania 2.5/6, 1918",
+              "target": "https://publications.dainst.org/journals/ger/issue/180"
+            },
+            {
+              "text": "Germania 2.3/4, 1918",
+              "target": "https://publications.dainst.org/journals/ger/issue/179"
+            },
+            {
+              "text": "Germania 2.2, 1918",
+              "target": "https://publications.dainst.org/journals/ger/issue/178"
+            },
+            {
+              "text": "Germania 2.1, 1918",
+              "target": "https://publications.dainst.org/journals/ger/issue/177"
+            },
+            {
+              "text": "Germania 1.6, 1917",
+              "target": "https://publications.dainst.org/journals/ger/issue/176"
+            },
+            {
+              "text": "Germania 1.5, 1917",
+              "target": "https://publications.dainst.org/journals/ger/issue/175"
+            },
+            {
+              "text": "Germania 1.4, 1917",
+              "target": "https://publications.dainst.org/journals/ger/issue/174"
+            },
+            {
+              "text": "Germania 1.3, 1917",
+              "target": "https://publications.dainst.org/journals/ger/issue/173"
+            },
+            {
+              "text": "Germania 1.2, 1917",
+              "target": "https://publications.dainst.org/journals/ger/issue/172"
+            },
+            {
+              "text": "Germania 1.1, 1917",
+              "target": "https://publications.dainst.org/journals/ger/issue/171"
             }
-
           ]
         },
         {
