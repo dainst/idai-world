@@ -28,8 +28,9 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
+          centerMode: false,
           infinite: false,
-          variableWidth: true
+          variableWidth: false
         }
       },
       {
@@ -42,7 +43,7 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
         }
       },
       {
-        breakpoint: 1200,
+        breakpoint: 1250,
         settings: {
           infinite: false,
           slidesToShow: 3,
