@@ -3,17 +3,19 @@
     "type": "title_banner",
     "title": "Publications",
     "image": "assets/images/content/header/idai_publications_header.jpg"
-  },  
-    
+  },
+
   {
     "type": "intro_text",
     "title": "Read our publications open access",
     "body": "DAI has contributed to archaeological literature since its foundation in the early 19th century. From our regular journals featuring our latest research projects, to digitized versions of series and comprehensive monographs on specific fields of research - we publish and share knowledge that scholars can build on and freely use for their own research. Our publications are accessible via iDAI.publications/journals and iDAI.publications/books. Both systems are networked with other digital resources and complemented by the publication of databases. The publications of the DAI undergo a peer review process and are editorially supervised."
-  },  
+  },
   {
     "type": "slider_image",
     "title": "",
-    "content" : [
+    "fullWidth": false,
+    "align": "right",
+    "content": [
       "assets/images/content/what/publications/slider/idai_publications_slider_antike_plastik_31.jpg",
       "assets/images/content/what/publications/slider/idai_publications_slider_aa_2017_2.jpg",
       "assets/images/content/what/publications/slider/idai_publications_slider_e-papers1.19.jpg",
@@ -21,1493 +23,1492 @@
     ]
   },
   {
-      "type": "slider_tiles",
-      "title": "Journals",
-      "tiles": [        
-        {
-          "type": "link_list",
-          "image": "assets/images/content/what/publications/idai_publications_journals_aa.jpg",
-          "headline": "Archäologischer Anzeiger",
-          "subhead": "Articles on current global research projects",
-          "links": [
-            { 
-                "text": "AA 2017, 2" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/165"                    
-            },            
-            { 
-                "text": "AA 2017, 1" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/154"                    
-            },            
-            { 
-                "text": "AA 2016, 2" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/153"                    
-            },            
-            { 
-                "text": "AA 2016, 1" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/152"                    
-            },            
-            { 
-                "text": "AA 2015, 2" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/150"                    
-            },            
-            { 
-                "text": "AA 2015, 1" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/149"                    
-            },            
-            { 
-                "text": "AA 2014, 2" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/137"                    
-            },            
-            { 
-                "text": "AA 2014, 1" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/136"                    
-            },            
-            { 
-                "text": "AA 2013, 2" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/135"                    
-            },            
-            { 
-                "text": "AA 2013, 1" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/19"                    
-            },            
-            { 
-                "text": "AA 2012, 2" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/13"                    
-            },            
-            { 
-                "text": "AA 2012, 1" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/12"                    
-            },            
-            { 
-                "text": "AA 2011, 2" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/11"                    
-            },            
-            { 
-                "text": "AA 2011, 1" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/10"                    
-            },
-            { 
-                "text": "AA 2010, 2" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/9"                    
-            },
-            { 
-                "text": "AA 2010, 1" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/8"                    
-            },
-            { 
-                "text": "AA 2009, 2" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/6"                    
-            },
-            { 
-                "text": "AA 2009, 1" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/7"                    
-            },
-            { 
-                "text": "AA 2008, 2" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/1"                    
-            },
-            { 
-                "text": "AA 2008, 1" ,
-                "target": "https://publications.dainst.org/journals/aa/issue/148"                    
-            }
-          ]
-        },
-        {
-          "type": "link_list",
-          "image": "assets/images/content/what/publications/idai_publications_journals_chiron.jpg",
-          "headline": "Chiron",
-          "subhead": "Articles on Ancient History and Epigraphy",
-          "link": {
-            "target": "https://publications.dainst.org/journals/index.php/chiron",
-            "text": "Chiron"
-          },      
-          "links": [
-            { 
-                "text": "Chiron 44, 2014" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/63"                    
-            },            
-            { 
-                "text": "Chiron 43, 2013" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/64"                    
-            },            
-            { 
-                "text": "Chiron 42, 2012" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/62"                    
-            },            
-            { 
-                "text": "Chiron 41, 2011" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/61"                    
-            },            
-            { 
-                "text": "Chiron 40, 2010" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/60"                    
-            },            
-            { 
-                "text": "Chiron 39, 2009" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/59"                    
-            },            
-            { 
-                "text": "Chiron 38, 2008" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/56"                    
-            },            
-            { 
-                "text": "Chiron 37, 2007" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/55"                    
-            },           
-            { 
-                "text": "Chiron 36, 2006" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/54"                    
-            },
-            { 
-                "text": "Chiron 35, 2005" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/83"                    
-            },
-            { 
-                "text": "Chiron 34, 2004" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/84"                    
-            },
-            { 
-                "text": "Chiron 33, 2003" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/93"                    
-            },
-            { 
-                "text": "Chiron 32, 2002" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/94"                    
-            },
-            { 
-                "text": "Chiron 31, 2001" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/95"                    
-            },
-            { 
-                "text": "Chiron 30, 2000" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/49"                    
-            },
-            { 
-                "text": "Chiron 29, 1999" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/97"                    
-            },
-            { 
-                "text": "Chiron 28, 1998" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/98"                    
-            },
-            { 
-                "text": "Chiron 27, 1997" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/99"                    
-            },
-            { 
-                "text": "Chiron 26, 1996" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/100"                    
-            },
-            { 
-                "text": "Chiron 25, 1995" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/101"                    
-            },
-            { 
-                "text": "Chiron 24, 1994" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/102"                    
-            },
-            { 
-                "text": "Chiron 23, 1993" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/103"                    
-            },
-            { 
-                "text": "Chiron 22, 1992" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/104"                    
-            },
-            { 
-                "text": "Chiron 21, 1991" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/105"                    
-            },
-            { 
-                "text": "Chiron 20, 1990" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/106"                    
-            },
-            { 
-                "text": "Chiron 19, 1989" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/107"                    
-            },
-            { 
-                "text": "Chiron 18, 1988" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/108"                    
-            },
-            { 
-                "text": "Chiron 17, 1987" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/109"                    
-            },
-            { 
-                "text": "Chiron 16, 1986" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/110"                    
-            },
-            { 
-                "text": "Chiron 15, 1985" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/111"                    
-            },
-            { 
-                "text": "Chiron 14, 1984" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/112"                    
-            },
-            { 
-                "text": "Chiron 13, 1983" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/114"                    
-            },
-            { 
-                "text": "Chiron 12, 1982" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/115"                    
-            },
-            { 
-                "text": "Chiron 11, 1981" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/116"                    
-            },
-            { 
-                "text": "Chiron 10, 1980" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/117"                    
-            },
-            { 
-                "text": "Chiron 9, 1979" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/118"                    
-            },
-            { 
-                "text": "Chiron 8, 1978" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/119"                    
-            },
-            { 
-                "text": "Chiron 7, 1977" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/120"                    
-            },
-            { 
-                "text": "Chiron 6, 1976" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/121"                    
-            },
-            { 
-                "text": "Chiron 5, 1975" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/122"                    
-            },
-            { 
-                "text": "Chiron 4, 1974" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/123"                    
-            },
-            { 
-                "text": "Chiron 3, 1973" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/79"                    
-            },
-            { 
-                "text": "Chiron 2, 1972" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/53"                    
-            },
-            { 
-                "text": "Chiron 1, 1971" ,
-                "target": "https://publications.dainst.org/journals/chiron/issue/51"                    
-            }            
-          ]
-        },
-        {
-          "type": "link_list",
-          "image": "assets/images/content/what/publications/idai_publications_journals_e_reports.jpg",
-          "headline": "Research E-Papers",
-          "subhead": "Current research results of DAI projects",
-          "link": {
-            "target": "https://publications.dainst.org/journals/index.php/efb",
-            "text": "Research E-Papers"
-          },      
-          "links": [
-            { 
-                "text": "eDAI-F 2019, 1" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/168"                    
-            },           
-            { 
-                "text": "eDAI-F 2018, 2" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/166"                    
-            },           
-            { 
-                "text": "eDAI-F 2018, 1" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/162"                    
-            },           
-            { 
-                "text": "eDAI-F 2017, 2" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/157"                    
-            },           
-            { 
-                "text": "eDAI-F 2017, 1" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/155"                    
-            },           
-            { 
-                "text": "eDAI-F 2016, 3" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/125"                    
-            },           
-            { 
-                "text": "eDAI-F 2016, 2" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/126"                    
-            },           
-            { 
-                "text": "eDAI-F 2016, 1" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/128"                    
-            },           
-            { 
-                "text": "eDAI-F 2015, 3" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/129"                    
-            },
-            { 
-                "text": "eDAI-F 2015, 2" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/130"                    
-            },
-            { 
-                "text": "eDAI-F 2015, 1" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/131"                    
-            },
-            { 
-                "text": "eDAI-F 2014, 3" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/132"                    
-            },
-            { 
-                "text": "eDAI-F 2014, 2" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/133"                    
-            },
-            { 
-                "text": "eDAI-F 2014, 1" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/2"                    
-            }
-          ]
-        },
-        {
-          "type": "link_list",
-          "image": "assets/images/content/what/publications/idai_publications_journals_e_annual_reports.jpg",
-          "headline": "Annual E-Report",
-          "subhead": "Reports on the institute´s activities",
-          "link": {
-            "target": "https://publications.dainst.org/journals/index.php/ejb",
-            "text": "Annual E-Report"
-          },      
-          "links": [
-            { 
-                "text": "eDAI-J 2017" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/168"                    
-            },
-            { 
-                "text": "eDAI-J 2016" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/134"                    
-            },
-            { 
-                "text": "eDAI-J 2015" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/69"                    
-            },
-            { 
-                "text": "eDAI-J 2014" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/21"                    
-            },
-            { 
-                "text": "eDAI-J 2013" ,
-                "target": "https://publications.dainst.org/journals/efb/issue/20"                    
-            }
-            
-          ]
-        },        
-        {
-          "type": "link_list",
-          "image": "assets/images/content/what/publications/idai_publications_journals_germania.jpg",
-          "headline": "Germania",
-          "subhead": "Römisch-Germanische Kommission",
-          "link": {
-            "target": "https://publications.dainst.org/journals/index.php/ger",
-            "text": "Germania"
+    "type": "slider_tiles",
+    "title": "Journals",
+    "tiles": [
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/idai_publications_journals_aa.jpg",
+        "headline": "Archäologischer Anzeiger",
+        "subhead": "Articles on current global research projects",
+        "links": [
+          {
+            "text": "AA 2017, 2",
+            "target": "https://publications.dainst.org/journals/aa/issue/165"
           },
-          "links": [
-            {
-              "text": "Germania 95, 2017" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/319"
-            },
-            {
-              "text": "Germania 94, 2016" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/318"
-            },
-            {
-              "text": "Germania 93, 2015" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/317"
-            },
-            {
-              "text": "Germania 85.2, 2007" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/321"
-            },
-            {
-              "text": "Germania 85.1, 2007" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/320"
-            },
-            {
-              "text": "Germania 84.1, 2006" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/324"
-            },
-            {
-              "text": "Germania 83.2, 2005" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/316"
-            },
-            {
-              "text": "Germania 83.1, 2005" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/315"
-            },
-            {
-              "text": "Germania 82.2, 2004" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/314"
-            },
-            {
-              "text": "Germania 81.1, 2003" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/313"
-            },
-            {
-              "text": "Germania 80.2, 2002" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/322"
-            },
-            {
-              "text": "Germania 80.1, 2002" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/312"
-            },
-            {
-              "text": "Germania 79.2, 2001" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/311"
-            },
-            {
-              "text": "Germania 79.1, 2001" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/310"
-            },
-            {
-              "text": "Germania 78.2, 2000" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/309"
-            },
-            {
-              "text": "Germania 78.1, 2000" ,
-              "target": "https://publications.dainst.org/journals/ger/issue/308"
-            },
-            {
-              "text": "Germania 77.2, 1999",
-              "target": "https://publications.dainst.org/journals/ger/issue/307"
-            },
-            {
-              "text": "Germania 77.1, 1999",
-              "target": "https://publications.dainst.org/journals/ger/issue/306"
-            },
-            {
-              "text": "Germania 76.2, 1998",
-              "target": "https://publications.dainst.org/journals/ger/issue/305"
-            },
-            {
-              "text": "Germania 74.2, 1996",
-              "target": "https://publications.dainst.org/journals/ger/issue/304"
-            },
-            {
-              "text": "Germania 74.1, 1996",
-              "target": "https://publications.dainst.org/journals/ger/issue/303"
-            },
-            {
-              "text": "Germania 73.2, 1995",
-              "target": "https://publications.dainst.org/journals/ger/issue/302"
-            },
-            {
-              "text": "Germania 73.1, 1995",
-              "target": "https://publications.dainst.org/journals/ger/issue/301"
-            },
-            {
-              "text": "Germania 72.2, 1994",
-              "target": "https://publications.dainst.org/journals/ger/issue/300"
-            },
-            {
-              "text": "Germania 71.1, 1993",
-              "target": "https://publications.dainst.org/journals/ger/issue/299"
-            },
-            {
-              "text": "Germania 70.2, 1992",
-              "target": "https://publications.dainst.org/journals/ger/issue/298"
-            },
-            {
-              "text": "Germania 70.1, 1992",
-              "target": "https://publications.dainst.org/journals/ger/issue/297"
-            },
-            {
-              "text": "Germania 69.2, 1991",
-              "target": "https://publications.dainst.org/journals/ger/issue/296"
-            },
-            {
-              "text": "Germania 69.1, 1991",
-              "target": "https://publications.dainst.org/journals/ger/issue/295"
-            },
-            {
-              "text": "Germania 68.1, 1990",
-              "target": "https://publications.dainst.org/journals/ger/issue/323"
-            },
-            {
-              "text": "Germania 66.2, 1988",
-              "target": "https://publications.dainst.org/journals/ger/issue/294"
-            },
-            {
-              "text": "Germania 65.2, 1987",
-              "target": "https://publications.dainst.org/journals/ger/issue/293"
-            },
-            {
-              "text": "Germania 65.1, 1987",
-              "target": "https://publications.dainst.org/journals/ger/issue/292"
-            },
-            {
-              "text": "Germania 64.2, 1986",
-              "target": "https://publications.dainst.org/journals/ger/issue/291"
-            },
-            {
-              "text": "Germania 64.1, 1986",
-              "target": "https://publications.dainst.org/journals/ger/issue/290"
-            },
-            {
-              "text": "Germania 63.2, 1985",
-              "target": "https://publications.dainst.org/journals/ger/issue/289"
-            },
-            {
-              "text": "Germania 63.1, 1985",
-              "target": "https://publications.dainst.org/journals/ger/issue/288"
-            },
-            {
-              "text": "Germania 38.3/4, 1960",
-              "target": "https://publications.dainst.org/journals/ger/issue/287"
-            },
-            {
-              "text": "Germania 38.1/2, 1960",
-              "target": "https://publications.dainst.org/journals/ger/issue/286"
-            },
-            {
-              "text": "Germania 37.1/4, 1959",
-              "target": "https://publications.dainst.org/journals/ger/issue/285"
-            },
-            {
-              "text": "Germania 36.3/4, 1958",
-              "target": "https://publications.dainst.org/journals/ger/issue/284"
-            },
-            {
-              "text": "Germania 36.1/2, 1958",
-              "target": "https://publications.dainst.org/journals/ger/issue/283"
-            },
-            {
-              "text": "Germania 35.3/4, 1957",
-              "target": "https://publications.dainst.org/journals/ger/issue/282"
-            },
-            {
-              "text": "Germania 35.1/2, 1957",
-              "target": "https://publications.dainst.org/journals/ger/issue/281"
-            },
-            {
-              "text": "Germania 34.3/4, 1956",
-              "target": "https://publications.dainst.org/journals/ger/issue/280"
-            },
-            {
-              "text": "Germania 34.1/2, 1956",
-              "target": "https://publications.dainst.org/journals/ger/issue/279"
-            },
-            {
-              "text": "Germania 33.4, 1955",
-              "target": "https://publications.dainst.org/journals/ger/issue/278"
-            },
-            {
-              "text": "Germania 33.3, 1955",
-              "target": "https://publications.dainst.org/journals/ger/issue/277"
-            },
-            {
-              "text": "Germania 33.1/2, 1955",
-              "target": "https://publications.dainst.org/journals/ger/issue/276"
-            },
-            {
-              "text": "Germania 32.4, 1954",
-              "target": "https://publications.dainst.org/journals/ger/issue/275"
-            },
-            {
-              "text": "Germania 32.3, 1954",
-              "target": "https://publications.dainst.org/journals/ger/issue/274"
-            },
-            {
-              "text": "Germania 32.1/2, 1954",
-              "target": "https://publications.dainst.org/journals/ger/issue/273"
-            },
-            {
-              "text": "Germania 31.3/4, 1953",
-              "target": "https://publications.dainst.org/journals/ger/issue/272"
-            },
-            {
-              "text": "Germania 31.1/2, 1953",
-              "target": "https://publications.dainst.org/journals/ger/issue/271"
-            },
-            {
-              "text": "Germania 30.3/4, 1952",
-              "target": "https://publications.dainst.org/journals/ger/issue/270"
-            },
-            {
-              "text": "Germania 30.2, 1952",
-              "target": "https://publications.dainst.org/journals/ger/issue/269"
-            },
-            {
-              "text": "Germania 30.1, 1952",
-              "target": "https://publications.dainst.org/journals/ger/issue/268"
-            },
-            {
-              "text": "Germania 29.3/4, 1951",
-              "target": "https://publications.dainst.org/journals/ger/issue/267"
-            },
-            {
-              "text": "Germania 29.1/2, 1951",
-              "target": "https://publications.dainst.org/journals/ger/issue/266"
-            },
-            {
-              "text": "Germania 28.3/4, 1950",
-              "target": "https://publications.dainst.org/journals/ger/issue/265"
-            },
-            {
-              "text": "Germania 28.1/2, 1950",
-              "target": "https://publications.dainst.org/journals/ger/issue/264"
-            },
-            {
-              "text": "Germania 27.3/4, 1943",
-              "target": "https://publications.dainst.org/journals/ger/issue/263"
-            },
-            {
-              "text": "Germania 27.2, 1943",
-              "target": "https://publications.dainst.org/journals/ger/issue/262"
-            },
-            {
-              "text": "Germania 27.1, 1943",
-              "target": "https://publications.dainst.org/journals/ger/issue/261"
-            },
-            {
-              "text": "Germania 26.4, 1942",
-              "target": "https://publications.dainst.org/journals/ger/issue/260"
-            },
-            {
-              "text": "Germania 26.2/3, 1942",
-              "target": "https://publications.dainst.org/journals/ger/issue/259"
-            },
-            {
-              "text": "Germania 26.1, 1942",
-              "target": "https://publications.dainst.org/journals/ger/issue/258"
-            },
-            {
-              "text": "Germania 25.4, 1941",
-              "target": "https://publications.dainst.org/journals/ger/issue/257"
-            },
-            {
-              "text": "Germania 25.3, 1941",
-              "target": "https://publications.dainst.org/journals/ger/issue/256"
-            },
-            {
-              "text": "Germania 25.2, 1941",
-              "target": "https://publications.dainst.org/journals/ger/issue/255"
-            },
-            {
-              "text": "Germania 25.1, 1941",
-              "target": "https://publications.dainst.org/journals/ger/issue/254"
-            },
-            {
-              "text": "Germania 24.4, 1940",
-              "target": "https://publications.dainst.org/journals/ger/issue/253"
-            },
-            {
-              "text": "Germania 24.3, 1940",
-              "target": "https://publications.dainst.org/journals/ger/issue/252"
-            },
-            {
-              "text": "Germania 24.2, 1940",
-              "target": "https://publications.dainst.org/journals/ger/issue/251"
-            },
-            {
-              "text": "Germania 24.1, 1940",
-              "target": "https://publications.dainst.org/journals/ger/issue/250"
-            },
-            {
-              "text": "Germania 23.4, 1939",
-              "target": "https://publications.dainst.org/journals/ger/issue/249"
-            },
-            {
-              "text": "Germania 23.3, 1939",
-              "target": "https://publications.dainst.org/journals/ger/issue/248"
-            },
-            {
-              "text": "Germania 23.2, 1939",
-              "target": "https://publications.dainst.org/journals/ger/issue/247"
-            },
-            {
-              "text": "Germania 23.1, 1939",
-              "target": "https://publications.dainst.org/journals/ger/issue/246"
-            },
-            {
-              "text": "Germania 22.4, 1938",
-              "target": "https://publications.dainst.org/journals/ger/issue/245"
-            },
-            {
-              "text": "Germania 22.3, 1938",
-              "target": "https://publications.dainst.org/journals/ger/issue/244"
-            },
-            {
-              "text": "Germania 22.2, 1938",
-              "target": "https://publications.dainst.org/journals/ger/issue/243"
-            },
-            {
-              "text": "Germania 22.1, 1938",
-              "target": "https://publications.dainst.org/journals/ger/issue/242"
-            },
-            {
-              "text": "Germania 21.4, 1937",
-              "target": "https://publications.dainst.org/journals/ger/issue/241"
-            },
-            {
-              "text": "Germania 21.3, 1937",
-              "target": "https://publications.dainst.org/journals/ger/issue/240"
-            },
-            {
-              "text": "Germania 21.2, 1937",
-              "target": "https://publications.dainst.org/journals/ger/issue/239"
-            },
-            {
-              "text": "Germania 21.1, 1937",
-              "target": "https://publications.dainst.org/journals/ger/issue/238"
-            },
-            {
-              "text": "Germania 20.4, 1936",
-              "target": "https://publications.dainst.org/journals/ger/issue/237"
-            },
-            {
-              "text": "Germania 20.3, 1936",
-              "target": "https://publications.dainst.org/journals/ger/issue/236"
-            },
-            {
-              "text": "Germania 20.2, 1936",
-              "target": "https://publications.dainst.org/journals/ger/issue/235"
-            },
-            {
-              "text": "Germania 20.1, 1936",
-              "target": "https://publications.dainst.org/journals/ger/issue/234"
-            },
-            {
-              "text": "Germania 19.4, 1935",
-              "target": "https://publications.dainst.org/journals/ger/issue/233"
-            },
-            {
-              "text": "Germania 19.3, 1935",
-              "target": "https://publications.dainst.org/journals/ger/issue/232"
-            },
-            {
-              "text": "Germania 19.2, 1935",
-              "target": "https://publications.dainst.org/journals/ger/issue/231"
-            },
-            {
-              "text": "Germania 19.1, 1935",
-              "target": "https://publications.dainst.org/journals/ger/issue/230"
-            },
-            {
-              "text": "Germania 18.4, 1934",
-              "target": "https://publications.dainst.org/journals/ger/issue/229"
-            },
-            {
-              "text": "Germania 18.3, 1934",
-              "target": "https://publications.dainst.org/journals/ger/issue/228"
-            },
-            {
-              "text": "Germania 18.2, 1934",
-              "target": "https://publications.dainst.org/journals/ger/issue/227"
-            },
-            {
-              "text": "Germania 18.1, 1934",
-              "target": "https://publications.dainst.org/journals/ger/issue/226"
-            },
-            {
-              "text": "Germania 17.4, 1933",
-              "target": "https://publications.dainst.org/journals/ger/issue/225"
-            },
-            {
-              "text": "Germania 17.3, 1933",
-              "target": "https://publications.dainst.org/journals/ger/issue/224"
-            },
-            {
-              "text": "Germania 17.2, 1933",
-              "target": "https://publications.dainst.org/journals/ger/issue/223"
-            },
-            {
-              "text": "Germania 17.1, 1933",
-              "target": "https://publications.dainst.org/journals/ger/issue/222"
-            },
-            {
-              "text": "Germania 16.4, 1932",
-              "target": "https://publications.dainst.org/journals/ger/issue/221"
-            },
-            {
-              "text": "Germania 16.3, 1932",
-              "target": "https://publications.dainst.org/journals/ger/issue/220"
-            },
-            {
-              "text": "Germania 16.2, 1932",
-              "target": "https://publications.dainst.org/journals/ger/issue/219"
-            },
-            {
-              "text": "Germania 16.1, 1932",
-              "target": "https://publications.dainst.org/journals/ger/issue/218"
-            },
-            {
-              "text": "Germania 15.4, 1931",
-              "target": "https://publications.dainst.org/journals/ger/issue/217"
-            },
-            {
-              "text": "Germania 15.3, 1931",
-              "target": "https://publications.dainst.org/journals/ger/issue/216"
-            },
-            {
-              "text": "Germania 15.2, 1931",
-              "target": "https://publications.dainst.org/journals/ger/issue/215"
-            },
-            {
-              "text": "Germania 15.1, 1931",
-              "target": "https://publications.dainst.org/journals/ger/issue/214"
-            },
-            {
-              "text": "Germania 14.5, 1930",
-              "target": "https://publications.dainst.org/journals/ger/issue/213"
-            },
-            {
-              "text": "Germania 14.4, 1930",
-              "target": "https://publications.dainst.org/journals/ger/issue/212"
-            },
-            {
-              "text": "Germania 14.3, 1930",
-              "target": "https://publications.dainst.org/journals/ger/issue/211"
-            },
-            {
-              "text": "Germania 14.1/2, 1930",
-              "target": "https://publications.dainst.org/journals/ger/issue/210"
-            },
-            {
-              "text": "Germania 13.4, 1929",
-              "target": "https://publications.dainst.org/journals/ger/issue/209"
-            },
-            {
-              "text": "Germania 13.3, 1929",
-              "target": "https://publications.dainst.org/journals/ger/issue/208"
-            },
-            {
-              "text": "Germania 13.1/2, 1929",
-              "target": "https://publications.dainst.org/journals/ger/issue/207"
-            },
-            {
-              "text": "Germania 12.4, 1928",
-              "target": "https://publications.dainst.org/journals/ger/issue/206"
-            },
-            {
-              "text": "Germania 12.3, 1928",
-              "target": "https://publications.dainst.org/journals/ger/issue/205"
-            },
-            {
-              "text": "Germania 12.1/2, 1928",
-              "target": "https://publications.dainst.org/journals/ger/issue/204"
-            },
-            {
-              "text": "Germania 11.2, 1927",
-              "target": "https://publications.dainst.org/journals/ger/issue/203"
-            },
-            {
-              "text": "Germania 11.1, 1927",
-              "target": "https://publications.dainst.org/journals/ger/issue/202"
-            },
-            {
-              "text": "Germania 10.2, 1926",
-              "target": "https://publications.dainst.org/journals/ger/issue/201"
-            },
-            {
-              "text": "Germania 10.1, 1026",
-              "target": "https://publications.dainst.org/journals/ger/issue/200"
-            },
-            {
-              "text": "Germania 9.3, 1925",
-              "target": "https://publications.dainst.org/journals/ger/issue/199"
-            },
-            {
-              "text": "Germania 9.2, 1925",
-              "target": "https://publications.dainst.org/journals/ger/issue/198"
-            },
-            {
-              "text": "Germania 9.1, 1925",
-              "target": "https://publications.dainst.org/journals/ger/issue/197"
-            },
-            {
-              "text": "Germania 8.2, 1924",
-              "target": "https://publications.dainst.org/journals/ger/issue/196"
-            },
-            {
-              "text": "Germania 8.1, 1924",
-              "target": "https://publications.dainst.org/journals/ger/issue/195"
-            },
-            {
-              "text": "Germania 7.2, 1923",
-              "target": "https://publications.dainst.org/journals/ger/issue/194"
-            },
-            {
-              "text": "Germania 7.1, 1923",
-              "target": "https://publications.dainst.org/journals/ger/issue/193"
-            },
-            {
-              "text": "Germania 6.3, 1922",
-              "target": "https://publications.dainst.org/journals/ger/issue/192"
-            },
-            {
-              "text": "Germania 6.2, 1922",
-              "target": "https://publications.dainst.org/journals/ger/issue/191"
-            },
-            {
-              "text": "Germania 6.1, 1922",
-              "target": "https://publications.dainst.org/journals/ger/issue/190"
-            },
-            {
-              "text": "Germania 5.3, 1921",
-              "target": "https://publications.dainst.org/journals/ger/issue/189"
-            },
-            {
-              "text": "Germania 5.2, 1921",
-              "target": "https://publications.dainst.org/journals/ger/issue/188"
-            },
-            {
-              "text": "Germania 5.1, 1921",
-              "target": "https://publications.dainst.org/journals/ger/issue/187"
-            },
-            {
-              "text": "Germania 4.3/6, 1920",
-              "target": "https://publications.dainst.org/journals/ger/issue/186"
-            },
-            {
-              "text": "Germania 4.1/2, 1920",
-              "target": "https://publications.dainst.org/journals/ger/issue/185"
-            },
-            {
-              "text": "Germania 3.5/6, 1919",
-              "target": "https://publications.dainst.org/journals/ger/issue/184"
-            },
-            {
-              "text": "Germania 3.3/4, 1919",
-              "target": "https://publications.dainst.org/journals/ger/issue/183"
-            },
-            {
-              "text": "Germania 3.2, 1919",
-              "target": "https://publications.dainst.org/journals/ger/issue/182"
-            },
-            {
-              "text": "Germania 3.1, 1919",
-              "target": "https://publications.dainst.org/journals/ger/issue/181"
-            },
-            {
-              "text": "Germania 2.5/6, 1918",
-              "target": "https://publications.dainst.org/journals/ger/issue/180"
-            },
-            {
-              "text": "Germania 2.3/4, 1918",
-              "target": "https://publications.dainst.org/journals/ger/issue/179"
-            },
-            {
-              "text": "Germania 2.2, 1918",
-              "target": "https://publications.dainst.org/journals/ger/issue/178"
-            },
-            {
-              "text": "Germania 2.1, 1918",
-              "target": "https://publications.dainst.org/journals/ger/issue/177"
-            },
-            {
-              "text": "Germania 1.6, 1917",
-              "target": "https://publications.dainst.org/journals/ger/issue/176"
-            },
-            {
-              "text": "Germania 1.5, 1917",
-              "target": "https://publications.dainst.org/journals/ger/issue/175"
-            },
-            {
-              "text": "Germania 1.4, 1917",
-              "target": "https://publications.dainst.org/journals/ger/issue/174"
-            },
-            {
-              "text": "Germania 1.3, 1917",
-              "target": "https://publications.dainst.org/journals/ger/issue/173"
-            },
-            {
-              "text": "Germania 1.2, 1917",
-              "target": "https://publications.dainst.org/journals/ger/issue/172"
-            },
-            {
-              "text": "Germania 1.1, 1917",
-              "target": "https://publications.dainst.org/journals/ger/issue/171"
-            }
-          ]
-        }
-      ]
-    },
-    
+          {
+            "text": "AA 2017, 1",
+            "target": "https://publications.dainst.org/journals/aa/issue/154"
+          },
+          {
+            "text": "AA 2016, 2",
+            "target": "https://publications.dainst.org/journals/aa/issue/153"
+          },
+          {
+            "text": "AA 2016, 1",
+            "target": "https://publications.dainst.org/journals/aa/issue/152"
+          },
+          {
+            "text": "AA 2015, 2",
+            "target": "https://publications.dainst.org/journals/aa/issue/150"
+          },
+          {
+            "text": "AA 2015, 1",
+            "target": "https://publications.dainst.org/journals/aa/issue/149"
+          },
+          {
+            "text": "AA 2014, 2",
+            "target": "https://publications.dainst.org/journals/aa/issue/137"
+          },
+          {
+            "text": "AA 2014, 1",
+            "target": "https://publications.dainst.org/journals/aa/issue/136"
+          },
+          {
+            "text": "AA 2013, 2",
+            "target": "https://publications.dainst.org/journals/aa/issue/135"
+          },
+          {
+            "text": "AA 2013, 1",
+            "target": "https://publications.dainst.org/journals/aa/issue/19"
+          },
+          {
+            "text": "AA 2012, 2",
+            "target": "https://publications.dainst.org/journals/aa/issue/13"
+          },
+          {
+            "text": "AA 2012, 1",
+            "target": "https://publications.dainst.org/journals/aa/issue/12"
+          },
+          {
+            "text": "AA 2011, 2",
+            "target": "https://publications.dainst.org/journals/aa/issue/11"
+          },
+          {
+            "text": "AA 2011, 1",
+            "target": "https://publications.dainst.org/journals/aa/issue/10"
+          },
+          {
+            "text": "AA 2010, 2",
+            "target": "https://publications.dainst.org/journals/aa/issue/9"
+          },
+          {
+            "text": "AA 2010, 1",
+            "target": "https://publications.dainst.org/journals/aa/issue/8"
+          },
+          {
+            "text": "AA 2009, 2",
+            "target": "https://publications.dainst.org/journals/aa/issue/6"
+          },
+          {
+            "text": "AA 2009, 1",
+            "target": "https://publications.dainst.org/journals/aa/issue/7"
+          },
+          {
+            "text": "AA 2008, 2",
+            "target": "https://publications.dainst.org/journals/aa/issue/1"
+          },
+          {
+            "text": "AA 2008, 1",
+            "target": "https://publications.dainst.org/journals/aa/issue/148"
+          }
+        ]
+      },
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/idai_publications_journals_chiron.jpg",
+        "headline": "Chiron",
+        "subhead": "Articles on Ancient History and Epigraphy",
+        "link": {
+          "target": "https://publications.dainst.org/journals/index.php/chiron",
+          "text": "Chiron"
+        },
+        "links": [
+          {
+            "text": "Chiron 44, 2014",
+            "target": "https://publications.dainst.org/journals/chiron/issue/63"
+          },
+          {
+            "text": "Chiron 43, 2013",
+            "target": "https://publications.dainst.org/journals/chiron/issue/64"
+          },
+          {
+            "text": "Chiron 42, 2012",
+            "target": "https://publications.dainst.org/journals/chiron/issue/62"
+          },
+          {
+            "text": "Chiron 41, 2011",
+            "target": "https://publications.dainst.org/journals/chiron/issue/61"
+          },
+          {
+            "text": "Chiron 40, 2010",
+            "target": "https://publications.dainst.org/journals/chiron/issue/60"
+          },
+          {
+            "text": "Chiron 39, 2009",
+            "target": "https://publications.dainst.org/journals/chiron/issue/59"
+          },
+          {
+            "text": "Chiron 38, 2008",
+            "target": "https://publications.dainst.org/journals/chiron/issue/56"
+          },
+          {
+            "text": "Chiron 37, 2007",
+            "target": "https://publications.dainst.org/journals/chiron/issue/55"
+          },
+          {
+            "text": "Chiron 36, 2006",
+            "target": "https://publications.dainst.org/journals/chiron/issue/54"
+          },
+          {
+            "text": "Chiron 35, 2005",
+            "target": "https://publications.dainst.org/journals/chiron/issue/83"
+          },
+          {
+            "text": "Chiron 34, 2004",
+            "target": "https://publications.dainst.org/journals/chiron/issue/84"
+          },
+          {
+            "text": "Chiron 33, 2003",
+            "target": "https://publications.dainst.org/journals/chiron/issue/93"
+          },
+          {
+            "text": "Chiron 32, 2002",
+            "target": "https://publications.dainst.org/journals/chiron/issue/94"
+          },
+          {
+            "text": "Chiron 31, 2001",
+            "target": "https://publications.dainst.org/journals/chiron/issue/95"
+          },
+          {
+            "text": "Chiron 30, 2000",
+            "target": "https://publications.dainst.org/journals/chiron/issue/49"
+          },
+          {
+            "text": "Chiron 29, 1999",
+            "target": "https://publications.dainst.org/journals/chiron/issue/97"
+          },
+          {
+            "text": "Chiron 28, 1998",
+            "target": "https://publications.dainst.org/journals/chiron/issue/98"
+          },
+          {
+            "text": "Chiron 27, 1997",
+            "target": "https://publications.dainst.org/journals/chiron/issue/99"
+          },
+          {
+            "text": "Chiron 26, 1996",
+            "target": "https://publications.dainst.org/journals/chiron/issue/100"
+          },
+          {
+            "text": "Chiron 25, 1995",
+            "target": "https://publications.dainst.org/journals/chiron/issue/101"
+          },
+          {
+            "text": "Chiron 24, 1994",
+            "target": "https://publications.dainst.org/journals/chiron/issue/102"
+          },
+          {
+            "text": "Chiron 23, 1993",
+            "target": "https://publications.dainst.org/journals/chiron/issue/103"
+          },
+          {
+            "text": "Chiron 22, 1992",
+            "target": "https://publications.dainst.org/journals/chiron/issue/104"
+          },
+          {
+            "text": "Chiron 21, 1991",
+            "target": "https://publications.dainst.org/journals/chiron/issue/105"
+          },
+          {
+            "text": "Chiron 20, 1990",
+            "target": "https://publications.dainst.org/journals/chiron/issue/106"
+          },
+          {
+            "text": "Chiron 19, 1989",
+            "target": "https://publications.dainst.org/journals/chiron/issue/107"
+          },
+          {
+            "text": "Chiron 18, 1988",
+            "target": "https://publications.dainst.org/journals/chiron/issue/108"
+          },
+          {
+            "text": "Chiron 17, 1987",
+            "target": "https://publications.dainst.org/journals/chiron/issue/109"
+          },
+          {
+            "text": "Chiron 16, 1986",
+            "target": "https://publications.dainst.org/journals/chiron/issue/110"
+          },
+          {
+            "text": "Chiron 15, 1985",
+            "target": "https://publications.dainst.org/journals/chiron/issue/111"
+          },
+          {
+            "text": "Chiron 14, 1984",
+            "target": "https://publications.dainst.org/journals/chiron/issue/112"
+          },
+          {
+            "text": "Chiron 13, 1983",
+            "target": "https://publications.dainst.org/journals/chiron/issue/114"
+          },
+          {
+            "text": "Chiron 12, 1982",
+            "target": "https://publications.dainst.org/journals/chiron/issue/115"
+          },
+          {
+            "text": "Chiron 11, 1981",
+            "target": "https://publications.dainst.org/journals/chiron/issue/116"
+          },
+          {
+            "text": "Chiron 10, 1980",
+            "target": "https://publications.dainst.org/journals/chiron/issue/117"
+          },
+          {
+            "text": "Chiron 9, 1979",
+            "target": "https://publications.dainst.org/journals/chiron/issue/118"
+          },
+          {
+            "text": "Chiron 8, 1978",
+            "target": "https://publications.dainst.org/journals/chiron/issue/119"
+          },
+          {
+            "text": "Chiron 7, 1977",
+            "target": "https://publications.dainst.org/journals/chiron/issue/120"
+          },
+          {
+            "text": "Chiron 6, 1976",
+            "target": "https://publications.dainst.org/journals/chiron/issue/121"
+          },
+          {
+            "text": "Chiron 5, 1975",
+            "target": "https://publications.dainst.org/journals/chiron/issue/122"
+          },
+          {
+            "text": "Chiron 4, 1974",
+            "target": "https://publications.dainst.org/journals/chiron/issue/123"
+          },
+          {
+            "text": "Chiron 3, 1973",
+            "target": "https://publications.dainst.org/journals/chiron/issue/79"
+          },
+          {
+            "text": "Chiron 2, 1972",
+            "target": "https://publications.dainst.org/journals/chiron/issue/53"
+          },
+          {
+            "text": "Chiron 1, 1971",
+            "target": "https://publications.dainst.org/journals/chiron/issue/51"
+          }
+        ]
+      },
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/idai_publications_journals_e_reports.jpg",
+        "headline": "Research E-Papers",
+        "subhead": "Current research results of DAI projects",
+        "link": {
+          "target": "https://publications.dainst.org/journals/index.php/efb",
+          "text": "Research E-Papers"
+        },
+        "links": [
+          {
+            "text": "eDAI-F 2019, 1",
+            "target": "https://publications.dainst.org/journals/efb/issue/168"
+          },
+          {
+            "text": "eDAI-F 2018, 2",
+            "target": "https://publications.dainst.org/journals/efb/issue/166"
+          },
+          {
+            "text": "eDAI-F 2018, 1",
+            "target": "https://publications.dainst.org/journals/efb/issue/162"
+          },
+          {
+            "text": "eDAI-F 2017, 2",
+            "target": "https://publications.dainst.org/journals/efb/issue/157"
+          },
+          {
+            "text": "eDAI-F 2017, 1",
+            "target": "https://publications.dainst.org/journals/efb/issue/155"
+          },
+          {
+            "text": "eDAI-F 2016, 3",
+            "target": "https://publications.dainst.org/journals/efb/issue/125"
+          },
+          {
+            "text": "eDAI-F 2016, 2",
+            "target": "https://publications.dainst.org/journals/efb/issue/126"
+          },
+          {
+            "text": "eDAI-F 2016, 1",
+            "target": "https://publications.dainst.org/journals/efb/issue/128"
+          },
+          {
+            "text": "eDAI-F 2015, 3",
+            "target": "https://publications.dainst.org/journals/efb/issue/129"
+          },
+          {
+            "text": "eDAI-F 2015, 2",
+            "target": "https://publications.dainst.org/journals/efb/issue/130"
+          },
+          {
+            "text": "eDAI-F 2015, 1",
+            "target": "https://publications.dainst.org/journals/efb/issue/131"
+          },
+          {
+            "text": "eDAI-F 2014, 3",
+            "target": "https://publications.dainst.org/journals/efb/issue/132"
+          },
+          {
+            "text": "eDAI-F 2014, 2",
+            "target": "https://publications.dainst.org/journals/efb/issue/133"
+          },
+          {
+            "text": "eDAI-F 2014, 1",
+            "target": "https://publications.dainst.org/journals/efb/issue/2"
+          }
+        ]
+      },
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/idai_publications_journals_e_annual_reports.jpg",
+        "headline": "Annual E-Report",
+        "subhead": "Reports on the institute´s activities",
+        "link": {
+          "target": "https://publications.dainst.org/journals/index.php/ejb",
+          "text": "Annual E-Report"
+        },
+        "links": [
+          {
+            "text": "eDAI-J 2017",
+            "target": "https://publications.dainst.org/journals/efb/issue/168"
+          },
+          {
+            "text": "eDAI-J 2016",
+            "target": "https://publications.dainst.org/journals/efb/issue/134"
+          },
+          {
+            "text": "eDAI-J 2015",
+            "target": "https://publications.dainst.org/journals/efb/issue/69"
+          },
+          {
+            "text": "eDAI-J 2014",
+            "target": "https://publications.dainst.org/journals/efb/issue/21"
+          },
+          {
+            "text": "eDAI-J 2013",
+            "target": "https://publications.dainst.org/journals/efb/issue/20"
+          }
+        ]
+      },
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/idai_publications_journals_germania.jpg",
+        "headline": "Germania",
+        "subhead": "Römisch-Germanische Kommission",
+        "link": {
+          "target": "https://publications.dainst.org/journals/index.php/ger",
+          "text": "Germania"
+        },
+        "links": [
+          {
+            "text": "Germania 95, 2017",
+            "target": "https://publications.dainst.org/journals/ger/issue/319"
+          },
+          {
+            "text": "Germania 94, 2016",
+            "target": "https://publications.dainst.org/journals/ger/issue/318"
+          },
+          {
+            "text": "Germania 93, 2015",
+            "target": "https://publications.dainst.org/journals/ger/issue/317"
+          },
+          {
+            "text": "Germania 85.2, 2007",
+            "target": "https://publications.dainst.org/journals/ger/issue/321"
+          },
+          {
+            "text": "Germania 85.1, 2007",
+            "target": "https://publications.dainst.org/journals/ger/issue/320"
+          },
+          {
+            "text": "Germania 84.1, 2006",
+            "target": "https://publications.dainst.org/journals/ger/issue/324"
+          },
+          {
+            "text": "Germania 83.2, 2005",
+            "target": "https://publications.dainst.org/journals/ger/issue/316"
+          },
+          {
+            "text": "Germania 83.1, 2005",
+            "target": "https://publications.dainst.org/journals/ger/issue/315"
+          },
+          {
+            "text": "Germania 82.2, 2004",
+            "target": "https://publications.dainst.org/journals/ger/issue/314"
+          },
+          {
+            "text": "Germania 81.1, 2003",
+            "target": "https://publications.dainst.org/journals/ger/issue/313"
+          },
+          {
+            "text": "Germania 80.2, 2002",
+            "target": "https://publications.dainst.org/journals/ger/issue/322"
+          },
+          {
+            "text": "Germania 80.1, 2002",
+            "target": "https://publications.dainst.org/journals/ger/issue/312"
+          },
+          {
+            "text": "Germania 79.2, 2001",
+            "target": "https://publications.dainst.org/journals/ger/issue/311"
+          },
+          {
+            "text": "Germania 79.1, 2001",
+            "target": "https://publications.dainst.org/journals/ger/issue/310"
+          },
+          {
+            "text": "Germania 78.2, 2000",
+            "target": "https://publications.dainst.org/journals/ger/issue/309"
+          },
+          {
+            "text": "Germania 78.1, 2000",
+            "target": "https://publications.dainst.org/journals/ger/issue/308"
+          },
+          {
+            "text": "Germania 77.2, 1999",
+            "target": "https://publications.dainst.org/journals/ger/issue/307"
+          },
+          {
+            "text": "Germania 77.1, 1999",
+            "target": "https://publications.dainst.org/journals/ger/issue/306"
+          },
+          {
+            "text": "Germania 76.2, 1998",
+            "target": "https://publications.dainst.org/journals/ger/issue/305"
+          },
+          {
+            "text": "Germania 74.2, 1996",
+            "target": "https://publications.dainst.org/journals/ger/issue/304"
+          },
+          {
+            "text": "Germania 74.1, 1996",
+            "target": "https://publications.dainst.org/journals/ger/issue/303"
+          },
+          {
+            "text": "Germania 73.2, 1995",
+            "target": "https://publications.dainst.org/journals/ger/issue/302"
+          },
+          {
+            "text": "Germania 73.1, 1995",
+            "target": "https://publications.dainst.org/journals/ger/issue/301"
+          },
+          {
+            "text": "Germania 72.2, 1994",
+            "target": "https://publications.dainst.org/journals/ger/issue/300"
+          },
+          {
+            "text": "Germania 71.1, 1993",
+            "target": "https://publications.dainst.org/journals/ger/issue/299"
+          },
+          {
+            "text": "Germania 70.2, 1992",
+            "target": "https://publications.dainst.org/journals/ger/issue/298"
+          },
+          {
+            "text": "Germania 70.1, 1992",
+            "target": "https://publications.dainst.org/journals/ger/issue/297"
+          },
+          {
+            "text": "Germania 69.2, 1991",
+            "target": "https://publications.dainst.org/journals/ger/issue/296"
+          },
+          {
+            "text": "Germania 69.1, 1991",
+            "target": "https://publications.dainst.org/journals/ger/issue/295"
+          },
+          {
+            "text": "Germania 68.1, 1990",
+            "target": "https://publications.dainst.org/journals/ger/issue/323"
+          },
+          {
+            "text": "Germania 66.2, 1988",
+            "target": "https://publications.dainst.org/journals/ger/issue/294"
+          },
+          {
+            "text": "Germania 65.2, 1987",
+            "target": "https://publications.dainst.org/journals/ger/issue/293"
+          },
+          {
+            "text": "Germania 65.1, 1987",
+            "target": "https://publications.dainst.org/journals/ger/issue/292"
+          },
+          {
+            "text": "Germania 64.2, 1986",
+            "target": "https://publications.dainst.org/journals/ger/issue/291"
+          },
+          {
+            "text": "Germania 64.1, 1986",
+            "target": "https://publications.dainst.org/journals/ger/issue/290"
+          },
+          {
+            "text": "Germania 63.2, 1985",
+            "target": "https://publications.dainst.org/journals/ger/issue/289"
+          },
+          {
+            "text": "Germania 63.1, 1985",
+            "target": "https://publications.dainst.org/journals/ger/issue/288"
+          },
+          {
+            "text": "Germania 38.3/4, 1960",
+            "target": "https://publications.dainst.org/journals/ger/issue/287"
+          },
+          {
+            "text": "Germania 38.1/2, 1960",
+            "target": "https://publications.dainst.org/journals/ger/issue/286"
+          },
+          {
+            "text": "Germania 37.1/4, 1959",
+            "target": "https://publications.dainst.org/journals/ger/issue/285"
+          },
+          {
+            "text": "Germania 36.3/4, 1958",
+            "target": "https://publications.dainst.org/journals/ger/issue/284"
+          },
+          {
+            "text": "Germania 36.1/2, 1958",
+            "target": "https://publications.dainst.org/journals/ger/issue/283"
+          },
+          {
+            "text": "Germania 35.3/4, 1957",
+            "target": "https://publications.dainst.org/journals/ger/issue/282"
+          },
+          {
+            "text": "Germania 35.1/2, 1957",
+            "target": "https://publications.dainst.org/journals/ger/issue/281"
+          },
+          {
+            "text": "Germania 34.3/4, 1956",
+            "target": "https://publications.dainst.org/journals/ger/issue/280"
+          },
+          {
+            "text": "Germania 34.1/2, 1956",
+            "target": "https://publications.dainst.org/journals/ger/issue/279"
+          },
+          {
+            "text": "Germania 33.4, 1955",
+            "target": "https://publications.dainst.org/journals/ger/issue/278"
+          },
+          {
+            "text": "Germania 33.3, 1955",
+            "target": "https://publications.dainst.org/journals/ger/issue/277"
+          },
+          {
+            "text": "Germania 33.1/2, 1955",
+            "target": "https://publications.dainst.org/journals/ger/issue/276"
+          },
+          {
+            "text": "Germania 32.4, 1954",
+            "target": "https://publications.dainst.org/journals/ger/issue/275"
+          },
+          {
+            "text": "Germania 32.3, 1954",
+            "target": "https://publications.dainst.org/journals/ger/issue/274"
+          },
+          {
+            "text": "Germania 32.1/2, 1954",
+            "target": "https://publications.dainst.org/journals/ger/issue/273"
+          },
+          {
+            "text": "Germania 31.3/4, 1953",
+            "target": "https://publications.dainst.org/journals/ger/issue/272"
+          },
+          {
+            "text": "Germania 31.1/2, 1953",
+            "target": "https://publications.dainst.org/journals/ger/issue/271"
+          },
+          {
+            "text": "Germania 30.3/4, 1952",
+            "target": "https://publications.dainst.org/journals/ger/issue/270"
+          },
+          {
+            "text": "Germania 30.2, 1952",
+            "target": "https://publications.dainst.org/journals/ger/issue/269"
+          },
+          {
+            "text": "Germania 30.1, 1952",
+            "target": "https://publications.dainst.org/journals/ger/issue/268"
+          },
+          {
+            "text": "Germania 29.3/4, 1951",
+            "target": "https://publications.dainst.org/journals/ger/issue/267"
+          },
+          {
+            "text": "Germania 29.1/2, 1951",
+            "target": "https://publications.dainst.org/journals/ger/issue/266"
+          },
+          {
+            "text": "Germania 28.3/4, 1950",
+            "target": "https://publications.dainst.org/journals/ger/issue/265"
+          },
+          {
+            "text": "Germania 28.1/2, 1950",
+            "target": "https://publications.dainst.org/journals/ger/issue/264"
+          },
+          {
+            "text": "Germania 27.3/4, 1943",
+            "target": "https://publications.dainst.org/journals/ger/issue/263"
+          },
+          {
+            "text": "Germania 27.2, 1943",
+            "target": "https://publications.dainst.org/journals/ger/issue/262"
+          },
+          {
+            "text": "Germania 27.1, 1943",
+            "target": "https://publications.dainst.org/journals/ger/issue/261"
+          },
+          {
+            "text": "Germania 26.4, 1942",
+            "target": "https://publications.dainst.org/journals/ger/issue/260"
+          },
+          {
+            "text": "Germania 26.2/3, 1942",
+            "target": "https://publications.dainst.org/journals/ger/issue/259"
+          },
+          {
+            "text": "Germania 26.1, 1942",
+            "target": "https://publications.dainst.org/journals/ger/issue/258"
+          },
+          {
+            "text": "Germania 25.4, 1941",
+            "target": "https://publications.dainst.org/journals/ger/issue/257"
+          },
+          {
+            "text": "Germania 25.3, 1941",
+            "target": "https://publications.dainst.org/journals/ger/issue/256"
+          },
+          {
+            "text": "Germania 25.2, 1941",
+            "target": "https://publications.dainst.org/journals/ger/issue/255"
+          },
+          {
+            "text": "Germania 25.1, 1941",
+            "target": "https://publications.dainst.org/journals/ger/issue/254"
+          },
+          {
+            "text": "Germania 24.4, 1940",
+            "target": "https://publications.dainst.org/journals/ger/issue/253"
+          },
+          {
+            "text": "Germania 24.3, 1940",
+            "target": "https://publications.dainst.org/journals/ger/issue/252"
+          },
+          {
+            "text": "Germania 24.2, 1940",
+            "target": "https://publications.dainst.org/journals/ger/issue/251"
+          },
+          {
+            "text": "Germania 24.1, 1940",
+            "target": "https://publications.dainst.org/journals/ger/issue/250"
+          },
+          {
+            "text": "Germania 23.4, 1939",
+            "target": "https://publications.dainst.org/journals/ger/issue/249"
+          },
+          {
+            "text": "Germania 23.3, 1939",
+            "target": "https://publications.dainst.org/journals/ger/issue/248"
+          },
+          {
+            "text": "Germania 23.2, 1939",
+            "target": "https://publications.dainst.org/journals/ger/issue/247"
+          },
+          {
+            "text": "Germania 23.1, 1939",
+            "target": "https://publications.dainst.org/journals/ger/issue/246"
+          },
+          {
+            "text": "Germania 22.4, 1938",
+            "target": "https://publications.dainst.org/journals/ger/issue/245"
+          },
+          {
+            "text": "Germania 22.3, 1938",
+            "target": "https://publications.dainst.org/journals/ger/issue/244"
+          },
+          {
+            "text": "Germania 22.2, 1938",
+            "target": "https://publications.dainst.org/journals/ger/issue/243"
+          },
+          {
+            "text": "Germania 22.1, 1938",
+            "target": "https://publications.dainst.org/journals/ger/issue/242"
+          },
+          {
+            "text": "Germania 21.4, 1937",
+            "target": "https://publications.dainst.org/journals/ger/issue/241"
+          },
+          {
+            "text": "Germania 21.3, 1937",
+            "target": "https://publications.dainst.org/journals/ger/issue/240"
+          },
+          {
+            "text": "Germania 21.2, 1937",
+            "target": "https://publications.dainst.org/journals/ger/issue/239"
+          },
+          {
+            "text": "Germania 21.1, 1937",
+            "target": "https://publications.dainst.org/journals/ger/issue/238"
+          },
+          {
+            "text": "Germania 20.4, 1936",
+            "target": "https://publications.dainst.org/journals/ger/issue/237"
+          },
+          {
+            "text": "Germania 20.3, 1936",
+            "target": "https://publications.dainst.org/journals/ger/issue/236"
+          },
+          {
+            "text": "Germania 20.2, 1936",
+            "target": "https://publications.dainst.org/journals/ger/issue/235"
+          },
+          {
+            "text": "Germania 20.1, 1936",
+            "target": "https://publications.dainst.org/journals/ger/issue/234"
+          },
+          {
+            "text": "Germania 19.4, 1935",
+            "target": "https://publications.dainst.org/journals/ger/issue/233"
+          },
+          {
+            "text": "Germania 19.3, 1935",
+            "target": "https://publications.dainst.org/journals/ger/issue/232"
+          },
+          {
+            "text": "Germania 19.2, 1935",
+            "target": "https://publications.dainst.org/journals/ger/issue/231"
+          },
+          {
+            "text": "Germania 19.1, 1935",
+            "target": "https://publications.dainst.org/journals/ger/issue/230"
+          },
+          {
+            "text": "Germania 18.4, 1934",
+            "target": "https://publications.dainst.org/journals/ger/issue/229"
+          },
+          {
+            "text": "Germania 18.3, 1934",
+            "target": "https://publications.dainst.org/journals/ger/issue/228"
+          },
+          {
+            "text": "Germania 18.2, 1934",
+            "target": "https://publications.dainst.org/journals/ger/issue/227"
+          },
+          {
+            "text": "Germania 18.1, 1934",
+            "target": "https://publications.dainst.org/journals/ger/issue/226"
+          },
+          {
+            "text": "Germania 17.4, 1933",
+            "target": "https://publications.dainst.org/journals/ger/issue/225"
+          },
+          {
+            "text": "Germania 17.3, 1933",
+            "target": "https://publications.dainst.org/journals/ger/issue/224"
+          },
+          {
+            "text": "Germania 17.2, 1933",
+            "target": "https://publications.dainst.org/journals/ger/issue/223"
+          },
+          {
+            "text": "Germania 17.1, 1933",
+            "target": "https://publications.dainst.org/journals/ger/issue/222"
+          },
+          {
+            "text": "Germania 16.4, 1932",
+            "target": "https://publications.dainst.org/journals/ger/issue/221"
+          },
+          {
+            "text": "Germania 16.3, 1932",
+            "target": "https://publications.dainst.org/journals/ger/issue/220"
+          },
+          {
+            "text": "Germania 16.2, 1932",
+            "target": "https://publications.dainst.org/journals/ger/issue/219"
+          },
+          {
+            "text": "Germania 16.1, 1932",
+            "target": "https://publications.dainst.org/journals/ger/issue/218"
+          },
+          {
+            "text": "Germania 15.4, 1931",
+            "target": "https://publications.dainst.org/journals/ger/issue/217"
+          },
+          {
+            "text": "Germania 15.3, 1931",
+            "target": "https://publications.dainst.org/journals/ger/issue/216"
+          },
+          {
+            "text": "Germania 15.2, 1931",
+            "target": "https://publications.dainst.org/journals/ger/issue/215"
+          },
+          {
+            "text": "Germania 15.1, 1931",
+            "target": "https://publications.dainst.org/journals/ger/issue/214"
+          },
+          {
+            "text": "Germania 14.5, 1930",
+            "target": "https://publications.dainst.org/journals/ger/issue/213"
+          },
+          {
+            "text": "Germania 14.4, 1930",
+            "target": "https://publications.dainst.org/journals/ger/issue/212"
+          },
+          {
+            "text": "Germania 14.3, 1930",
+            "target": "https://publications.dainst.org/journals/ger/issue/211"
+          },
+          {
+            "text": "Germania 14.1/2, 1930",
+            "target": "https://publications.dainst.org/journals/ger/issue/210"
+          },
+          {
+            "text": "Germania 13.4, 1929",
+            "target": "https://publications.dainst.org/journals/ger/issue/209"
+          },
+          {
+            "text": "Germania 13.3, 1929",
+            "target": "https://publications.dainst.org/journals/ger/issue/208"
+          },
+          {
+            "text": "Germania 13.1/2, 1929",
+            "target": "https://publications.dainst.org/journals/ger/issue/207"
+          },
+          {
+            "text": "Germania 12.4, 1928",
+            "target": "https://publications.dainst.org/journals/ger/issue/206"
+          },
+          {
+            "text": "Germania 12.3, 1928",
+            "target": "https://publications.dainst.org/journals/ger/issue/205"
+          },
+          {
+            "text": "Germania 12.1/2, 1928",
+            "target": "https://publications.dainst.org/journals/ger/issue/204"
+          },
+          {
+            "text": "Germania 11.2, 1927",
+            "target": "https://publications.dainst.org/journals/ger/issue/203"
+          },
+          {
+            "text": "Germania 11.1, 1927",
+            "target": "https://publications.dainst.org/journals/ger/issue/202"
+          },
+          {
+            "text": "Germania 10.2, 1926",
+            "target": "https://publications.dainst.org/journals/ger/issue/201"
+          },
+          {
+            "text": "Germania 10.1, 1026",
+            "target": "https://publications.dainst.org/journals/ger/issue/200"
+          },
+          {
+            "text": "Germania 9.3, 1925",
+            "target": "https://publications.dainst.org/journals/ger/issue/199"
+          },
+          {
+            "text": "Germania 9.2, 1925",
+            "target": "https://publications.dainst.org/journals/ger/issue/198"
+          },
+          {
+            "text": "Germania 9.1, 1925",
+            "target": "https://publications.dainst.org/journals/ger/issue/197"
+          },
+          {
+            "text": "Germania 8.2, 1924",
+            "target": "https://publications.dainst.org/journals/ger/issue/196"
+          },
+          {
+            "text": "Germania 8.1, 1924",
+            "target": "https://publications.dainst.org/journals/ger/issue/195"
+          },
+          {
+            "text": "Germania 7.2, 1923",
+            "target": "https://publications.dainst.org/journals/ger/issue/194"
+          },
+          {
+            "text": "Germania 7.1, 1923",
+            "target": "https://publications.dainst.org/journals/ger/issue/193"
+          },
+          {
+            "text": "Germania 6.3, 1922",
+            "target": "https://publications.dainst.org/journals/ger/issue/192"
+          },
+          {
+            "text": "Germania 6.2, 1922",
+            "target": "https://publications.dainst.org/journals/ger/issue/191"
+          },
+          {
+            "text": "Germania 6.1, 1922",
+            "target": "https://publications.dainst.org/journals/ger/issue/190"
+          },
+          {
+            "text": "Germania 5.3, 1921",
+            "target": "https://publications.dainst.org/journals/ger/issue/189"
+          },
+          {
+            "text": "Germania 5.2, 1921",
+            "target": "https://publications.dainst.org/journals/ger/issue/188"
+          },
+          {
+            "text": "Germania 5.1, 1921",
+            "target": "https://publications.dainst.org/journals/ger/issue/187"
+          },
+          {
+            "text": "Germania 4.3/6, 1920",
+            "target": "https://publications.dainst.org/journals/ger/issue/186"
+          },
+          {
+            "text": "Germania 4.1/2, 1920",
+            "target": "https://publications.dainst.org/journals/ger/issue/185"
+          },
+          {
+            "text": "Germania 3.5/6, 1919",
+            "target": "https://publications.dainst.org/journals/ger/issue/184"
+          },
+          {
+            "text": "Germania 3.3/4, 1919",
+            "target": "https://publications.dainst.org/journals/ger/issue/183"
+          },
+          {
+            "text": "Germania 3.2, 1919",
+            "target": "https://publications.dainst.org/journals/ger/issue/182"
+          },
+          {
+            "text": "Germania 3.1, 1919",
+            "target": "https://publications.dainst.org/journals/ger/issue/181"
+          },
+          {
+            "text": "Germania 2.5/6, 1918",
+            "target": "https://publications.dainst.org/journals/ger/issue/180"
+          },
+          {
+            "text": "Germania 2.3/4, 1918",
+            "target": "https://publications.dainst.org/journals/ger/issue/179"
+          },
+          {
+            "text": "Germania 2.2, 1918",
+            "target": "https://publications.dainst.org/journals/ger/issue/178"
+          },
+          {
+            "text": "Germania 2.1, 1918",
+            "target": "https://publications.dainst.org/journals/ger/issue/177"
+          },
+          {
+            "text": "Germania 1.6, 1917",
+            "target": "https://publications.dainst.org/journals/ger/issue/176"
+          },
+          {
+            "text": "Germania 1.5, 1917",
+            "target": "https://publications.dainst.org/journals/ger/issue/175"
+          },
+          {
+            "text": "Germania 1.4, 1917",
+            "target": "https://publications.dainst.org/journals/ger/issue/174"
+          },
+          {
+            "text": "Germania 1.3, 1917",
+            "target": "https://publications.dainst.org/journals/ger/issue/173"
+          },
+          {
+            "text": "Germania 1.2, 1917",
+            "target": "https://publications.dainst.org/journals/ger/issue/172"
+          },
+          {
+            "text": "Germania 1.1, 1917",
+            "target": "https://publications.dainst.org/journals/ger/issue/171"
+          }
+        ]
+      }
+    ]
+  },
+
   {
-      "type": "slider_tiles",
-      "title": "Series and monographs",
-      "tiles": [          
-        {
-             "type": "link_list",
-             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_antike_plastik_31.jpg",
-             "headline": "Antike Plastik",
-             "subhead": "Edited volumes on selected works of Ancient Sculpture",
-             "link": {
-               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/antpl",
-               "text": "Antike Plastik"
-             },            
-             "links": [
-                { 
-                   "text": "No. 31, Selected works of Ancient Sculpture" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/62"                    
-                }
-             ]
+    "type": "slider_tiles",
+    "title": "Series and monographs",
+    "tiles": [
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_antike_plastik_31.jpg",
+        "headline": "Antike Plastik",
+        "subhead": "Edited volumes on selected works of Ancient Sculpture",
+        "link": {
+          "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/antpl",
+          "text": "Antike Plastik"
         },
-        {
-             "type": "link_list",
-             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_bogazkoe.jpg",
-             "headline": "Boğazköy-Hattuša.",
-             "subhead": "Results of archaeological research. Boğazköy/Turkey",
-             "link": {
-               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/boghattusa",
-               "text": "Boğazköy-Hattuša."
-             },            
-             "links": [
-                { 
-                   "text": "No. 24: Excavations in the Upper City" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/38"                    
-                }
-             ]
+        "links": [
+          {
+            "text": "No. 31, Selected works of Ancient Sculpture",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/62"
+          }
+        ]
+      },
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_bogazkoe.jpg",
+        "headline": "Boğazköy-Hattuša.",
+        "subhead": "Results of archaeological research. Boğazköy/Turkey",
+        "link": {
+          "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/boghattusa",
+          "text": "Boğazköy-Hattuša."
         },
-        {
-             "type": "link_list",
-             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_das_dai.jpg",
-             "headline": "Das DAI. Geschichte und Dokumente",
-             "subhead": "Edited volumes on selected works of Ancient Sculpture",
-             "link": {
-               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/DAIGeschDok",
-               "text": "Das DAI. Geschichte und Dokumente"
-             },            
-             "links": [
-                { 
-                   "text": "No. 11: Berlin Head Office" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/65"                    
-                }
-             ]
+        "links": [
+          {
+            "text": "No. 24: Excavations in the Upper City",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/38"
+          }
+        ]
+      },
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_das_dai.jpg",
+        "headline": "Das DAI. Geschichte und Dokumente",
+        "subhead": "Edited volumes on selected works of Ancient Sculpture",
+        "link": {
+          "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/DAIGeschDok",
+          "text": "Das DAI. Geschichte und Dokumente"
         },
-        {
-             "type": "link_list",
-             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_forschung_aussereuropaeischer.jpg",
-             "headline": "Forschungen zur Archäologie Außereuropäischer Kulturen",
-             "subhead": "",
-             "link": {
-               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/faak",
-               "text": "Forschungen zur Archäologie Außereuropäischer Kulturen"
-             },            
-             "links": [
-                { 
-                   "text": "No. 15: Urban structure of Mayan Cities" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/40"                    
-                }
-             ]
+        "links": [
+          {
+            "text": "No. 11: Berlin Head Office",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/65"
+          }
+        ]
+      },
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_forschung_aussereuropaeischer.jpg",
+        "headline": "Forschungen zur Archäologie Außereuropäischer Kulturen",
+        "subhead": "",
+        "link": {
+          "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/faak",
+          "text": "Forschungen zur Archäologie Außereuropäischer Kulturen"
         },
-        {
-             "type": "link_list",
-             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_olympische_forschungen.jpg",
-             "headline": "Olympische Forschungen",
-             "subhead": "Results of archaeological research in Olympia/Greece",
-             "link": {
-               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/of",
-               "text": "Olympische Forschungen"
-             },            
-             "links": [
-                { 
-                   "text": "No. 5: Workshop of Pheidias" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/11"                    
-                },
-                { 
-                   "text": "No. 4:  Lion-head Gargoyles" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/23"                    
-                },
-                { 
-                   "text": "No. 3: Tripod Cauldrons" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/13"                    
-                },
-                { 
-                   "text": "No. 2: Archaic Shield Attachments" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/28"                    
-                },
-                { 
-                   "text": "No. 1: Philippeion, Nymphaeum, Roof Terracottas, Weapons" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/14"                    
-                }
-             ]
+        "links": [
+          {
+            "text": "No. 15: Urban structure of Mayan Cities",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/40"
+          }
+        ]
+      },
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_olympische_forschungen.jpg",
+        "headline": "Olympische Forschungen",
+        "subhead": "Results of archaeological research in Olympia/Greece",
+        "link": {
+          "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/of",
+          "text": "Olympische Forschungen"
         },
-        {
-             "type": "link_list",
-             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_palilia_26.jpg",
-             "headline": "Palilia",
-             "subhead": "Archaeology in Italy and neighbouring regions",
-             "link": {
-               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/antpl",
-               "text": "Palilia"
-             },            
-             "links": [
-                { 
-                   "text": "No. 26: Wall paintings in the Campanian Antique Sites" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/71"                    
-                },
-                { 
-                   "text": "No. 25: Republican otium-villas at Tivoli" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/70"                    
-                },
-                { 
-                   "text": "No. 24: Basilica Aemilia" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/69"                    
-                },
-                { 
-                   "text": "No. 20: Military in Rome" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/68"                    
-                }
-             ]
+        "links": [
+          {
+            "text": "No. 5: Workshop of Pheidias",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/11"
+          },
+          {
+            "text": "No. 4:  Lion-head Gargoyles",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/23"
+          },
+          {
+            "text": "No. 3: Tripod Cauldrons",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/13"
+          },
+          {
+            "text": "No. 2: Archaic Shield Attachments",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/28"
+          },
+          {
+            "text": "No. 1: Philippeion, Nymphaeum, Roof Terracottas, Weapons",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/14"
+          }
+        ]
+      },
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_palilia_26.jpg",
+        "headline": "Palilia",
+        "subhead": "Archaeology in Italy and neighbouring regions",
+        "link": {
+          "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/antpl",
+          "text": "Palilia"
         },
-        {
-             "type": "link_list",
-             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_terrakotten_pergamon.jpg",
-             "headline": "Pergamenische Forschungen",
-             "subhead": "Results of archaeological research. Pergamon/Turkey",
-             "link": {
-               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/pf",
-               "text": "Pergamenische Forschungen"
-             },            
-             "links": [
-                { 
-                   "text": "No. 17: Terracottas from Pergamon" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/67"                    
-                }
-             ]
+        "links": [
+          {
+            "text": "No. 26: Wall paintings in the Campanian Antique Sites",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/71"
+          },
+          {
+            "text": "No. 25: Republican otium-villas at Tivoli",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/70"
+          },
+          {
+            "text": "No. 24: Basilica Aemilia",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/69"
+          },
+          {
+            "text": "No. 20: Military in Rome",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/68"
+          }
+        ]
+      },
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_terrakotten_pergamon.jpg",
+        "headline": "Pergamenische Forschungen",
+        "subhead": "Results of archaeological research. Pergamon/Turkey",
+        "link": {
+          "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/pf",
+          "text": "Pergamenische Forschungen"
         },
-        {
-             "type": "link_list",
-             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_resafa_7.jpg",
-             "headline": "Resafa",
-             "subhead": "Results of archaeological research. Resafa/Syria",
-             "link": {
-               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/Resafa",
-               "text": "Resafa"
-             },            
-             "links": [
-                { 
-                   "text": "No. 7: Research in Resafa" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/60"                    
-                }
-             ]
+        "links": [
+          {
+            "text": "No. 17: Terracottas from Pergamon",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/67"
+          }
+        ]
+      },
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_resafa_7.jpg",
+        "headline": "Resafa",
+        "subhead": "Results of archaeological research. Resafa/Syria",
+        "link": {
+          "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/Resafa",
+          "text": "Resafa"
         },
-        {
-             "type": "link_list",
-             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_samos_23.jpg",
-             "headline": "Samos",
-             "subhead": "Results of archaeological research in Samos/Greece",
-             "link": {
-               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/samos",
-               "text": "Samos"
-             },            
-             "links": [
-                { 
-                   "text": "No. 23: Panathenaic Amphorae" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/66"                    
-                },
-                { 
-                   "text": "No. 13: Faience Material from Samos" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/63"                    
-                }
-             ]
+        "links": [
+          {
+            "text": "No. 7: Research in Resafa",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/60"
+          }
+        ]
+      },
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_samos_23.jpg",
+        "headline": "Samos",
+        "subhead": "Results of archaeological research in Samos/Greece",
+        "link": {
+          "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/samos",
+          "text": "Samos"
         },
-        
-        {
-             "type": "link_list",
-             "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_tayma.jpg",
-             "headline": "Tayma",
-             "subhead": "Archaeological research in Taymāʾ/Saudi Arabia",
-             "link": {
-               "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/Tayma",
-               "text": "Tayma"
-             },            
-             "links": [
-                { 
-                   "text": "No. 1: Arch. Exploration, Palaeoenvironment" ,
-                   "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/61"                    
-                }
-             ]
-        }
-      ]
-  },  
-    
+        "links": [
+          {
+            "text": "No. 23: Panathenaic Amphorae",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/66"
+          },
+          {
+            "text": "No. 13: Faience Material from Samos",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/63"
+          }
+        ]
+      },
+
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_tayma.jpg",
+        "headline": "Tayma",
+        "subhead": "Archaeological research in Taymāʾ/Saudi Arabia",
+        "link": {
+          "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/Tayma",
+          "text": "Tayma"
+        },
+        "links": [
+          {
+            "text": "No. 1: Arch. Exploration, Palaeoenvironment",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/61"
+          }
+        ]
+      }
+    ]
+  },
+
   {
     "type": "info_box",
     "headline": "Search in iDAI.Publications systems",
     "content": [
-        {
-            "headline": "Journals",
-            "text": "Via iDAI.publications/journals the DAI provides numerous articles of its journals open accessible",
-            "link": {
-                "target": "https://publications.dainst.org/journals",
-                "alt": "Journals"
-            }
-        },
-        {
-            "headline": "Books",
-            "text": "Via iDAI.publications/books the DAI provides numerous of its series and monographs open accessible",
-            "link": {
-                "target": "https://publications.dainst.org/books",
-                "alt": "Books"
-            }
+      {
+        "headline": "Journals",
+        "text": "Via iDAI.publications/journals the DAI provides numerous articles of its journals open accessible",
+        "link": {
+          "target": "https://publications.dainst.org/journals",
+          "alt": "Journals"
         }
-    ]       
+      },
+      {
+        "headline": "Books",
+        "text": "Via iDAI.publications/books the DAI provides numerous of its series and monographs open accessible",
+        "link": {
+          "target": "https://publications.dainst.org/books",
+          "alt": "Books"
+        }
+      }
+    ]
   },
   {
-      "type": "slider_tiles",
-      "enableSliding": false,    
-      "title": "Data enhanced print publications with partners",
-      "enableSliding": false,
-      "tiles": [          
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_antike_plastik_5.0.jpg",
-          "headline": "Antike Plastik 5.0.://",
-          "subhead": "Media of documentation in archaeology",
-          "link": {
-            "target": "https://arachne.dainst.org/project/antikeplastik?lang=de",
-            "text": "External Link to 'Antike Plastik 5.0.://'"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_roemische_hafenanlagen.jpg",
-          "headline": "Depictions and Imaginations of Roman Harbours",
-          "subhead": "",
-          "link": {
-            "target": "https://arachne.dainst.org/project/hafen?lang=de",
-            "text": "External Link to 'Depictions and Imaginations of Roman Harbours'"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_basilika_aemilia.jpg",
-          "headline": "The Basilica Aemilia on the Forum Romanum",
-          "subhead": "",
-          "link": {
-            "target": "https://arachne.dainst.org/project/basilaemil",
-            "text": "External Link to 'The Basilica Aemilia on the Forum Romanum'"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_corpus_of_minoan_seals.jpg",
-          "headline": "Corpus of Minoan and Mycenaean Seals",
-          "subhead": "",
-          "link": {
-            "target": "https://arachne.dainst.org/project/corpusminmyk",
-            "text": "External Link to 'Corpus of Minoan and Mycenaean Seals'"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_ostia.jpg",
-          "headline": "Domestic Culture in Late Antique Ostia",
-          "subhead": "",
-          "link": {
-            "target": "https://arachne.dainst.org/project/wohnkulturOstia",
-            "text": "Domestic Culture in Late Antique Ostia"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_kanathan.jpg",
-          "headline": "Sanctuaries in Kanatha",
-          "subhead": "From Hellenism to Late Antiquity",
-          "link": {
-            "target": "https://arachne.dainst.org/project/kanatha",
-            "text": "Sanctuaries in Kanatha"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_mit_wissen_geschmueckt.jpg",
-          "headline": "Figurative Reception of Greek Poets and Philosophers",
-          "subhead": "",
-          "link": {
-            "target": "https://arachne.dainst.org/project/langwiss",
-            "text": "Figurative Reception of Greek Poets and Philosophers"
-          }
-        },
-        {
-          "type": "link_list",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_palilia.jpg",
-          "headline": "Palilia",
-          "subhead": "Archaeology in Italy and neighbouring regions",
-          "link": {
-            "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/palilia",
-            "text": "Palilia"
-          },
-          "links": [
-                { 
-                   "text": "No. 26: Wall Paintings Campania" ,
-                   "target": "https://arachne.dainst.org/project/palilia26"                    
-                },
-                { 
-                   "text": "No. 25: Republican otium-villas Tivoli" ,
-                   "target": "https://arachne.dainst.org/project/palilia25"                    
-                },
-                { 
-                   "text": "No. 24: Basilica Aemilia" ,
-                   "target": "https://arachne.dainst.org/project/lippsbasilica"                    
-                },
-                { 
-                   "text": "No. 20: Military in Rome" ,
-                   "target": "https://arachne.dainst.org/project/palilia20"                    
-                }
-          ]
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_pergamenische_forschungen.jpg",
-          "headline": "Pergamenische Forschungen",
-          "subhead": "Results of archaeological research. Pergamon/Turkey",
-          "link": {
-            "target": "https://arachne.dainst.org/project/pergamenischeforschungen17?lang=de",
-            "text": "No. 17: Terracottas from Pergamon"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_roemische_mitteilungen.jpg",
-          "headline": "Römische Mitteilungen",
-          "subhead": "",
-          "link": {
-            "target": "https://arachne.dainst.org/project/rm121",
-            "text": "No.121: Brick Stamps Palatine Hill"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_roman_terrakotte_masks.jpg",
-          "headline": "Roman Terracotta Masks",
-          "subhead": "",
-          "link": {
-            "target": "https://arachne.dainst.org/project/roseterra",
-            "text": "Roman Terracotta Masks"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_meerwesen.jpg",
-          "headline": "See Creatures on Roman Sarcophagi",
-          "subhead": "",
-          "link": {
-            "target": "https://arachne.dainst.org/project/schulzmeer?lang=de",
-            "text": "See Creatures on Roman Sarcophagi"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_dressed_to_kill.jpg",
-          "headline": "Dressed to Drill. Roman Centurions' Equipment",
-          "subhead": "",
-          "link": {
-            "target": "https://arachne.dainst.org/project/centurions",
-            "text": "Dressed to Drill. Roman Centurions' Equipment"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_cast_collection_berlin.jpg",
-          "headline": "Berlin Universities, Staatliche Museen",
-          "subhead": "Cast collection of ancient sculpture",
-          "link": {
-            "target": "https://arachne.dainst.org/project/berlinsamml",
-            "text": "Berlin Universities, Staatliche Museen"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_plaster_cast_collection_bonn.jpg",
-          "headline": "Akademisches Kunstmuseum Bonn",
-          "subhead": "Plaster cast collection",
-          "link": {
-            "target": "https://arachne.dainst.org/project/sammlakakunst",
-            "text": "Akademisches Kunstmuseum Bonn"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_catalog_of_sculptures_berlin.jpg",
-          "headline": "Complete catalogue of sculptures",
-          "subhead": "",
-          "link": {
-            "target": "https://arachne.dainst.org/project/antiksammlberlin",
-            "text": "Staatliche Museen Berlin"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_fasanerie_fulda.jpg",
-          "headline": "Fasanerie Castle Fulda",
-          "subhead": "Catalogue of the ancient sculptures",
-          "link": {
-            "target": "https://arachne.dainst.org/project/schlossfulda",
-            "text": "Fasanerie Castle Fulda"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_plaster_cast_collection_leipzig.jpg",
-          "headline": "Leipzig University",
-          "subhead": "Antiquities and plaster cast collection",
-          "link": {
-            "target": "https://arachne.dainst.org/project/gipsleipzigsamml",
-            "text": "Leipzig University"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_villa_wolkonsky.jpg",
-          "headline": "Villa Wolkonsky Rome",
-          "subhead": "Antiquities collection",
-          "link": {
-            "target": "https://arachne.dainst.org/project/villaWolkonsky",
-            "text": "Villa Wolkonsky Rome"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_plaster_cast_collection_saarbruecken.jpg",
-          "headline": "Saarbrücken University",
-          "subhead": "Plaster cast collection",
-          "link": {
-            "target": "https://arachne.dainst.org/project/sammlsaarbr",
-            "text": "Saarbrücken University"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_sl_museum_aachen.jpg",
-          "headline": "Suermondt-Ludwig-Museum Aachen",
-          "subhead": "Antiquities collection",
-          "link": {
-            "target": "https://arachne.dainst.org/project/spornsiegel",
-            "text": "Suermondt-Ludwig-Museum Aachen"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_winckelmann_museum_stendal.jpg",
-          "headline": "Winckelmann Museum Stendal",
-          "subhead": "Collection of paintings and drawings",
-          "link": {
-            "target": "https://arachne.dainst.org/project/stendal",
-            "text": "Winckelmann Museum Stendal"
-          }
-        },
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_sculptures_thessaloniki.jpg",
-          "headline": "Archaeological Museum Thessaloniki",
-          "subhead": "Catalogue of scupltures",
-          "link": {
-            "target": "https://arachne.dainst.org/project/katalogskulpthess",
-            "text": "Archaeological Museum Thessaloniki"
-          }
+    "type": "slider_tiles",
+    "enableSliding": false,
+    "title": "Data enhanced print publications with partners",
+    "enableSliding": false,
+    "tiles": [
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_antike_plastik_5.0.jpg",
+        "headline": "Antike Plastik 5.0.://",
+        "subhead": "Media of documentation in archaeology",
+        "link": {
+          "target": "https://arachne.dainst.org/project/antikeplastik?lang=de",
+          "text": "External Link to 'Antike Plastik 5.0.://'"
         }
-      ]
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_roemische_hafenanlagen.jpg",
+        "headline": "Depictions and Imaginations of Roman Harbours",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/hafen?lang=de",
+          "text": "External Link to 'Depictions and Imaginations of Roman Harbours'"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_basilika_aemilia.jpg",
+        "headline": "The Basilica Aemilia on the Forum Romanum",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/basilaemil",
+          "text": "External Link to 'The Basilica Aemilia on the Forum Romanum'"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_corpus_of_minoan_seals.jpg",
+        "headline": "Corpus of Minoan and Mycenaean Seals",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/corpusminmyk",
+          "text": "External Link to 'Corpus of Minoan and Mycenaean Seals'"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_ostia.jpg",
+        "headline": "Domestic Culture in Late Antique Ostia",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/wohnkulturOstia",
+          "text": "Domestic Culture in Late Antique Ostia"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_kanathan.jpg",
+        "headline": "Sanctuaries in Kanatha",
+        "subhead": "From Hellenism to Late Antiquity",
+        "link": {
+          "target": "https://arachne.dainst.org/project/kanatha",
+          "text": "Sanctuaries in Kanatha"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_mit_wissen_geschmueckt.jpg",
+        "headline": "Figurative Reception of Greek Poets and Philosophers",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/langwiss",
+          "text": "Figurative Reception of Greek Poets and Philosophers"
+        }
+      },
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_palilia.jpg",
+        "headline": "Palilia",
+        "subhead": "Archaeology in Italy and neighbouring regions",
+        "link": {
+          "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/palilia",
+          "text": "Palilia"
+        },
+        "links": [
+          {
+            "text": "No. 26: Wall Paintings Campania",
+            "target": "https://arachne.dainst.org/project/palilia26"
+          },
+          {
+            "text": "No. 25: Republican otium-villas Tivoli",
+            "target": "https://arachne.dainst.org/project/palilia25"
+          },
+          {
+            "text": "No. 24: Basilica Aemilia",
+            "target": "https://arachne.dainst.org/project/lippsbasilica"
+          },
+          {
+            "text": "No. 20: Military in Rome",
+            "target": "https://arachne.dainst.org/project/palilia20"
+          }
+        ]
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_pergamenische_forschungen.jpg",
+        "headline": "Pergamenische Forschungen",
+        "subhead": "Results of archaeological research. Pergamon/Turkey",
+        "link": {
+          "target": "https://arachne.dainst.org/project/pergamenischeforschungen17?lang=de",
+          "text": "No. 17: Terracottas from Pergamon"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_roemische_mitteilungen.jpg",
+        "headline": "Römische Mitteilungen",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/rm121",
+          "text": "No.121: Brick Stamps Palatine Hill"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_roman_terrakotte_masks.jpg",
+        "headline": "Roman Terracotta Masks",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/roseterra",
+          "text": "Roman Terracotta Masks"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_meerwesen.jpg",
+        "headline": "See Creatures on Roman Sarcophagi",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/schulzmeer?lang=de",
+          "text": "See Creatures on Roman Sarcophagi"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_dressed_to_kill.jpg",
+        "headline": "Dressed to Drill. Roman Centurions' Equipment",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/centurions",
+          "text": "Dressed to Drill. Roman Centurions' Equipment"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_cast_collection_berlin.jpg",
+        "headline": "Berlin Universities, Staatliche Museen",
+        "subhead": "Cast collection of ancient sculpture",
+        "link": {
+          "target": "https://arachne.dainst.org/project/berlinsamml",
+          "text": "Berlin Universities, Staatliche Museen"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_plaster_cast_collection_bonn.jpg",
+        "headline": "Akademisches Kunstmuseum Bonn",
+        "subhead": "Plaster cast collection",
+        "link": {
+          "target": "https://arachne.dainst.org/project/sammlakakunst",
+          "text": "Akademisches Kunstmuseum Bonn"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_catalog_of_sculptures_berlin.jpg",
+        "headline": "Complete catalogue of sculptures",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/antiksammlberlin",
+          "text": "Staatliche Museen Berlin"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_fasanerie_fulda.jpg",
+        "headline": "Fasanerie Castle Fulda",
+        "subhead": "Catalogue of the ancient sculptures",
+        "link": {
+          "target": "https://arachne.dainst.org/project/schlossfulda",
+          "text": "Fasanerie Castle Fulda"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_plaster_cast_collection_leipzig.jpg",
+        "headline": "Leipzig University",
+        "subhead": "Antiquities and plaster cast collection",
+        "link": {
+          "target": "https://arachne.dainst.org/project/gipsleipzigsamml",
+          "text": "Leipzig University"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_villa_wolkonsky.jpg",
+        "headline": "Villa Wolkonsky Rome",
+        "subhead": "Antiquities collection",
+        "link": {
+          "target": "https://arachne.dainst.org/project/villaWolkonsky",
+          "text": "Villa Wolkonsky Rome"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_plaster_cast_collection_saarbruecken.jpg",
+        "headline": "Saarbrücken University",
+        "subhead": "Plaster cast collection",
+        "link": {
+          "target": "https://arachne.dainst.org/project/sammlsaarbr",
+          "text": "Saarbrücken University"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_sl_museum_aachen.jpg",
+        "headline": "Suermondt-Ludwig-Museum Aachen",
+        "subhead": "Antiquities collection",
+        "link": {
+          "target": "https://arachne.dainst.org/project/spornsiegel",
+          "text": "Suermondt-Ludwig-Museum Aachen"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_winckelmann_museum_stendal.jpg",
+        "headline": "Winckelmann Museum Stendal",
+        "subhead": "Collection of paintings and drawings",
+        "link": {
+          "target": "https://arachne.dainst.org/project/stendal",
+          "text": "Winckelmann Museum Stendal"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_sculptures_thessaloniki.jpg",
+        "headline": "Archaeological Museum Thessaloniki",
+        "subhead": "Catalogue of scupltures",
+        "link": {
+          "target": "https://arachne.dainst.org/project/katalogskulpthess",
+          "text": "Archaeological Museum Thessaloniki"
+        }
+      }
+    ]
   }
 ]

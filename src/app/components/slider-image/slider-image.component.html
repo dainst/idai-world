@@ -1,5 +1,5 @@
 <!-- <div class="section-archeological-images"> -->
-<div class="section__body">
+<div class="section__body" [class.container]="!useFullWidth">
   <div #slides class="slider-arch-images">
     <div *ngFor="let image of images" class="slider__clip">
       <dai-link [useContent]="true" [data]="image.link">
@@ -8,6 +8,7 @@
             <div
               class="section__image"
               [style.height]="slideHeight"
+              [style.backgroundPositionX]="align"
               [style.backgroundImage]="'url(' + image.src + ')'"
             >
               <div
