@@ -2,7 +2,7 @@
   {
     "type": "title_banner",
     "title": "Documentation <wbr> Tools & Instruments",
-    "image": "assets/images/content/banner-how.jpg"
+    "image": "assets/images/content/header/idai_documentation_header.jpg"
   },
 
   {
@@ -47,7 +47,7 @@
       },
       {
         "type": "image_link",
-        "image": "assets/images/content/what/documentation/idai_objects_trojans_column.jpg",
+        "image": "assets/images/content/what/documentation/idai_documentation_survey2gis.jpg",
         "headline": "Survey2GIS",
         "subhead": "Automated survey data processing for GIS",
         "link": {
