@@ -1,8 +1,8 @@
 $(".slider-intro .slider__slides").slick({
   fade: true,
-  speed: 5000,
+  speed: 2000,
   autoplay: true,
-  // autoplaySpeed: 4000,
+  autoplaySpeed: 5000,
   responsive: [
     {
       breakpoint: 767,
