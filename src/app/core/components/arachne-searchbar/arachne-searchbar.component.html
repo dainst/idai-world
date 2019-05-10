@@ -1,6 +1,6 @@
 <div class="search-bar input-group">
   <!-- Dropdown handle Desktop -->
-  <div class="input-group-prepend d-none d-md-flex">
+  <div *ngIf="!disableCategories" class="input-group-prepend d-none d-md-flex">
     <button
       class="btn dropdown-toggle"
       type="button"
@@ -17,7 +17,7 @@
     </div>
   </div>
   <!-- Dropdown handle Mobile -->
-  <div class="input-group-prepend d-md-none d-flex">
+  <div *ngIf="!disableCategories" class="input-group-prepend d-md-none d-flex">
     <button
       class="btn dropdown-toggle"
       type="button"
@@ -36,7 +36,7 @@
   <input
     type="text"
     class="form-control"
-    placeholder="Search within all 12345678 images"
+    placeholder="{{ placeholder }}"
     aria-label="Search"
   />
   <div class="input-group-append d-flex">
