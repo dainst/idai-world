@@ -209,6 +209,18 @@
         "group": "How",
         "name": "Strategies for Digitization"
       }
+    },
+    {
+      "path": "how/sub/remote-sensing",
+      "page": "config/pages/how/sub/remote-sensing.json"      
+    },
+    {
+      "path": "how/sub/gis",
+      "page": "config/pages/how/sub/gis.json"      
+    },
+    {
+      "path": "how/sub/sfm",
+      "page": "config/pages/how/sub/sfm.json"      
     }
   ]
 }
