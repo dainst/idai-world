@@ -2,7 +2,7 @@
   {
     "type": "title_banner",
     "title": "Guidelines & Tutorials",
-    "image": "assets/images/content/header/banner-how.jpg"
+    "image": "assets/images/content/header/idai_how_header.jpg"
   },  
     
   {
@@ -58,8 +58,8 @@
         {
             "type": "image_link",
             "image": "assets/images/content/how/idai_guidelines_hellespont.jpg",
-            "headline": "The Hellespont Project: Integrating Arachne and Perseus via CIDOC CRM",
-            "subhead": "",
+            "headline": "The Hellespont Project",
+            "subhead": "Integrating Arachne and Perseus via CIDOC CRM",
             "link": {
                 "target": "http://hellespont.dainst.org/startpage/",
                 "text": "The Hellespont Project: Integrating Arachne and Perseus via CIDOC CRM"

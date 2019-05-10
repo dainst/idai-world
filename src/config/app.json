@@ -162,7 +162,7 @@
       "page": "config/pages/how/thesauri-and-controlled-vocabularies.json",
       "menu": {
         "group": "How",
-        "name": "Thesauri and controlled vocabularies",
+        "name": "Thesauri & controlled Vocabularies",
         "order": 1
       }
     },
@@ -198,7 +198,7 @@
       "page": "config/pages/how/tools-of-documentation.json",
       "menu": {
         "group": "How",
-        "name": "Documentation and Simulation"
+        "name": "Documentation & Simulation"
       }
     },
 

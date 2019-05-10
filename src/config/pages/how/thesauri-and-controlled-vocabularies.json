@@ -1,8 +1,8 @@
 [
   {
     "type": "title_banner",
-    "title": "Thesauri and controlled vocabularies",
-    "image": "assets/images/content/header/banner-how.jpg"
+    "title": "Thesauri &<br/> controlled Vocabularies",
+    "image": "assets/images/content/header/idai_how_header.jpg"
   },  
     
   {
@@ -14,7 +14,7 @@
   {
     "type": "intro_text",
     "title": "iDAI.thesauri & iDAI.vocab",
-    "body": "<p>Today, the thesauri compiled in iDAI.Thesauri form the backbone of the iDAI.World. The „DAI-worldwide thesaurus“ is intended to merge vocabularies already in use throughout the libraries and projects of the German Archaeological Institute according to the guidelines of DARIAH-EU (<a href=\"https://www.dariah.eu/\" target=\"_blank\">https://www.dariah.eu</a>). With iDAI.vocab you have a multilingual dictionary available.</p>"
+    "body": "<p>Today, the thesauri compiled in iDAI.Thesauri form the backbone of the iDAI.World. The „DAI-worldwide thesaurus“ is intended to merge vocabularies already in use throughout the libraries and projects of the German Archaeological Institute according to the guidelines of <a href=\"https://www.dariah.eu/\" target=\"_blank\">DARIAH-EU</a>. With iDAI.vocab you have a multilingual dictionary available.</p>"
   },  
 
   {
