@@ -14,58 +14,67 @@
     "type": "intro_text",
     "title": "Service for Partner Institutions",
     "body": "<p>Numerous museums and institutions use the information infrastructures to systematically digitalize and index their archives. These include German photo libraries and archives as well as international antiquities authorities and museums. Together we are working to advance digitalization standards, optimized workflows and a better information infrastructure for the cultural heritage of antiquity.</p>"
-  },  
+  },
+  {
+    "type": "slider_tiles",
+    "title": "Archives for partner institutions",
+    "enableSliding": false,
+    "tiles": [
+      {
+        "type": "image_link",
+        "image": "assets/images/content/how/idai_digitization_aaa.jpg",
+        "headline": "African Archaeological Archive Cologne",
+        "subhead": "",
+        "link": { "target": "https://arachne.dainst.org/project/afrarchcologne", "text": "Link to African Archaeological Archive Cologne" }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/how/idai_digitization_rww.jpg",
+        "headline": "Archive of Rhine-Westphalian Economy",
+        "subhead": "",
+        "link": { "target": "https://arachne.dainst.org/project/rwwa", "text": "Link to Archive of Rhine-Westphalian Economy" }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/how/idai_digitization_oppenheim.jpg",
+        "headline": "Collection of Max von Oppenheim",
+        "subhead": "",
+        "link": { "target": "https://arachne.dainst.org/project/oppenheim", "text": "Link to Collection of Max von Oppenheim" }
+      }
+    ]
+  },
   {
     "type": "intro_text",
     "title": "Ongoing and completed projects",
     "body": "<p>In the 1990s, the Research Center for Ancient Sculpture of the University of Cologne systematically began to digitize its photo archive and thus also prints based on negatives of the DAI. Soon after, projects for systematic digitization began, following digitization projects in the Archives. Examples include the DFG-funded projects EMAGINES and the digitization of drawings, plans and constructions of the 19th and 20th century in the German Archaeological Institute in Rome. Further projects within the program for the preservation of cultural heritage and the project \"Zero Hour - a future for the post-crisis\" were supported by the Federal Foreign Office. Today, the archives are systematically digitized at all departments of the DAI.</p>"
-  },  
-
+  },
   {
-      "type": "slider_tiles",
-      "title": "",
-      "tiles": [        
-        {
-          "type": "link_list",
-          "image": "assets/images/temp/statue-hover.jpg",
-          "headline": "Service for Partners",
-          "subhead": "",
-          "links": [
-            { 
-                "text": "African Archaeological Archive Cologne",
-                "target": "https://arachne.dainst.org/project/afrarchcologne"
-            },
-            { 
-                "text": "Archive of Rhine-Westphalian Economy",
-                "target": "https://arachne.dainst.org/project/rwwa"
-            },
-            { 
-                "text": "Enhanced and data publications",
-                "target": "https://arachne.dainst.org/project/oppenheim"
-            }
-          ]
-        },
-        {
-          "type": "link_list",
-          "image": "assets/images/temp/statue-hover.jpg",
-          "headline": "Some Digitization Projects",
-          "subhead": "",
-          "links": [
-            { 
-                "text": "Digitization of the glass negatives of the German Archaeological Institute within the framework of Emagines",
-                "target": "https://arachne.uni-koeln.de/drupal/?q=node/95"
-            },
-            { 
-                "text": "The digitization of drawings, plans and constructions of the 19th and 20th century in the German Archaeological Institute in Rome",
-                "target": "https://arachne.dainst.org/project/handzeichnungen"
-            },
-            { 
-                "text": "Syrian Heritage Archive Project",
-                "target": "https://arachne.dainst.org/project/syrher"
-            }
-          ]
-        }        
-      ]
-    }
+    "type": "slider_tiles",
+    "title": "Digitization projects",
+    "enableSliding": false,
+    "tiles": [
+      {
+        "type": "image_link",
+        "image": "assets/images/content/how/idai_digitization_aaa.jpg",
+        "headline": "Glass negatives within the framework of Emagines",
+        "subhead": "",
+        "link": { "target": "https://arachne.uni-koeln.de/drupal/?q=node/95", "text": "Link to Glass negatives within the framework of Emagines" }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/how/idai_digitization_rww.jpg",
+        "headline": "Rome department",
+        "subhead": "Drawings, plans and constructions",
+        "link": { "target": "https://arachne.dainst.org/project/handzeichnungen", "text": "Link to Rome department" }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/how/idai_digitization_oppenheim.jpg",
+        "headline": "Syrian Heritage Archive ",
+        "subhead": "",
+        "link": { "target": "https://arachne.dainst.org/project/syrher", "text": "Link to Syrian Heritage Archive" }
+      }
+    ]
+  }
  
 ]
