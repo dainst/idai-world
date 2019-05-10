@@ -2,7 +2,7 @@
   {
     "type": "title_banner",
     "title": "Data Policy",
-    "image": "assets/images/content/banner-why.jpg"
+    "image": "assets/images/content/header/idai_why_header.jpg"
   },  
     
   {
@@ -28,7 +28,7 @@
   {
     "type": "intro_text",
     "title": "Commitment to Research Data Management",
-    "body": "<p>The following principles for the management of research data are in accordance with the contracts of the DAI employees, with the guidelines of guest and partner countries, and with the guidelines of the funding agencies.</p><p>The researchers and academics of the DAI <ul><li>follow the beforementioned IANUS–IT recommendations,</li><li>implement the FAIR principles and ensure adherence to the security recommendations for good academic praxis, as brought forward by the German Research Foundation,</li><li>ensure the protection and accessibility of their research data,</li><li>adhere to the research data management guidelines of guest and partner countries as well as those of the funding agencies,</li><li>coordinate the development of information infrastructures with the Central Scientific Services (ZWD),</li><li>make an effort to publish current and historical research data.</li></ul></p>"
+    "body": "<p>The following principles for the management of research data are in accordance with the contracts of the DAI employees, with the guidelines of guest and partner countries, and with the guidelines of the funding agencies.</p><p>The researchers and academics of the DAI <ul class='list1'><li><span class='colorbl'>follow the beforementioned IANUS–IT recommendations,</span></li><li><span class='colorbl'>implement the FAIR principles and ensure adherence to the security recommendations for good academic praxis, as brought forward by the German Research Foundation,</li><li><span class='colorbl'>ensure the protection and accessibility of their research data,</span></li><li><span class='colorbl'>adhere to the research data management guidelines of guest and partner countries as well as those of the funding agencies,</span></li><li><span class='colorbl'>coordinate the development of information infrastructures with the Central Scientific Services (ZWD),</span></li><li><span class='colorbl'>make an effort to publish current and historical research data.</span></li></ul></p>"
   },
   {
     "type": "intro_text",

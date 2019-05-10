@@ -5,3 +5,14 @@
 [class^="list-"] {
 	list-style: none outside none;
 }
+
+ul.list1 {
+	text-align: left;
+	font-size: 30px;
+	line-height: 48px;
+	list-style: disc inside;
+	color: #557ebb;
+}
+span.colorbl {
+	color: #000;
+}
