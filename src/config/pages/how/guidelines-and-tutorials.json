@@ -26,38 +26,55 @@
     "body": "<p>In the framework of the project \"Zero Hour - A Future for the Aftermath of the Crisis\", funded by the Federal Foreign Office, international standards were also translated into Arabic, including the DFG practice guidelines „Digitalisierung“, Dublin Core Metadata Initiative (DCMI), Open Archival Information System. Reference Model (OAIS) and a primer for the CIDOC-CRM.</p>"
   },  
   {
-      "type": "slider_tiles",
-      "title": "Tutorial Resources",
-      "tiles": [        
+    "type": "slider_tiles",
+    "title": "Tutorial Resources",
+    "tiles": [       
         {
-          "type": "link_list",
-          "image": "assets/images/temp/statue-hover.jpg",
-          "headline": "Service for Partners",
-          "subhead": "",
-          "links": [
-            { 
-                "text": "IT Guidelines 1",
-                "target": "http://dx.doi.org/10.13149/000.111000-a"
-            },
-            { 
-                "text": "IT Guidelines 2",
-                "target": "http://www.ianus-fdz.de/it-empfehlungen/"
-            },
-            { 
-                "text": "Online Courses for Cultural Heritage Professionals",
-                "target": "https://moocs.dainst.org"
-            },
-            { 
-                "text": "The Hellespont Project: Integrating Arachne and Perseus via CIDOC CRM",
-                "target": "http://hellespont.dainst.org/startpage/"
-            },
-            { 
-                "text": "Arabic Translations of international standards and guidelines",
-                "target": "https://moocs.dainst.org/course/view.php?id=18"
+            "type": "link_list",
+            "image": "assets/images/content/how/idai_guidelines_it.jpg",
+            "headline": "IT Guidelines",
+            "subhead": "",
+            "links": [
+                { 
+                    "text": "dx.doi.org",
+                    "target": "http://dx.doi.org/10.13149/000.111000-a"
+                },
+                { 
+                    "text": "ianus-fdz.de/it-empfehlungen",
+                    "target": "http://www.ianus-fdz.de/it-empfehlungen/"
+                }
+            ]
+        },         
+        {
+            "type": "image_link",
+            "image": "assets/images/content/how/idai_guidelines_tutorials.jpg",
+            "headline": "iDAI.tutorials",
+            "subhead": "Courses for Cultural Heritage Professionals",
+            "link": {
+                "target": "https://moocs.dainst.org",
+                "text": "iDAI.tutorials"
             }
-          ]
-        }        
+        },
+        {
+            "type": "image_link",
+            "image": "assets/images/content/how/idai_guidelines_hellespont.jpg",
+            "headline": "The Hellespont Project: Integrating Arachne and Perseus via CIDOC CRM",
+            "subhead": "",
+            "link": {
+                "target": "http://hellespont.dainst.org/startpage/",
+                "text": "The Hellespont Project: Integrating Arachne and Perseus via CIDOC CRM"
+            }
+        },
+        {
+            "type": "image_link",
+            "image": "assets/images/content/how/idai_guidelines_arabic_translation.jpg",
+            "headline": "Arabic Translations of international standards and guidelines",
+            "subhead": "",
+            "link": {
+                "target": "https://moocs.dainst.org/course/view.php?id=18",
+                "text": "Arabic Translations of international standards and guidelines"
+            }
+        }
       ]
-    }
- 
+    } 
 ]
