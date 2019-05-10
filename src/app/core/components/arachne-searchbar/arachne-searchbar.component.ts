@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'dai-arachne-searchbar',
@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./arachne-searchbar.component.scss']
 })
 export class ArachneSearchbarComponent implements OnInit {
+  @Input() public placeholder: string;
+  @Input() public disableCategories: boolean;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

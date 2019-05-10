@@ -9,7 +9,10 @@
 
   <div class="section__body">
     <div [innerHtml]="config?.text"></div>
-    <dai-arachne-searchbar></dai-arachne-searchbar>
+    <dai-arachne-searchbar
+      [placeholder]="config?.placeholder"
+      [disableCategories]="config?.disableCategories"
+    ></dai-arachne-searchbar>
   </div>
 </div>
 <!-- </section> -->
