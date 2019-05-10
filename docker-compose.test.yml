@@ -4,6 +4,8 @@ services:
 
   nginx:
     image: "dainst/idai-portal-nginx:0.0.1"
+    volumes:
+      - config:/app/config
     expose:
       - "80"
     networks:
@@ -14,7 +16,11 @@ services:
         - "traefik.enable=true"
         - "traefik.frontend.rule=Host:test.idai.world,www.test.idai.world"
         - "traefik.port=80"
-        
+
+volumes:
+  config:
+    name: portal_config
+
 networks:
   web:
     external: true
