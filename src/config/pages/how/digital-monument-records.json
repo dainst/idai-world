@@ -7,7 +7,7 @@
     
   {
     "type": "intro_text",
-    "title": "",
+    "title": "Protecting world heritage",
     "body": "<p>Digital monument records are a vital instrument in the protection of world heritage. The photographic and excavation archives on the many excavations undertaken since the 19th century are not necessarily directly accessible in the countries where the archaeological sites are today. Consequently what needs to be done is to create multilingual research environments, to digitize and geo-reference the data and make these data archives available for research purposes independently of their physical location – as well as to develop modalities for using them. These data archives – themselves a part of cultural heritage – are the prerequisite for research-based activities towards the preservation of world heritage. This way it will be possible to support the creation, on an international scale, of national records of sites and monuments such as exist in digital form already in many German federal states and were called for by Friedrich Schinkel 200 years ago as a necessary basis for heritage conservation in Germany.</p>"
   },  
 
@@ -21,25 +21,35 @@
       "type": "slider_tiles",
       "title": "Examples for digital monument registers",
       "tiles": [        
-        {
-          "type": "link_list",
-          "image": "assets/images/temp/statue-hover.jpg",
-          "headline": "",
-          "subhead": "",
-          "links": [
-            { 
-                "text": "AYDA – Ancient Yemen Digital Atlas",
-                "target": "https://www.archernet.org/2018/10/25/ayda-ein-digitales-denkmalregister-fuer-den-jemen/"
-            },
-            { 
-                "text": "A Monument Register for Syria: Syrian Heritage Archive Project",
-                "target": "https://arachne.dainst.org/project/syrher"
-            },
-            { 
-                "text": "A Monument Register for Sudan: Friedrich Hinkel Archive",
-                "target": "https://arachne.dainst.org/project/hinkel"
+         {
+            "type": "image_link",
+            "image": "assets/images/content/how/idai_monument_records_ayda.jpg",
+            "headline": "AYDA",
+            "subhead": "Ancient Yemen Digital Atlas",
+            "link": {
+                "target": "https://www.archernet.org/2018/10/25/ayda-ein-digitales-denkmalregister-fuer-den-jemen/",
+                "text": "AYDA"
             }
-          ]
+        },
+        {
+            "type": "image_link",
+            "image": "assets/images/content/how/idai_monument_records_syria.jpg",
+            "headline": "Syrian Heritage Archive",
+            "subhead": "A monument register for Syria",
+            "link": {
+                "target": "https://arachne.dainst.org/project/syrher",
+                "text": "Syrian Heritage Archive"
+            }
+        },
+        {
+            "type": "image_link",
+            "image": "assets/images/content/how/idai_monument_records_hinkel.jpg",
+            "headline": "Friedrich Hinkel Archive",
+            "subhead": "A monument register for Sudan",
+            "link": {
+                "target": "https://arachne.dainst.org/project/hinkel",
+                "text": "Friedrich Hinkel Archive"
+            }        
         }        
       ]
     }
