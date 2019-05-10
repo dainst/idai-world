@@ -40,32 +40,54 @@
       "title": "Thesauri and controlled vocabularies",
       "tiles": [        
         {
-          "type": "link_list",
-          "image": "assets/images/temp/statue-hover.jpg",
-          "headline": "",
-          "subhead": "",
-          "links": [
-            { 
-                "text": "1836 - Emil Braun and the first library catalogue",
-                "target": "http://arachne.uni-koeln.de/item/buch/5376"
-            },
-            { 
-                "text": "iDAI.thesauri",
-                "target": "http://thesauri.dainst.org/de.html"
-            },
-            { 
-                "text": "iDAI.gazetteer",
-                "target": "https://gazetteer.dainst.org/app/#!/home"
-            },
-            { 
-                "text": "iDAI.chronontology",
-                "target": "http://chronontology.dainst.org/"
-            },
-            { 
-                "text": "iDAI.vocab",
-                "target": "http://archwort.dainst.org/de/vocab/"
+            "type": "image_link",
+            "image": "assets/images/content/how/idai_thesauri_emil_braun.jpg",
+            "headline": "1836 - Emil Braun and the first library catalogue",
+            "subhead": "",
+            "link": {
+                "target": "http://arachne.uni-koeln.de/item/buch/5376",
+                "text": "1836 - Emil Braun and the first library catalogue"
             }
-          ]
+        },
+        {
+            "type": "image_link",
+            "image": "assets/images/content/how/idai_thesauri_thesauri.jpg",
+            "headline": "iDAI.thesauri",
+            "subhead": "",
+            "link": {
+                "target": "http://thesauri.dainst.org/de.html",
+                "text": "iDAI.thesauri"
+            }
+        },
+        {
+            "type": "image_link",
+            "image": "assets/images/content/how/idai_thesauri_gazetteer.jpg",
+            "headline": "iDAI.gazetteer",
+            "subhead": "",
+            "link": {
+                "target": "https://gazetteer.dainst.org/app/#!/home",
+                "text": "iDAI.gazetteer"
+            }
+        },
+        {
+            "type": "image_link",
+            "image": "assets/images/content/how/idai_thesauri_Chronontology.jpg",
+            "headline": "iDAI.chronontology",
+            "subhead": "",
+            "link": {
+                "target": "http://chronontology.dainst.org/",
+                "text": "iDAI.chronontology"
+            }
+        },
+        {
+            "type": "image_link",
+            "image": "assets/images/content/how/idai_thesauri_vocab.jpg",
+            "headline": "iDAI.vocab",
+            "subhead": "",
+            "link": {
+                "target": "http://archwort.dainst.org/de/vocab/",
+                "text": "iDAI.vocab"
+            }
         }        
       ]
     }
