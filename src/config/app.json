@@ -211,6 +211,14 @@
       }
     },
     {
+      "path": "how/get-access",
+      "page": "config/pages/how/get-access.json",
+      "menu": {
+        "group": "How",
+        "name": "Get Access"
+      }
+    },
+    {
       "path": "how/sub/remote-sensing",
       "page": "config/pages/how/sub/remote-sensing.json"      
     },
