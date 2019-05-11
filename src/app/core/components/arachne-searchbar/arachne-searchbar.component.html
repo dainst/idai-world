@@ -11,9 +11,15 @@
       <span><i class="fas fa-chevron-right fa-fw"></i>Categories</span>
     </button>
     <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Category 1</a>
-      <a class="dropdown-item" href="#">Category 2</a>
-      <a class="dropdown-item" href="#">Category ...</a>
+      <div class="d-flex flex-wrap align-content-end">
+        <a
+          *ngFor="let category of categories"
+          (click)="onCategoryClick(category)"
+          class="dropdown-item"
+          [class.active]="selectedCategory === category"
+          >{{ category }}</a
+        >
+      </div>
     </div>
   </div>
   <!-- Dropdown handle Mobile -->
@@ -27,18 +33,46 @@
     >
       <span><i class="fas fa-chevron-down"></i></span>
     </button>
+
     <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Category 1</a>
-      <a class="dropdown-item" href="#">Category 2</a>
-      <a class="dropdown-item" href="#">Category ...</a>
+      <div class="d-flex flex-wrap align-content-end">
+        <a
+          *ngFor="let category of categories"
+          (click)="onCategoryClick(category)"
+          class="dropdown-item"
+          >{{ category }}</a
+        >
+      </div>
     </div>
   </div>
-  <input
-    type="text"
-    class="form-control"
-    placeholder="{{ placeholder }}"
-    aria-label="Search"
-  />
+  <div
+    *ngIf="selectedCategory && showCategory"
+    class="input-group-append d-flex"
+  >
+    <span class="input-group-text ico-searchbar">{{ selectedCategory }}</span>
+  </div>
+  <div class="form-control searchbar-container">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="{{ placeholder }}"
+      aria-label="Search"
+      (keyup)="onSearchInputKeyup($event)"
+      (focus)="onSearchInputFocus()"
+      (blur)="onSearchInputBlur()"
+    />
+
+    <div class="suggestions">
+      <ul>
+        <li
+          *ngFor="let suggestion of suggestions; index as idx"
+          [class.highlight]="idx === selectedSuggestionIndex"
+        >
+          <a href="{{ suggestion.link }}">{{ suggestion.term }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
   <div class="input-group-append d-flex">
     <span class="input-group-text ico-searchbar"
       ><i class="fas fa-search fa-lg"></i

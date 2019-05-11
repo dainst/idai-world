@@ -17,6 +17,29 @@
       }
     }
   },
+  "search": {
+    "targetUrl": "https://arachne.dainst.org/search",
+    "suggestionUrl": "https://arachne.dainst.org/data/suggest",
+    "resultProp": "suggestions",
+    "categories": [
+      "Bauwerke",
+      "Bauwerksteile",
+      "Einzelobjekte",
+      "Szenen",
+      "Bilder",
+      "Typen",
+      "Sammlungen",
+      "Topographien",
+      "Rezeptionen",
+      "Reproduktionen",
+      "Einzelmotive",
+      "Mehrteilige Denkmäler",
+      "Inschriften",
+      "Bücher",
+      "Buchseiten"
+    ]
+  },
+
   "routes": [
     {
       "comment": "STARTPAGE",
@@ -31,7 +54,7 @@
       "=================================================================": "",
       "path": "sink",
       "page": "config/pages/kitchen-sink.json",
-      "disabled": true,
+      "disabled": false,
       "menu": {
         "group": "DEMO",
         "name": "Kitchen Sink",
@@ -220,15 +243,15 @@
     },
     {
       "path": "how/sub/remote-sensing",
-      "page": "config/pages/how/sub/remote-sensing.json"      
+      "page": "config/pages/how/sub/remote-sensing.json"
     },
     {
       "path": "how/sub/gis",
-      "page": "config/pages/how/sub/gis.json"      
+      "page": "config/pages/how/sub/gis.json"
     },
     {
       "path": "how/sub/sfm",
-      "page": "config/pages/how/sub/sfm.json"      
+      "page": "config/pages/how/sub/sfm.json"
     }
   ]
 }
