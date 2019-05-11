@@ -6,6 +6,7 @@
       "title": 48,
       "headline": 48,
       "subhead": 48,
+      "headline+subhead": [24, 48],
       "tiles": {
         "link_list": {
           "comment": "tiles can have overrides, here as example",

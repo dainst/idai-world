@@ -55,7 +55,7 @@ export class DaiPageConfig {
           );
         }
 
-        const textLimits = limits.getLimitsFor(definition.type);
+        const textLimits = limits.getLimitsFor(definition);
 
         return {
           type,

@@ -85,29 +85,21 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
 
     this.tiles = config.tiles.map(tileConfig => ({
       ...tileConfig,
-      textLimits: this.getLimitsForType(tileConfig.type),
+      textLimits: this.getLimitsForType(tileConfig),
       type: this.getTypeForTile(tileConfig.type)
     }));
 
     this.addCls = !this.enableSliding;
   }
 
-  getLimitsForType(type: string) {
+  getLimitsForType(tileConfig: any) {
     if (!this.config.textLimits) {
       return {};
     }
 
     const limits = this.config.textLimits;
-    const tileLimits = limits.tiles ? limits.tiles[type] : {};
-    return { ...limits, ...tileLimits };
-    // switch (type) {
-    //   case 'image_link':
-    //     return limits;
-    //   case 'link_list':
-    //     return limits;
-    //   case 'text':
-    //     return limits;
-    // }
+    const tileLimits = limits.tiles ? limits.tiles[tileConfig.type] : {};
+    return { ...limits, ...tileLimits, ...(tileConfig.textLimits || {}) };
   }
 
   getTypeForTile(type) {

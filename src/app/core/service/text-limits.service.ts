@@ -1,3 +1,5 @@
+import { merge, cloneDeep } from 'lodash';
+
 export class TextLimits {
   globalTextLimits: any = {};
 
@@ -5,9 +7,12 @@ export class TextLimits {
     this.globalTextLimits = limits;
   }
 
-  getLimitsFor(componentType: string): any {
+  getLimitsFor(componentConfig: any): any {
     // limits defined in component override global limits
-    const globalLimits = this.globalTextLimits[componentType];
-    return globalLimits || {};
+    const limits = merge(
+      cloneDeep(this.globalTextLimits[componentConfig.type]),
+      componentConfig.textLimits || {}
+    );
+    return limits || {};
   }
 }
