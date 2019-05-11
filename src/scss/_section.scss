@@ -296,7 +296,11 @@
   align-items: center;
   justify-content: center;
 
+  white-space: normal;
+  word-break: break-word;
+
   .email {
+    padding: 0 5px;
     color: inherit;
     font-size: 20px;
   }

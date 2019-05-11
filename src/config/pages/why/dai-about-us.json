@@ -3,43 +3,45 @@
     "type": "title_banner",
     "title": "About us",
     "image": "assets/images/content/header/idai_why_header.jpg"
-  },  
+  },
   {
     "type": "intro_text",
     "title": "",
     "body": "<p>The German Archaeological Institute (DAI) is a worldwide networked research institution in the field of archaeology and ancient history. The DAI was founded in Rome in 1829 by a group of friends comprising scholars, artists and diplomats. Its Head Office has been based in Berlin since 1833 and it has been directly affiliated with the Federal Foreign Office as a research institution since 1874.</p><p>The Central Scientific Services (CSS) of the DAI in Berlin are responsible for the digital services of the iDAi.World. Here, the coordination, development and provision of services for and in cooperation with the national and international community takes place. The foundations of the digital research infrastructure were laid with the picture database “Arachne” at the Research Archive for Ancient Art at the University of Cologne.</p><p>Two directors are head of the Central Scientific Services in the field of information technology and in the field of libraries, publications and archives. The DAI has established a research data management at all departments. In cooperation with national and international partners, the departments are involved in the development of new applications and the development of a powerful research infrastructure.</p>"
-  },        
+  },
   {
-      "type": "org_chart",
-      "headline": "Central Scientific Services",
-      "text": "",
-      "nodes": [
-        {
-          "title": "Secretary  General",
-          "children": [
-            {
-              "title": "Director Informationtechnology",
-              "children": [
-                { "title": "Technical IT" },
-                { "title": "Scientific IT" }
-              ]
-            },
-            {
-              "title": "Director Libraries",
-              "children": [
-                { "title": "Editorial Office Berlin" },
-                { "title": "Libraries" },
-                { "title": "Archieves" }
-              ]
-            }
-          ]
-        }
-      ]
-    },
+    "type": "org_chart",
+    "headline": "Central Scientific Services",
+    "text": "",
+    "nodes": [
+      {
+        "title": "Secretary  General",
+        "children": [
+          {
+            "title": "Director Informationtechnology",
+            "children": [
+              { "title": "Technical IT", "email": "itleitung@dainst.de" },
+              { "title": "Scientific IT", "email": "itleitung@dainst.de" }
+            ]
+          },
+          {
+            "title": "Director Libraries",
+            "children": [
+              {
+                "title": "Editorial Office Berlin",
+                "email": "redaktion@dainst.de"
+              },
+              { "title": "Libraries", "email": "bibliothek@dainst.de" },
+              { "title": "Archieves", "email": "archiv@dainst.de" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   {
     "type": "intro_text",
     "title": "",
     "body": "<h2>Contacts</h2><ul><li><a href='mailto:bibliothek@dainst.de'>bibliothek@dainst.de</a></li><li><a href='mailto:redaktion@dainst.de'>redaktion@dainst.de</a></li><li><a href='mailto:itleitung@dainst.de'>itleitung@dainst.de</a></li><li><a href='mailto:archiv@dainst.de'>archiv@dainst.de</a></li></ul>"
   }
- 
 ]
