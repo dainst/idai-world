@@ -50,12 +50,38 @@
       "text": "<p>Foo</p> <p>Bar</p>",
       "text_html": "config/pages/kitchen-sink/kitchen-sink.intro_text.html",
       "enableSliding": false,
+      "textLimits": {
+        "title": 5,
+        "headline": 6,
+        "subhead": 10,
+        "headline+subhead": [5, 5],
+        "tiles": {
+          "link_list": {
+            "comment": "tiles can have overrides, here as example",
+            "headline": 24,
+            "subhead": 48,
+            "headline+subhead": [10, 10],
+            "text": 30
+          },
+          "image_link": {
+            "comment": "tiles can have overrides, here as example",
+            "headline": 4,
+            "subhead": 48,
+            "headline+subhead": [10, 10],
+            "text": 30
+          },
+          "text": { "text": 855 }
+        }
+      },
       "tiles": [
         {
           "type": "link_list",
           "image": "assets/images/temp/statue-hover.jpg",
           "headline": "Link List",
           "subhead": "link list subheading",
+          "textLimits": {
+            "headline+subhead": [3, 5]
+          },
           "links": [
             { "target": "route://", "text": "Internal Link to 'Home'" },
             {
@@ -68,7 +94,9 @@
           "type": "image_link",
           "image": "assets/images/temp/area-hover.jpg",
           "headline": "Image Tile",
-          "subhead": "imge tile subheading",
+          "textLimits": {
+            "headline+subhead": [15, 30]
+          },
           "link": {
             "target": "https://google.de",
             "text": "External Link to 'Google'"
@@ -79,6 +107,7 @@
           "image": "assets/images/temp/circle-hover.jpg",
           "headline": "Text Tile",
           "subhead": "text tile subheading",
+
           "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed..."
         },
 
