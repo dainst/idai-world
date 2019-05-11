@@ -20,8 +20,8 @@
           {
             "title": "Director Informationtechnology",
             "children": [
-              { "title": "Technical IT", "email": "itleitung@dainst.de" },
-              { "title": "Scientific IT", "email": "itleitung@dainst.de" }
+              { "title": "Technical IT", "email": "itleitung\u200B@dainst.de" },
+              { "title": "Scientific IT", "email": "itleitung\u200B@dainst.de" }
             ]
           },
           {
@@ -29,10 +29,10 @@
             "children": [
               {
                 "title": "Editorial Office Berlin",
-                "email": "redaktion@dainst.de"
+                "email": "redaktion\u200B@dainst.de"
               },
-              { "title": "Libraries", "email": "bibliothek@dainst.de" },
-              { "title": "Archieves", "email": "archiv@dainst.de" }
+              { "title": "Libraries", "email": "bibliothek\u200B@dainst.de" },
+              { "title": "Archieves", "email": "archiv\u200B@dainst.de" }
             ]
           }
         ]
