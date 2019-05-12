@@ -1,5 +1,9 @@
-<header class="header" [ngClass]="{ header__subpage: isSubPage }">
-  <div class="header__inner">
+<header
+  #header
+  class="header sticky"
+  [ngClass]="{ header__subpage: isSubPage }"
+>
+  <div #headerInner class="header__inner">
     <div class="header__container">
       <dai-navigation></dai-navigation>
     </div>

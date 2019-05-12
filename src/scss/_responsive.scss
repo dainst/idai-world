@@ -45,63 +45,6 @@
   }
 
   /* ------------------------------ *\
-      Header
-  \* ------------------------------ */
-  header.header {
-    max-height: 70px;
-  }
-
-  .header .header__inner {
-    align-items: center;
-    padding: 8px 10px;
-    height: 100%;
-  }
-
-  .header .header__container {
-    width: 50px;
-    margin-bottom: auto;
-  }
-
-  .nav-trigger {
-    margin-left: 5px;
-    max-height: 45px;
-    padding-top: 8px;
-  }
-
-  .nav-trigger span {
-    width: 40px;
-    height: 6px;
-  }
-
-  .nav-trigger span + span {
-    margin-top: 8px;
-  }
-
-  .nav-trigger.active span {
-    height: 5px;
-  }
-
-  .nav-trigger.active span + span {
-    margin-top: 11px;
-  }
-
-  .ico-logo-subpage {
-    width: 120px;
-    height: 60px;
-  }
-
-  .header i.ico-griffin {
-    width: 45px;
-    height: 34px;
-    margin-top: 10px;
-    margin-right: 20px;
-  }
-
-  .nav-trigger.active {
-    transform: translateY(0);
-  }
-
-  /* ------------------------------ *\
       Subpage Banner
   \* ------------------------------ */
   .section__subpage-banner {
