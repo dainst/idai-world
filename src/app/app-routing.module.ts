@@ -11,17 +11,6 @@ const routes: Routes = [];
 })
 export class AppRoutingModule {
   constructor(private router: Router, private config: DaiAppConfig) {
-    const routes = [...config.routes];
-    // const defaultRouteComponent = config.routes.find(
-    //   route => (route as any).default
-    // );
-    // if (defaultRouteComponent) {
-    //   routes.push({
-    //     path: '**',
-    //     component: defaultRouteComponent as Type<any>
-    //   });
-    // }
-
-    router.config.unshift(...routes);
+    router.config.unshift(...config.routes);
   }
 }
