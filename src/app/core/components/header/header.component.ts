@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd, RouterEvent } from '@angular/router';
 import { filter } from 'rxjs/operators';
-import { DaiAppConfig } from '../../config/DaiAppConfig';
 
 @Component({
   selector: 'dai-header',
@@ -11,7 +10,7 @@ import { DaiAppConfig } from '../../config/DaiAppConfig';
 export class HeaderComponent implements OnInit {
   isSubPage: boolean;
 
-  constructor(private router: Router, private config: DaiAppConfig) {
+  constructor(private router: Router) {
     router.events
       .pipe(filter(e => e instanceof NavigationEnd))
       .subscribe((event: RouterEvent) => {
@@ -19,9 +18,6 @@ export class HeaderComponent implements OnInit {
 
         this.isSubPage = !isHome;
       });
-
-    // TODO move this to routing module
-    this.router.config.unshift(...this.config.routes);
   }
 
   ngOnInit() {}

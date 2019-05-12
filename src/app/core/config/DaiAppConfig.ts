@@ -26,6 +26,15 @@ export class DaiAppConfig {
       data: { config: page }
     }));
 
+    const defaultRoute = config.routes.find(route => (route as any).default);
+    if (defaultRoute) {
+      this.routes.push({
+        path: '**',
+        redirectTo: defaultRoute.path,
+        pathMatch: 'full'
+      });
+    }
+
     this.menuEntries = routeConfigs
       .filter(route => !!route.menu)
       .map(({ path, menu }) => ({ ...menu, link: path }));
