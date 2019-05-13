@@ -1,6 +1,7 @@
 {
   "comment": "page banner kann mit title und image oder mit array aus sub_nav elementen konfiguriert werden",
   "_banner": {
+    "comment": "This is an alternative banner config, if you do not want subnav elements.",
     "title": "Kitchen Sink Title",
     "image": "assets/images/content/bg-subpage-why.jpg"
   },
@@ -18,6 +19,36 @@
     }
   ],
   "components": [
+    {
+      "type": "amount_docs",
+      "text": "number of images",
+      "endpoint": {
+        "url": "https://arachne.dainst.org/data/search?q=facet_kategorie:%22Bilder%22&amp;limit=0)",
+        "resultProp": "size",
+        "comment": "resultProp is passed ass 'path' parameter to lodash get. see https://lodash.com/docs/4.17.11#get"
+      }
+    },
+    {
+      "type": "amount_docs",
+      "text": "number of places",
+      "endpoint": {
+        "url": "https://arachne.dainst.org/data/search?q=NOT%20(facet_kategorie:%22Bilder%22%20OR%20facet_kategorie:%22Orte%22)&amp;limit=0",
+        "resultProp": "size"
+      }
+    },
+    {
+      "type": "amount_docs",
+      "text": "number of docsuments from zenon",
+      "endpoint": {
+        "url": "https://zenon.dainst.org/api/v1/search?limit=0",
+        "resultProp": "resultCount"
+      }
+    },
+    {
+      "type": "amount_docs",
+      "amount": 23478955,
+      "text": "number of awesome documents"
+    },
     {
       "type": "search_box",
       "headline": "global categories",
@@ -39,11 +70,7 @@
       "text_html": "config/pages/kitchen-sink/kitchen-sink.search_box.html",
       "categories": ["foo", "bar"]
     },
-    {
-      "type": "amount_docs",
-      "amount": 23478955,
-      "text": "number of awesome documents"
-    },
+
     {
       "type": "slider_tiles",
       "title": "Standards & Methodologies",
