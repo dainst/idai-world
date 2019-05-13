@@ -6,7 +6,7 @@
       "title": 48,
       "headline": 48,
       "subhead": 48,
-      "headline+subhead": [24, 48],
+      "headline+subhead": [24, 44],
       "tiles": {
         "link_list": {
           "comment": "tiles can have overrides, here as example",
@@ -186,7 +186,7 @@
       "page": "config/pages/how/thesauri-and-controlled-vocabularies.json",
       "menu": {
         "group": "How",
-        "name": "Thesauri & controlled Vocabularies",
+        "name": "Thesauri & Controlled Vocabularies",
         "order": 1
       }
     },
@@ -205,7 +205,7 @@
       "page": "config/pages/how/idai-world-architecture.json",
       "menu": {
         "group": "How",
-        "name": "iDAI world architecture"
+        "name": "iDAI World Architecture"
       }
     },
 

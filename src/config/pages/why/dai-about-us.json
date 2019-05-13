@@ -38,10 +38,5 @@
         ]
       }
     ]
-  },
-  {
-    "type": "intro_text",
-    "title": "",
-    "body": "<h2>Contacts</h2><ul><li><a href='mailto:bibliothek@dainst.de'>bibliothek@dainst.de</a></li><li><a href='mailto:redaktion@dainst.de'>redaktion@dainst.de</a></li><li><a href='mailto:itleitung@dainst.de'>itleitung@dainst.de</a></li><li><a href='mailto:archiv@dainst.de'>archiv@dainst.de</a></li></ul>"
   }
 ]

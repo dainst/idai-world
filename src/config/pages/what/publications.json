@@ -1257,9 +1257,9 @@
   },
   {
     "type": "slider_tiles",
-    "enableSliding": false,
+    "enableSliding": true,
     "title": "Data enhanced print publications with partners",
-    "enableSliding": false,
+    "rows": 2,
     "tiles": [
       {
         "type": "image_link",
