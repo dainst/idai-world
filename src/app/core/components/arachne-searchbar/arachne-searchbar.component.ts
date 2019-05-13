@@ -21,7 +21,7 @@ export class ArachneSearchbarComponent implements OnInit {
   @Input() public targetUrl = 'https://arachne.dainst.org/search';
   @Input() public suggestionUrl = 'https://arachne.dainst.org/data/suggest';
   @Input() public resultProp = 'suggestions';
-  @Input() public showCategory = false;
+  @Input() public showCategory = true;
 
   @Input() public categories: string[];
   public selectedCategory: string;
@@ -48,6 +48,9 @@ export class ArachneSearchbarComponent implements OnInit {
       this.suggestionUrl || get(this.globals, 'search.suggestionUrl');
 
     this.categories = this.categories || get(this.globals, 'search.categories');
+
+    this.showCategory =
+      this.showCategory === undefined ? true : this.showCategory;
   }
 
   onSearchTermChange(term: string) {
