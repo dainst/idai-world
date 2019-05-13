@@ -6,6 +6,14 @@ const ALIGNMENTS = {
   left: 'left',
   right: 'right'
 };
+
+const BACKGROUND_SIZE = {
+  contain: 'contain',
+  cover: 'cover',
+  auto: 'auto',
+  inherit: 'inherit',
+  initial: 'initial'
+};
 @Component({
   selector: 'dai-slider-image .section-archeological-images',
   templateUrl: './slider-image.component.html',
@@ -18,13 +26,15 @@ export class SliderImageComponent extends SliderBase {
   public slideHeight: string;
   public useFullWidth = true;
   public align = ALIGNMENTS.center; // 'left', 'right
+  public backgroundSize = BACKGROUND_SIZE.cover; // 'left', 'right
 
   sliderConfig = {
     fade: true,
     speed: 2000,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 2000
+    autoplaySpeed: 2000,
+    dots: true
   };
 
   onSetConfig = (
@@ -33,6 +43,7 @@ export class SliderImageComponent extends SliderBase {
       description: '',
       content: [],
       height: '',
+      backgroundSize: '',
       fullWidth: true,
       align: ''
     }
@@ -42,12 +53,17 @@ export class SliderImageComponent extends SliderBase {
       description = '',
       content = [],
       height = '500px',
+      backgroundSize = '',
       fullWidth = true,
       align
     } = config;
 
     this.useFullWidth = fullWidth;
     this.align = align in ALIGNMENTS ? align : ALIGNMENTS.center;
+    this.backgroundSize =
+      backgroundSize in BACKGROUND_SIZE
+        ? backgroundSize
+        : BACKGROUND_SIZE.cover;
 
     const defaultTarget = 'route://.';
 
