@@ -44,7 +44,6 @@ export class DaiAppConfig {
       Object.keys(config).filter(key => !['routes'].includes(key))
     );
 
-    console.log(globals);
     this.globals = globals;
 
     this.textLimits = config.text_limits || {};
