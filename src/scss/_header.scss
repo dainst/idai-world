@@ -19,11 +19,30 @@ $bg-color-right: #477bc7;
     margin-bottom: auto;
   }
 
+  .ico-logo-subpage {
+    transition: 0.3s all;
+    width: 120px;
+    height: 60px;
+  }
+
+  .header i.ico-griffin {
+    transition: 0.3s all;
+    width: 45px;
+    height: 34px;
+    // margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  .nav-trigger.active {
+    transition: 0.3s all;
+    transform: translateY(0);
+  }
+
   .nav-trigger {
     transition: 0.3s all;
     margin-left: 5px;
     max-height: 45px;
-    padding-top: 8px;
+    padding-top: 3px;
   }
 
   .nav-trigger span {
@@ -45,25 +64,6 @@ $bg-color-right: #477bc7;
   .nav-trigger.active span + span {
     transition: 0.3s all;
     margin-top: 11px;
-  }
-
-  .ico-logo-subpage {
-    transition: 0.3s all;
-    width: 120px;
-    height: 60px;
-  }
-
-  .header i.ico-griffin {
-    transition: 0.3s all;
-    width: 45px;
-    height: 34px;
-    margin-top: 10px;
-    margin-right: 20px;
-  }
-
-  .nav-trigger.active {
-    transition: 0.3s all;
-    transform: translateY(0);
   }
 }
 
@@ -114,7 +114,7 @@ $bg-color-right: #477bc7;
     @include header-md();
   }
 
-  .header:not(.header__subpage) .logo i {
+  .header .logo i {
     width: 142px;
     height: 40px;
   }
@@ -122,6 +122,15 @@ $bg-color-right: #477bc7;
 
 @media (max-width: 767px) {
   @include header-sm;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .header__subpage .logo i {
+    // width: 71px;
+    // height: 40px;
+    width: 142px;
+    height: 40px;
+  }
 }
 
 /* ------------------------------------------------------------ *\
@@ -134,8 +143,8 @@ $bg-color-right: #477bc7;
 
 @media screen and (max-width: 767px) {
   .header__subpage .logo i {
-    width: 71px;
-    height: 40px;
+    // width: 71px;
+    // height: 40px;
   }
 }
 
