@@ -4,7 +4,7 @@
 
 .footer {
 	text-align: center;
-	padding: 100px 0;
+	padding: 100px 0 20px 0;
         color: white;
 }
 
@@ -19,6 +19,13 @@
 
 @media( max-width: 767px ) {
 	.footer {
-		padding: 30px 0;
+		padding: 30px 0 15px 0;
 	}
+        .footer .additional-row {                
+                margin-top: 30px;        
+        }
+        .footer .additional-row .links {
+                display: block;
+                margin-top: 15px;
+        }
 }
