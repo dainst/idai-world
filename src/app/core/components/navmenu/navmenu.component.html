@@ -17,12 +17,13 @@
 
     <ul>
       <li *ngFor="let entry of group.items">
-        <a
+        <dai-link
           (click)="onLinkClick(entry.link)"
-          [routerLink]="entry.link"
-          *ngIf="!entry.items"
-          >{{ entry.name }}</a
-        >
+          [data]="{
+            target: entry.link,
+            text: entry.name
+          }"
+        ></dai-link>
 
         <dai-navmenu
           *ngIf="entry.items"

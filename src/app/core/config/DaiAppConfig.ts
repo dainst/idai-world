@@ -20,11 +20,13 @@ export class DaiAppConfig {
   parse(config) {
     const routeConfigs = (config.routes || []).filter(route => !route.disabled);
 
-    this.routes = routeConfigs.map(({ path, page }) => ({
-      path,
-      component: PageComponent,
-      data: { config: page }
-    }));
+    this.routes = routeConfigs
+      .filter(({ path, page }) => path !== undefined && page !== undefined)
+      .map(({ path, page }) => ({
+        path,
+        component: PageComponent,
+        data: { config: page }
+      }));
 
     const defaultRoute = config.routes.find(route => (route as any).default);
     if (defaultRoute) {
@@ -37,7 +39,10 @@ export class DaiAppConfig {
 
     this.menuEntries = routeConfigs
       .filter(route => !!route.menu)
-      .map(({ path, menu }) => ({ ...menu, link: path }));
+      .map(({ path, menu }) => ({
+        ...menu,
+        link: menu.url ? menu.url : 'route://' + path
+      }));
 
     const globals = pick(
       config,
