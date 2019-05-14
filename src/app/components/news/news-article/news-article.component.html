@@ -1,5 +1,4 @@
 <article #article class="article row">
-  {{ markerPosY }}
   <div class="col-sm-4 article__image-container">
     <div class="mb-4" *ngFor="let image of config?.images; index as idx">
       <img [src]="image.src || image" class="img-fluid" />
