@@ -18,6 +18,13 @@ import { SubNavigationComponent } from './core/components/sub-navigation/sub-nav
 import { TitleBannerComponent } from './core/components/title-banner/title-banner.component';
 import { AmountDocumentsComponent } from './components/amount-documents/amount-documents.component';
 import { HtmlComponent } from './core/components/html/html.component';
+import { NewsComponent } from './components/news/news.component';
+
+import localeDe from '@angular/common/locales/de';
+import { registerLocaleData } from '@angular/common';
+
+// the second parameter 'fr' is optional
+registerLocaleData(localeDe, 'de');
 
 @NgModule({
   imports: [BrowserModule, AppRoutingModule, CoreModule, ComponentsModule],
@@ -36,7 +43,8 @@ import { HtmlComponent } from './core/components/html/html.component';
         search_box: SearchBoxComponent,
         title_banner: TitleBannerComponent,
         amount_docs: AmountDocumentsComponent,
-        html: HtmlComponent
+        html: HtmlComponent,
+        news: NewsComponent
       })
     }
   ],
