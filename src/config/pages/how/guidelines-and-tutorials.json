@@ -30,20 +30,15 @@
     "title": "Tutorial Resources",
     "tiles": [       
         {
-            "type": "link_list",
+            "type": "image_link",
             "image": "assets/images/content/how/idai_guidelines_it.jpg",
             "headline": "IT Guidelines",
             "subhead": "",
-            "links": [
-                { 
-                    "text": "dx.doi.org",
-                    "target": "http://dx.doi.org/10.13149/000.111000-a"
-                },
-                { 
-                    "text": "ianus-fdz.de/it-empfehlungen",
-                    "target": "http://www.ianus-fdz.de/it-empfehlungen/"
-                }
-            ]
+            "link": { 
+                "text": "ianus-fdz.de/it-empfehlungen",
+                "target": "http://www.ianus-fdz.de/it-empfehlungen/"
+            }
+            
         },         
         {
             "type": "image_link",
@@ -51,7 +46,7 @@
             "headline": "iDAI.tutorials",
             "subhead": "Courses for Cultural Heritage Professionals",
             "link": {
-                "target": "https://moocs.dainst.org",
+                "target": "+",
                 "text": "iDAI.tutorials"
             }
         },
