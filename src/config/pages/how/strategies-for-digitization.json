@@ -55,21 +55,23 @@
     "tiles": [
       {
         "type": "image_link",
-        "image": "assets/images/content/how/idai_digitization_aaa.jpg",
+        "image": "assets/images/content/how/idai_digitization_imagines.jpg",
         "headline": "Glass negatives within the framework of Emagines",
         "subhead": "",
-        "link": { "target": "https://arachne.uni-koeln.de/drupal/?q=node/95", "text": "Link to Glass negatives within the framework of Emagines" }
+        "link": { 
+            "target": "https://arachne.uni-koeln.de/drupal/?q=node/95", 
+            "text": "Link to Glass negatives within the framework of Emagines" }
       },
       {
         "type": "image_link",
-        "image": "assets/images/content/how/idai_digitization_rww.jpg",
+        "image": "assets/images/content/how/idai_digitization_dai_rome.jpg",
         "headline": "Rome department",
         "subhead": "Drawings, plans and constructions",
         "link": { "target": "https://arachne.dainst.org/project/handzeichnungen", "text": "Link to Rome department" }
       },
       {
         "type": "image_link",
-        "image": "assets/images/content/how/idai_digitization_oppenheim.jpg",
+        "image": "assets/images/content/how/idai_digitization_syria.jpg",
         "headline": "Syrian Heritage Archive ",
         "subhead": "",
         "link": { "target": "https://arachne.dainst.org/project/syrher", "text": "Link to Syrian Heritage Archive" }

@@ -119,8 +119,8 @@
       "headline": "Access to memory and archiving of data",
       "content": [
         {
-          "headline": "iDAI.Archives",
-          "text": "AtoM gives Access to Memory with the Open Source Archival Description Software",
+          "headline": "iDAI.archives",
+          "text": "Archival descriptions give access to analog records",
           "link": {
             "target": "https://archives.dainst.org",
             "text": "foo link"
@@ -138,18 +138,8 @@
     },
     {
       "type": "slider_tiles",
-      "title": "Archive projects of the DAI",
+      "title": "Digitised fonds of DAI archives",
       "tiles": [
-        {
-          "type": "image_link",
-          "image": "assets/images/content/what/archives/idai_archive_athen_department.jpg",
-          "headline": "Athens department",
-          "subhead": " A scientific legacy archive",
-          "link": {
-            "target": "https://arachne.dainst.org/project/athenDigital",
-            "text": "External Link to 'Athens department: A scientific legacy archive'"
-          }
-        },
         {
           "type": "image_link",
           "image": "assets/images/content/what/archives/idai_archive_teheran_archiv.jpg",
@@ -163,8 +153,8 @@
         {
           "type": "image_link",
           "image": "assets/images/content/what/archives/idai_archive_berlin_head_office.jpg",
-          "headline": "Berlin Head Office",
-          "subhead": "Digitisation of the archive",
+          "headline": "Berlin head office",
+          "subhead": "Digitised records of the archive's inventory",
           "link": {
             "target": "https://archives.dainst.org/index.php/deutschland-deutsches-archaologisches-archive-archiv-der-zentrale",
             "text": "External Link to 'Berlin Head Office'"
@@ -173,7 +163,7 @@
         {
           "type": "image_link",
           "image": "assets/images/content/what/archives/idai_archive_eduard_gerhard.jpg",
-          "headline": "Berlin Head Office",
+          "headline": "Berlin head office",
           "subhead": "The archive of Eduard Gerhard",
           "link": {
             "target": "https://archives.dainst.org/index.php/nachlass-gerhard-eduard",
@@ -184,7 +174,7 @@
           "type": "image_link",
           "image": "assets/images/content/what/archives/idai_archive_frankfurt_commision.jpg",
           "headline": "Frankfurt Commission",
-          "subhead": "Digitisation of the archive",
+          "subhead": "Digitised records of the archive's inventory",
           "link": {
             "target": "https://archives.dainst.org/index.php/deutsches-archaologisches-institut-romisch-germanische-kommission-archiv",
             "text": "External Link to 'Frankfurt Commission'"
