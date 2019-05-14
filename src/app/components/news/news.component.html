@@ -1,0 +1,30 @@
+<!--
+ {
+      "type": "news",
+      "show": 5,
+      "items": [
+        {
+          "date": "22.04.2019",
+          "category": "Publication",
+          "title": "A great discovery",
+          "content": "bli bla blub",
+          "content_html": "path/tohtml/file.html",
+          "images": [
+            "path/to/image/file.jpg",
+            {
+              "src": "path/to/image/file.jpg",
+              "caption": "This is the image caption"
+            }
+          ]
+        }
+      ]
+    },
+
+-->
+<section class="section__news container">
+  <hr class="line__dotted--blue" />
+  <ng-container *ngFor="let item of config?.items">
+    <dai-news-article [config]="item"></dai-news-article>
+    <hr class="line__dotted--blue" />
+  </ng-container>
+</section>

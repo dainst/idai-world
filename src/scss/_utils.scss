@@ -1,3 +1,5 @@
+@import "./variables";
+
 .no-point {
   pointer-events: none;
   cursor: auto;
@@ -17,4 +19,26 @@
 
 .ml-20px {
   margin-left: 20px;
+}
+
+.color-lighter-gray {
+  color: $lighter-gray !important;
+}
+.color-light-gray {
+  color: $light-gray !important;
+}
+.color-gray {
+  color: $gray !important;
+}
+.color-dark-gray {
+  color: $dark-gray !important;
+}
+.color-darker-gray {
+  color: $darker-gray !important;
+}
+.color-blue {
+  color: $blue !important;
+}
+.color-burdo {
+  color: $burdo !important;
 }

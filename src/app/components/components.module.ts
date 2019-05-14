@@ -14,6 +14,8 @@ import { LinkListTileComponent } from './slider-tiles/link-list-tile/link-list-t
 import { NgxdModule } from '@ngxd/core';
 import { CoreModule } from '../core/core.module';
 import { AmountDocumentsComponent } from './amount-documents/amount-documents.component';
+import { NewsComponent } from './news/news.component';
+import { NewsArticleComponent } from './news/news-article/news-article.component';
 
 @NgModule({
   imports: [CommonModule, RouterModule, NgxdModule, CoreModule],
@@ -28,7 +30,9 @@ import { AmountDocumentsComponent } from './amount-documents/amount-documents.co
     ImageLinkTileComponent,
     TextTileComponent,
     LinkListTileComponent,
-    AmountDocumentsComponent
+    AmountDocumentsComponent,
+    NewsComponent,
+    NewsArticleComponent
   ],
   entryComponents: [
     IntroTextComponent,
@@ -41,7 +45,9 @@ import { AmountDocumentsComponent } from './amount-documents/amount-documents.co
     ImageLinkTileComponent,
     TextTileComponent,
     LinkListTileComponent,
-    AmountDocumentsComponent
+    AmountDocumentsComponent,
+    NewsComponent,
+    NewsArticleComponent
   ]
 })
 export class ComponentsModule {}

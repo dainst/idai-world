@@ -1,0 +1,40 @@
+<article #article class="article row">
+  {{ markerPosY }}
+  <div class="col-sm-4 article__image-container">
+    <div class="mb-4" *ngFor="let image of config?.images; index as idx">
+      <img [src]="image.src || image" class="img-fluid" />
+      <div
+        *ngIf="image.caption"
+        class="caption pt-1 pb-1"
+        [innerHtml]="image.caption"
+      ></div>
+      <hr #marker *ngIf="idx === 0 && config?.images.length > 1" />
+    </div>
+  </div>
+
+  <div class="col-sm-6 article__content">
+    <p>
+      <span class="article__date color-darker-gray">{{ config?.date }}</span> /
+      <span class="article__category color-burdo">{{ config?.category }}</span>
+    </p>
+
+    <h5 class="article__title" [innerHtml]="config?.title"></h5>
+
+    <div
+      #contentContainer
+      class="article__entry"
+      [class.xcollapsed]="true"
+      [innerHtml]="config?.content"
+    ></div>
+
+    <!-- <a href="#">
+      Read Article >
+    </a> -->
+  </div>
+
+  <!-- <div
+    [style.height]="markerPosY + 'px'"
+    class="tester line__dotted--blue"
+    #rule
+  ></div> -->
+</article>

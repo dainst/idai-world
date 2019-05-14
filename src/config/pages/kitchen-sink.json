@@ -20,6 +20,49 @@
   ],
   "components": [
     {
+      "type": "news",
+      "show": 5,
+      "items": [
+        {
+          "date": "22.04.2019",
+          "category": "Publication",
+          "title": "A great discovery",
+          "content": "bli bla blub",
+          "content_html": "config/pages/kitchen-sink/news-content.html",
+          "images": [
+            "/assets/images/content/news/idai_news_ayda.jpg",
+            {
+              "src": "/assets/images/content/news/idai_news_ayda.jpg",
+              "caption": "This is the image caption"
+            },
+            {
+              "src": "/assets/images/content/news/idai_news_ayda.jpg",
+              "caption": "This is the image caption"
+            },
+            {
+              "src": "/assets/images/content/news/idai_news_ayda.jpg",
+              "caption": "This is the image caption"
+            },
+            "/assets/images/content/news/idai_news_ayda.jpg",
+            "/assets/images/content/news/idai_news_ayda.jpg",
+            "/assets/images/content/news/idai_news_ayda.jpg",
+            {
+              "src": "/assets/images/content/news/idai_news_ayda.jpg",
+              "caption": "This is the image caption"
+            },
+            {
+              "src": "/assets/images/content/news/idai_news_ayda.jpg",
+              "caption": "This is the image caption"
+            },
+            {
+              "src": "/assets/images/content/news/idai_news_ayda.jpg",
+              "caption": "This is the image caption"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "type": "amount_docs",
       "text": "number of images",
       "endpoint": {
