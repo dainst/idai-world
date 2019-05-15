@@ -195,7 +195,7 @@
 @media (max-width: 1024px) {
   .section-archeological-images {
     .section__image {
-      height: 400px;
+      // height: 400px;
     }
   }
 }
@@ -215,7 +215,7 @@
     }
 
     .section__image {
-      height: 350px;
+      // height: 350px;
     }
   }
 }
@@ -438,7 +438,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 344px;
-  @media(max-width: 768px) {
+  @media (max-width: 768px) {
     background-image: none;
   }
 }
@@ -472,9 +472,9 @@
 }
 
 .section__overview-list
-.section__body
-.category-link
-a.decoration-bg-lighter-gray {
+  .section__body
+  .category-link
+  a.decoration-bg-lighter-gray {
   color: #5882c2;
 }
 
@@ -485,7 +485,6 @@ a.decoration-bg-lighter-gray {
 .section__overview-list .category-title {
   text-align: center;
 }
-
 
 /* ------------------------------------------------------------ *\
 	Section Padding
