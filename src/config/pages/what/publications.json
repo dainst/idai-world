@@ -23,6 +23,11 @@
     ]
   },
   {
+    "type": "amount_docs",
+    "amount": "",
+    "text": "Over 3.000 books, 240 journal volumes with 2.500 articles"
+  },
+  {
     "type": "slider_tiles",
     "title": "Journals",
     "tiles": [

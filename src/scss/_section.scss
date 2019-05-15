@@ -391,6 +391,7 @@
 /* ------------------------------------------------------------ *\
 	Section Overview Table
 \* ------------------------------------------------------------ */
+
 .section__overview-table.decoration-bg-blue {
   border-bottom: 50px solid #d3d3cf;
 }
@@ -427,6 +428,64 @@
 .section__overview-table.decoration-bg-blue .section__body .category-title {
   color: #d3d3cf;
 }
+
+/* ------------------------------------------------------------ *\
+	Section Overview List
+\* ------------------------------------------------------------ */
+
+.section__overview-list {
+  background-image: url("assets/images/idaiworld_architecture_netz.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 344px;
+  @media(max-width: 768px) {
+    background-image: none;
+  }
+}
+
+.section__overview-list.decoration-bg-blue {
+  border-bottom: 50px solid #d3d3cf;
+}
+
+.section__overview-list .section__body .row {
+  align-items: center;
+  justify-content: center;
+}
+
+.section__overview-list .section__body .category-title {
+  padding: 85px 0 35px;
+  margin: 0 0 60px;
+  font-family: "Cargan", serif;
+  font-size: 46px;
+  border-bottom: 3px dotted $lighter-gray;
+}
+
+.section__overview-list .section__body .category-link a {
+  display: flex;
+  font-family: "Cargan", serif;
+  font-size: 24px;
+  min-height: 60px;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  margin: 25px 0;
+}
+
+.section__overview-list
+.section__body
+.category-link
+a.decoration-bg-lighter-gray {
+  color: #5882c2;
+}
+
+.section__overview-list.decoration-bg-blue .section__body .category-title {
+  color: #d3d3cf;
+}
+
+.section__overview-list .category-title {
+  text-align: center;
+}
+
 
 /* ------------------------------------------------------------ *\
 	Section Padding

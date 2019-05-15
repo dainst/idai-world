@@ -8,8 +8,7 @@
     "type": "intro_text",
     "title": "",
     "body": "<p>To cooperate trustworthy in building an open science world is the vision and mission of the iDAI.world. It is the result of a long common development by many partners. Its origin lies in the initiatives of the Research Archive for Ancient Sculpture in Cologne. From this tradition, two key partners of the DAI in the stricter sense of informatics, programming and infrastructure are the <a href=\"http://archaeologie.uni-koeln.de/archit.html?&L=1\" target=\"_blank\">Cologne Universities’ chair for Archaeoinformatics</a> and the <a href=\"https://rrzk.uni-koeln.de/rrzk.html?&L=1\" target=\"_blank\">Regional Computing Center in Cologne (RRZK)</a>. They were joined by many others over time, namely the Chair for Computer Graphics at the University of Applied Sciences in Dresden, and the <a href=\"http://www.archaeocopter.de/\" target=\"_blank\">Archaeocopter and Archaeonautic</a> project at Dresden University and the Free University in Berlin. Numerous national and international cooperations are shaping the iDAI.world as a service for the community</p><p>Without their partners, friends and users, the offer of the iDAI.world would never have arisen in the present form.</p>"
-  },  
-
+  },
   {
     "type": "slider_tiles",
       "enableSliding": false,  
@@ -183,7 +182,7 @@
       "tiles": [
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_smpk.jpg",
           "headline": "Antikensammlung Berlin",
           "subhead": "",
           "link": {
@@ -193,7 +192,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_lmu.jpg",
           "headline": "ArchaeoBio Center at LMU Munich",
           "subhead": "",
           "link": {
@@ -203,7 +202,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_aerocopter.jpg",
           "headline": "Archaeocopter and Archaeonautic",
           "subhead": "",
           "link": {
@@ -213,7 +212,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_uni_koeln.jpg",
           "headline": "Chair for Archaeoinformatics at the University of Cologne",
           "subhead": "",
           "link": {
@@ -223,7 +222,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_cau_kiel.jpg",
           "headline": "Chair for Archaeoinformatics (Data Science) at CAU Kiel",
           "subhead": "",
           "link": {
@@ -233,7 +232,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_lmu.jpg",
           "headline": "Chair for Database Systems and Data Mining at LMU Munich",
           "subhead": "",
           "link": {
@@ -243,7 +242,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_uni_koeln.jpg",
           "headline": "Chair for Digital Humanities at the University of Cologne",
           "subhead": "",
           "link": {
@@ -253,7 +252,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_carare.jpg",
           "headline": "Carare",
           "subhead": "",
           "link": {
@@ -263,7 +262,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_smpk.jpg",
           "headline": "Museum für Islamische Kunst Berlin",
           "subhead": "",
           "link": {
@@ -273,7 +272,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_nomisma.jpg",
           "headline": "Nomisma",
           "subhead": "Stable digital representations of numismatic concepts according to the principles of Linked Open Data",
           "link": {
@@ -283,7 +282,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_smpk.jpg",
           "headline": "Open Context",
           "subhead": "",
           "link": {
@@ -293,7 +292,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_open_context.jpg",
           "headline": "Perseus Digital Library",
           "subhead": "",
           "link": {
@@ -303,7 +302,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_pleiades.jpg",
           "headline": "Pleiades",
           "subhead": "",
           "link": {
@@ -313,7 +312,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_uni_koeln.jpg",
           "headline": "Regional Computing Centre at the University of Cologne",
           "subhead": "",
           "link": {
@@ -323,7 +322,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_uni_koeln.jpg",
           "headline": "Research Archive for Ancient Sculpture",
           "subhead": "",
           "link": {
