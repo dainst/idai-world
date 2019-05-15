@@ -61,6 +61,20 @@
   margin-bottom: 1px;
 }
 
+
+@media screen and (max-width: 1600px) {
+
+  .tile__content.tile--head-up .headline {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .tile__content.tile--head-up .description {
+    font-size: 14px;
+  }
+
+}
+
 @media screen and (max-width: 1230px) {
   .section__three-tiles .tile.tile--square {
     // max-width: 400px;
