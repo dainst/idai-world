@@ -9,7 +9,11 @@
     "type": "intro_text",
     "title": "",
     "body": "<p>The iDAI.world is a grown structure. It consists of modules developed in cooperation with many partners. It includes the systematic development of analogue and digital information such as archives, library collections, but also rich photographic libraries and image productions. We provide standard data that can be localized in time and space. We develop open source tools for documentation.</p><p>The iDAI.world is constantly evolving. It is a permanent beta system with clear goals and visions.</p>"
-  },  
+  },
+  {
+    "type": "html",
+    "content_html": "config/pages/how/architecture.html"
+  },
 
   {
       "type": "slider_tiles",
