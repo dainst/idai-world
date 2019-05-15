@@ -8,17 +8,18 @@ import { SliderBase } from 'src/app/core/components/slider/slider.base';
 @Component({
   selector:
     // tslint:disable-next-line: max-line-length
-    'dai-slider-tiles .section__three-tiles .tiles-slider .tiles-slider-two-rows .section__textbox .section-open-access .decoration-bg-lighter-gray',
+    'dai-slider-tiles .section__three-tiles .tiles-slider .section__textbox .section-open-access .decoration-bg-lighter-gray',
   templateUrl: './slider-tiles.component.html',
   styleUrls: ['./slider-tiles.component.scss']
 })
 export class SliderTilesComponent extends SliderBase implements AfterViewInit {
   // alternatively also the host parameter in the @Component()` decorator can be used
   @HostBinding('class.infinite-tiles') addCls = false;
+  @HostBinding('class.tiles-slider-two-rows') hasTwoRows = false;
 
   sliderConfig = {
-    slidesToShow: 1,
-    sidesToScroll: 1,
+    slidesToShow: 2,
+    sidesToScroll: 2,
     infinite: false,
     mobileFirst: true,
     variableWidth: false,
@@ -37,20 +38,20 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
         breakpoint: 992,
         settings: {
           infinite: false,
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          variableWidth: false
-        }
-      },
-      {
-        breakpoint: 1250,
-        settings: {
-          infinite: false,
           slidesToShow: 3,
           slidesToScroll: 3,
           variableWidth: false
         }
       }
+      // {
+      //   breakpoint: 1250,
+      //   settings: {
+      //     infinite: false,
+      //     slidesToShow: 3,
+      //     slidesToScroll: 3,
+      //     variableWidth: false
+      //   }
+      // }
       // {
       //   breakpoint: 1800,
       //   settings: {
@@ -78,6 +79,7 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
   ) => {
     this.text = config.text;
     this.numRows = config.rows;
+
     this.enableSliding =
       config.enableSliding === undefined ? true : config.enableSliding;
 
@@ -89,6 +91,7 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
       type: this.getTypeForTile(tileConfig.type)
     }));
 
+    this.hasTwoRows = config.rows > 1;
     this.addCls = !this.enableSliding;
   }
 

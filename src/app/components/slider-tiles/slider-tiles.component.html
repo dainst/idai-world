@@ -4,12 +4,17 @@
     <hr class="line__dotted--blue" />
   </header>
 
-  <div class="section__body">
+  <div
+    class="section__body"
+    [class.multi-row]="config?.rows > 1"
+    [class.pt-0]="config?.rows > 1"
+  >
     <div
       #slides
       [ngClass]="{
         slider__slides: enableSliding,
-        'row justify-content-md-between pb-4': !enableSliding
+        'row justify-content-md-between pb-4': !enableSliding,
+        'ml-n4 mr-n4 mb-n4': enableSliding
       }"
     >
       <ng-container *ngFor="let tileConfig of tiles">
