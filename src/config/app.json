@@ -1,18 +1,20 @@
 {
   "text_limits": {
     "intro_text": { "title": 89, "body": 800 },
-    "info_box": { "headline": 48, "text": 88 },
+    "info_box": { "headline": 100, "text": 120 },
     "slider_tiles": {
-      "title": 48,
-      "headline": 48,
-      "subhead": 48,
-      "headline+subhead": [24, 44],
+      "textLimits": {
+        "title": 55,
+        "headline": 55,
+        "subhead": 55,
+        "headline+subhead": [55, 65]
+      },
       "tiles": {
         "link_list": {
           "comment": "tiles can have overrides, here as example",
-          "headline": 24,
-          "subhead": 48,
-          "text": 30
+          "headline": 55,
+          "subhead": 55,
+          "text": 60
         },
         "text": { "text": 855 }
       }

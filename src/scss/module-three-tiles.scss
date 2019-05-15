@@ -54,7 +54,7 @@
 .tile__content.tile--head-up .description {
   font-family: "Open Sans", sans-serif;
   line-height: 1;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .tile__content.tile--head-up p {
@@ -106,3 +106,7 @@
 //     margin-left: auto !important;
 //   }
 // }
+
+.ml-n4, .mx-n4 {
+  margin-bottom: 2.0rem !important;
+}
