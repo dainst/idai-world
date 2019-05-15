@@ -260,6 +260,10 @@
     {
       "path": "how/sub/sfm",
       "page": "config/pages/how/sub/sfm.json"
+    },
+    {
+      "path": "news",
+      "page": "config/pages/dai-news.json"
     }
   ]
 }

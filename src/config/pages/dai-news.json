@@ -1,0 +1,13 @@
+{
+  "components": [
+    {
+      "type": "title_banner",
+      "title": "News",
+      "image": "assets/images/content/header/idai_news_header.jpg"
+    },
+    {
+      "type": "html",
+      "content_html": "config/pages/news/news.html"
+    }
+  ]
+}
