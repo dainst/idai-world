@@ -79,27 +79,27 @@
     "headline": "Search in our library systems",
     "content": [
       {
-        "headline": "iDAI.Bibliography",
+        "headline": "iDAI.bibliography",
         "text": "Search in one of the largest bibliographical databases on ancient studies",
         "link": {
           "target": "https://zenon.dainst.org/",
-          "alt": "iDAI.Bibliography"
+          "alt": "iDAI.bibliography"
         }
       },
       {
-        "headline": "iDAI.Bookbrowser",
+        "headline": "iDAI.bookbrowser",
         "text": "Rare publications and engravings digitally saved and readable online",
         "link": {
           "target": "https://arachne.dainst.org/project/idaibookbrowser",
-          "alt": "iDAI.Bookbrowser"
+          "alt": "iDAI.bookbrowser"
         }
       },
       {
-        "headline": "iDAI.Thesauri",
+        "headline": "iDAI.thesauri",
         "text": "Historical and modern controlled vocabularies of the DAI, mapped on the DARIAH Backbone Thesaurus",
         "link": {
           "target": "http://thesauri.dainst.org/de.html",
-          "alt": "iDAI.Thesauri"
+          "alt": "iDAI.thesauri"
         }
       }
     ]
@@ -113,161 +113,161 @@
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_athens.jpg",
-        "headline": "Athens Department",
+        "headline": "Athens department",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18386",
-          "text": "Athens Department"
+          "text": "Athens department"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_beijing.jpg",
-        "headline": "Beijing Branch",
+        "headline": "Beijing branch",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/3866402",
-          "text": "Beijing Branch"
+          "text": "Beijing branch"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_berlin_zentrale.jpg",
-        "headline": "Berlin Head Office",
+        "headline": "Berlin head office",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/14613",
-          "text": "Berlin Head Office"
+          "text": "Berlin head office"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_eurasien.jpg",
-        "headline": "Berlin Eurasia Department",
+        "headline": "Berlin eurasia department",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18134",
-          "text": "Berlin Eurasia Department"
+          "text": "Berlin eurasia department"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_orient_dep.jpg",
-        "headline": "Berlin Orient Department",
+        "headline": "Berlin orient department",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18208",
-          "text": "Berlin Orient Department"
+          "text": "Berlin orient department"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_bonn.jpg",
-        "headline": "Bonn Commission",
+        "headline": "Bonn commission",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18271",
-          "text": "Bonn Commission"
-        }
-      },
-      {
-        "type": "image_link",
-        "image": "assets/images/content/what/libraries/idai_libraries_athens.jpg",
-        "headline": "Cairo Department",
-        "subhead": "",
-        "link": {
-          "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18458",
-          "text": "Cairo Department"
+          "text": "Bonn commission"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_cairo.jpg",
-        "headline": "Damascus Branch",
+        "headline": "Cairo department",
+        "subhead": "",
+        "link": {
+          "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18458",
+          "text": "Cairo department"
+        }
+      },
+      {
+        "type": "image_link",
+        "image": "assets/images/content/what/libraries/idai_libraries_cairo.jpg",
+        "headline": "Damascus branch",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/60186",
-          "text": "Damascus Branch"
+          "text": "Damascus branch"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_frankfurt.jpg",
-        "headline": "Frankfurt Commission",
+        "headline": "Frankfurt commission",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18305",
-          "text": "Frankfurt Commission"
+          "text": "Frankfurt commission"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_istanbul.jpg",
-        "headline": "Istanbul Department",
+        "headline": "Istanbul department",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18422",
-          "text": "Istanbul Department"
+          "text": "Istanbul department"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_lisbon.jpg",
-        "headline": "Lissabon Branch",
+        "headline": "Lissabon branch",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18540",
-          "text": "Lissabon Branch"
+          "text": "Lissabon branch"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_madrid.jpg",
-        "headline": "Madrid Department",
+        "headline": "Madrid department",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18531",
-          "text": "Madrid Department"
+          "text": "Madrid department"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_munich.jpg",
-        "headline": "Munich Commission",
+        "headline": "Munich commission",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18350",
-          "text": "Munich Commission"
+          "text": "Munich commission"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_rome.jpg",
-        "headline": "Rome Department",
+        "headline": "Rome department",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18494",
-          "text": "Rome Department"
+          "text": "Rome department"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_sanaa.jpg",
-        "headline": "Sana'a Branch",
+        "headline": "Sana'a branch",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/104232",
-          "text": "Sana'a Branch"
+          "text": "Sana'a branch"
         }
       },
       {
         "type": "image_link",
         "image": "assets/images/content/what/libraries/idai_libraries_teheran.jpg",
-        "headline": "Teheran Branch",
+        "headline": "Teheran branch",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/71351",
-          "text": "Teheran Branch"
+          "text": "Teheran branch"
         }
       }
     ]

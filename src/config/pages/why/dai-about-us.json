@@ -18,7 +18,7 @@
         "title": "Secretary  General",
         "children": [
           {
-            "title": "Director Informationtechnology",
+            "title": "Director Information Technology",
             "children": [
               { "title": "Technical IT", "email": "itleitung\u200B@dainst.de" },
               { "title": "Scientific IT", "email": "itleitung\u200B@dainst.de" }
@@ -28,11 +28,11 @@
             "title": "Director Libraries",
             "children": [
               {
-                "title": "Office Berlin",
+                "title": "Editorial Office",
                 "email": "redaktion\u200B@dainst.de"
               },
               { "title": "Libraries", "email": "bibliothek\u200B@dainst.de" },
-              { "title": "Archieves", "email": "archiv\u200B@dainst.de" }
+              { "title": "Archives", "email": "archiv\u200B@dainst.de" }
             ]
           }
         ]

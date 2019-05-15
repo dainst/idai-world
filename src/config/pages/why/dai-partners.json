@@ -65,24 +65,14 @@
           }
         },
         {
-          "type": "link_list",
+          "type": "image_link",
           "image": "assets/images/content/why/partners/idai_partners_dariah_eu.jpg",
           "headline": "Dariah-EU",
           "subhead": "A pan-european infrastructure for arts and humanities scholars working with computational methods",
           "link": {
             "target": "https://www.dariah.eu/2019/03/20/working-groups-stories-6-setting-up-e-infrastructure-for-collaborative-work-on-thesaurus-integration/",
             "text": "External Link to 'Dariah-EU'"
-          },
-          "link": [
-            { 
-                "text": "Dariah-EU" ,
-                "target": "https://www.dariah.eu/2019/03/20/working-groups-stories-6-setting-up-e-infrastructure-for-collaborative-work-on-thesaurus-integration/"                    
-            },
-            { 
-                "text": "Vocabs" ,
-                "target": "https://vocabs.dariah.eu/backbone_thesaurus/en/page/?uri=https%3A%2F%2Fvocabs.dariah.eu%2Fbbt%2FConcept%2F000001"                    
-            }
-          ]
+          }
         },
         {
           "type": "image_link",

@@ -41,7 +41,7 @@
           "headline": "Palmyra-GIS",
           "subhead": "",
           "link": {
-            "target": "https://www.quantarch.org/files/palmyra_gis_video1.mp4",
+            "target": "https://arachne.dainst.org/project/palmyra-gis",
             "text": "External Link to 'Palmyra-GIS'"
           }
         },
@@ -125,27 +125,27 @@
       "headline": "Search in our Space & Time systems",
       "content": [
         {
-          "headline": "iDAI.Chronontology",
+          "headline": "iDAI.chronontology",
           "text": "A webservice that connects period terms to datings and applies them to geodata, textual data and object data",
           "link": {
             "target": "http://chronontology.dainst.org",
-            "alt": "iDAI.Chronontology"
+            "alt": "iDAI.chronontology"
           }
         },
         {
-          "headline": "iDAI.Gazetteer",
+          "headline": "iDAI.gazetteer",
           "text": "The iDAI.gazetteer is a webservice, which connects toponyms with coordinates and objects",
           "link": {
             "target": "https://gazetteer.dainst.org/app/#!/home",
-            "alt": "iDAI.Gazetteer"
+            "alt": "iDAI.gazetteer"
           }
         },
         {
-          "headline": "iDAI.Geoserver",
+          "headline": "iDAI.geoserver",
           "text": "This is an open platform for sharing geospatial data and maps.",
           "link": {
             "target": "http://chronontology.dainst.org",
-            "alt": "iDAI.Geoserver"
+            "alt": "iDAI.geoserver"
           }
         }
       ]

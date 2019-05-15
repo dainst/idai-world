@@ -167,7 +167,7 @@
       "path": "why/partners",
       "menu": {
         "group": "Why",
-        "name": "Partner"
+        "name": "Partners"
       },
       "page": "config/pages/why/dai-partners.json"
     },

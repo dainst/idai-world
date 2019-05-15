@@ -61,7 +61,7 @@
     "headline": "Search in our image and object system",
     "content": [
       {
-        "headline": "iDAI.Objects",
+        "headline": "iDAI.objects",
         "text": "Repository for images and objects as a common information infrastructure, also called Arachne",
         "link": {
           "target": "https://arachne.dainst.org/",

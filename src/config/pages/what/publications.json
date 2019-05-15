@@ -8,7 +8,7 @@
   {
     "type": "intro_text",
     "title": "Read our publications open access",
-    "body": "DAI has contributed to archaeological literature since its foundation in the early 19th century. From our regular journals featuring our latest research projects, to digitized versions of series and comprehensive monographs on specific fields of research - we publish and share knowledge that scholars can build on and freely use for their own research. Our publications are accessible via iDAI.publications/journals and iDAI.publications/books. Both systems are networked with other digital resources and complemented by the publication of databases. The publications of the DAI undergo a peer review process and are editorially supervised."
+    "body": "DAI has contributed to archaeological literature since its foundation in the early 19th century. From our regular journals, featuring studies and reports both by international scholars and from the DAI's own research projects, to digitized versions of series and comprehensive monographs on specific fields of research - we publish and share knowledge that scholars can build on and freely use for their own research. Our publications are accessible via iDAI.publications/journals and iDAI.publications/books. Both systems are networked with other digital resources and complemented by the publication of databases. The publications of the DAI undergo a peer review process and are editorially supervised."
   },
   {
     "type": "slider_image",
@@ -16,10 +16,22 @@
     "fullWidth": false,
     "align": "right",
     "content": [
-      "assets/images/content/what/publications/slider/idai_publications_slider_antike_plastik_31.jpg",
-      "assets/images/content/what/publications/slider/idai_publications_slider_aa_2017_2.jpg",
-      "assets/images/content/what/publications/slider/idai_publications_slider_e-papers1.19.jpg",
-      "assets/images/content/what/publications/slider/idai_publications_slider_pf_17.jpg"
+      {
+        "src": "assets/images/content/what/publications/slider/idai_publications_slider_antike_plastik_31.jpg",
+        "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/62"
+      },
+      {
+        "src": "assets/images/content/what/publications/slider/idai_publications_slider_aa_2017_2.jpg",
+        "target": "https://publications.dainst.org/journals/aa/issue/165"
+      },
+      {
+        "src": "assets/images/content/what/publications/slider/idai_publications_slider_e-papers1.19.jpg",
+        "target": "https://publications.dainst.org/journals/efb/issue/168"
+      },
+      {
+        "src": "assets/images/content/what/publications/slider/idai_publications_slider_pf_17.jpg",
+        "target": "https://arachne.dainst.org/project/pergamenischeforschungen17?lang=de"
+      }
     ]
   },
   {

@@ -43,7 +43,7 @@
     background: url(assets/images/arrow-down.png) no-repeat 0 0;
     display: inline-block;
     transition: 0.4s;
-    cursor: pointer;
+    cursor: default;
 
     &:hover {
       transform: translateY(5px);

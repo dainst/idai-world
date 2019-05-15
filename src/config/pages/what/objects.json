@@ -109,7 +109,7 @@
     "headline": "Search in our systems for objects, shapes and material culture",
     "content": [
         {
-            "headline": "iDAI.Objects",
+            "headline": "iDAI.objects",
             "text": "Repository for objects and collections as a common information infrastructure",
             "link": {
                 "target": "https://arachne.dainst.org",
@@ -117,7 +117,7 @@
             }
         },         
         {
-            "headline": "iDAI.Shapes",
+            "headline": "iDAI.shapes <br/>(in development)",
             "text": "Repository for objects and collections as a common information infrastructure"
         }
     ]
