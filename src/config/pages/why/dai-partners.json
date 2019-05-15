@@ -183,7 +183,7 @@
       "tiles": [
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_smpk.jpg",
           "headline": "Antikensammlung Berlin",
           "subhead": "",
           "link": {
@@ -193,7 +193,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_lmu.jpg",
           "headline": "ArchaeoBio Center at LMU Munich",
           "subhead": "",
           "link": {
@@ -203,7 +203,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_aerocopter.jpg",
           "headline": "Archaeocopter and Archaeonautic",
           "subhead": "",
           "link": {
@@ -213,7 +213,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_uni_koeln.jpg",
           "headline": "Chair for Archaeoinformatics at the University of Cologne",
           "subhead": "",
           "link": {
@@ -223,7 +223,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_cau_kiel.jpg",
           "headline": "Chair for Archaeoinformatics (Data Science) at CAU Kiel",
           "subhead": "",
           "link": {
@@ -233,7 +233,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_lmu.jpg",
           "headline": "Chair for Database Systems and Data Mining at LMU Munich",
           "subhead": "",
           "link": {
@@ -243,7 +243,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_uni_koeln.jpg",
           "headline": "Chair for Digital Humanities at the University of Cologne",
           "subhead": "",
           "link": {
@@ -253,7 +253,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_carare.jpg",
           "headline": "Carare",
           "subhead": "",
           "link": {
@@ -263,7 +263,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_smpk.jpg",
           "headline": "Museum für Islamische Kunst Berlin",
           "subhead": "",
           "link": {
@@ -273,7 +273,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_nomisma.jpg",
           "headline": "Nomisma",
           "subhead": "Stable digital representations of numismatic concepts according to the principles of Linked Open Data",
           "link": {
@@ -283,7 +283,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_smpk.jpg",
           "headline": "Open Context",
           "subhead": "",
           "link": {
@@ -293,7 +293,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_open_context.jpg",
           "headline": "Perseus Digital Library",
           "subhead": "",
           "link": {
@@ -303,7 +303,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_pleiades.jpg",
           "headline": "Pleiades",
           "subhead": "",
           "link": {
@@ -313,7 +313,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_uni_koeln.jpg",
           "headline": "Regional Computing Centre at the University of Cologne",
           "subhead": "",
           "link": {
@@ -323,7 +323,7 @@
         },
         {
           "type": "image_link",
-          "image": "",
+          "image": "assets/images/content/why/partners/logos/isai_partners_uni_koeln.jpg",
           "headline": "Research Archive for Ancient Sculpture",
           "subhead": "",
           "link": {
