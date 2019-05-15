@@ -68,7 +68,7 @@
   {
     "type": "amount_docs",
     "amount": 1.25,
-    "text": "million titles",
+    "text": "titles",
     "endpoint": {
       "url": "https://zenon.dainst.org/api/v1/search?limit=0",
       "resultProp": "resultCount"

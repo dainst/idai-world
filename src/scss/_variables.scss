@@ -3,11 +3,10 @@
 \* ------------------------------------------------------------ */
 
 $font-family-sans-serif: Arial, Helvetica, sans-serif;
-$font-family-serif: Times, 'Times New Roman', serif;
+$font-family-serif: Times, "Times New Roman", serif;
 
-$open-sans: 'Open Sans', sans-serif;
-$cargan: 'Cargan', serif;
-
+$open-sans: "Open Sans", sans-serif;
+$cargan: "Cargan", serif;
 
 $font-size-base: 1.125rem;
 $line-height-base: 1.3;
@@ -20,18 +19,19 @@ $responsive-xs: 767px;
 $responsive-sm: 1023px;
 $responsive-md: 1200px;
 
-$mobile-small: '(max-width: #{$responsive-xxs}) ';
-$mobile: '(max-width: #{$responsive-xs}) ';
-$tablet-portrait: '(max-width: #{$responsive-sm}) ';
-$small-desktop: '(max-width: #{$responsive-md}) ';
-$retina: '(min-resolution: 2dppx) ';
+$mobile-small: "(max-width: #{$responsive-xxs}) ";
+$mobile: "(max-width: #{$responsive-xs}) ";
+$tablet-portrait: "(max-width: #{$responsive-sm}) ";
+$small-desktop: "(max-width: #{$responsive-md}) ";
+$retina: "(min-resolution: 2dppx) ";
 
 // Usage
 // @media #{$small-desktop}
 
-$lighter-gray 					: #d3d3cf;
-$light-gray 					: #c3c3c2;
-$gray 							: #b1b1b1;
-$dark-gray 						: #a6a6a6;
-$burdo 	 						: #67041c;
-$blue 	 						: #5882c2;
+$lighter-gray: #d3d3cf;
+$light-gray: #c3c3c2;
+$gray: #b1b1b1;
+$dark-gray: #a6a6a6;
+$darker-gray: #565551;
+$burdo: #67041c;
+$blue: #5882c2;

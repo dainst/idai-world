@@ -2,7 +2,9 @@
 <div class="container">
   <div class="section__body">
     <div>
-      <span class="amount d-block d-md-inline">{{ amount }}</span>
+      <span class="amount d-block d-md-inline">{{
+        amount | number: "1.0-0":"de"
+      }}</span>
       <span class="description" [innerHtml]="text"></span>
     </div>
   </div>

@@ -118,6 +118,13 @@
         "name": "Publications"
       }
     },
+    {
+      "menu": {
+        "group": "What",
+        "name": "Tutorials",
+        "url": "https://tutorials.idai.world"
+      }
+    },
 
     {
       "comment": "WHY",

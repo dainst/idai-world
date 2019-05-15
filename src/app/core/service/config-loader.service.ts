@@ -4,6 +4,7 @@ import { DaiPageConfig, ComponentDefinition } from '../config/DaiPageConfig';
 import { HttpClient } from '@angular/common/http';
 import { ComponentResolver } from './component-resolver.service';
 import { TextLimits } from './text-limits.service';
+import { HtmlLoaderService } from './html-loader.service';
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +15,8 @@ export class ConfigLoaderService {
   constructor(
     private http: HttpClient,
     private resolver: ComponentResolver,
-    private limits: TextLimits
+    private limits: TextLimits,
+    private htmlLoader: HtmlLoaderService
   ) {}
 
   async getConfig(path: string): Promise<DaiPageConfig> {
@@ -59,7 +61,7 @@ export class ConfigLoaderService {
   private resolveHtml = definition => key => {
     const filePath = definition[key];
 
-    return this.loadHtml(filePath).then(r => {
+    return this.htmlLoader.loadHtml(filePath).then(r => {
       key = key.replace('_html', '');
       if (r) {
         definition[key] = r;
@@ -70,16 +72,5 @@ export class ConfigLoaderService {
           '</div>';
       }
     });
-  }
-
-  private loadHtml(path: string = '') {
-    if (!path) {
-      return Promise.reject('no path given');
-    }
-
-    return this.http
-      .get(path, { responseType: 'text' })
-      .toPromise()
-      .catch(e => {});
   }
 }
