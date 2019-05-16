@@ -57,7 +57,7 @@
       "=================================================================": "",
       "path": "sink",
       "page": "config/pages/kitchen-sink.json",
-      "disabled": true,
+      "disabled": false,
       "menu": {
         "group": "DEMO",
         "name": "Kitchen Sink",
