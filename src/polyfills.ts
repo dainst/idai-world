@@ -62,4 +62,5 @@ import 'zone.js/dist/zone'; // Included with Angular CLI.
  */
 
 import 'whatwg-fetch';
+import 'core-js/es6';
 import 'core-js/es7';
