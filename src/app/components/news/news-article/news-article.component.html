@@ -1,45 +1,9 @@
-<!-- <article #article class="article row">
-  <div class="col-sm-4 article__image-container">
-    <div class="mb-4" *ngFor="let image of config?.images; index as idx">
-      <img [src]="image.src || image" class="img-fluid" />
-      <div
-        *ngIf="image.caption"
-        class="caption pt-1 pb-1"
-        [innerHtml]="image.caption"
-      ></div>
-      <hr #marker *ngIf="idx === 0 && config?.images.length > 1" />
-    </div>
-  </div>
-
-  <div class="col-sm-6 article__content">
-    <p>
-      <span class="article__date color-darker-gray">{{ config?.date }}</span> /
-      <span class="article__category color-burdo">{{ config?.category }}</span>
-    </p>
-
-    <h5 class="article__title" [innerHtml]="config?.title"></h5>
-
-    <div
-      #contentContainer
-      class="article__entry"
-      [class.xcollapsed]="true"
-      [innerHtml]="config?.content"
-    ></div>
-  </div>
-
-  <div
-    [style.height]="markerPosY + 'px'"
-    class="tester line__dotted--blue"
-    #rule
-  ></div>
-</article> -->
-
 <article class="article ">
   <div class="article-teaser row">
     <div class="article-image col-sm-4">
-      <figure>
-        <img [src]="teaser.image.src" title="teaser.image.title" />
-        <figcaption [innerHtml]="teaser.image.caption"></figcaption>
+      <figure *ngIf="teaser?.image">
+        <img [src]="teaser?.image?.src" [title]="teaser?.image?.title" />
+        <figcaption [innerHtml]="teaser?.image?.caption"></figcaption>
       </figure>
     </div>
     <div class="article-text col-sm-6 ">
@@ -48,14 +12,14 @@
         <span class="category color-burdo">{{ category }}</span>
       </div>
       <h2 [innerHtml]="headline"></h2>
-      <div [innerHtml]="teaser.content"></div>
+      <div [innerHtml]="teaser?.content"></div>
     </div>
   </div>
 
-  <button class="show-more" (click)="showMore = !showMore">Show more</button>
+  <div *ngIf="isLoading"><dai-spinner></dai-spinner></div>
 
   <div *ngIf="showMore" class="article-more row">
-    <div class="article-image col-sm-4">
+    <div *ngIf="more" class="article-image col-sm-4">
       <figure *ngFor="let image of more.images">
         <img
           [src]="image.src ? image.src : image"
@@ -71,4 +35,8 @@
       <div [innerHtml]="more?.content"></div>
     </div>
   </div>
+
+  <button class="show-more" (click)="onShowMoreClick()">
+    {{ showMore ? "hide" : "show" }}
+  </button>
 </article>
