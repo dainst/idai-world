@@ -1,4 +1,4 @@
-<article class="article ">
+<article #article class="article ">
   <div class="article-teaser row">
     <div class="article-image col-sm-4">
       <figure *ngIf="teaser?.image">
@@ -35,7 +35,10 @@
     </div>
   </div>
 
-  <button class="show-more {{ showMore ? 'ahide' : 'ashow' }}" (click)="onShowMoreClick()" >
+  <button
+    class="show-more {{ showMore ? 'ahide' : 'ashow' }}"
+    (click)="onShowMoreClick()"
+  >
     {{ showMore ? "" : "" }}
   </button>
 </article>

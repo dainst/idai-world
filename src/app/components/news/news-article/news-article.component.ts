@@ -1,4 +1,11 @@
-import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  Input,
+  AfterViewInit,
+  ElementRef,
+  ViewChild
+} from '@angular/core';
 import { HtmlLoaderService } from 'src/app/core/service/html-loader.service';
 
 interface ImageConfig {
@@ -33,7 +40,7 @@ export interface NewsArticleConfig {
 })
 export class NewsArticleComponent implements OnInit, AfterViewInit {
   // @ViewChild('marker') markerElement: ElementRef<HTMLElement>;
-  // @ViewChild('article') containerElement: ElementRef<HTMLElement>;
+  @ViewChild('article') containerElement: ElementRef<HTMLElement>;
   // @ViewChild('teaser') teaserElement: ElementRef<HTMLElement>;
 
   @Input() config: NewsArticleConfig;
