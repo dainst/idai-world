@@ -1,4 +1,4 @@
-<article #article class="article row">
+<!-- <article #article class="article row">
   <div class="col-sm-4 article__image-container">
     <div class="mb-4" *ngFor="let image of config?.images; index as idx">
       <img [src]="image.src || image" class="img-fluid" />
@@ -25,15 +25,50 @@
       [class.xcollapsed]="true"
       [innerHtml]="config?.content"
     ></div>
-
-    <!-- <a href="#">
-      Read Article >
-    </a> -->
   </div>
 
-  <!-- <div
+  <div
     [style.height]="markerPosY + 'px'"
     class="tester line__dotted--blue"
     #rule
-  ></div> -->
+  ></div>
+</article> -->
+
+<article class="article ">
+  <div class="article-teaser row">
+    <div class="article-image col-sm-4">
+      <figure>
+        <img [src]="teaser.image.src" title="teaser.image.title" />
+        <figcaption [innerHtml]="teaser.image.caption"></figcaption>
+      </figure>
+    </div>
+    <div class="article-text col-sm-6 ">
+      <div class="meta-info">
+        <span class="date color-darker-gray">{{ date }}</span>
+        <span class="category color-burdo">{{ category }}</span>
+      </div>
+      <h2 [innerHtml]="headline"></h2>
+      <div [innerHtml]="teaser.content"></div>
+    </div>
+  </div>
+
+  <button class="show-more" (click)="showMore = !showMore">Show more</button>
+
+  <div *ngIf="showMore" class="article-more row">
+    <div class="article-image col-sm-4">
+      <figure *ngFor="let image of more.images">
+        <img
+          [src]="image.src ? image.src : image"
+          [title]="image.title ? image.title : image"
+        />
+        <figcaption
+          *ngIf="image.caption"
+          [innerHtml]="image.caption"
+        ></figcaption>
+      </figure>
+    </div>
+    <div class="article-text col-sm-6 ">
+      <div [innerHtml]="more?.content"></div>
+    </div>
+  </div>
 </article>

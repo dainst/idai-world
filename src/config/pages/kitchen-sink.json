@@ -29,7 +29,7 @@
           "headline": "A great discovery",
           "teaser": {
             "content": "gdsdgfs",
-            "content_html": "config/pages/kitchen-sink/news-content.html",
+            "content_html": "config/pages/kitchen-sink/news-content-teaser.html",
             "image": {
               "src": "/assets/images/content/news/idai_news_ayda.jpg",
               "title": "image title",

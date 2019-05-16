@@ -12,17 +12,60 @@ import { map, startWith } from 'rxjs/operators';
 
 interface ImageConfig {
   src: string;
+  title: string;
   caption: string;
 }
 
-export interface NewsArticleConfig {
-  date: string; // "22.04.2019",
-  category: string;
-  title: string;
+interface TeaserConfig {
+  content: string;
+  content_html: string;
+  image: string | ImageConfig;
+}
+
+interface MoreConfig {
   content: string;
   content_html: string;
   images: (string | ImageConfig)[];
 }
+export interface NewsArticleConfig {
+  date: string; // "22.04.2019",
+  category: string;
+  headline: string;
+  teaser: TeaserConfig;
+  more: MoreConfig;
+}
+
+/*
+{
+  "date": "22.04.2019",
+  "category": "Publication",
+  "headline": "A great discovery",
+  "teaser": {
+    "content": "gdsdgfs",
+    "content_html": ""
+     "image": {
+      "src": "/assets/images/content/news/idai_news_ayda.jpg",
+      "title": "image title",
+      "caption": "an image caption"
+    }
+  },
+  "more": {
+    "images": [
+      "/assets/images/content/news/idai_news_ayda.jpg",
+      {
+        "src": "/assets/images/content/news/idai_news_ayda.jpg",
+        "caption": "This is the image caption"
+      },
+      {
+        "src": "/assets/images/content/news/idai_news_ayda.jpg",
+        "caption": "This is the image caption"
+      }
+    ],
+    "content": "",
+    "content_html": ""
+  }
+}
+*/
 
 @Component({
   selector: 'dai-news-article',
@@ -30,40 +73,59 @@ export interface NewsArticleConfig {
   styleUrls: ['./news-article.component.scss']
 })
 export class NewsArticleComponent implements OnInit, AfterViewInit {
-  @ViewChild('marker') marker: ElementRef<HTMLElement>;
-  @ViewChild('contentContainer') contentContainer: ElementRef<HTMLElement>;
+  @ViewChild('marker') markerElement: ElementRef<HTMLElement>;
+  @ViewChild('article') containerElement: ElementRef<HTMLElement>;
+  @ViewChild('teaser') teaserElement: ElementRef<HTMLElement>;
 
   @Input() config: NewsArticleConfig;
 
   public markerPosY: any;
 
+  public date: string;
+  public category: string;
+  public headline: string;
+
+  public teaser: TeaserConfig;
+  public more: MoreConfig;
+
+  public showMore = false;
+
   constructor(private loader: HtmlLoaderService) {}
 
   ngOnInit() {
-    if (this.config) {
-      if (this.config.content_html) {
+    const resolveHtml = (
+      config: TeaserConfig | MoreConfig
+    ): TeaserConfig | MoreConfig => {
+      const conf = { ...config };
+      if (config.content_html) {
         this.loader
-          .loadHtml(this.config.content_html)
-          .then(result => (this.config.content = result));
+          .loadHtml(config.content_html)
+          .then(result => (conf.content = result));
       }
-    }
+
+      return conf;
+    };
+
+    const { headline, date, category, teaser, more } = this.config;
+
+    this.headline = headline;
+    this.date = date;
+    this.category = category;
+    this.teaser = resolveHtml(teaser) as TeaserConfig;
+    this.more = resolveHtml(more) as MoreConfig;
   }
 
   ngAfterViewInit() {
-    setTimeout(() => {
-      const getValue = () =>
-        this.marker.nativeElement.offsetTop -
-        this.contentContainer.nativeElement.offsetTop;
-
-      fromEvent(window, 'resize')
-        .pipe(
-          map(getValue),
-          startWith(getValue())
-        )
-        .subscribe(offset => {
-          console.log();
-          this.markerPosY = offset;
-        });
-    }, 10);
+    // const getValue = () => {
+    //   const bodyRect = this.containerElement.nativeElement.getBoundingClientRect();
+    //   const elemRect = this.markerElement.nativeElement.getBoundingClientRect();
+    //   return elemRect.top - bodyRect.top + elemRect.height;
+    // };
+    // const adapt = () =>
+    //   (this.teaserElement.nativeElement.style.height = getValue() + 'px');
+    // fromEvent(window, 'resize').subscribe(() => adapt());
+    // setTimeout(() => {
+    //   adapt();
+    // }, 1000);
   }
 }
