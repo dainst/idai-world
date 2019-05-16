@@ -28,7 +28,7 @@ export class HtmlLoaderService {
   public loadHtml(path: string = ''): Promise<string> {
     if (!environment.production) {
       // tslint:disable-next-line: no-console
-      console.info('cache disabled during developent');
+      console.info('cache disabled during development');
       return this.loadFile(path);
     }
 
@@ -46,14 +46,13 @@ export class HtmlLoaderService {
       if (template === undefined) {
         this.cache.set(
           path,
-          this.loadFile(path)
-            .then(result => {
-              this.storage.setItem(path, result);
-              return result;
-            })
-            .finally(() => {
-              this.cache.delete(path);
-            })
+          this.loadFile(path).then(result => {
+            // this.storage.setItem(path, result);
+            return result;
+          })
+          // .finally(() => {
+          //   this.cache.delete(path);
+          // })
         );
       }
 

@@ -33,7 +33,11 @@ export class PageComponent implements OnInit, AfterViewInit {
         this.subnavConfig = hasSubnavConfig ? config.bannerConfig : undefined;
         this.bannerConfig = hasSubnavConfig ? undefined : config.bannerConfig;
       })
-      .finally(() => (this.isLoading = false));
+      .finally(() => {
+        this.isLoading = false;
+
+        window.dispatchEvent(new CustomEvent('pageconfig_loaded'));
+      });
   }
 
   ngAfterViewInit() {}

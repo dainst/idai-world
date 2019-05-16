@@ -1,5 +1,10 @@
 import { Component, Inject } from '@angular/core';
-import { Router, NavigationEnd, RouterEvent } from '@angular/router';
+import {
+  Router,
+  NavigationEnd,
+  RouterEvent,
+  NavigationStart
+} from '@angular/router';
 import { DOCUMENT } from '@angular/common';
 import { filter } from 'rxjs/operators';
 
@@ -11,6 +16,9 @@ import * as $ from 'jquery';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  public isPageLoaded = false;
+  public showFooter = false;
+
   constructor(
     @Inject(DOCUMENT) private document: Document,
     private router: Router
@@ -28,12 +36,26 @@ export class AppComponent {
         }
       });
 
+    // router.events.subscribe(e => {
+    //   if (e => e instanceof NavigationStart) {
+    //     console.log('nav start');
+    //   } else if (e instanceof NavigationEnd) {
+    //     s
+    //   }
+    // });
+
     this.interceptLinks();
   }
 
   interceptLinks() {
     const router = this.router;
     const isExternal = (href: string = '') => href.startsWith('http');
+    const me = this;
+
+    $(window).on('pageconfig_loaded', () => {
+      me.isPageLoaded = true;
+      me.showFooter = true;
+    });
 
     $(document).on('click', 'a', function(e) {
       const href = $(this).attr('href');
@@ -46,6 +68,8 @@ export class AppComponent {
         // console.log('Link intercepted', href);
         window.open(href, 'blank');
       } else {
+        me.showFooter = false;
+        // console.log('hide footer');
         e.preventDefault();
         router.navigateByUrl(href);
       }
