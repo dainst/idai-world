@@ -6,6 +6,7 @@ declare global {
 
 import * as $ from 'jquery';
 window.$ = $;
+
 import 'simplebar';
 import 'slick-carousel';
 import 'bootstrap';

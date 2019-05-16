@@ -9,6 +9,7 @@
   <a
     *ngIf="type === LinkType.HREF"
     [href]="link"
+    target="blank"
     [innerHtml]="text | slice: 0:textLimit"
   >
   </a>
