@@ -3,22 +3,22 @@
 \* ------------------------------------------------------------ */
 
 /* Desktop */
-.section__systems.systems-link a,
-.section__systems.systems-link dai-link {
+// .section__systems.systems-link a,
+.section__systems.systems-link .info_box__item {
   max-width: 540px;
   // max-height: 250px;
   margin: 0 auto;
   padding: 50px;
 }
 
-.section__systems.systems-link a .headline {
+.section__systems.systems-link .info_box__item .headline {
   font-family: "Cargan", serif;
   font-size: 38px;
   text-align: center;
   color: #557ebb;
 }
 
-.section__systems.systems-link a .description {
+.section__systems.systems-link .info_box__item .description {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   text-align: center;
@@ -27,16 +27,16 @@
 
 /* Mobile */
 @media screen and (max-width: 576px) {
-  .section__systems.systems-link a,
-  .section__systems.systems-link dai-link {
+  // .section__systems.systems-link a,
+  .section__systems.systems-link .info_box__item {
     padding: 15px;
   }
 
-  .section__systems.systems-link a .headline {
+  .section__systems.systems-link .info_box__item .headline {
     font-size: 30px;
   }
 
-  .section__systems.systems-link a .description {
+  .section__systems.systems-link .info_box__item .description {
     font-size: 18px;
   }
 }

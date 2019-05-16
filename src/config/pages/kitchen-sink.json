@@ -20,6 +20,21 @@
   ],
   "components": [
     {
+      "type": "info_box",
+      "headline": "No link info box",
+      "content": [
+        {
+          "headline": "iDAI.Arachne",
+          "text": "Repository for images and objects as a common information infrastructure",
+          "link": { "target": "http://martian.company" }
+        },
+        {
+          "headline": "iDAI.Arachne",
+          "text": "Repository for images and objects as a common information infrastructure"
+        }
+      ]
+    },
+    {
       "type": "news",
       "show": 5,
       "articles": [
@@ -435,16 +450,14 @@
           "headline": "iDAI.Arachne",
           "text": "Repository for images and objects as a common information infrastructure",
           "link": {
-            "target": "route:///why-mission-statement",
-            "alt": "foo link"
+            "target": "route:///why-mission-statement"
           }
         },
         {
           "headline": "iDAI.Arachne",
           "text": "Repository for images and objects as a common information infrastructure",
           "link": {
-            "target": "route:///why-mission-statement",
-            "alt": "foo link"
+            "target": "route:///why-mission-statement"
           }
         }
       ]
