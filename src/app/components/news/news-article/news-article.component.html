@@ -36,7 +36,7 @@
     </div>
   </div>
 
-  <button class="show-more" (click)="onShowMoreClick()">
-    {{ showMore ? "hide" : "show" }}
+  <button class="show-more {{ showMore ? 'ahide' : 'ashow' }}" (click)="onShowMoreClick()" >
+    {{ showMore ? "" : "" }}
   </button>
 </article>

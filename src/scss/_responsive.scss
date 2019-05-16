@@ -381,9 +381,19 @@
   }
 
   .tile__content.tile--head-up {
-    max-height: 100px;
+    max-height: inherit;
     padding: 15px;
+    height: auto;
   }
+
+  .tile .tile__content {
+    position: absolute;
+    top: inherit;
+    left: inherit;
+    -webkit-transform: inherit;
+    transform: inherit;
+  }
+
 
   .tile__content.tile--head-up .headline {
     font-size: 20px;
