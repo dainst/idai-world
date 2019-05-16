@@ -273,9 +273,12 @@
 
 @media (max-width: 767px) {
   .section__textbox {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
+
+
 
 /* ------------------------------------------------------------ *\
 	Section Systems
@@ -316,12 +319,16 @@
   background-color: #87a4c9;
   color: #fff;
   min-height: 120px;
+  padding: 15px;
 }
+
 
 .section__hierarchy .level-3 .level-content {
   background-color: #b2c4dc;
   color: #547db1;
+  padding: 15px;
 }
+
 
 .section__textbox.decoration-bg-blue .section__head h3 {
   color: #fff;
@@ -517,4 +524,59 @@
   div.sliderdesc {
     display: none;
   }
+}
+
+.section__news article.article {
+  padding: 2em 0;
+}
+
+.section__news article.article p {
+  margin-bottom: 2em;
+  line-height: 155%;
+  font-size: 16px;
+}
+
+.section__news article .meta-info {
+  font-size: 14px;
+  margin-bottom: 0.5em;
+}
+
+.section__news article .date{
+  font-family: "Open Sans", sans-serif;
+}
+
+.section__news article h2 {
+  color: #5882c2;
+  margin-bottom: 0.75em;
+}
+
+.section__news article figcaption {
+  font-size: 14px;
+  margin-top: 1em;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.section__news.container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section__news.container button.show-more {
+  text-align: center;
+  border: none;
+  margin: 0 auto;
+  display: inherit;
+}
+
+button.show-more.ashow {
+  background: transparent no-repeat center center url(assets/images/content/news/arrow_down.svg);
+  width: 60px;
+  padding: 20px;
+}
+
+button.show-more.ahide {
+  background: transparent no-repeat center center url(assets/images/content/news/arrow_top.svg);
+  width: 60px;
+  padding: 20px;
 }
