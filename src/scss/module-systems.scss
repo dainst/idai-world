@@ -12,7 +12,7 @@
 }
 
 .section__systems .tile--rectangle .tile__image.tile--overlay:before {
-  background: rgba(100, 100, 100, .7);
+  background: rgba(100, 100, 100, 0.7);
 }
 
 .section__systems.decoration-bg-blue .section__head h3 {
@@ -27,12 +27,8 @@
 }
 
 @media (max-width: 576px) {
-
   .decoration-bg-blue {
     background-color: #5882c2;
     padding-top: 40px;
-    padding-bottom: 40px;
   }
-
 }
-

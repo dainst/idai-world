@@ -18,12 +18,22 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
   @HostBinding('class.tiles-slider-two-rows') hasTwoRows = false;
 
   sliderConfig = {
-    slidesToShow: 2,
-    sidesToScroll: 2,
+    slidesToShow: 1,
+    sidesToScroll: 1,
     infinite: false,
     mobileFirst: true,
     variableWidth: false,
     responsive: [
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          centerMode: false,
+          infinite: false,
+          variableWidth: false
+        }
+      },
       {
         breakpoint: 850,
         settings: {

@@ -364,7 +364,6 @@
       Tiles
   \* ------------------------------ */
   .section__three-tiles .tile.tile--square {
-    max-width: 300px;
     height: auto;
     margin: auto;
     overflow: hidden;
@@ -375,7 +374,6 @@
   }
 
   .tile--square .tile__image {
-    max-width: 300px;
     height: auto;
     margin: auto;
   }
@@ -385,15 +383,6 @@
     padding: 15px;
     height: auto;
   }
-
-  .tile .tile__content {
-    position: absolute;
-    top: inherit;
-    left: inherit;
-    -webkit-transform: inherit;
-    transform: inherit;
-  }
-
 
   .tile__content.tile--head-up .headline {
     font-size: 20px;
