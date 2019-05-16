@@ -121,14 +121,6 @@
       }
     },
     {
-      "path": "news",
-      "page": "config/pages/dai-news.json",
-      "menu": {
-        "group": "What",
-        "name": "News"
-      }
-    },
-    {
       "menu": {
         "group": "What",
         "name": "Tutorials",

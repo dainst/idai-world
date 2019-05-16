@@ -547,7 +547,14 @@
 
 .section__news article h2 {
   color: #5882c2;
-  margin-bottom: 0.75em;
+  margin-bottom: 0.35em;
+  font-size: 45px;
+}
+
+.section__news article h3 {
+  margin-bottom: 0.35em;
+  font-size: 20px;
+  font-family: $open-sans;
 }
 
 .section__news article figcaption {
@@ -567,6 +574,7 @@
   border: none;
   margin: 0 auto;
   display: inherit;
+  outline: none;
 }
 
 button.show-more.ashow {

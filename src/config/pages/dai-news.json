@@ -14,11 +14,11 @@
           "category": "LiDAR",
           "headline": "LiDAR-Scans im Kephissos-Tal",
           "teaser": {
-            "content": "<p><b>Landschaftsarchäologische Untersuchungen in Phokis/Mittelgriechenland</b></p>\n\n<p>Seit 2018 erforschen Prof. Dr. Katja Sporn (DAI Athen) und Prof. Dr. Peter Funke (Westfälische Wilhelms-Universität Münster) in Kooperation mit Dr. Petros Kounouklas (Ephorie für Altertümer von Fthiotis und Eurytania) das Kephissostal im antiken Phokis.\n    Der Kephissos ist mit 60 km Länge der wichtigste Fluss Zentralgriechenlands. Das Flusstal verläuft zwischen zwei großen Gebirgen, dem ca. 2500 m hohen Parnassos im Süden sowie dem Kallidromon im Norden. In der griechisch-römischen Antike war das breite, fruchtbare Tal ein strategisch wichtiges Durchgangsgebiet, das Schauplatz zahlreicher militärischer Auseinandersetzungen war.</p>",
+            "content": "<h3>Landschaftsarchäologische Untersuchungen in Phokis/Mittelgriechenland</h3><p>Seit 2018 erforschen Prof. Dr. Katja Sporn (DAI Athen) und Prof. Dr. Peter Funke (Westfälische Wilhelms-Universität Münster) in Kooperation mit Dr. Petros Kounouklas (Ephorie für Altertümer von Fthiotis und Eurytania) das Kephissostal im antiken Phokis.\n    Der Kephissos ist mit 60 km Länge der wichtigste Fluss Zentralgriechenlands. Das Flusstal verläuft zwischen zwei großen Gebirgen, dem ca. 2500 m hohen Parnassos im Süden sowie dem Kallidromon im Norden. In der griechisch-römischen Antike war das breite, fruchtbare Tal ein strategisch wichtiges Durchgangsgebiet, das Schauplatz zahlreicher militärischer Auseinandersetzungen war.</p>",
             "image": {
               "src": "/assets/images/content/news/2019/idai_news_lidar_scan.jpg",
-              "title": "image title",
-              "caption": "an image caption"
+              "title": "",
+              "caption": ""
             }
           },
 
@@ -34,8 +34,8 @@
             "content": "<p><b>Together with her team the archaeologist Dr. Iris Gerlach is working on a digital heritage information system for this crisis region, the Ancient Yemen Digital Atlas (AYDA). The digital project aims to contribute to the protection of Yemen’s cultural heritage.</b></p><p>Largely unnoticed by the world’s public the war in Yemen endangers the life of people and their cultural heritage. Over the past years safeguarding Yemen’s heritage has become more and more difficult due to the security conditions. Extensive pillaging and looting of sites has taken place at several locations. “Unauthorised construction work has been carried out at the antique sites and stones have been stolen. Museum pillages occur primarily in the southern part of the country. In addition, serious war damage can be observed. This is a varied mixture of different things.”, says Dr. Iris Gerlach, director of the Sana’a Office of the German Archaeological Institute.</p>",
             "image": {
               "src": "/assets/images/content/news/2019/idai_news_ayda.jpg",
-              "title": "image title",
-              "caption": "an image caption"
+              "title": "",
+              "caption": ""
             }
           },
 
@@ -52,8 +52,8 @@
             "content": "<p>The site of Pergamon, located north-west of the modern city of Bergama in Turkey, rises above the Bakirçay Plain. As the capital of the Hellenistic Attalid dynasty Pergamon was one of the most prominent urban centres of the ancient world. In addition to its political significance, the city was a cultural and religious centre with a significant library, impressive temples, theatres and a gymnasium. The city later became capital of the Roman province of Asia, famous for its Asclepieion healing centre.</p><p><b>World Heritage Site Pergamon</b><br/><a>For more than 130 years archaeologists of the <a href=\"https://www.dainst.org/projekt/-/project-display/14186\">German Archaeological Institute</a> have been working in the metropolis on the west coast of Turkey.</p>",
             "image": {
               "src": "/assets/images/content/news/2019/idai_news_pergamon.jpg",
-              "title": "image title",
-              "caption": "an image caption"
+              "title": "",
+              "caption": ""
             }
           },
 
