@@ -25,7 +25,7 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
     variableWidth: false,
     responsive: [
       {
-        breakpoint: 767,
+        breakpoint: 850,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
