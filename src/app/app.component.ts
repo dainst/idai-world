@@ -13,11 +13,13 @@ export class AppComponent {
     router.events
       .pipe(filter(e => e instanceof NavigationEnd))
       .subscribe((event: RouterEvent) => {
-        const isHome = event.url === '';
+        const isHome = event.url === '' || event.url === '/';
         if (!isHome) {
           this.document.body.classList.add('subpage');
+          this.document.body.classList.remove('isHome');
         } else {
           this.document.body.classList.remove('subpage');
+          this.document.body.classList.add('isHome');
         }
       });
   }
