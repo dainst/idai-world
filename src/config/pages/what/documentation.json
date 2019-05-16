@@ -78,7 +78,7 @@
         "headline": "3D models in iDAI.objects",
         "subhead": "",
         "link": {
-          "target": "https://arachne.dainst.org/search?q=3d",
+          "target": "https://arachne.dainst.org/search?fq=facet_kategorie:%223D-Modelle%22&fl=20&q=3d",
           "text": "External Link to '3D models in iDAI.objects'"
         }
       }

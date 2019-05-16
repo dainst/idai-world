@@ -37,7 +37,7 @@
   {
     "type": "amount_docs",
     "amount": "",
-    "text": "Over 3.000 books, 240 journal volumes with 2.500 articles"
+    "text": "Over 240 journal volumes, 2.500 articles, 3000 digital facsimiles and books"
   },
   {
     "type": "slider_tiles",
@@ -398,24 +398,28 @@
         },
         "links": [
           {
+            "text": "eDAI-J 2018",
+            "target": "https://publications.dainst.org/journals/ejb/issue/325"
+          },
+          {
             "text": "eDAI-J 2017",
-            "target": "https://publications.dainst.org/journals/efb/issue/168"
+            "target": "https://publications.dainst.org/journals/ejb/issue/161"
           },
           {
             "text": "eDAI-J 2016",
-            "target": "https://publications.dainst.org/journals/efb/issue/134"
+            "target": "https://publications.dainst.org/journals/ejb/issue/134"
           },
           {
             "text": "eDAI-J 2015",
-            "target": "https://publications.dainst.org/journals/efb/issue/69"
+            "target": "https://publications.dainst.org/journals/ejb/issue/69"
           },
           {
             "text": "eDAI-J 2014",
-            "target": "https://publications.dainst.org/journals/efb/issue/21"
+            "target": "https://publications.dainst.org/journals/ejb/issue/21"
           },
           {
             "text": "eDAI-J 2013",
-            "target": "https://publications.dainst.org/journals/efb/issue/20"
+            "target": "https://publications.dainst.org/journals/ejb/issue/20"
           }
         ]
       },
