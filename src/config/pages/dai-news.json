@@ -11,32 +11,36 @@
       "articles": [
         {
           "date": "22.04.2019",
-          "category": "Publication",
-          "headline": "A great discovery",
+          "category": "LiDAR",
+          "headline": "LiDAR-Scans im Kephissos-Tal",
           "teaser": {
-            "content": "gdsdgfs",
-            "content_html": "config/pages/kitchen-sink/news-content-teaser.html",
+            "content": "<p><b>Landschaftsarchäologische Untersuchungen in Phokis/Mittelgriechenland</b></p>\n\n<p>Seit 2018 erforschen Prof. Dr. Katja Sporn (DAI Athen) und Prof. Dr. Peter Funke (Westfälische Wilhelms-Universität Münster) in Kooperation mit Dr. Petros Kounouklas (Ephorie für Altertümer von Fthiotis und Eurytania) das Kephissostal im antiken Phokis.\n    Der Kephissos ist mit 60 km Länge der wichtigste Fluss Zentralgriechenlands. Das Flusstal verläuft zwischen zwei großen Gebirgen, dem ca. 2500 m hohen Parnassos im Süden sowie dem Kallidromon im Norden. In der griechisch-römischen Antike war das breite, fruchtbare Tal ein strategisch wichtiges Durchgangsgebiet, das Schauplatz zahlreicher militärischer Auseinandersetzungen war.</p>",
             "image": {
-              "src": "/assets/images/content/news/idai_news_ayda.jpg",
+              "src": "/assets/images/content/news/2019/idai_news_lidar_scan.jpg",
               "title": "image title",
               "caption": "an image caption"
             }
           },
 
           "more": {
-            "images": [
-              "/assets/images/content/news/idai_news_ayda.jpg",
-              {
-                "src": "/assets/images/content/news/idai_news_ayda.jpg",
-                "caption": "This is the image caption"
-              },
-              {
-                "src": "/assets/images/content/news/idai_news_ayda.jpg",
-                "caption": "This is the image caption"
-              }
-            ],
-            "content": "ghjghjghj",
-            "content_html": "config/pages/kitchen-sink/news-content.html"
+            "content_html": "config/pages/news/2019-05-10-lidar-scans.html"
+          }
+        },
+        {
+          "date": "22.04.2019",
+          "category": "AYDA",
+          "headline": "AYDA a digital register of heritage monuments for Yemen",
+          "teaser": {
+            "content": "<p>Largely unnoticed by the world’s public the war in Yemen endangers the life of people and their cultural heritage. Together with her team the archaeologist Dr. Iris Gerlach is working on a digital heritage information system for this crisis region, the Ancient Yemen Digital Atlas (AYDA). The project is funded by the cultural preservation programme of the German Federal Foreign Office. Dr. Iris Gerlach, the director of the Sana’a Office of the German Archaeological Institute (DAI) hopes that this digital project will contribute to the protection of Yemen’s cultural heritage.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2019/idai_news_ayda.jpg",
+              "title": "image title",
+              "caption": "an image caption"
+            }
+          },
+
+          "more": {
+             "content_html": "config/pages/news/2019-04-08-ayda.html"
           }
         }
       ]
