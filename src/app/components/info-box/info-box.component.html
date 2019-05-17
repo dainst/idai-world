@@ -11,7 +11,7 @@
   <div class="container">
     <div class="row">
       <div *ngFor="let item of content" class="col custom-gutter">
-        <ng-template #content>
+        <ng-template #contentTmpl>
           <p
             class="headline"
             [innerHtml]="item.headline | slice: 0:contentHeadlineLimit"
@@ -25,16 +25,18 @@
           *ngIf="item.link"
           [useContent]="true"
           [data]="item.link"
+          [class.col-sm-6]="content.length === 1"
           class="tile tile--rectangle decoration-bg-lighter-gray h-100 info_box__item"
         >
-          <ng-container *ngTemplateOutlet="content"></ng-container>
+          <ng-container *ngTemplateOutlet="contentTmpl"></ng-container>
         </dai-link>
 
         <ng-container *ngIf="!item.link">
           <div
+            [class.col-sm-6]="content.length === 1"
             class="tile tile--rectangle decoration-bg-lighter-gray h-100 info_box__item"
           >
-            <ng-container *ngTemplateOutlet="content"></ng-container>
+            <ng-container *ngTemplateOutlet="contentTmpl"></ng-container>
           </div>
         </ng-container>
       </div>
