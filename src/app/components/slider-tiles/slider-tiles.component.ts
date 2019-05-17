@@ -17,6 +17,20 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
   @HostBinding('class.infinite-tiles') addCls = false;
   @HostBinding('class.tiles-slider-two-rows') hasTwoRows = false;
 
+  /*
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+*/
+
   sliderConfig = {
     slidesToShow: 1,
     sidesToScroll: 1,
@@ -25,7 +39,7 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
     variableWidth: false,
     responsive: [
       {
-        breakpoint: 500,
+        breakpoint: 576,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -35,7 +49,7 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
         }
       },
       {
-        breakpoint: 850,
+        breakpoint: 992,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
@@ -43,16 +57,16 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
           infinite: false,
           variableWidth: false
         }
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          infinite: false,
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          variableWidth: false
-        }
       }
+      // {
+      //   breakpoint: 992,
+      //   settings: {
+      //     infinite: false,
+      //     slidesToShow: 3,
+      //     slidesToScroll: 3,
+      //     variableWidth: false
+      //   }
+      // }
       // {
       //   breakpoint: 1250,
       //   settings: {
