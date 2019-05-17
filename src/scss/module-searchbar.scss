@@ -110,7 +110,7 @@
   position: absolute;
   top: 61px;
   left: 1px;
-  right: -69px;
+  right: -50px;
   background: white;
   z-index: 1010;
 
@@ -136,6 +136,12 @@
       height: 100%;
       padding: 10px 15px;
     }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .suggestions {
+    right: -69px;
   }
 }
 
