@@ -144,7 +144,7 @@
           "headline": "iDAI.geoserver",
           "text": "This is an open platform for sharing geospatial data and maps.",
           "link": {
-            "target": "http://chronontology.dainst.org",
+            "target": "https://geoserver.dainst.org",
             "alt": "iDAI.geoserver"
           }
         }
