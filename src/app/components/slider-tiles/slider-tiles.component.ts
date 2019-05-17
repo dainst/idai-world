@@ -58,34 +58,6 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
           variableWidth: false
         }
       }
-      // {
-      //   breakpoint: 992,
-      //   settings: {
-      //     infinite: false,
-      //     slidesToShow: 3,
-      //     slidesToScroll: 3,
-      //     variableWidth: false
-      //   }
-      // }
-      // {
-      //   breakpoint: 1250,
-      //   settings: {
-      //     infinite: false,
-      //     slidesToShow: 3,
-      //     slidesToScroll: 3,
-      //     variableWidth: false
-      //   }
-      // }
-      // {
-      //   breakpoint: 1800,
-      //   settings: {
-      //     infinite: false,
-      //     rows: 2,
-      //     slidesToShow: 3,
-      //     slidesToScroll: 3,
-      //     variableWidth: true
-      //   }
-      // }
     ]
   };
 
