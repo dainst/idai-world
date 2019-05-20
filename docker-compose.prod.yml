@@ -3,7 +3,7 @@ version: "3.7"
 services:
 
   nginx:
-    image: "dainst/idai-portal-nginx:0.0.1"
+    image: "dainst/idai-portal-nginx:latest"
     volumes:
       - config:/app/config
     expose:
