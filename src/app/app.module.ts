@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { Angulartics2Module } from 'angulartics2';
+import { Angulartics2Piwik } from 'angulartics2/piwik';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -27,7 +29,13 @@ import { registerLocaleData } from '@angular/common';
 registerLocaleData(localeDe, 'de');
 
 @NgModule({
-  imports: [BrowserModule, AppRoutingModule, CoreModule, ComponentsModule],
+  imports: [
+      BrowserModule,
+      AppRoutingModule,
+      CoreModule,
+      ComponentsModule,
+      Angulartics2Module.forRoot()
+  ],
   declarations: [AppComponent, NotFoundComponent],
   providers: [
     {

@@ -7,6 +7,7 @@ import {
 } from '@angular/router';
 import { DOCUMENT } from '@angular/common';
 import { filter } from 'rxjs/operators';
+import { Angulartics2Piwik } from 'angulartics2/piwik';
 
 import * as $ from 'jquery';
 
@@ -21,7 +22,8 @@ export class AppComponent {
 
   constructor(
     @Inject(DOCUMENT) private document: Document,
-    private router: Router
+    private router: Router,
+    private angulartics2Piwik: Angulartics2Piwik
   ) {
     router.events
       .pipe(filter(e => e instanceof NavigationEnd))
@@ -43,6 +45,8 @@ export class AppComponent {
     //     s
     //   }
     // });
+
+    angulartics2Piwik.startTracking();
 
     this.interceptLinks();
   }
