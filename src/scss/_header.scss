@@ -1,89 +1,7 @@
 $bg-color-left: #6aa4b8;
 $bg-color-right: #477bc7;
 
-@mixin header-md() {
-  header.header {
-    max-height: 70px;
-  }
-
-  .header .header__inner {
-    transition: 0.3s all;
-    align-items: center;
-    padding: 8px 10px;
-    height: 100%;
-  }
-
-  .header .header__container {
-    transition: 0.3s all;
-    width: 50px;
-    margin-bottom: auto;
-  }
-
-  .ico-logo-subpage {
-    transition: 0.3s all;
-    width: 120px;
-    height: 60px;
-  }
-
-  .header i.ico-griffin {
-    transition: 0.3s all;
-    width: 45px;
-    height: 34px;
-    // margin-top: 10px;
-    margin-right: 20px;
-  }
-
-  .nav-trigger.active {
-    transition: 0.3s all;
-    transform: translateY(0);
-  }
-
-  .nav-trigger {
-    transition: 0.3s all;
-    margin-left: 5px;
-    max-height: 45px;
-    padding-top: 3px;
-  }
-
-  .nav-trigger span {
-    transition: 0.3s all;
-    width: 40px;
-    height: 6px;
-  }
-
-  .nav-trigger span + span {
-    transition: 0.3s all;
-    margin-top: 8px;
-  }
-
-  .nav-trigger.active span {
-    transition: 0.3s all;
-    height: 5px;
-  }
-
-  .nav-trigger.active span + span {
-    transition: 0.3s all;
-    margin-top: 11px;
-  }
-}
-
-@mixin header-sm {
-  .header {
-    .header__inner {
-      padding: 20px;
-    }
-
-    i.ico-griffin {
-      width: 60px;
-      height: 45px;
-    }
-
-    .header__container {
-      width: 60px;
-      margin-bottom: 5px;
-    }
-  }
-}
+$transition-time: 0.4s;
 
 .header {
   position: absolute;
@@ -93,15 +11,19 @@ $bg-color-right: #477bc7;
   z-index: 1000;
 
   .header__inner {
-    padding: 25px 40px;
+    padding: 0px 20px;
+    height: 55px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
-  }
 
-  .header__container {
-    width: 90px;
-    margin-bottom: 22px;
+    transition: all $transition-time ease-out;
+
+    .logo,
+    .nav-trigger,
+    .ico-griffin {
+      transition: all $transition-time ease-out;
+    }
   }
 }
 
@@ -110,50 +32,93 @@ $bg-color-right: #477bc7;
 }
 
 .shrink {
-  @media (min-width: 993px) {
-    @include header-md();
-  }
+  .header {
+    .header__inner {
+      padding: 0px 20px !important;
+      height: 55px !important;
+    }
 
-  .header .logo i {
-    width: 142px;
-    height: 40px;
-  }
-}
+    .nav-trigger {
+      span {
+        width: 26px;
+        height: 6px;
 
-@media (max-width: 767px) {
-  @include header-sm;
-}
+        & + span {
+          margin-top: 5px;
+        }
+      }
 
-@media (min-width: 768px) and (max-width: 992px) {
-  .header__subpage .logo i {
-    // width: 71px;
-    // height: 40px;
-    width: 142px;
-    height: 40px;
-  }
-}
+      &.active {
+        span:nth-child(1) {
+          transform: translateY(11px) rotate(45deg);
+        }
 
-/* ------------------------------------------------------------ *\
-	Header Subpage
-\* ------------------------------------------------------------ */
-.header__subpage {
-  max-height: 150px;
-  height: 100%;
-}
+        span:nth-child(2) {
+          opacity: 0;
+        }
 
-@media screen and (max-width: 767px) {
-  .header__subpage .logo i {
-    // width: 71px;
-    // height: 40px;
-  }
-}
+        span:nth-child(3) {
+          transform: translateY(-11px) rotate(-45deg);
+        }
+      }
+    }
 
-@media screen and (min-width: 1801px) {
-  .header__subpage .header__inner {
-    height: 150px;
+    .ico-griffin {
+      transform: scale(1);
+    }
+
+    .logo {
+      transform: scale(1);
+    }
   }
 }
 
-@media (max-width: 992px) {
-  @include header-md();
+@include media-breakpoint-up(sm) {
+  .header {
+    .header__inner {
+      height: 70px;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .header {
+    .header__inner {
+      padding: 0px 40px;
+      height: 150px;
+    }
+
+    .nav-trigger {
+      span {
+        width: 50px;
+        height: 10px;
+
+        & + span {
+          margin-top: 10px;
+        }
+      }
+
+      &.active {
+        span:nth-child(1) {
+          transform: translateY(20px) rotate(45deg);
+        }
+
+        span:nth-child(2) {
+          opacity: 0;
+        }
+
+        span:nth-child(3) {
+          transform: translateY(-20px) rotate(-45deg);
+        }
+      }
+    }
+
+    .ico-griffin {
+      transform: scale(1.5) translateX(-15px);
+    }
+
+    .logo {
+      transform: scale(2.575);
+    }
+  }
 }

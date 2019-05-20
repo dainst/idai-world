@@ -62,7 +62,7 @@
       (blur)="onSearchInputBlur()"
     />
 
-    <div class="suggestions">
+    <div *ngIf="isInputFocused" class="suggestions">
       <ul>
         <li
           *ngFor="let suggestion of suggestions; index as idx"

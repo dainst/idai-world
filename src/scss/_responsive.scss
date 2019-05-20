@@ -112,22 +112,22 @@
     // margin: auto;
   }
 
-  .tile__content.tile--head-up {
-    max-height: 85px;
-    padding: 10px;
-  }
+  // .tile__content.tile--head-up {
+  //   max-height: 85px;
+  //   padding: 10px;
+  // }
 
-  .tile__content.tile--head-up .headline {
-    font-size: 16px;
-    line-height: 20px;
-    padding: 0;
-  }
+  // .tile__content.tile--head-up .headline {
+  //   font-size: 16px;
+  //   line-height: 20px;
+  //   padding: 0;
+  // }
 
-  .tile__content.tile--head-up .description {
-    font-size: 14px;
-    line-height: 20px;
-    padding: 0;
-  }
+  // .tile__content.tile--head-up .description {
+  //   font-size: 14px;
+  //   line-height: 20px;
+  //   padding: 0;
+  // }
 
   .section__three-tiles.two--tiles .col-xl-auto {
     padding: 0;
@@ -270,53 +270,6 @@
 // Small devices (landscape phones, 576px and below) -------------------------------------------------------------------
 @media (max-width: 576px) {
   /* ------------------------------ *\
-      Header
-  \* ------------------------------ */
-  header.header {
-    max-height: 55px;
-  }
-
-  .header .header__inner {
-    align-items: center;
-    padding-top: 8px;
-  }
-
-  .header .header__container {
-    width: 40px;
-  }
-
-  .header i.ico-griffin {
-    width: 40px;
-    height: 30px;
-    margin-top: 4px;
-  }
-
-  .nav-trigger {
-    margin-left: 0;
-  }
-
-  .nav-trigger span {
-    width: 27px;
-    height: 4px;
-  }
-
-  .nav-trigger.active span {
-    height: 4px;
-  }
-
-  .nav-trigger span + span {
-    margin-top: 6px;
-  }
-
-  .nav-trigger.active span + span {
-    margin-top: 4px;
-  }
-
-  .nav-trigger.active {
-    transform: translateY(0);
-  }
-
-  /* ------------------------------ *\
       Subpage Banner
   \* ------------------------------ */
   .section__subpage-banner {
@@ -378,16 +331,16 @@
     margin: auto;
   }
 
-  .tile__content.tile--head-up {
-    max-height: inherit;
-    padding: 15px;
-    height: auto;
-  }
+  // .tile__content.tile--head-up {
+  //   max-height: inherit;
+  //   padding: 15px;
+  //   height: auto;
+  // }
 
-  .tile__content.tile--head-up .headline {
-    font-size: 20px;
-    line-height: 26px;
-  }
+  // .tile__content.tile--head-up .headline {
+  //   font-size: 20px;
+  //   line-height: 26px;
+  // }
 
   /* ------------------------------ *\
       Section Systems

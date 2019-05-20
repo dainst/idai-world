@@ -3,20 +3,20 @@
 \* ------------------------------------------------------------ */
 
 .navs {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0; 
-	visibility: hidden;
-	opacity: 0;
-	transition: .5s;
-	transform: translateX(-100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateX(-100%);
 
-	&.active {
-		visibility: visible;
-		opacity: 1;
-		transform: translateX(0);
-	}
+  &.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /* ------------------------------------------------------------ *\
@@ -24,67 +24,66 @@
 \* ------------------------------------------------------------ */
 
 .nav {
-	z-index: 10;
-	min-height: 600px; 
-	padding: 120px 20px 30px 125px; 
-	flex-direction: column;
+  z-index: 10;
+  min-height: 600px;
+  padding: 120px 20px 30px 125px;
+  flex-direction: column;
 
-	ul {
-		margin-bottom: 0;
-	}
+  ul {
+    margin-bottom: 0;
+  }
 
-	h3 {
-		margin-bottom: 15px;
-	}
+  h3 {
+    margin-bottom: 15px;
+  }
 
-	li {
-		font-size: 25px;
-		line-height: 1; 
-		& + li {
-			margin-top: 25px;
-		}
-	}
+  li {
+    font-size: 25px;
+    line-height: 1;
+    & + li {
+      margin-top: 25px;
+    }
+  }
 
-	a {
-		transition: .3s;
+  a {
+    transition: 0.3s;
 
-		&:hover {
-			opacity: .5;
-		}
-	}
+    &:hover {
+      opacity: 0.5;
+    }
+  }
 }
 
-@media( max-width: 1024px ) {
-	.nav {
-		min-height: 500px;
-		padding: 120px 40px 30px;
+@media (max-width: 1024px) {
+  .nav {
+    min-height: 500px;
+    padding: 120px 40px 30px;
 
-		li {
-			font-size: 18px;
-		}
-	}
+    li {
+      font-size: 18px;
+    }
+  }
 }
 
-@media( max-width: 767px ) {
-	.navs {
-		overflow-y: auto; 
-	}
-	
-	.nav {
-		min-height: auto;
-		padding: 15px;
+@media (max-width: 767px) {
+  .navs {
+    overflow-y: auto;
+  }
 
-		li {
+  .nav {
+    min-height: auto;
+    padding: 15px;
 
-			& + li {
-				margin-top: 15px;
-			}
-		}
-	}
+    li {
+      & + li {
+        margin-top: 15px;
+      }
+    }
+  }
 
-	.nav--first {
-		padding-top: 60px;
-	}
+  .nav--first {
+    padding-top: 60px;
+  }
 }
 
 /* ------------------------------------------------------------ *\
@@ -92,75 +91,75 @@
 \* ------------------------------------------------------------ */
 
 .nav-trigger {
-	position: relative;
-	z-index: 1111;
-	display: flex;
-	flex-direction: column;
+  position: relative;
+  z-index: 1111;
+  display: flex;
+  flex-direction: column;
 
-	span {
-		display: inline-block;
-		width: 58px;
-		height: 12px; 
-		background-color: #fff;
-		transition: .4s;
+  span {
+    display: inline-block;
+    // width: 58px;
+    // height: 12px;
+    width: 26px;
+    height: 6px;
+    background-color: #fff;
+    transition: 0.4s;
 
-		& + span {
-			margin-top: 11px;
-		}
-	}
+    & + span {
+      margin-top: 5px;
+    }
+  }
 
+  &.active {
+    // span {
+    //   height: 6px;
+    // }
 
-	&.active {
-		span {
-			height: 6px;
-		}
+    span:nth-child(1) {
+      transform: translateY(11px) rotate(45deg);
+    }
 
-		span:nth-child(1) {
-			transform: translateY(16px) rotate(45deg);
-		}
+    span:nth-child(2) {
+      opacity: 0;
+    }
 
-		span:nth-child(2) {
-			opacity: 0;
-		}
-
-		span:nth-child(3) {
-			transform: translateY(-16px) rotate(-45deg);
-		}
-	}
+    span:nth-child(3) {
+      transform: translateY(-11px) rotate(-45deg);
+    }
+  }
 }
 
-@media( max-width: 767px ) {
-	.nav-trigger {
-		transition: .5s;
-		span {
-			width: 26px; 
-			height: 6px;
+@media (max-width: 767px) {
+  //   .nav-trigger {
+  //     transition: 0.5s;
+  //     span {
+  //       width: 26px;
+  //       height: 6px;
 
-			& + span {
-				margin-top: 5px;
-			}
-		}
+  //       & + span {
+  //         margin-top: 5px;
+  //       }
+  //     }
 
-		&.active {
-			transform: translateY(-25px);
-			span {
-				height: 3px;
-			}
+  //     &.active {
+  //       transform: translateY(-25px);
+  //       span {
+  //         height: 3px;
+  //       }
 
-			span:nth-child(1) {
-				transform: translateY(8px) rotate(45deg);
-			}
+  //       span:nth-child(1) {
+  //         transform: translateY(8px) rotate(45deg);
+  //       }
 
-			span:nth-child(3) {
-				transform: translateY(-8px) rotate(-45deg);
-			}
-		}
-	}
+  //       span:nth-child(3) {
+  //         transform: translateY(-8px) rotate(-45deg);
+  //       }
+  //     }
+  //   }
 
-	.navs {
-		overflow-y: auto;
-		height: 100%;
-		min-height: 100vh;
-	}
-
+  .navs {
+    overflow-y: auto;
+    height: 100%;
+    min-height: 100vh;
+  }
 }
