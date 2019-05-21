@@ -5,8 +5,22 @@
       <dai-link [useContent]="true" [data]="image.link">
         <div class="slider__slides">
           <div class="slider__slide">
-            <div class="section__image">
-              <img [src]="image.src" class="img-fluid" style="width: 100%" />
+            <div
+              class="section__image"
+              class="section__image"
+              [style.height]="slideHeight ? slideHeight : null"
+              [style.backgroundPositionX]="slideHeight ? align : null"
+              [style.backgroundSize]="slideHeight ? backgroundSize : null"
+              [style.backgroundImage]="
+                slideHeight ? 'url(' + image.src + ')' : null
+              "
+            >
+              <img
+                *ngIf="!slideHeight"
+                [src]="image.src"
+                class="img-fluid"
+                style="width: 100%"
+              />
               <div
                 *ngIf="image.title || image.description"
                 class="section__content"

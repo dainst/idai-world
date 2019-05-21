@@ -7,6 +7,8 @@
     },
     {
       "type": "slider_image",
+      "height": "500px",
+      "comment": "setting no height makes the image repsonse and it will always scale proportially fit the widht of the viewport",
       "content": [
         {
           "src": "assets/images/content/home/idai_home_images_objects_1.jpg",

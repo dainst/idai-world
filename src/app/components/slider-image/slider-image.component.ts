@@ -52,7 +52,7 @@ export class SliderImageComponent extends SliderBase {
       title = '',
       description = '',
       content = [],
-      height = '500px',
+      height = '',
       backgroundSize = '',
       fullWidth = true,
       align
