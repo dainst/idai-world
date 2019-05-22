@@ -31,6 +31,7 @@ export class ArachneSearchbarComponent implements OnInit {
   public isInputFocused = false;
 
   private termChange: Subject<any> = new Subject();
+  private inputFocusChange: Subject<boolean> = new Subject();
 
   constructor(@Inject(GLOBALS) private globals, private http: HttpClient) {
     this.termChange
@@ -39,6 +40,13 @@ export class ArachneSearchbarComponent implements OnInit {
         distinctUntilChanged()
       )
       .subscribe(term => this.search(term));
+
+    this.inputFocusChange
+      .pipe(
+        debounceTime(300),
+        distinctUntilChanged()
+      )
+      .subscribe(isFocused => (this.isInputFocused = isFocused));
   }
 
   ngOnInit() {
@@ -66,13 +74,13 @@ export class ArachneSearchbarComponent implements OnInit {
   }
 
   onSearchInputFocus() {
-    this.isInputFocused = true;
     this.selectedSuggestionIndex = -1;
+    this.inputFocusChange.next(true);
   }
 
   onSearchInputBlur() {
-    this.isInputFocused = false;
     this.selectedSuggestionIndex = -1;
+    this.inputFocusChange.next(false);
   }
 
   onSearchInputKeyup(event: KeyboardEvent) {
