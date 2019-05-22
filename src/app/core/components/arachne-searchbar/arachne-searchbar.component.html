@@ -5,12 +5,13 @@
       class="btn dropdown-toggle"
       type="button"
       data-toggle="dropdown"
+      data-display="static"
       aria-haspopup="true"
       aria-expanded="false"
     >
       <span><i class="fas fa-chevron-right fa-fw"></i>Categories</span>
     </button>
-    <div class="dropdown-menu">
+    <div class="dropdown-menu dropdown-menu-lg-left">
       <div class="d-flex flex-wrap align-content-end">
         <a
           *ngFor="let category of categories"
@@ -28,18 +29,22 @@
       class="btn dropdown-toggle"
       type="button"
       data-toggle="dropdown"
+      data-display="static"
       aria-haspopup="true"
       aria-expanded="false"
     >
       <span><i class="fas fa-chevron-down"></i></span>
     </button>
 
-    <div class="dropdown-menu">
-      <div class="d-flex flex-wrap align-content-end">
+    <div class="dropdown-menu dropdown-menu-lg-left">
+      <div
+        class="d-flex flex-wrap flex-column align-content-start align-items-stretch"
+      >
         <a
           *ngFor="let category of categories"
           (click)="onCategoryClick(category)"
           class="dropdown-item"
+          [class.active]="selectedCategory === category"
           >{{ category }}</a
         >
       </div>

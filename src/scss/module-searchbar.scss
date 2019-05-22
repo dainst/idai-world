@@ -97,11 +97,17 @@
   padding: 30px 15px;
 
   .dropdown-item {
-    width: 33.333333%;
+    width: 100%;
     padding: 10px;
     white-space: normal;
     &:hover {
       background: rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .dropdown-item {
+      width: 33.33333%;
     }
   }
 }
