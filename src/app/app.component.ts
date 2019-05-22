@@ -18,7 +18,6 @@ import * as $ from 'jquery';
 })
 export class AppComponent {
   public isPageLoaded = false;
-  public showFooter = false;
 
   constructor(
     @Inject(DOCUMENT) private document: Document,
@@ -38,14 +37,6 @@ export class AppComponent {
         }
       });
 
-    // router.events.subscribe(e => {
-    //   if (e => e instanceof NavigationStart) {
-    //     console.log('nav start');
-    //   } else if (e instanceof NavigationEnd) {
-    //     s
-    //   }
-    // });
-
     angulartics2Piwik.startTracking();
 
     this.interceptLinks();
@@ -58,7 +49,6 @@ export class AppComponent {
 
     $(window).on('pageconfig_loaded', () => {
       me.isPageLoaded = true;
-      me.showFooter = true;
     });
 
     $(document).on('click', 'a', function(e) {
@@ -69,11 +59,9 @@ export class AppComponent {
 
       if (isExternal(href)) {
         e.preventDefault();
-        // console.log('Link intercepted', href);
+
         window.open(href, 'blank');
       } else {
-        me.showFooter = false;
-        // console.log('hide footer');
         e.preventDefault();
         router.navigateByUrl(href);
       }
