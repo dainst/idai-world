@@ -7,7 +7,6 @@
     },
     {
       "type": "slider_image",
-      "height": "500px",
       "comment": "setting no height makes the image repsonse and it will always scale proportially fit the widht of the viewport",
       "content": [
         {

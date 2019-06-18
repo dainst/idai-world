@@ -172,7 +172,7 @@
 \* ------------------------------------------------------------ */
 // adapted from node_modules/slick-carousel/slick-theme.scss
 
-$slick-dot-color: black !default;
+$slick-dot-color: white !default;
 $slick-dot-color-active: $slick-dot-color !default;
 $slick-dot-character: "\2022" !default;
 $slick-dot-size: 20px !default;
@@ -181,12 +181,12 @@ $slick-opacity-on-hover: 1 !default;
 $slick-opacity-not-active: 0.25 !default;
 
 .slick-dotted.slick-slider {
-  margin-bottom: 30px;
+  margin-bottom: -10px;
 }
 
 .slick-dots {
   position: absolute;
-  bottom: -25px;
+  bottom: 15px;
   list-style: none;
   display: block;
   text-align: center;

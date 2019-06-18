@@ -72,3 +72,47 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 767px){
+	.article {
+		padding: 30px;
+		overflow: hidden;
+	}
+
+	.article .article__inner {
+		display: block;
+	}
+
+    .article .article__image {
+       margin-bottom: 50px;
+    }
+
+	.article .article__image-container {
+		width: 25%;
+		margin-right: 5%;
+		float: left;
+	}
+	p.article__entry {
+		font-size: 16px;
+	}
+
+	h5 {
+		font-size: 20px;
+	}
+
+	p.article__date {
+		font-size: 12px;
+	}
+	.section-articles .section__body {
+		position: relative;
+		padding-bottom: 110px;
+	}
+
+	.section-articles a.link-more {
+		bottom: 10px;
+		padding: 30px;
+		display: block;
+	}
+
+
+}
