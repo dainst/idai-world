@@ -3,7 +3,6 @@
     <div class="tile__content tile--head-up tile--head-up-full" data-simplebar>
       <p class="headline" [innerHtml]="headline"></p>
       <p class="description" *ngIf="subhead" [innerHtml]="subhead"></p>
-      <p class="description" *ngIf="text" [innerHtml]="text"></p>
       <ul class="tile-link-list reveal-on-hov">
         <li *ngFor="let link of links">
           <dai-link [data]="link" [textLimit]="getTextLimit('text')"></dai-link>
