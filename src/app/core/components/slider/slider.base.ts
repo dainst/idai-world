@@ -4,7 +4,7 @@ import { ConfigurableComponent } from '../configurable/ConfigurableComponent';
 import { ViewChild, ElementRef, AfterViewInit, Input } from '@angular/core';
 
 export class SliderBase extends ConfigurableComponent implements AfterViewInit {
-  @ViewChild('slides') slides: ElementRef;
+  @ViewChild('slides', { static: true }) slides: ElementRef;
 
   enableSliding = true;
 

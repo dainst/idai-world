@@ -20,7 +20,7 @@ const BACKGROUND_SIZE = {
   styleUrls: ['./slider-image.component.scss']
 })
 export class SliderImageComponent extends SliderBase {
-  @ViewChild('slides') slides: ElementRef;
+  @ViewChild('slides', { static: true }) slides: ElementRef;
   public images: any[] = [];
 
   public slideHeight: string;

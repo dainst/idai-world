@@ -40,7 +40,7 @@ export interface NewsArticleConfig {
 })
 export class NewsArticleComponent implements OnInit, AfterViewInit {
   // @ViewChild('marker') markerElement: ElementRef<HTMLElement>;
-  @ViewChild('article') containerElement: ElementRef<HTMLElement>;
+  @ViewChild('article', { static: true }) containerElement: ElementRef<HTMLElement>;
   // @ViewChild('teaser') teaserElement: ElementRef<HTMLElement>;
 
   @Input() config: NewsArticleConfig;

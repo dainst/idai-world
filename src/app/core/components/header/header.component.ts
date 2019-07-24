@@ -24,8 +24,8 @@ import { clamp } from 'lodash';
 })
 export class HeaderComponent implements AfterViewInit {
   @HostBinding('class.shrink') pastThreshold = false;
-  @ViewChild('header') headerElement: ElementRef;
-  @ViewChild('headerInner') headerInnerElement: ElementRef;
+  @ViewChild('header', { static: true }) headerElement: ElementRef;
+  @ViewChild('headerInner', { static: true }) headerInnerElement: ElementRef;
 
   isSubPage = false;
 

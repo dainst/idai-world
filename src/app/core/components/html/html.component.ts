@@ -11,7 +11,7 @@ export class HtmlComponent extends ConfigurableComponent implements OnInit {
   public content: SafeHtml;
   public script: string;
 
-  @ViewChild('script') scriptTag: ElementRef;
+  @ViewChild('script', { static: true }) scriptTag: ElementRef;
 
   constructor(private sanitizer: DomSanitizer, private elementRef: ElementRef) {
     super();
