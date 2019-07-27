@@ -1,9 +1,9 @@
 import * as $ from 'jquery';
 
 import { ConfigurableComponent } from '../configurable/ConfigurableComponent';
-import { ViewChild, ElementRef, AfterViewInit } from '@angular/core';
+import { ViewChild, ElementRef, AfterViewInit, OnDestroy } from '@angular/core';
 
-export class SliderBase extends ConfigurableComponent implements AfterViewInit {
+export class SliderBase extends ConfigurableComponent implements AfterViewInit, OnDestroy {
   @ViewChild('slides', { static: true }) slides: ElementRef;
 
   enableSliding = true;
