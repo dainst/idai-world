@@ -1,0 +1,44 @@
+:host,
+dai-footer-menu {
+  display: block;
+  background-color: #6d8dbd;
+}
+
+.footer__menu {
+  background-color: #6d8dbd;
+  color: white;
+  padding: 40px 10px;
+
+  &.container {
+    max-width: 1000px;
+  }
+
+  > dai-navmenu {
+    display: flex;
+  }
+
+  > .container {
+    // max-width: 1000px;
+  }
+
+  .nav {
+    background-color: #6d8dbd;
+    color: white;
+
+    min-height: unset;
+    padding: 10px;
+
+    a,
+    h3 {
+      font-size: 14px;
+    }
+
+    h3 {
+      color: #82a7de;
+    }
+
+    li + li {
+      margin-top: 5px;
+    }
+  }
+}

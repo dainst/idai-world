@@ -16,6 +16,7 @@ import { SubNavigationComponent } from './components/sub-navigation/sub-navigati
 import { TitleBannerComponent } from './components/title-banner/title-banner.component';
 import { HtmlComponent } from './components/html/html.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
+import { FooterMenuComponent } from './components/footer-menu/footer-menu.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
     SubNavigationComponent,
     TitleBannerComponent,
     HtmlComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    FooterMenuComponent
   ],
   exports: [
     PageComponent,
@@ -42,7 +44,8 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
     SubNavigationComponent,
     TitleBannerComponent,
     HtmlComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    FooterMenuComponent
   ],
   entryComponents: [
     PageComponent,
