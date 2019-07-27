@@ -1,7 +1,7 @@
 import * as $ from 'jquery';
 
 import { ConfigurableComponent } from '../configurable/ConfigurableComponent';
-import { ViewChild, ElementRef, AfterViewInit, Input } from '@angular/core';
+import { ViewChild, ElementRef, AfterViewInit } from '@angular/core';
 
 export class SliderBase extends ConfigurableComponent implements AfterViewInit {
   @ViewChild('slides', { static: true }) slides: ElementRef;
@@ -13,10 +13,16 @@ export class SliderBase extends ConfigurableComponent implements AfterViewInit {
   jQ = $;
   sliderConfig: any;
 
+  private _jqInstance: any;
+
   ngAfterViewInit() {
     if (this.enableSliding) {
       this.initSlider(this.slides.nativeElement);
     }
+  }
+
+  ngOnDestroy() {
+    this._jqInstance && this._jqInstance.slick('unslick');
   }
 
   initSlider(element) {
@@ -24,14 +30,12 @@ export class SliderBase extends ConfigurableComponent implements AfterViewInit {
     sliderConfig.rows = this.numRows;
 
     if (!sliderConfig) {
-      console.warn(
-        `no config for slider provided. Add field "sliderConfig" to class [${
-          this.constructor.name
-        }]`
-      );
+      console.warn(`no config for slider provided. Add field "sliderConfig" to class [${this.constructor.name}]`);
       return;
     }
 
-    this.jQ(element).slick(sliderConfig);
+    this._jqInstance = this.jQ(element);
+
+    this._jqInstance.slick(sliderConfig);
   }
 }
