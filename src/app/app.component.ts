@@ -1,10 +1,5 @@
-import { Component, Inject } from '@angular/core';
-import {
-  Router,
-  NavigationEnd,
-  RouterEvent,
-  NavigationStart
-} from '@angular/router';
+import { Component, Inject, NgZone } from '@angular/core';
+import { Router, NavigationEnd, RouterEvent, NavigationStart } from '@angular/router';
 import { DOCUMENT } from '@angular/common';
 import { filter } from 'rxjs/operators';
 import { Angulartics2Piwik } from 'angulartics2/piwik';
@@ -22,20 +17,19 @@ export class AppComponent {
   constructor(
     @Inject(DOCUMENT) private document: Document,
     private router: Router,
-    private angulartics2Piwik: Angulartics2Piwik
+    private angulartics2Piwik: Angulartics2Piwik,
+    private zone: NgZone
   ) {
-    router.events
-      .pipe(filter(e => e instanceof NavigationEnd))
-      .subscribe((event: RouterEvent) => {
-        const isHome = event.url === '' || event.url === '/';
-        if (!isHome) {
-          this.document.body.classList.add('subpage');
-          this.document.body.classList.remove('isHome');
-        } else {
-          this.document.body.classList.remove('subpage');
-          this.document.body.classList.add('isHome');
-        }
-      });
+    router.events.pipe(filter(e => e instanceof NavigationEnd)).subscribe((event: RouterEvent) => {
+      const isHome = event.url === '' || event.url === '/';
+      if (!isHome) {
+        this.document.body.classList.add('subpage');
+        this.document.body.classList.remove('isHome');
+      } else {
+        this.document.body.classList.remove('subpage');
+        this.document.body.classList.add('isHome');
+      }
+    });
 
     angulartics2Piwik.startTracking();
 
@@ -43,7 +37,8 @@ export class AppComponent {
   }
 
   interceptLinks() {
-    const router = this.router;
+    const { router, zone } = this;
+
     const isExternal = (href: string = '') => href.startsWith('http');
     const me = this;
 
@@ -63,7 +58,10 @@ export class AppComponent {
         window.open(href, 'blank');
       } else {
         e.preventDefault();
-        router.navigateByUrl(href);
+
+        zone.run(() => {
+          router.navigateByUrl(href);
+        });
       }
     });
   }
