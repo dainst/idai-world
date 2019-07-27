@@ -95,39 +95,10 @@
   /* ------------------------------ *\
       Tiles
   \* ------------------------------ */
-  .section__three-tiles .tile.tile--square {
-    // max-width: 220px;
-    // height: auto;
-    // margin: auto;
-    // overflow: hidden;
-  }
 
   .section__three-tiles .row > div {
     margin: 5px 0;
   }
-
-  .tile--square .tile__image {
-    // max-width: 220px;
-    // height: auto;
-    // margin: auto;
-  }
-
-  // .tile__content.tile--head-up {
-  //   max-height: 85px;
-  //   padding: 10px;
-  // }
-
-  // .tile__content.tile--head-up .headline {
-  //   font-size: 16px;
-  //   line-height: 20px;
-  //   padding: 0;
-  // }
-
-  // .tile__content.tile--head-up .description {
-  //   font-size: 14px;
-  //   line-height: 20px;
-  //   padding: 0;
-  // }
 
   .section__three-tiles.two--tiles .col-xl-auto {
     padding: 0;
@@ -136,11 +107,6 @@
   /* ------------------------------ *\
       Slider
   \* ------------------------------ */
-  .tiles-slider .slick-slide {
-    // width: 220px;
-    // height: auto;
-    // margin-right: 30px;
-  }
 
   .tiles-slider .slick-slide .slide {
     width: 100% !important;
@@ -148,58 +114,6 @@
 
   .tiles-slider .slick-slide > div {
     width: auto !important;
-  }
-
-  .tiles-slider .slick-next:before {
-    content: "";
-    background: url(assets/images/arrow-right-blue.png);
-    background-size: cover;
-    height: 50px;
-    width: 30px;
-    position: absolute;
-    left: 33px;
-    top: 15%;
-  }
-
-  .tiles-slider .slick-prev:before {
-    content: "";
-    background: url(assets/images/arrow-right-blue.png);
-    background-size: cover;
-    height: 50px;
-    width: 30px;
-    position: absolute;
-    left: -25px;
-    top: 15%;
-  }
-
-  .section__slider.partners-slider .slick-next {
-    right: 0;
-  }
-
-  .section__slider.partners-slider .slick-prev {
-    left: 0;
-  }
-
-  .section__three-tiles.tiles-slider.tiles-slider-two-rows .slick-next:before {
-    content: "";
-    background: url(assets/images/arrow-right.png);
-    background-size: cover;
-    height: 50px;
-    width: 30px;
-    position: absolute;
-    left: 33px;
-    top: 15%;
-  }
-
-  .section__three-tiles.tiles-slider.tiles-slider-two-rows .slick-prev:before {
-    content: "";
-    background: url(assets/images/arrow-right.png);
-    background-size: cover;
-    height: 50px;
-    width: 30px;
-    position: absolute;
-    left: -25px;
-    top: 15%;
   }
 
   /* ------------------------------ *\
@@ -239,9 +153,7 @@
     text-align: center;
   }
 
-  .section__overview-table.decoration-bg-blue
-    .section__body
-    .row:not(:first-of-type) {
+  .section__overview-table.decoration-bg-blue .section__body .row:not(:first-of-type) {
     padding-top: 50px;
   }
 
@@ -331,17 +243,6 @@
     margin: auto;
   }
 
-  // .tile__content.tile--head-up {
-  //   max-height: inherit;
-  //   padding: 15px;
-  //   height: auto;
-  // }
-
-  // .tile__content.tile--head-up .headline {
-  //   font-size: 20px;
-  //   line-height: 26px;
-  // }
-
   /* ------------------------------ *\
       Section Systems
   \* ------------------------------ */
@@ -362,40 +263,6 @@
   \* ------------------------------ */
   .section__systems + .section__three-tiles.tiles-slider {
     padding-top: 50px !important;
-  }
-
-  .section__three-tiles.tiles-slider .section__body {
-    // padding-left: 25px;
-  }
-
-  .tiles-slider .slick-next:before {
-    content: "";
-    background: url(assets/images/arrow-right-blue.png);
-    background-size: cover;
-    height: 50px;
-    width: 30px;
-    position: absolute;
-    left: 15px;
-    top: 15%;
-  }
-
-  .tiles-slider .slick-prev:before {
-    content: "";
-    background: url(assets/images/arrow-right-blue.png);
-    background-size: cover;
-    height: 50px;
-    width: 30px;
-    position: absolute;
-    left: -35px;
-    top: 15%;
-  }
-
-  .section__three-tiles.tiles-slider.tiles-slider-two-rows .slick-next:before {
-    left: 15px;
-  }
-
-  .section__three-tiles.tiles-slider.tiles-slider-two-rows .slick-prev:before {
-    left: -35px;
   }
 
   /* ------------------------------ *\
@@ -447,9 +314,7 @@
     text-align: center;
   }
 
-  .section__overview-table.decoration-bg-blue
-    .section__body
-    .row:not(:first-of-type) {
+  .section__overview-table.decoration-bg-blue .section__body .row:not(:first-of-type) {
     padding-top: 25px;
   }
 

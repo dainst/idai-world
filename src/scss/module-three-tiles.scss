@@ -1,3 +1,6 @@
+@import "~bootstrap/scss/mixins/breakpoints";
+@import "./variables";
+
 .section__three-tiles .section__body {
   padding-top: 20px;
 }
@@ -9,6 +12,10 @@
 
 .section__three-tiles .slide .tile.tile--square {
   margin: 0 25px;
+
+  @include media-breakpoint-down(xsm) {
+    margin-right: 0;
+  }
 }
 .section__three-tiles .multi-row .slide .tile.tile--square {
   margin: 1.5rem;

@@ -35,3 +35,13 @@ $dark-gray: #a6a6a6;
 $darker-gray: #565551;
 $burdo: #67041c;
 $blue: #5882c2;
+
+$grid-breakpoints: (
+  xs: 0,
+  xsm: 450px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1800px
+) !default;

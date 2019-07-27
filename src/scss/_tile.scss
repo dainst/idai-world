@@ -208,12 +208,11 @@
 }
 
 .tile__content.tile--head-up {
-  font-size: 5vw;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 1.2em;
 
   .tile-link-list {
     margin-top: 0.5em;
-    // line-height: 1em;
   }
 
   .tile-link-list a {
@@ -230,35 +229,50 @@
 
 .tile__content.tile--head-up .description {
   font-family: "Open Sans", sans-serif;
-  line-height: 1;
+  line-height: 1.2em;
   font-size: 0.8em;
 }
 // bootstrap breakpoint mixins
+
+@include media-breakpoint-up(xsm) {
+  .tile__content.tile--head-up {
+    font-size: 11px;
+  }
+}
+
 @include media-breakpoint-up(sm) {
   .tile__content.tile--head-up {
-    font-size: 2.5vw;
+    font-size: 14px;
   }
 }
 @include media-breakpoint-up(md) {
   .tile__content.tile--head-up {
+    font-size: 18px;
   }
 }
 @include media-breakpoint-up(lg) {
   .tile__content.tile--head-up {
-    font-size: 1.5vw;
+    font-size: 18px;
   }
 }
 @include media-breakpoint-up(xl) {
   .tile__content.tile--head-up {
+    font-size: 28px;
   }
 }
 
-@media (hover: none) {
-  .tile--head-up-full {
-    bottom: -50% !important;
-  }
-
-  .reveal-on-hov {
-    opacity: 1 !important;
+@include media-breakpoint-up(xxl) {
+  .tile__content.tile--head-up {
+    font-size: 28px;
   }
 }
+
+// @media (hover: none) {
+//   .tile--head-up-full {
+//     bottom: -50% !important;
+//   }
+
+//   .reveal-on-hov {
+//     opacity: 1 !important;
+//   }
+// }
