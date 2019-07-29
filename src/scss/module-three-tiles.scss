@@ -12,10 +12,6 @@
 
 .section__three-tiles .slide .tile.tile--square {
   margin: 0 25px;
-
-  @include media-breakpoint-down(xsm) {
-    margin-right: 0;
-  }
 }
 .section__three-tiles .multi-row .slide .tile.tile--square {
   margin: 1.5rem;
@@ -25,32 +21,8 @@
   padding-bottom: 0;
 }
 
-// .tile__content.tile--head-up .headline {
-//   font-family: "Cargan", serif;
-//   font-size: 25px;
-//   line-height: 30px;
-// }
-
-// .tile__content.tile--head-up .description {
-//   font-family: "Open Sans", sans-serif;
-//   line-height: 1;
-//   font-size: 15px;
-// }
-
 .tile__content.tile--head-up p {
   margin-bottom: 1px;
-}
-
-@media screen and (max-width: 1600px) {
-  // .tile__content.tile--head-up .headline {
-  //   font-size: 18px;
-  //   line-height: 25px;
-  // }
-
-  // .tile__content.tile--head-up .description {
-  //   font-size: 14px;
-  //   line-height: 18px;
-  // }
 }
 
 @media screen and (max-width: 1230px) {

@@ -342,22 +342,6 @@
 // Very small devices (portrait phones, 375px and below) -------------------------------------------------------------------
 @media (max-width: 375px) {
   /* ------------------------------ *\
-      Slider
-  \* ------------------------------ */
-  .tiles-slider .slick-slide {
-    margin-right: 28px;
-    margin-left: 2px;
-  }
-
-  /* ------------------------------ *\
-      Systems Module
-  \* ------------------------------ */
-  .section__systems .tile__content p {
-    font-size: 18px;
-    line-height: 22px;
-  }
-
-  /* ------------------------------ *\
       Tiles
   \* ------------------------------ */
   .section__three-tiles.two--tiles .col-xl-auto {

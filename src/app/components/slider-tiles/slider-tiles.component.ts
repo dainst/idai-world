@@ -59,7 +59,7 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
         }
       },
       {
-        breakpoint: 768,
+        breakpoint: 960,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
