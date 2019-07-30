@@ -26,7 +26,7 @@
       "text_html": "config/pages/kitchen-sink/kitchen-sink.intro_text.html",
       "enableSliding": false,
       "_textLimits": {
-        "title": 5,
+        "title": 1,
         "headline": 6,
         "subhead": 10,
         "headline+subhead": [5, 5],
@@ -77,10 +77,13 @@
         {
           "type": "text",
           "image": "assets/images/temp/circle-hover.jpg",
-          "headline": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ",
+          "headline": "Link auf Google ",
           "subhead": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ",
-
-          "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed..."
+          "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed...",
+          "link": {
+            "target": "https://google.de",
+            "text": "External Link to 'Google'"
+          }
         },
 
         {
@@ -106,9 +109,13 @@
         {
           "type": "text",
           "image": "assets/images/temp/circle-hover.jpg",
-          "headline": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ",
+          "headline": "Link auf what/images",
           "subhead": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ",
-          "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed..."
+          "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed...",
+          "link": {
+            "target": "route:///what/images",
+            "text": "Internal link to what -> images"
+          }
         },
         {
           "type": "link_list",
@@ -382,7 +389,11 @@
           "headline": "Text Tile",
           "subhead": "text tile subheading",
           "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed...",
-          "text_html": "config/pages/kitchen-sink/kitchen-sink.slider_tile_2.html"
+          "text_html": "config/pages/kitchen-sink/kitchen-sink.slider_tile_2.html",
+          "link": {
+            "target": "https://google.de",
+            "text": "External Link to 'Google'"
+          }
         },
 
         {
@@ -411,7 +422,11 @@
           "headline": "Text Tile",
           "subhead": "text tile subheading",
           "text": "a really long text can go here...<br>that can contain <b>markup</b>...<br> <a href='https://google.de'>External link</a>but only certain elements are allowed...",
-          "text_html": "config/pages/kitchen-sink/kitchen-sink.slider_tile_2.html"
+          "text_html": "config/pages/kitchen-sink/kitchen-sink.slider_tile_2.html",
+          "link": {
+            "target": "route://",
+            "text": "Internal link to home"
+          }
         },
         {
           "type": "link_list",
@@ -513,18 +528,11 @@
           "children": [
             {
               "title": "Director Informationtechnology",
-              "children": [
-                { "title": "Technical IT" },
-                { "title": "Scientific IT" }
-              ]
+              "children": [{ "title": "Technical IT" }, { "title": "Scientific IT" }]
             },
             {
               "title": "Director Libraries",
-              "children": [
-                { "title": "Editorial Office Berlin" },
-                { "title": "Libraries" },
-                { "title": "Archieves" }
-              ]
+              "children": [{ "title": "Editorial Office Berlin" }, { "title": "Libraries" }, { "title": "Archieves" }]
             }
           ]
         }

@@ -14,7 +14,7 @@ export class LinkComponent {
   @Input() textLimit = Infinity;
 
   @Input() set data(value: LinkConfig) {
-    const { target = '', text = '' } = value || {};
+    const { target = '', text = '' } = value || { target: location.pathname };
     this.text = text;
     const link = parseLink(target);
     this.type = link.type;
@@ -24,6 +24,4 @@ export class LinkComponent {
   type: string;
   link: string;
   text: string;
-
-  constructor() {}
 }
