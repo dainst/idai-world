@@ -3,7 +3,7 @@
     <div class="tile__image" [style.backgroundImage]="'url(' + image + ')'">
       <div class="tile__content tile--head-up tile--head-up-full" data-simplebar>
         <p class="headline" [innerHtml]="headline"></p>
-        <p class="description" [innerHtml]="subhead"></p>
+        <p class="description subhead" [innerHtml]="subhead"></p>
         <p class="description reveal-on-hov mt-3" [innerHtml]="text | slice: 0:getTextLimit('text')"></p>
       </div>
     </div>

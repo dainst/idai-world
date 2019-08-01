@@ -225,6 +225,24 @@
   font-size: 1em;
   line-height: 1.2em;
   margin-bottom: 0.4em;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  //  line-height: X;        /* fallback */
+  max-height: 1.2em;
+}
+
+.tile__content.tile--head-up .subhead {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  //  line-height: X;        /* fallback */
+  max-height: 1.2em;
 }
 
 .tile__content.tile--head-up .description {
@@ -234,11 +252,11 @@
 }
 // bootstrap breakpoint mixins
 
-@include media-breakpoint-up(xsm) {
-  .tile__content.tile--head-up {
-    font-size: 11px;
-  }
-}
+// @include media-breakpoint-up(sm) {
+//   .tile__content.tile--head-up {
+//     font-size: 11px;
+//   }
+// }
 
 @include media-breakpoint-up(sm) {
   .tile__content.tile--head-up {
