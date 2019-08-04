@@ -28,6 +28,10 @@ dai-footer-menu {
     min-height: unset;
     padding: 10px;
 
+    &.nav--first {
+      padding-top: 7px;
+    }
+
     a,
     h3 {
       font-size: 14px;
