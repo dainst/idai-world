@@ -1,10 +1,17 @@
-import { Input, AfterViewInit, ElementRef, OnInit, OnDestroy } from '@angular/core';
+import {
+  Input,
+  AfterViewInit,
+  ElementRef,
+  OnInit,
+  OnDestroy
+} from '@angular/core';
 import { Subscription, fromEvent } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 
 export class TileBase implements AfterViewInit, OnInit, OnDestroy {
   @Input() set data(value: any) {
-    const { image = '', headline = '', subhead = '', textLimits = {} } = value || {};
+    const { image = '', headline = '', subhead = '', textLimits = {} } =
+      value || {};
     this.textLimits = textLimits;
     this.image = image;
     this.headline = this.limitText(headline, this.getTextLimit('headline'));
@@ -32,6 +39,11 @@ export class TileBase implements AfterViewInit, OnInit, OnDestroy {
         })
     );
   }
+
+  ngAfterViewInit() {
+    setTimeout(() => this.checkTextBounds(), 0);
+  }
+
   ngOnDestroy() {
     this.subscriptions.unsubscribe();
   }
@@ -43,29 +55,27 @@ export class TileBase implements AfterViewInit, OnInit, OnDestroy {
       const headlineStyles = window.getComputedStyle(headlineElement);
 
       const textWidth = this.measureText(this.headline, headlineStyles.font);
-      const headlineWidth = headlineElement.offsetWidth;
+      const headlineWidth =
+        headlineElement.offsetWidth -
+        (parseFloat(headlineStyles.paddingLeft) +
+          parseFloat(headlineStyles.paddingRight));
+      // console.log('Width for ', this.headline, headlineWidth);
       const subheadElement: HTMLElement = this.findElement('.subhead');
       if (subheadElement && textWidth > headlineWidth) {
-        // the headline text is bigger that one line
-        // => hide the subhead
-        // => allow the headline to be two lines
-        subheadElement.style.visibility = 'hidden';
+        // console.log('changing', this.headline);
 
-        const newLineHeight = parseFloat(headlineStyles.lineHeight) * 2 + 'px';
-        headlineElement.style.maxHeight = headlineElement.style.height = newLineHeight;
+        if (!subheadElement.classList.contains('reveal-on-hov')) {
+          subheadElement.classList.add('reveal-on-hov');
+        }
       } else if (subheadElement) {
+        // console.log('undoing changes for', this.headline);
         // all good
         // undo any changes
-        delete subheadElement.style.visibility;
-        delete headlineElement.style.maxHeight;
+        if (subheadElement.classList.contains('reveal-on-hov')) {
+          subheadElement.classList.remove('reveal-on-hov');
+        }
       }
     }
-  }
-
-  public ngAfterViewInit() {
-    setTimeout(() => {
-      this.checkTextBounds();
-    }, 0);
   }
 
   getTextLimit(key: string): number {
@@ -115,12 +125,17 @@ export class TileBase implements AfterViewInit, OnInit, OnDestroy {
  * @see https://stackoverflow.com/questions/118241/calculate-text-width-with-javascript/21015393#21015393
  */
 function getTextWidth(text, font) {
+  // console.log('with font:', );
   // re-use canvas object for better performance
-
   // @ts-ignore
-  const canvas = getTextWidth.canvas || (getTextWidth.canvas = document.createElement('canvas'));
+  const canvas: HTMLCanvasElement =
+    // @ts-ignore
+    getTextWidth.canvas ||
+    // @ts-ignore
+    (getTextWidth.canvas = document.createElement('canvas'));
   const context = canvas.getContext('2d');
   context.font = font;
   const metrics = context.measureText(text);
+  console.log('measuring text:', text, font, metrics.width);
   return metrics.width;
 }

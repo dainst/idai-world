@@ -59,16 +59,6 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
         }
       },
       {
-        breakpoint: 960,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          centerMode: false,
-          infinite: false,
-          variableWidth: false
-        }
-      },
-      {
         breakpoint: 992,
         settings: {
           slidesToShow: 3,
@@ -90,11 +80,14 @@ export class SliderTilesComponent extends SliderBase implements AfterViewInit {
   @Input()
   public text = '';
 
-  onSetConfig = (config = { title: '', tiles: [], text: '', enableSliding: true, rows: 1 }) => {
+  onSetConfig = (
+    config = { title: '', tiles: [], text: '', enableSliding: true, rows: 1 }
+  ) => {
     this.text = config.text;
     this.numRows = config.rows;
 
-    this.enableSliding = config.enableSliding === undefined ? true : config.enableSliding;
+    this.enableSliding =
+      config.enableSliding === undefined ? true : config.enableSliding;
 
     this.title = this.limitText(config.title, this.getTextLimit('title'));
 
