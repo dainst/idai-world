@@ -30,6 +30,10 @@ dai-footer-menu {
 
     &.nav--first {
       padding-top: 7px;
+
+      @media (min-width: 1024px) {
+        padding-top: 1px;
+      }
     }
 
     a,
