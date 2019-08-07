@@ -17,7 +17,7 @@
   {
     "type": "search_box",
     "headline": "Search for images in digital photo libraries",
-    "placeholder": "Search within all 2.693.020 images",
+    "placeholder": "Search through all 2,693,020 images",
     "text": "<p>Find and compare millions of individual photographs from photo libraries of the DAI and partner institutions. The spectrum ranges from early glass plate negatives to digital photography. Since the 1990s, the photo libraries have been digitized in cooperation with the Research Archive for Ancient Sculpture in Cologne. Today, many institutions use this infrastructure to digitize their photo collections, make them accessible and work together on a strong infrastructure.</p>"
   },
   {
@@ -25,34 +25,37 @@
     "title": "Photo libraries of cooperation partners",
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/images/idai_images_research_archive_cologne.jpg",
         "headline": "Research Archive for Ancient Sculpture, Cologne",
         "subhead": "",
         "link": {
           "target": "http://archaeologie.uni-koeln.de/forschungsarchiv.html",
           "text": "External Link to 'Research Archive for Ancient Sculpture, Cologne'"
-        }
+        },
+        "text":"<p class='description'>Recording sculpture in cooperation with museums and private collections, documenting and publishing it. Inventories of the collections that have not been recorded so far or are little known are in focus.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/images/idai_images_max_oppenheim_collections.jpg",
         "headline": "Collection of Max von Oppenheim, Cologne",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/oppenheim",
           "text": "External Link to 'Collection of Max von Oppenheim, Cologne'"
-        }
+        },
+        "text":"<p class='description'>Max Freiherr von Oppenheim (1860-1946) was always accompanied by professional photographers when on his travels. The result was a collection of 13,000 photos that captured the life and culture of a world gone by.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/images/idai_images_munich_lmu.jpg",
         "headline": "Munich Photo Library of the LMU",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/fotothekmuenchen",
           "text": "External Link to 'Munich Photo Library of the LMU'"
-        }
+        },
+        "text":"<p class='description'>The Institute of Classical Archaeology in Munich is home to a vast collection of photographs. Starting in 2016, digitization of this collection has been underway, with the results made open to the public via the Arachne database.</p>"
       }
     ]
   },
@@ -103,84 +106,92 @@
     "enableSliding": true,
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/images/idai_images_photothek_berlin.jpg",
-        "headline": "Berlin head office",
+        "headline": "Berlin Head Office",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/fotoarchivdaiberlin",
           "text": "Berlin head office"
-        }
+        },
+        "text":"<p class='description'>The photo archive at the Berlin head office offers images on vase painting, sculpture, lamps and topography. Among the scholarly bequests are those of Th. Wiegand, O. Reuther, F. Noack, B. Schweitzer, G. Loeschke, A. Schiff, K. Ronczewski.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/images/idai_images_photothek_orient_department.jpg",
-        "headline": "Berlin orient department",
+        "headline": "Berlin Orient Department",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/daiorient",
           "text": "Berlin orient department"
-        }
+        },
+        "text":"<p class='description'>Since 1998, the focus of the photographic collection has been on the documentation of own excavations in countries such as Ethiopia, Iraq, Yemen, Jordan, Lebanon, Oman, Saudi Arabia, Syria and eastern Turkey.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/images/idai_images_photothek_cairo.jpg",
-        "headline": "Cairo department",
+        "headline": "Cairo Department",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/fotokairo",
           "text": "Cairo department"
-        }
+        },
+        "text":"<p class='description'>The photo archive of the Cairo Department focuses on the documentation of the department's excavations in Egypt. The archive comprises ca. 240,000 medium format (b/w, color) photographs, slides and 35mm-b/w-pictures.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/images/idai_images_photothek_damascus.jpg",
-        "headline": "Damascus branch",
+        "headline": "Damascus Branch",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/124822",
           "text": "Damascus branch"
-        }
+        },
+        "text":"<p class='description'>The photo archive of the branch owns around 45,000 negatives and slides from DAI research projects as well as of several important ruins in Syria that were documented as a part of a photographic survey. More than 40,000 digital images are archived.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/images/idai_images_photothek_istanbul.jpg",
-        "headline": "Istanbul department",
+        "headline": "Istanbul Department",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/fotoistanbul",
           "text": "Istanbul department"
-        }
+        },
+        "text":"<p class='description'>The photo archive is made up primarily of black-and-white photographs of Turkey, its population, architecture and archaeological artifacts. Its holdings consist of approx. 120,000 photos from the period 1880 - 2007, including 65,000 negative originals.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/images/idai_images_photothek_madrid.jpg",
-        "headline": "Madrid department",
+        "headline": "Madrid Department",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/fotomadrid",
           "text": "Madrid department"
-        }
+        },
+        "text":"<p class='description'>The archive holds ca. 50,500 photographs. It covers all archaeological art forms of the Iberian Peninsula from the beginning of time up to the Islamic period.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/images/idai_images_photothek_rome.jpg",
-        "headline": "Rome department",
+        "headline": "Rome Department",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/fotorom",
-          "text": "Rome department"
-        }
+          "text": "Rome Department"
+        },
+        "text":"<p class='description'>The collection contains: ideal sculpture, portrait sculpture, sarcophagi, reliefs, architectural sculpture, inscriptions, stucco, fresco painting, mosaics, topography, vases, terracotta, bronze, minor art, stone monuments.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/images/idai_images_photothek_teheran.jpg",
-        "headline": "Teheran branch",
+        "headline": "Teheran Branch",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/71364",
           "text": "Teheran branch"
-        }
+        },
+        "text":"<p class='description'>The photo archive houses a large collection of photographs on Iranian archaeology and art history as well as documentation of excavation of the department in Bisutun, Bastam, Takht-i Suleiman, Zendan-i Suleiman and Firuzabad.</p>"
       }
     ]
   }

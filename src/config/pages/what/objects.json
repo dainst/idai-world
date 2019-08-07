@@ -17,32 +17,45 @@
   {
   "type": "search_box",
   "headline": "Search for objects, architecture and collections",
-  "placeholder": "Search within all 323.356 objects",
-  "text": "<p>Search in the Arachne/iDAI.objects database for objects of material culture, for architecture and in collections. A challenge in object and architectural research is the identification of form and material, the determination of origin and function as well as the temporal classification and distribution, up to the contextualization. Traditionally this has been done via corpora. Today, digital formats are common. standardized criteria and vocabularies facilitate the search. You can also search for specific monuments, for objects in collections and for architecture."
+  "placeholder": "Search through all 323,356 objects",
+  "text": "<p>Search in the Arachne/iDAI.objects database for objects of material culture, for architecture and in collections. A challenge in object and architectural research is the identification of form and material, the determination of origin and function as well as the temporal classification and distribution, up to the contextualization. Traditionally this has been done via corpora. Today, digital formats are common. Standardized criteria and vocabularies facilitate the search. You can also search for specific monuments, for objects in collections and for architecture.</p>"
   },
   {
     "type": "slider_tiles",
     "title": "Architecture and monuments",
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_pergamon_altar_browser.jpg",
-        "headline": "Pergamon Altar browser",
+        "headline": "Pergamon Altar Browser",
         "subhead": "Pergamon Museum Berlin",
         "link": {
           "target": "https://arachne.dainst.org/project/pergaltarbrowser",
           "text": "External Link to 'Pergamon Altar browser: Pergamon Museum Berlin'"
-        }
+        },
+        "text":"<p class='description'>The image browser of the Pergamon Altar combines photographic recording of the frieze with the implementation into the online database ARACHNE.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_trojans_column.jpg",
-        "headline": "Trajans Column browser",
+        "headline": "Trajan's Column Browser",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/traianssaeule",
           "text": "External Link to 'Trajans Column browser'"
-        }
+        },
+        "text":"<p class='description'>By using a dedicated image browser, the Column of Trajan can now be researched in detail. Trajan’s Column is also contextualized to the entire contents of the Arachne.</p>"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/archives/coming-soon.jpg",
+        "headline": "Ara Pacis Browser",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/arapacis",
+          "text": "External Link to 'Ara Pacis Browser'"
+        },
+        "text":"<p class='description'>The Ara Pacis Browser gives the opportunity to browse all relief panels of the monument.</p>"
       }
     ]
   },
@@ -51,30 +64,43 @@
     "title": "Corpora projects in cooperation with partners",
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
+        "image": "assets/images/content/what/archives/coming-soon.jpg",
+        "headline": "Clarac, Musée du Sculpture",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/claracstart",
+          "text": "External Link to 'Musée Clarac'"
+        },
+        "text":"<p class='description'>The exploration of ancient sculpture before the middle of the 19th century as portrayed in Clarac’s 'Musée de sculpture antique et moderne'.</p>"
+      },
+      {
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_creb.jpg",
         "headline": "Corpus of Roman Finds in the European Babaricum (CRFB)",
         "subhead": ""
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_minoan_seals.jpg",
-        "headline": "Corpus of Minoan and Mycenean Seals",
+        "headline": "Corpus of Minoan and Mycenaean Seals",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/corpusminmyk",
-          "text": "External Link to 'Corpus of Minoan and Mycenean Seals'"
-        }
+          "text": "External Link to 'Corpus of Minoan and Mycenaean Seals'"
+        },
+        "text":"<p class='description'>The project’s aim is the scholarly publication of every preserved seal and clay cast from the Aegean Bronze Age. Most of the Corpus should be digitized, updated and available on the Internet for free before the project ends in 2011.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_ocre.jpg",
-        "headline": "Online coins of the roman empire, (OCRE contains AFE)",
-        "subhead": "",
+        "headline": "Online Coins of the Roman Empire",
+        "subhead": "(OCRE contains AFE)",
         "link": {
           "target": "http://numismatics.org/ocre/",
           "text": "External Link to 'Online coins of the roman empire, (OCRE contains AFE)'"
-        }
+        },
+        "text":"<p class='description'>A tool designed to help in the identification, cataloging, and research of the rich and varied coinage of the Roman Empire. The project records every published type of Roman Imperial coinage from Augustus in 31 BC, until the death of Zeno in AD 491.</p>"
       }
     ]
   },
@@ -83,24 +109,26 @@
     "title": "Corpora projects of the DAI",
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_afe.jpg",
-        "headline": "AFE (a part of OCRE)",
-        "subhead": "",
+        "headline": "AFE",
+        "subhead": "(a part of OCRE)",
         "link": {
           "target": "http://afe.dainst.org/AFE_RGK/",
           "text": "External Link to 'AFE (a part of OCRE)'"
-        }
+        },
+        "text":"<p class='description'>A joint project of Databases and Information Systems (DBIS) and the Römisch-Germanische Kommission (RGK) is investigating the logical integration of different coin find databases using ontologies.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_sarcopharg.jpg",
-        "headline": "Corpus of ancient sarcophagi",
+        "headline": "Corpus of Ancient Sarcophagi",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/corpusantsark",
           "text": "External Link to 'Corpus of ancient sarcophagi'"
-        }
+        },
+        "text":"<p class='description'>The re-conception of the Corpus of Ancient Sarcophagi and from an IT point of view, assuming responsibility for backing up an online-presence of the material, which is to be as coherent as possible.</p>"
       }
     ]
   },
@@ -124,107 +152,126 @@
   },  
   {
     "type": "slider_tiles",
-    "title": "Catalogues hosted for museums and plaster cast collections",
+    "title": "Catalogs hosted for museums and plaster cast collections",
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_berlin.jpg",
-        "headline": "Plaster casts after greco-roman sculptures in Berlin",
+        "headline": "Plaster Casts after Greco-Roman Sculptures in Berlin",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/antiksammlberlin",
           "text": "Plaster casts after greco-roman sculptures in Berlin"
-        }
+        },
+        "text":"<p class='description'>The complete catalog of sculptures in the Antikensammlung der Staatlichen Museen zu Berlin contains approximately 2,600 Greek, Cypriot, Etruscan, and Roman sculptures in stone, as well as several large bronzes.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_antikensammlung.jpg",
         "headline": "Sculptures in the Antikensammlung, Berlin",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/berlinsamml",
           "text": "Sculptures in the Antikensammlung, Berlin"
-        }
+        },
+        "text":"<p class='description'>Every plaster cast in Berlin (from Freie Universität, Humboldt-Universität, and the Antikensammlung/State Museums of Berlin) representing an ancient object was systematically recorded and entered into ARACHNE.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_bonn.jpg",
-        "headline": "Plaster cast collection, University Bonn",
+        "headline": "Plaster Cast Collection, University Bonn",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/sammlakakunst",
           "text": "Plaster cast collection, University Bonn"
-        }
+        },
+        "text":"<p class='description'>The collection has been photographically documented and transferred into Arachne since 1998. That way the technical emphasis of the Archaeological Institutes of Cologne and Bonn can be brought closer together.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
+        "image": "assets/images/content/what/archives/coming-soon.jpg",
+        "headline": "Museo Maffeiano online-edition",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/museomaff",
+          "text": "Museo Maffeiano"
+        },"text":"<p class='description'>Maffei published a book illustrating and describing various monuments in his collection, which is well suited for database-supported online-facsimile-edition. This online- aims to reflect a scientifically based preparation of the state of research.</p>"
+      },
+      {
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_fulda.jpg",
         "headline": "Schloss Fasanerie (Adolphseck) near Fulda",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/schlossfulda",
           "text": "Schloss Fasanerie (Adolphseck) near Fulda"
-        }
+        },"text":"<p class='description'>Among furniture, porcelain and paintings, Fasanerie Castle (Adolphseck) in Eichenzell near Fulda also features a collection of Greco-Roman sculpture, which was assembled by Landgrave Philipp of Hesse (1896-1980).</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_leipzig.jpg",
-        "headline": "Museum and plaster cast collection, University Leipzig",
+        "headline": "Museum and Plaster Cast Collection, University Leipzig",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/gipsleipzigsamml",
           "text": "Museum and plaster cast collection, University Leipzig"
-        }
+        },
+        "text":"<p class='description'>The Museum of Antiquities of the Leipzig University is an archaeological teaching collection that contains plaster casts and originals of ancient art from the Mediterranean area.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_munich.jpg",
-        "headline": "Plaster cast collection, Munich, LMU",
+        "headline": "Plaster Cast Collection, Munich, LMU",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/abguesseMuenchen",
           "text": "Plaster cast collection, Munich, LMU"
-        }
+        },
+        "text":"<p class='description'>The collection consists of more than 2000 casts and reproductions of sculptures, reliefs and small objects from Greek and Roman antiquity from the 7th century BC to the 5th century AD. The focus lies on Hellenistic sculpture and Roman portraits.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_villa_wolkonsky.jpg",
-        "headline": "Villa Wolkonsky, antiquities collection, Rome",
+        "headline": "Villa Wolkonsky, Antiquities Collection, Rome",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/villaWolkonsky",
           "text": "Villa Wolkonsky, antiquities collection, Rome"
-        }
+        },
+        "text":"<p class='description'>The Villa Wolkonsky houses about 430 Roman antiquities collected from the beginning of the 19th-century. The Arachne collection contains the photographic documentation that was produced during the restoration project, some photographs from the historic collection.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_saarbruecken.jpg",
-        "headline": "Plaster cast collection, University Saarbrücken",
+        "headline": "Plaster Cast Collection, University Saarbrücken",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/sammlsaarbr",
           "text": "Plaster cast collection, University Saarbrücken"
-        }
+        },
+        "text":"<p class='description'>The Institute of Classical Archaeology of the University of the Saarland possesses a small teaching collection containing originals of antiquities as well as plaster casts of ancient sculpture.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_winckelmann.jpg",
         "headline": "Collection of the Winckelmann-Society and Museum, Stendal",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/stendal",
           "text": "Collection of the Winckelmann-Society and Museum, Stendal"
-        }
+        },
+        "text":"<p class='description'>The inventory holds drawings, paintings, sculpture, antiques, coins and portrait medals as well as autographs and sketches. The integration of the collection into the online database ARACHNE is still ongoing.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_thessaloniki.jpg",
-        "headline": "Catalogue of ancient sculpture, Archaeological Museum, Thessaloniki",
+        "headline": "Catalog of Ancient Sculpture, Archaeological Museum, Thessaloniki",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/katalogskulpthess",
-          "text": "Catalogue of ancient sculpture, Archaeological Museum, Thessaloniki"
-        }
+          "text": "Catalog of ancient sculpture, Archaeological Museum, Thessaloniki"
+        },
+        "text":"<p class='description'>The Archaeological Museum of Thessaloniki keeps sculptures dating from the Archaic to the late Imperial period and found mainly in the area from various regions of Macedonia and Thrace.</p>"
       }      
     ]  
   }
