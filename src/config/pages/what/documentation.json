@@ -16,14 +16,15 @@
     "description": "Beyond replacing traditional pen-and-paper tools with software and digital devices, modern technological developments have also produced entirely new tools that have had profound impacts on the practice of archaeological surveying and recording. Since the 1990s, laser scanning devices (both terrestrial and aerial, in the form of LiDAR) have allowed archaeologists to capture artefacts, monuments and sites in full 3D and with unprecedented detail. More recently, these powerful but expensive, hardware-based technologies have been complemented by  much cheaper and more efficient software-based approaches. Most importantly, full 3D reconstruction from series of overlapping images has become a routine tool, thanks to innovations in the areas of Structure from Motion and Multi-View Stereo.",
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/documentation/idai_documentation_archaeocopter.jpg",
         "headline": "Archaeocopter",
-        "subhead": "UAV-based Structure from Motion",
+        "subhead": "",
         "link": {
           "target": "http://www.archaeocopter.de",
           "text": "External Link to 'Archaeocopter: UAV-based Structure from Motion'"
-        }
+        },
+        "text":"<p class='description'>UAV-based Structure from Motion</p>"
       },
       {
         "type": "image_link",
@@ -36,24 +37,26 @@
         }
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/documentation/idai_documentation_field2.jpg",
         "headline": "iDAI.field 2",
-        "subhead": "Replacing pen and paper with digital clients",
+        "subhead": "",
         "link": {
           "target": "http://field.dainst.org",
           "text": "External Link to 'iDAI.field 2: Replacing pen and paper with digital clients'"
-        }
+        },
+        "text":"<p class='description'>Replacing pen and paper with digital clients</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/documentation/idai_documentation_survey2gis.jpg",
         "headline": "Survey2GIS",
-        "subhead": "Automated survey data processing for GIS",
+        "subhead": "",
         "link": {
           "target": "https://www.survey-tools.org/",
           "text": "External Link to 'Survey2GIS: Automated survey data processing for GIS'"
-        }
+        },
+        "text":"<p class='description'>Automated survey data processing for GIS</p>"
       }
     ]
   },
@@ -63,24 +66,26 @@
     "description": "With the availability of new, ever more cost-efficient digital data capturing tools, ever more powerful means of visualizing and modelling rich datasets are being devised. Desktop-based 3D reconstruction and VR modelling solutions are increasingly accompanied or even substituted by online systems that allow seamless data visualization and publication on the Internet.",
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/documentation/idai_documentation_hamabad.jpg",
         "headline": "Hamadab 3D",
         "subhead": "",
         "link": {
           "target": "https://www.hamadab3d.com",
           "text": "External Link to 'Hamadab 3D'"
-        }
+        },
+        "text":"<p class='description'>An SFM generated 3D model of the city of Hamadab in Sudan.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/documentation/idai_documentation_3dmodels.jpg",
         "headline": "3D models in iDAI.objects",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/search?fq=facet_kategorie:%223D-Modelle%22&fl=20&q=3d",
           "text": "External Link to '3D models in iDAI.objects'"
-        }
+        },
+        "text":"<p class='description'>A collection of 3D models that are part of iDAI.objects.</p>"
       }
     ]
   },
@@ -104,64 +109,70 @@
     "title": "The world in 3D",
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/documentation/idai_documentation_mayaarch3d.jpg",
         "headline": "MayaArch3D",
-        "subhead": "Web-based GIS for archaeological research",
+        "subhead": "",
         "link": {
           "target": "http://www.mayaarch3d.org/language/en/sample-page/",
           "text": "MayaArch3D - A web-based 3D GIS for archaeological research"
-        }
+        },
+        "text":"<p class='description'>A web-based 3D GIS for archaeological research</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/documentation/idai_documentation_karakorum.jpg",
         "headline": "Karakorum",
-        "subhead": "The reconstruction of the ‘Great Hall’",
+        "subhead": "",
         "link": {
           "target": "https://youtu.be/ZXA8V04CaBs",
           "text": "Karakorum, The reconstruction of the ‘Great Hall’"
-        }
+        },
+        "text":"<p class='description'>The reconstruction of the ‘Great Hall</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/documentation/idai_documentation_nekropole.jpg",
-        "headline": "Die Nekropole von Dra' Abu el-Naga/Theben",
+        "headline": "The Necropolis Dra' Abu el-Naga/Theben",
         "subhead": "",
         "link": {
           "target": "https://www.youtube.com/watch?v=14GdA3fEdcQ",
           "text": "Die Nekropole von Dra' Abu el-Naga/Theben"
-        }
+        },
+        "text":"<p class='description'>A 3D-animation of the pyramid complex of Nub-Cheper-Re Intef and the underground burials in the surroundings.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/documentation/idai_documentation_uruk_anu-zikurat.jpg",
-        "headline": "Uruk, Anu-Zikkurat",
+        "headline": "Uruk, Anu-Ziggurat",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/3d?id=72",
           "text": "Uruk, Anu-Zikkurat"
-        }
+        },
+        "text":"<p class='description'>3D viewer of a model of the Anu-Ziggurat in Uruk.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/documentation/idai_documentation_uruk_pantoffelsarkophag.jpg",
-        "headline": "Uruk, Pantoffelsarkophag",
+        "headline": "Uruk, Slipper Sarcophagus",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/3d?id=73",
           "text": "Uruk, Pantoffelsarkophag"
-        }
+        },
+        "text":"<p class='description'>3D viewer of a model of a slipper sarcophagus from Uruk.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/documentation/idai_documentation_uruk_kinderskelett.jpg",
-        "headline": "Uruk, Kinderskelett",
+        "headline": "Uruk, Child's Skeleton",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/3d?id=71",
           "text": "Uruk, Kinderskelett"
-        }
+        },
+        "text":"<p class='description'>3D viewer of a model of a child’s skeleton from Uruk.</p>"
       }
     ]
   }
