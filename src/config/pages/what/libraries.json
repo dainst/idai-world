@@ -17,51 +17,66 @@
   {
     "type": "intro_text",
     "title": "Discover and read in our libraries online",
-    "body": "16 DAI-libraries, each with their unique focus, contain nearly 1 million volumes and media. All are searchable via iDAI.Bibliography. Old and rare books are being digitized. Magazines and monographs of the DAI are published digitally. The digital offers are constantly being expanded and are thus accessible worldwide. Since the 19th century, the DAI has built significant thesauri and makes them accessible under iDAI thesauri. The thesauri are strong tools in themself, but also a useful source for Text Mining and Linked Open Data approaches."
+    "body": "16 DAI-libraries, each with their own unique focus, contain nearly 1 million volumes and media. All are searchable via iDAI.Bibliography. Old and rare books are being digitized. Magazines and monographs of the DAI are published digitally. The digital offers are constantly being expanded and are thus accessible worldwide. Since the 19th century, the DAI has built significant thesauri and makes them accessible under iDAI thesauri. The thesauri are strong tools in themselves, but also a useful source for Text Mining and Linked Open Data approaches."
   },
   {
     "type": "slider_tiles",
     "title": "Open access libraries",
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_cil.jpg",
         "headline": "Corpus Inscriptionum Latinarum (CIL)",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/cilopac",
           "text": "External Link to 'Corpus Inscriptionum Latinarum (CIL)'"
-        }
+        },
+        "text": "<p class='description'>The Corpus Inscriptionum Latinarum (CIL) is a comprehensive collection of ancient Latin inscriptions from all corners of the Roman Empire.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_historical_books.jpg",
         "headline": "Digital Facsimiles of Historical Books",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/search?q=catalogPaths:107",
           "text": "External Link to 'Digital Facsimiles of Historical Books'"
-        }
+        },
+        "text": "<p class='description'>The database compiles digital reproductions of historic illuminations in books and their cover pages in order to make them accessible to research.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_vocab.jpg",
         "headline": "Open Access Dictionary",
         "subhead": "",
         "link": {
           "target": "http://archwort.dainst.org/de/vocab/",
           "text": "External Link to 'Open Access Dictionary'"
-        }
-      },
+        },
+      "text": "<p class='description'>A comprehensive dictionary for archaeological terms that offers translations into the common languages in the field of archaeology.</p>"
+},
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_dai_publications.jpg",
         "headline": "Open Access Publications of the DAI",
         "subhead": "",
         "link": {
           "target": "what/publications",
           "text": "External Link to 'Open Access Publications of the DAI'"
-        }
+        },
+      "text": "<p class='description'>A possibility to access digital publications of the German Archaeological Institute.</p>"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/archives/coming-soon.jpg",
+        "headline": "Reception of Antiquity in a Semantic Network",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/rezeptionantike",
+          "text": "External Link to reception of antiquity in a semantic network"
+        },
+      "text": "<p class='description'>A reconstruction and online publication of about 1700 prints, which appeared between 1500 and 1900.</p>"
       }
     ]
   },
@@ -111,164 +126,180 @@
     "rows": 2,
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_athens.jpg",
-        "headline": "Athens department",
+        "headline": "Athens Department",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18386",
-          "text": "Athens department"
-        }
+          "text": "Athens Department"
+        },
+        "text": "<p class='description'>The holdings of the library of the Athens department can be calculated to about 60,000 volumes and approximately 2000 journals. The main collection is focused on Greek and Cypriot archaeology from Neolithic times to Late Antiquity.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_beijing.jpg",
-        "headline": "Beijing branch",
+        "headline": "Beijing Branch",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/3866402",
-          "text": "Beijing branch"
-        }
+          "text": "Beijing Branch"
+        },
+        "text": "<p class='description'>New publications on archaeological research on the terrestrial and maritime Silk Routes, pre- and early historical clothing and equipment, studies and preservation of classical Chinese wooden architecture form the main focus.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_berlin_zentrale.jpg",
-        "headline": "Berlin head office",
+        "headline": "Berlin Head Office",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/14613",
           "text": "Berlin head office"
-        }
+        },
+        "text": "<p class='description'>The library of the DAI headquarters in Berlin was re-established in 1945 as a specialized academic library. The DAI headquarters’ library is located in the Bittelhaus. The majority of the inventory is freely accessible to library users.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_eurasien.jpg",
-        "headline": "Berlin eurasia department",
+        "headline": "Berlin Eurasia Department",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18134",
           "text": "Berlin eurasia department"
-        }
+        },
+         "text": "<p class='description'>The library focuses its collections on Moldavia and Ukraine, Russia, Southern Caucasian and Central Asian countries, as well as Iran, Afghanistan, Pakistan, Mongolia and China, and prehistoric archaeology of Central and Eastern Europe.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_orient_dep.jpg",
-        "headline": "Berlin orient department",
+        "headline": "Berlin Orient Department",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18208",
           "text": "Berlin orient department"
-        }
+        },
+        "text": "<p class='description'>As a research tool for scholars from around the world doing research at the Orient Department's sites, the library and its various focus collections are distributed over the four department locations.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_bonn.jpg",
-        "headline": "Bonn commission",
+        "headline": "Bonn Commission",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18271",
           "text": "Bonn commission"
-        }
+        },
+        "text": "<p class='description'>The collections include literature on archaeology and early art history of Latin America, Africa, Oceania, and Asia, especially Eastern and Central Asia as well as Southern and Southeastern Asia. Papers and publications on theoretical archaeology and comparative studies also form the focus of the collection.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_cairo.jpg",
-        "headline": "Cairo department",
+        "headline": "Cairo Department",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18458",
           "text": "Cairo department"
-        }
+        },
+        "text": "<p class='description'>The Cairo Department’s library focuses its collections on material and scriptural Egyptian culture from prehistory to modernity. One of the library’s highlights is its rich collection of historical travel literature.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_damaskus.jpg",
-        "headline": "Damascus branch",
+        "headline": "Damascus Branch",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/60186",
           "text": "Damascus branch"
-        }
+        },
+        "text": "<p class='description'>Primary fields of collection of the library in Damascus are archaeology of the Near East, Classical Archaeology, the Archaeology of the Roman Provinces and Christian Archaeology, all with a focus on the Levant. Islamic Archaeology and works on history supplement the program.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_frankfurt.jpg",
-        "headline": "Frankfurt commission",
+        "headline": "Frankfurt Commission",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18305",
           "text": "Frankfurt commission"
-        }
+        },
+        "text": "<p class='description'>The library's collections focus on pre- and protohistoric archaeology of Europe including the Roman provinces, the Barbaricum and archaeology of the Early Middle Ages. It also includes works on archaeological theory and related hard sciences.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_istanbul.jpg",
-        "headline": "Istanbul department",
+        "headline": "Istanbul Department",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18422",
           "text": "Istanbul department"
-        }
+        },
+        "text": "<p class='description'>Collection from the following fields: Near Eastern Archaeology with a focus on Anatolia, Classical Archaeology with a focus on Anatolia, Byzantine Archaeology with a focus on Istanbul as well as the history of the city of Istanbul.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_lisbon.jpg",
-        "headline": "Lissabon branch",
+        "headline": "Lisbon Branch",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18540",
-          "text": "Lissabon branch"
-        }
+          "text": "Lisbon branch"
+        },
+        "text": "<p class='description'>The library houses around 55,000 publications with a focus on the archaeology of the Iberian Peninsula with special attention on Portugal.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_madrid.jpg",
-        "headline": "Madrid department",
+        "headline": "Madrid Department",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18531",
           "text": "Madrid department"
-        }
+        },
+        "text": "<p class='description'>Its collection focus is on archaeology and related disciplines researching the Iberian Peninsula and Morocco from prehistory to the Islamic era.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_munich.jpg",
-        "headline": "Munich commission",
+        "headline": "Munich Commission",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18350",
           "text": "Munich commission"
-        }
+        },
+        "text": "<p class='description'>It finds its place among the world’s leading institutions dedicated to ancient history and epigraphy and attracts German and international scholars. Its collection focuses on the entire field of ancient history including the most relevant related disciplines</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_rome.jpg",
-        "headline": "Rome department",
+        "headline": "Rome Department",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/18494",
           "text": "Rome department"
-        }
+        },
+        "text": "<p class='description'>The Rome Department’s library plays a key role on a global scale. It is the largest archaeological library in German ownership. Its collections focus on archaeology of the Mediterranean World from the Aegean Bronze Age to the late 7th century AD.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_sanaa.jpg",
-        "headline": "Sana'a branch",
+        "headline": "Sana'a Branch",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/104232",
           "text": "Sana'a branch"
-        }
+        },
+        "text": "<p class='description'>With 4,000 volumes the library owns the largest collection of archaeological literature on the Arabian Peninsula in Yemen. The area of interest covers mostly the region of the Arabian Peninsula, Near East, eastern Africa and classical archaeology.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_teheran.jpg",
-        "headline": "Teheran branch",
+        "headline": "Teheran Branch",
         "subhead": "",
         "link": {
           "target": "https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/71351",
           "text": "Teheran branch"
-        }
+        },
+        "text": "<p class='description'>The library of the branch currently contains around 15,000 volumes from various fields, such as Near Eastern archaeology, art history, ancient history, Iranian studies, Islamic history and archaeology.</p>"
       }
     ]
   }

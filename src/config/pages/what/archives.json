@@ -129,7 +129,7 @@
         {
           "type": "text",
           "image": "assets/images/content/what/archives/idai_archive_athen_department.jpg",
-          "headline": "Athens department",
+          "headline": "Athens Department",
           "subhead": "A scientific legacy archive",
           "link": {
             "target": "https://arachne.dainst.org/project/athenDigital",
@@ -162,7 +162,7 @@
         {
           "type": "text",
           "image": "assets/images/content/what/archives/idai_archive_dai_1_antike_Zeichnung.jpg",
-          "headline": "Rome department",
+          "headline": "Rome Department",
           "subhead": "Historical drawings",
           "link": {
             "target": "https://arachne.dainst.org/project/handzeichnungen",
@@ -173,7 +173,7 @@
         {
           "type": "text",
           "image": "assets/images/content/what/archives/idai_archive_dai_2_gelehrten.jpg",
-          "headline": "Rome department",
+          "headline": "Rome Department",
           "subhead": "Scholars, Excavators and Art Dealers",
           "link": {
             "target": "https://arachne.dainst.org/project/gelehrtenbriefe",
