@@ -8,7 +8,7 @@
   {
     "type": "intro_text",
     "title": "Read our publications open access",
-    "body": "DAI has contributed to archaeological literature since its foundation in the early 19th century. From our regular journals, featuring studies and reports both by international scholars and from the DAI's own research projects, to digitized versions of series and comprehensive monographs on specific fields of research - we publish and share knowledge that scholars can build on and freely use for their own research. Our publications are accessible via iDAI.publications/journals and iDAI.publications/books. Both systems are networked with other digital resources and complemented by the publication of databases. The publications of the DAI undergo a peer review process and are editorially supervised."
+    "body": "DAI has contributed to archaeological literature since its foundation in the early 19th century. From our regular journals featuring our latest research projects, to digitized versions of series and comprehensive monographs on specific fields of research - we publish and share knowledge that scholars can build on and freely use for their own research. Our publications are accessible via iDAI.publications/journals and iDAI.publications/books. Both systems are networked with other digital resources and complemented by the publication of databases. The publications of the DAI undergo a peer review process and are editorially supervised."
   },
   {
     "type": "slider_image",
@@ -37,7 +37,7 @@
   {
     "type": "amount_docs",
     "amount": "",
-    "text": "Over 240 journal volumes, 2.500 articles, 3000 digital facsimiles and books"
+    "text": "Over 240 journal volumes, 2,500 articles, 3,000 digital facsimiles and books"
   },
   {
     "type": "slider_tiles",
@@ -47,7 +47,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/idai_publications_journals_aa.jpg",
         "headline": "Archäologischer Anzeiger",
-        "subhead": "Articles on current global research projects",
+        "subhead": "Current global research projects",
         "links": [
           {
             "text": "AA 2017, 2",
@@ -135,7 +135,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/idai_publications_journals_chiron.jpg",
         "headline": "Chiron",
-        "subhead": "Articles on Ancient History and Epigraphy",
+        "subhead": "Ancient History and Epigraphy",
         "link": {
           "target": "https://publications.dainst.org/journals/index.php/chiron",
           "text": "Chiron"
@@ -323,7 +323,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/idai_publications_journals_e_reports.jpg",
         "headline": "Research E-Papers",
-        "subhead": "Current research results of DAI projects",
+        "subhead": "Current research of the DAI",
         "link": {
           "target": "https://publications.dainst.org/journals/index.php/efb",
           "text": "Research E-Papers"
@@ -391,7 +391,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/idai_publications_journals_e_annual_reports.jpg",
         "headline": "Annual E-Report",
-        "subhead": "Reports on the institute´s activities",
+        "subhead": "Activities of the Institute",
         "link": {
           "target": "https://publications.dainst.org/journals/index.php/ejb",
           "text": "Annual E-Report"
@@ -427,7 +427,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/idai_publications_journals_germania.jpg",
         "headline": "Germania",
-        "subhead": "Römisch-Germanische Kommission",
+        "subhead": "RGK",
         "link": {
           "target": "https://publications.dainst.org/journals/index.php/ger",
           "text": "Germania"
@@ -1062,7 +1062,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_antike_plastik_31.jpg",
         "headline": "Antike Plastik",
-        "subhead": "Volumes on selected works of Ancient Sculpture",
+        "subhead": "Ancient sculpture",
         "link": {
           "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/antpl",
           "text": "Antike Plastik"
@@ -1078,7 +1078,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_bogazkoe.jpg",
         "headline": "Boğazköy-Hattuša.",
-        "subhead": "Results of archaeological research in Boğazköy",
+        "subhead": "Boğazköy/Turkey ",
         "link": {
           "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/boghattusa",
           "text": "Boğazköy-Hattuša."
@@ -1126,7 +1126,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_olympische_forschungen.jpg",
         "headline": "Olympische Forschungen",
-        "subhead": "Results of archaeological research in Olympia",
+        "subhead": "Research in Olympia",
         "link": {
           "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/of",
           "text": "Olympische Forschungen"
@@ -1158,7 +1158,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_palilia_26.jpg",
         "headline": "Palilia",
-        "subhead": "Archaeology in Italy and neighbouring regions",
+        "subhead": "Italy and neighboring regions",
         "link": {
           "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/antpl",
           "text": "Palilia"
@@ -1186,7 +1186,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_terrakotten_pergamon.jpg",
         "headline": "Pergamenische Forschungen",
-        "subhead": "Results of archaeological research in Pergamon",
+        "subhead": "",
         "link": {
           "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/pf",
           "text": "Pergamenische Forschungen"
@@ -1202,7 +1202,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_resafa_7.jpg",
         "headline": "Resafa",
-        "subhead": "Results of archaeological research in Resafa",
+        "subhead": "Research in Resafa",
         "link": {
           "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/Resafa",
           "text": "Resafa"
@@ -1218,7 +1218,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_samos_23.jpg",
         "headline": "Samos",
-        "subhead": "Results of archaeological research in Samos",
+        "subhead": "Research in Samos",
         "link": {
           "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/samos",
           "text": "Samos"
@@ -1239,7 +1239,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_tayma.jpg",
         "headline": "Taymāʾ",
-        "subhead": "Archaeological research in Taymāʾ",
+        "subhead": "Research in Taymāʾ",
         "link": {
           "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/Tayma",
           "text": "Tayma"
@@ -1283,80 +1283,87 @@
     "rows": 2,
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_antike_plastik_5.0.jpg",
         "headline": "Antike Plastik 5.0.://",
-        "subhead": "Media of documentation in archaeology",
+        "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/antikeplastik?lang=de",
           "text": "External Link to 'Antike Plastik 5.0.://'"
-        }
+        },
+        "text":"<p class='definition'>Media of documentation in archaeology</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_roemische_hafenanlagen.jpg",
-        "headline": "Depictions and Imaginations of Roman Harbours",
+        "headline": "Images and Imaginations of Roman Harbors",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/hafen?lang=de",
-          "text": "External Link to 'Depictions and Imaginations of Roman Harbours'"
-        }
+          "text": "External Link to 'Images and Imaginations of Roman Harbors'"
+        },
+        "text":"<p class='definition'>A publication regarding the documentation and contextualized analysis of depictions of Roman harbors using Arachne.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_basilika_aemilia.jpg",
         "headline": "The Basilica Aemilia on the Forum Romanum",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/basilaemil",
           "text": "External Link to 'The Basilica Aemilia on the Forum Romanum'"
-        }
+        },
+        "text":"<p class='definition'>A publication on the Basilica Aemilia on the Forum Romanum as a focus of public life. A study of its remains, functions, and roles in Rome.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_corpus_of_minoan_seals.jpg",
         "headline": "Corpus of Minoan and Mycenaean Seals",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/corpusminmyk",
           "text": "External Link to 'Corpus of Minoan and Mycenaean Seals'"
-        }
+        },
+        "text":"<p class='definition'>The project’s aim is the scholarly publication of every preserved seal and clay cast from the Aegean Bronze Age. Most of the Corpus should be digitized, updated and available on the Internet for free before the project ends in 2011.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_ostia.jpg",
         "headline": "Domestic Culture in Late Antique Ostia",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/wohnkulturOstia",
           "text": "Domestic Culture in Late Antique Ostia"
-        }
+        },
+        "text":"<p class='definition'>A publication on the well-preserved remains of residential houses in the port city of Ostia that allow insights into the relationship of continuity and transformation between Imperial times and Late Antiquity.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_kanathan.jpg",
         "headline": "Sanctuaries in Kanatha",
         "subhead": "From Hellenism to Late Antiquity",
         "link": {
           "target": "https://arachne.dainst.org/project/kanatha",
           "text": "Sanctuaries in Kanatha"
-        }
+        },
+        "text":"<p class='definition'>A publication on the Syrian city of Kanatha and its specific forms of sanctuaries in Hellenistic and Roman times and the coexistence of indigenous religions and the Roman state religion.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_mit_wissen_geschmueckt.jpg",
         "headline": "Figurative Reception of Greek Poets and Philosophers",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/langwiss",
           "text": "Figurative Reception of Greek Poets and Philosophers"
-        }
+        },
+        "text":"<p class='definition'>A publication on a project that is researching the depictions of the discourse of Greek education by using different classes of material such as gems, cameos, lamps, reliefs.</p>"
       },
       {
         "type": "link_list",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_palilia.jpg",
         "headline": "Palilia",
-        "subhead": "Archaeology in Italy and neighbouring regions",
+        "subhead": "",
         "link": {
           "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/palilia",
           "text": "Palilia"
@@ -1381,154 +1388,180 @@
         ]
       },
       {
-        "type": "image_link",
+        "type": "link_list",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_pergamenische_forschungen.jpg",
         "headline": "Pergamenische Forschungen",
-        "subhead": "Results of archaeological research. Pergamon/Turkey",
+        "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/pergamenischeforschungen17?lang=de",
           "text": "No. 17: Terracottas from Pergamon"
-        }
+        },
+
+        "links": [
+          {
+            "text": "No. 17: Terracottas from Pergamon",
+            "target": "https://arachne.dainst.org/project/pergamenischeforschungen17?lang=de"
+          } 
+        ]
       },
       {
-        "type": "image_link",
+        "type": "link_list",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_roemische_mitteilungen.jpg",
         "headline": "Römische Mitteilungen",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/rm121",
           "text": "No.121: Brick Stamps Palatine Hill"
-        }
+        },
+        "links": [
+          {
+            "text": "No.121: Brick Stamps Palatine Hill",
+            "target": "https://arachne.dainst.org/project/rm121"
+          } 
+        ]
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_roman_terrakotte_masks.jpg",
         "headline": "Roman Terracotta Masks",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/roseterra",
           "text": "Roman Terracotta Masks"
-        }
+        },
+        "text":"<p class='definition'>The project “Terracotta Masks” is based on a dissertation about Roman Terracotta masks in the northwestern provinces conducted at the University of Cologne.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_meerwesen.jpg",
-        "headline": "See Creatures on Roman Sarcophagi",
+        "headline": "Sea Creatures on Roman Sarcophagi",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/schulzmeer?lang=de",
-          "text": "See Creatures on Roman Sarcophagi"
-        }
+          "text": "Sea Creatures on Roman Sarcophagi"
+        },
+        "text":"<p class='definition'>Publication on a work on the depiction of sea creatures on Roman sarcophagi with an online catalog showing new relevant pieces. The aim of the publication is to objectively re-evaluate previous assumptions.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_dressed_to_kill.jpg",
         "headline": "Dressed to Drill. Roman Centurions' Equipment",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/centurions",
           "text": "Dressed to Drill. Roman Centurions' Equipment"
-        }
+        },
+        "text":"<p class='definition'>The publication compiles tombstones erected for centurions also depicting military equipment.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_cast_collection_berlin.jpg",
         "headline": "Berlin Universities, Staatliche Museen",
-        "subhead": "Cast collection of ancient sculpture",
+        "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/berlinsamml",
           "text": "Berlin Universities, Staatliche Museen"
-        }
+        },
+        "text":"<p class='definition'>As part of the cooperative project Das Berliner Skulpturennetzwerk, every plaster cast in Berlin (from Freie Universität, Humboldt-Universität, and the Antikensammlung/State Museums of Berlin) representing an ancient object was systematically recorded and entered into ARACHNE.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_plaster_cast_collection_bonn.jpg",
         "headline": "Akademisches Kunstmuseum Bonn",
-        "subhead": "Plaster cast collection",
+        "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/sammlakakunst",
           "text": "Akademisches Kunstmuseum Bonn"
-        }
+        },
+        "text":"<p class='definition'>Image database of the Plaster Cast Collection of Ancient Sculpture of the Academic Art Museum of the University of Bonn.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_catalog_of_sculptures_berlin.jpg",
-        "headline": "Complete catalogue of sculptures",
+        "headline": "Staatliche Museen Berlin",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/antiksammlberlin",
           "text": "Staatliche Museen Berlin"
-        }
+        },
+        "text":"<p class='definition'>A complete catalog of sculptures in the Antikensammlung der Staatlichen Museen zu Berlin. It contains approximately 2,600 Greek, Cypriot, Etruscan, and Roman sculptures in stone, as well as several large bronzes.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_fasanerie_fulda.jpg",
         "headline": "Fasanerie Castle Fulda",
-        "subhead": "Catalogue of the ancient sculptures",
+        "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/schlossfulda",
           "text": "Fasanerie Castle Fulda"
-        }
+        },
+        "text":"<p class='definition'>Catalog of the Ancient Sculptures in the Fasanerie Castle (Adolphseck) near Fulda.Among furniture, porcelain and paintings, Fasanerie Castle (Adolphseck) in Eichenzell near Fulda also features a collection of Greco-Roman sculpture, which was assembled by Landgrave Philipp of Hesse (1896-1980).</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_plaster_cast_collection_leipzig.jpg",
         "headline": "Leipzig University",
-        "subhead": "Antiquities and plaster cast collection",
+        "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/gipsleipzigsamml",
           "text": "Leipzig University"
-        }
+        },
+        "text":"<p class='definition'>Image database of the Museum of Antiquities and the plaster cast collection of the Leipzig University.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_villa_wolkonsky.jpg",
         "headline": "Villa Wolkonsky Rome",
         "subhead": "Antiquities collection",
         "link": {
           "target": "https://arachne.dainst.org/project/villaWolkonsky",
           "text": "Villa Wolkonsky Rome"
-        }
+        },
+        "text":"<p class='definition'>A data enhanced publication of the holdings of the Villa Wolkonsky in Rome.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_plaster_cast_collection_saarbruecken.jpg",
         "headline": "Saarbrücken University",
-        "subhead": "Plaster cast collection",
+        "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/sammlsaarbr",
           "text": "Saarbrücken University"
-        }
+        },
+        "text":"<p class='definition'>The plaster cast collection of the University of Saarbrücken makes its cast accessible online through the image database Arachne.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_sl_museum_aachen.jpg",
         "headline": "Suermondt-Ludwig-Museum Aachen",
-        "subhead": "Antiquities collection",
+        "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/spornsiegel",
           "text": "Suermondt-Ludwig-Museum Aachen"
-        }
+        },
+        "text":"<p class='definition'>The antiquities collection of the Suermondt-Ludwig-Museum in Aachen.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_winckelmann_museum_stendal.jpg",
         "headline": "Winckelmann Museum Stendal",
-        "subhead": "Collection of paintings and drawings",
+        "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/stendal",
           "text": "Winckelmann Museum Stendal"
-        }
+        },
+        "text":"<p class='definition'>Due to the special character of the Stendal Museum, which is dedicated to the founder of archaeology and art history, the collection holdings appear very heterogeneous and can well be subsumed under the heading “Reception of Antique and Winckelmann”. These objects are integrated into the Arachne database.</p>"
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_sculptures_thessaloniki.jpg",
         "headline": "Archaeological Museum Thessaloniki",
-        "subhead": "Catalogue of scupltures",
+        "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/katalogskulpthess",
           "text": "Archaeological Museum Thessaloniki"
-        }
+        },
+        "text":"<p class='definition'>The Archaeological Museum of Thessaloniki uses the Arachne object database for documenting its sculpture digitally.</p>"
       }
     ]
   }
