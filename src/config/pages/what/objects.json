@@ -94,8 +94,8 @@
       {
         "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_ocre.jpg",
-        "headline": "Online Coins of the Roman Empire",
-        "subhead": "(OCRE contains AFE)",
+        "headline": "Online Coins of the Roman Empire (contains AFE)",
+        "subhead": "",
         "link": {
           "target": "http://numismatics.org/ocre/",
           "text": "External Link to 'Online coins of the roman empire, (OCRE contains AFE)'"
@@ -157,7 +157,7 @@
       {
         "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_berlin.jpg",
-        "headline": "Plaster Casts after Greco-Roman Sculptures in Berlin",
+        "headline": "Plaster Casts in Berlin",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/antiksammlberlin",
@@ -210,7 +210,7 @@
       {
         "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_leipzig.jpg",
-        "headline": "Museum and Plaster Cast Collection, University Leipzig",
+        "headline": "Museum and Plaster Cast Collection, Leipzig",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/gipsleipzigsamml",
@@ -254,7 +254,7 @@
       {
         "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_winckelmann.jpg",
-        "headline": "Collection of the Winckelmann-Society and Museum, Stendal",
+        "headline": "Winckelmann-Society and Museum, Stendal",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/stendal",
@@ -265,7 +265,7 @@
       {
         "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_thessaloniki.jpg",
-        "headline": "Catalog of Ancient Sculpture, Archaeological Museum, Thessaloniki",
+        "headline": "Archaeological Museum, Thessaloniki",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/katalogskulpthess",

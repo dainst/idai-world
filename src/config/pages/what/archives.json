@@ -141,7 +141,7 @@
           "type": "text",
           "image": "assets/images/content/what/archives/idai_archive_teheran_archiv.jpg",
           "headline": "Eurasia Department - Teheran Branch",
-          "subhead": "Digitization of the archive",
+          "subhead": "",
           "link": {
             "target": "https://arachne.dainst.org/project/teheran_digital",
             "text": "External Link to Eurasia Department - Teheran Branch: Digitization of the archive"
@@ -174,10 +174,10 @@
           "type": "text",
           "image": "assets/images/content/what/archives/idai_archive_dai_2_gelehrten.jpg",
           "headline": "Rome Department",
-          "subhead": "Scholars, Excavators and Art Dealers",
+          "subhead": "Correspondences of the DAI",
           "link": {
             "target": "https://arachne.dainst.org/project/gelehrtenbriefe",
-            "text": "External Link to Rome Department: Historical drawings"
+            "text": "External Link to Rome Department: Correspondences"
           },
           "text": "<p class='description'>The drawings, aquarelles, maps, cross-sections, etc. of the two collections show ancient buildings and objects that document sites and finds that have been changed or destroyed in the course of the last years.</p>"
           }
