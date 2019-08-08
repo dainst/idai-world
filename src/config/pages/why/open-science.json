@@ -8,22 +8,23 @@
   {
     "type": "intro_text",
     "title": "",
-    "body": "Open Science today means that data are open access and systems are developed open source. This ensures sustainability. Of course, data and research must be secure and protected by copyright. The DAI follows the basic recommendations for scientific research data management. The FAIR-principle describes that research data must be findable, accessible, interoperable, and reusable."
+    "body": "Open Science today means that data are open access and systems are developed open source. This ensures sustainability. Of course, data and research must be secure and protected by copyright. (Link auf Get Access). The DAI follows the basic recommendations for scientific research data management. The FAIR-principle describes that research data must be findable, accessible, interoperable, and reusable."
   },  
   {
     "type": "intro_text",
     "title": "Open Access",
-    "body": "The DAI signed the Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities  in 2013.  It has implemented an open access strategy for its publications. It digitizes its archives and photo collections. It cataloges and tags its libraries. All media are accessible via special systems that allow to contextualize the scientific information from different anaolgue media traditions and from different levels of the research process."
-  },  
+    "body": "The DAI signed the Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities  in 2013.  It has implemented an open access strategy for its publications. It digitizes its archives and photo collections. It catalogs and tags its libraries. All media are accessible via special systems that allow to contextualize the scientific information from different analog media traditions and from different levels of the research process."
+ },  
   {
     "type": "intro_text",
     "title": "Open Data",
-    "body": "Data increases in value when linked. The data systems of the iDAI.world are therefore internally tightly interconnected and tagged. They are also opened to the world wide web (and the open linked data world) through machine-readable technologies: stable identifiers, metadata-standards and open interfaces, which are machine-readable. The iDAI.welt provides controlled vocabulary and thesauri and has incorporated other vocabularies and thesauri into its systems."
+    "body": "Data increases in value when linked. The data systems of the iDAI.world are therefore internally tightly interconnected and tagged. They are also opened to the world wide web (and the open linked data world) through machine-readable technologies: stable identifiers, metadata standards and open interfaces, which are machine-readable. The iDAI.world provides controlled vocabulary and thesauri and has incorporated other vocabularies and thesauri into its systems."
+
   },  
   {
     "type": "intro_text",
     "title": "Open Source",
-    "body": "The iDAI.world systems are often being developed in cooperation with open source initiatives. IDAI.archives is based on ATOM, iDAI.bibliography on Koha, iDAI.thesauri is based on iQvoc and iDAI.geoserver is based on the open geoserver software-stack of the Open Source Geospatial Foundation. Other iDAI.welt systems are being developed inhouse, like the excavation database iDAI.field2, but all code of the DAI is being shared and published in the GitHUb repository. No proprietary software is used inside of the iDAI.world."
+    "body": "The iDAI.world systems are often being developed in cooperation with open source initiatives. iDAI.archives is based on ATOM, iDAI.bibliography on Koha, iDAI.thesauri is based on iQvoc and iDAI.geoserver is based on the open geoserver software-stack of the Open Source Geospatial Foundation. Other iDAI.world systems are being developed in house, like the excavation database iDAI.field2, but all the code of the DAI is being shared and published in the GitHUb repository. No proprietary software is used inside of the iDAI.world."
   } 
  
 ]

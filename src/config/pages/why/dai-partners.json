@@ -7,7 +7,7 @@
   {
     "type": "intro_text",
     "title": "",
-    "body": "<p>To cooperate trustworthy in building an open science world is the vision and mission of the iDAI.world. It is the result of a long common development by many partners. Its origin lies in the initiatives of the Research Archive for Ancient Sculpture in Cologne. From this tradition, two key partners of the DAI in the stricter sense of informatics, programming and infrastructure are the <a href=\"http://archaeologie.uni-koeln.de/archit.html?&L=1\" target=\"_blank\">Cologne Universities’ chair for Archaeoinformatics</a> and the <a href=\"https://rrzk.uni-koeln.de/rrzk.html?&L=1\" target=\"_blank\">Regional Computing Center in Cologne (RRZK)</a>. They were joined by many others over time, namely the Chair for Computer Graphics at the University of Applied Sciences in Dresden, and the <a href=\"http://www.archaeocopter.de/\" target=\"_blank\">Archaeocopter and Archaeonautic</a> project at Dresden University and the Free University in Berlin. Numerous national and international cooperations are shaping the iDAI.world as a service for the community</p><p>Without their partners, friends and users, the offer of the iDAI.world would never have arisen in the present form.</p>"
+    "body": "<p>To cooperate trustworthily in building an open science world is the vision and mission of the iDAI.world. It is the result of a long joint development by many partners. Its origin lies in the initiatives of the Research Archive for Ancient Sculpture in Cologne. From this tradition, two key partners of the DAI in the stricter sense of informatics, programming and infrastructure are the <a href=\"http://archaeologie.uni-koeln.de/archit.html?&L=1\" target=\"_blank\">Cologne University’s chair for Archaeoinformatics</a> and the <a href=\"https://rrzk.uni-koeln.de/rrzk.html?&L=1\" target=\"_blank\">Regional Computing Center in Cologne (RRZK)</a>. They were joined by many others over time, namely the Chair for Computer Graphics at the University of Applied Sciences in Dresden, and the <a href=\"http://www.archaeocopter.de/\" target=\"_blank\">Archaeocopter and Archaeonautic</a> project at Dresden University and the Free University in Berlin. Numerous national and international cooperations are shaping the iDAI.world as a service for the community</p><p>Without their partners, friends and users, the offer of the iDAI.world would never have arisen in the present form.</p>"
   },
   {
     "type": "slider_tiles",
@@ -15,34 +15,59 @@
     "title": "Cooperation in national and international infrastructures",
     "tiles": [
         {
-          "type": "image_link",
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_ariadne.jpg",
           "headline": "ARIADNE",
-          "subhead": "The way forward to digital archaeology in Europe ",
+          "subhead": "",
           "link": {
             "target": "https://arachne.dainst.org/project/ariadne",
             "text": "External Link to 'ARIADNE'"
-          }
+          },
+          "text":"The goal was the integration of European archaeological repositories, which created a searchable catalog of datasets including unpublished reports, images, maps, databases and other kinds of archaeological information accessible online."
         },
         {
-          "type": "image_link",
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_archaeocopter.jpg",
           "headline": "Archaeocopter and Archaeonautic",
-          "subhead": "Recording archaeology with low cost unmanned aerial vehicles",
+          "subhead": "",
           "link": {
             "target": "https://www.htw-dresden.de/news-2016/article/archaeocopter-bei-cnn-1.html",
             "text": "External Link to 'Archaeocopter and Archaeonautic'"
-          }
+          },
+          "text":"Recording archaeology with low cost unmanned aerial vehicles."
         },
         {
-          "type": "image_link",
+          "type": "text",
+          "image": "assets/images/content/what/archives/coming-soon.jpg",
+          "headline": "The Berlin Sculpture Network",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/skulpberlinantik",
+            "text": "External Link to 'Berlin Sculpture Network'"
+          },
+          "text":"The Berlin Sculpture Network is a cooperation between the Antiquities Collection of the Berlin State Museums, the DAI and the Institute of Classical Archaeology at the Free University of Berlin and aims to reconstruct the spatial, functional and substantive contexts context of ancient sculptures."
+        },
+        {
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_carare.jpg",
           "headline": "CARARE",
-          "subhead": "Connecting archeology and architecture in Europeana",
+          "subhead": "",
           "link": {
             "target": "https://arachne.dainst.org/project/carare",
             "text": "External Link to 'CARARE'"
-          }
+          },
+          "text":"CARARE aims to advance professional practice and foster appreciation of digital archaeological and architectural heritage through the promotion for public benefit of digitization, connection. enhancement, and use of digital content."
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/coming-soon.jpg",
+          "headline": "CeramEgypt",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/ceramegypt",
+            "text": "External Link to 'CeramEgypt'"
+          },
+          "text":"Pottery production and consumption in Ptolemaic-Roman Egypt based on pottery finds from surveys."
         },
         {
           "type": "image_link",
@@ -55,114 +80,147 @@
           }
         },
         {
-          "type": "image_link",
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_dariah_de.jpg",
           "headline": "DARIAH-DE",
-          "subhead": "Digitale Forschungsinfrastruktur für die Geistes- und Kulturwissenschaften",
+          "subhead": "",
           "link": {
             "target": "https://de.dariah.eu/der-forschungsverbund",
             "text": "External Link to 'DARIAH-DE'"
-          }
+          },
+          "text":"A digital research infrastructure for humanities and cultural sciences that offers researchers a platform. Six different tasks are fulfilled by DARIAH-DE: dissemination, services, data, expertise, management and coordination with DARIAH-EU."
         },
         {
-          "type": "image_link",
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_dariah_eu.jpg",
           "headline": "Dariah-EU",
-          "subhead": "A pan-european infrastructure for arts and humanities scholars working with computational methods",
+          "subhead": "",
           "link": {
             "target": "https://www.dariah.eu/2019/03/20/working-groups-stories-6-setting-up-e-infrastructure-for-collaborative-work-on-thesaurus-integration/",
             "text": "External Link to 'Dariah-EU'"
-          }
+          },
+          "text":"The Digital Research Infrastructure for the Arts and Humanities (DARIAH) aims to enhance and support digitally-enabled research and teaching across the arts and humanities."
         },
         {
-          "type": "image_link",
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_e-rihs.jpg",
           "headline": "E-RiHS",
-          "subhead": "European Research Infrastructure for Heritage Science",
+          "subhead": "",
           "link": {
             "target": "http://www.e-rihs.eu/partners/dai-de/",
             "text": "E-RiHS"
-          }
+          },
+          "text":"The European Research Infrastructures for Heritage Sciences’ mission is to deliver integrated access to expertise, data and technologies through a standardized approach."
         },
         {
-          "type": "image_link",
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_ianus.jpg",
           "headline": "IANUS",
-          "subhead": "A research data centre",
+          "subhead": "A research data center",
           "link": {
             "target": "https://www.ianus-fdz.de",
             "text": "IANUS"
-          }
+          },
+          "text":"The project IANUS of the DAI aimed to develop structures for a national research data center for archaeology and classics in Germany and how to generally deal with digital data and methods."
         },
         {
-          "type": "image_link",
+          "type": "text",
+          "image": "assets/images/content/what/archives/coming-soon.jpg",
+          "headline": "Images in Pausanias",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/databasepausanias",
+            "text": "Images in Pausanias"
+          },
+          "text":"The purpose of the database “Images in Pausanias” is to systematically register all figurative works of art found in Pausanias and make them accessible for combined online research."
+        },
+        {
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_nahan.jpg",
           "headline": "NAHAN",
           "subhead": "North African Heritage Archives Network",
           "link": {
             "target": "http://www.nahanweb.org/",
             "text": "NAHAN"
-          }
+          },
+          "text":"NAHAN, the North African Heritage Archives Network, is a network of institutions holding archive material on monuments in North Africa. An open-access platform is being developed, on which materials are going to be published."
         },
         {
-          "type": "image_link",
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_open_context.jpg",
           "headline": "Open Context",
-          "subhead": "Web based research data publishing",
+          "subhead": "",
           "link": {
             "target": "https://opencontext.dainst.org",
             "text": "Open Context"
-          }
+          },
+          "text":"Open Context reviews, edits, plans and prepares data, cleans and organizes it, annotates digital data with stable web identifiers for correct citation, digitally archives it and also collaborates with other publishers."
         },
         {
-          "type": "image_link",
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_ocre.jpg",
           "headline": "OCRE",
           "subhead": "Online Coins of the Roman Empire",
           "link": {
             "target": "http://numismatics.org/ocre/",
             "text": "OCRE"
-          }
+          },
+          "text":"OCRE (Online Coins of the Roman Empire) is a new tool designed to help in the identification, cataloging, and research of coinage of the Roman Empire."
         },
         {
-          "type": "image_link",
+          "type": "text",
+          "image": "assets/images/content/what/archives/coming-soon.jpg",
+          "headline": "Our Place: Our Place in the World",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/jtfourplace",
+            "text": "Our Place"
+          },
+          "text":"The purpose of the research of Neolithic sites in southwestern Asia has been to identify innovative theoretical approaches to investigate how these first large, permanently co-resident communities functioned, and how and why they networked with each other."
+        },
+        {
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_pelagios.jpg",
           "headline": "Pelagios",
-          "subhead": "Linking the places of our past",
+          "subhead": "",
           "link": {
             "target": "http://commons.pelagios.org/2012/06/arachne-void-descriptions/",
             "text": "Pelagios"
-          }
+          },
+          "text":"The Pelagios Network links information online through common references to places. The core activities of Pelagios are annotation, collaboration, gazetteers, pedagogy, registry and visualization."
         },
         {
-          "type": "image_link",
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_perseus.jpg",
-          "headline": "Perseus Digital Library",
-          "subhead": "The Hellespont Project: integrating Arachne and Perseus",
+          "headline": "The Hellespont Project",
+          "subhead": "",
           "link": {
             "target": "http://hellespont.dainst.org/startpage/",
-            "text": "Perseus Digital Library"
-          }
+            "text": "Hellespont Project"
+          },
+          "text":"The Hellespont Project combines the digital collections of Greek and Roman antiquities of the Perseus Digital Library and the German Archaeological Institute with text using the metadata format CIDOC."
         },
         {
-          "type": "image_link",
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_prophylaeum.jpg",
           "headline": "Propylaeum",
-          "subhead": "Specialized information service classics",
+          "subhead": "",
           "link": {
             "target": "https://www.hsozkult.de/debate/id/diskussionen-3879",
             "text": "Propylaeum"
-          }
+          },
+          "text":"The collaboration of the DAI and Propylaeum aims to create relationships between biblographical data and the geographical information in iDAI.gazetteer within ProplyaeumSEARCH."
         },
         {
-          "type": "image_link",
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_sshoc.jpg",
           "headline": "SSHOC",
-          "subhead": "Social Sciences and Humanities Open Cloud",
+          "subhead": "",
           "link": {
             "target": "https://sshopencloud.eu/partners",
             "text": "SSHOC"
-          }
+          },
+          "text":"The Social Sciences and Humanities Open Cloud offers scalable and flexible access to research data in an open source environment, interconnects new and existing infrastructures to enforce interdisciplinary research."
         }
       ]
     },
@@ -264,7 +322,7 @@
           "type": "image_link",
           "image": "assets/images/content/why/partners/logos/isai_partners_nomisma.jpg",
           "headline": "Nomisma",
-          "subhead": "Stable digital representations of numismatic concepts according to the principles of Linked Open Data",
+          "subhead": "",
           "link": {
             "target": "http://nomisma.org",
             "text": "External Link to 'Nomisma'"
