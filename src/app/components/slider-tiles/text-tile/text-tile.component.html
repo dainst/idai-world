@@ -1,7 +1,7 @@
 <dai-link [useContent]="true" [data]="link">
   <div class="tile tile--square">
     <div class="tile__image" [style.backgroundImage]="'url(' + image + ')'">
-      <div class="tile__content tile--head-up tile--head-up-full" data-simplebar>
+      <div class="tile__content tile--head-up tile--head-up-full">
         <p class="headline" [innerHtml]="headline"></p>
         <p class="description subhead" [innerHtml]="subhead"></p>
         <p class="description reveal-on-hov mt-3" [innerHtml]="text | slice: 0:getTextLimit('text')"></p>
