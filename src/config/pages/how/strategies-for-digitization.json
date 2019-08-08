@@ -8,12 +8,12 @@
   {
     "type": "intro_text",
     "title": "",
-    "body": "<p>Acting on the recommendation of the Science Council of Germany, the DAI launched a project to develop a digitization strategy in 2017. It was created with the adaptation of the open source software ATOM of the service iDAI.archives. The photo libraries of the DAI are continuously digitized, as are the archives and the archives. However, especially valuable books and the publications published since its founding in 1829 by the DAI are being digitized to protect the existing status and to improve accessibility.</p>"
+    "body": "<p>Acting on the recommendation of the Science Council of Germany, the DAI launched a project to develop a digitization strategy in 2017. It was created with the adaptation of the open source software ATOM of the service iDAI.archives. The photo libraries of the DAI are continuously digitized, as are the archives. However, especially valuable books and publications published by the DAI since its founding in 1829 are being digitized to protect the existing status and to improve accessibility.</p>"
   },  
   {
     "type": "intro_text",
     "title": "Service for partner institutions",
-    "body": "<p>Numerous museums and institutions use the information infrastructures to systematically digitalize and index their archives. These include German photo libraries and archives as well as international antiquities authorities and museums. Together we are working to advance digitalization standards, optimized workflows and a better information infrastructure for the cultural heritage of antiquity.</p>"
+    "body": "<p>Numerous museums and institutions use the information infrastructure to systematically digitize and index their archives. These include German photo libraries and archives as well as international antiquities authorities and museums. Together we are working to advance digitization standards, optimized workflows and a better information infrastructure for the cultural heritage of antiquity.</p>"
   },
   {
     "type": "slider_tiles",
@@ -21,32 +21,38 @@
     "enableSliding": false,
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/how/idai_digitization_aaa.jpg",
         "headline": "African Archaeological Archive Cologne",
         "subhead": "",
-        "link": { "target": "https://arachne.dainst.org/project/afrarchcologne", "text": "Link to African Archaeological Archive Cologne" }
+        "link": { "target": "https://arachne.dainst.org/project/afrarchcologne", "text": "Link to African Archaeological Archive Cologne" 
+        },
+        "text":"The African Archaeology Archive Cologne (AAArC) has made it a priority to digitize the present archive documents and to make them accessible through the object database ARACHNE."
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/how/idai_digitization_rww.jpg",
         "headline": "Archive of Rhine-Westphalian Economy",
         "subhead": "",
-        "link": { "target": "https://arachne.dainst.org/project/rwwa", "text": "Link to Archive of Rhine-Westphalian Economy" }
+        "link": { "target": "https://arachne.dainst.org/project/rwwa", "text": "Link to Archive of Rhine-Westphalian Economy" 
+        },
+        "text":"The negatives of the archive are depicting people in their working environments, production techniques, machines and products, as well as industrial architecture or factories."
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/how/idai_digitization_oppenheim.jpg",
         "headline": "Collection of Max von Oppenheim",
         "subhead": "",
-        "link": { "target": "https://arachne.dainst.org/project/oppenheim", "text": "Link to Collection of Max von Oppenheim" }
+        "link": { "target": "https://arachne.dainst.org/project/oppenheim", "text": "Link to Collection of Max von Oppenheim" 
+        },
+        "text":"Max Freiherr von Oppenheim (1860-1946) was always accompanied by professional photographers when on his travels. The result was a collection of 13,000 photos that captured the life and culture of a world gone by."
       }
     ]
   },
   {
     "type": "intro_text",
     "title": "Ongoing and completed projects",
-    "body": "<p>In the 1990s, the Research Center for Ancient Sculpture of the University of Cologne systematically began to digitize its photo archive and thus also prints based on negatives of the DAI. Soon after, projects for systematic digitization began, following digitization projects in the Archives. Examples include the DFG-funded projects EMAGINES and the digitization of drawings, plans and constructions of the 19th and 20th century in the German Archaeological Institute in Rome. Further projects within the program for the preservation of cultural heritage and the project \"Zero Hour - a future for the post-crisis\" were supported by the Federal Foreign Office. Today, the archives are systematically digitized at all departments of the DAI.</p>"
+    "body": "<p>In the 1990s, the Research Center for Ancient Sculpture of the University of Cologne systematically began to digitize its photo archive and then also prints based on the negatives of the DAI. Soon after, projects for systematic digitization began, following digitization projects in the archives. Examples include the DFG-funded projects EMAGINES and the digitization of drawings, plans and constructions of the 19th and 20th century in the German Archaeological Institute in Rome. Further projects within the program for the preservation of cultural heritage and the project \"Zero Hour - a future for after the crisis\" were supported by the Federal Foreign Office. Today, the archives are systematically digitized in all of the DAI’s departments.</p>"
   },
   {
     "type": "slider_tiles",
@@ -54,27 +60,33 @@
     "enableSliding": false,
     "tiles": [
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/how/idai_digitization_imagines.jpg",
         "headline": "Glass negatives within the framework of Emagines",
         "subhead": "",
         "link": { 
             "target": "https://arachne.uni-koeln.de/drupal/?q=node/95", 
-            "text": "Link to Glass negatives within the framework of Emagines" }
+            "text": "Link to Glass negatives within the framework of Emagines" 
+          },
+          "text":"Within the project titled Emagines, glass negatives are being digitized with a long-term strategy and made accessible worldwide via the web-based database Arachne that is operated by the German Archaeological Institute and the CoDArchLab."
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/how/idai_digitization_dai_rome.jpg",
         "headline": "Rome department",
         "subhead": "Drawings, plans and constructions",
-        "link": { "target": "https://arachne.dainst.org/project/handzeichnungen", "text": "Link to Rome department" }
+        "link": { "target": "https://arachne.dainst.org/project/handzeichnungen", "text": "Link to Rome department" 
+        },
+        "text":"Antiquity in drawings, maps and architectural surveys: primary documentary materials of the 19th and 20th century in the German Archaeological Institute at Rome."
       },
       {
-        "type": "image_link",
+        "type": "text",
         "image": "assets/images/content/how/idai_digitization_syria.jpg",
         "headline": "Syrian Heritage Archive ",
         "subhead": "",
-        "link": { "target": "https://arachne.dainst.org/project/syrher", "text": "Link to Syrian Heritage Archive" }
+        "link": { "target": "https://arachne.dainst.org/project/syrher", "text": "Link to Syrian Heritage Archive" 
+        }, 
+        "text":"Implementation of a digital cultural heritage register for Syria in order to conserve cultural heritage in Syria, which is currently threatened by war."
       }
     ]
   }

@@ -22,34 +22,37 @@
       "title": "Examples for digital monument registers",
       "tiles": [        
          {
-            "type": "image_link",
+            "type": "text",
             "image": "assets/images/content/how/idai_monument_records_ayda.jpg",
             "headline": "AYDA",
             "subhead": "Ancient Yemen Digital Atlas",
             "link": {
                 "target": "https://www.archernet.org/2018/10/25/ayda-ein-digitales-denkmalregister-fuer-den-jemen/",
                 "text": "AYDA"
-            }
+            },
+            "text":"An online information system compiling monuments in Yemen aiming at registering Yeminite heritage sites and documenting them in the way they are still available."
         },
         {
-            "type": "image_link",
+            "type": "text",
             "image": "assets/images/content/how/idai_monument_records_syria.jpg",
             "headline": "Syrian Heritage Archive",
             "subhead": "A monument register for Syria",
             "link": {
                 "target": "https://arachne.dainst.org/project/syrher",
                 "text": "Syrian Heritage Archive"
-            }
+            },
+            "text":"Implementation of a digital cultural heritage register for Syria in order to conserve cultural heritage in Syria, which is currently threatened by war."
         },
         {
-            "type": "image_link",
+            "type": "text",
             "image": "assets/images/content/how/idai_monument_records_hinkel.jpg",
             "headline": "Friedrich Hinkel Archive",
             "subhead": "A monument register for Sudan",
             "link": {
                 "target": "https://arachne.dainst.org/project/hinkel",
                 "text": "Friedrich Hinkel Archive"
-            }        
+            } ,
+            "text":"The archive of Friedrich W. Hinkel represent one of the largest collections of research material concerning the archaeology of ancient Sudan."       
         }        
       ]
     }

@@ -8,31 +8,31 @@
   {
     "type": "intro_text",
     "title": "",
-    "body": "<p>In the DAI the history of controlled vocabularies and thesauri goes back to the year 1836. At that time, the first library catalog was created in Rome, the core of which was not just a collection, but the systematic development of a hierarchy of concepts. Since then, systematic indexing of published information has been systematically developed in the form of the \"Realkatalog\", it means a catalog of realia.</p>"
+    "body": "<p>In the DAI the history of controlled vocabularies and thesauri goes back to the year 1836. At that time, the first library catalog was created in Rome, the core of which was not just a collection, but the systematic development of a hierarchy of concepts. Since then, systematic indexing of published information has been systematically developed in the form of the \"Realkatalog\", meaning a catalog of realia.</p>"
   },  
 
   {
     "type": "intro_text",
     "title": "iDAI.thesauri & iDAI.vocab",
-    "body": "<p>Today, the thesauri compiled in iDAI.Thesauri form the backbone of the iDAI.World. The „DAI-worldwide thesaurus“ is intended to merge vocabularies already in use throughout the libraries and projects of the German Archaeological Institute according to the guidelines of <a href=\"https://www.dariah.eu/\" target=\"_blank\">DARIAH-EU</a>. With iDAI.vocab you have a multilingual dictionary available.</p>"
+    "body": "<p>Today, the thesauri compiled in iDAI.thesauri form the backbone of the iDAI.world. The „DAI-worldwide thesaurus“ is intended to merge vocabularies already in use throughout the libraries and projects of the German Archaeological Institute according to the guidelines of <a href=\"https://www.dariah.eu/\" target=\"_blank\">DARIAH-EU</a>. With iDAI.vocab you have a multilingual dictionary available.</p>"
   },  
 
   {
     "type": "intro_text",
     "title": "iDAI.gazetteer",
-    "body": "<p>The iDAI.gazetteer is a webservice, which connects toponyms with coordinates and is meant to work in two directions. Internally it serves as the authority file for all geo-related information and information-systems of the German Archaeological Institute. It is also supposed to connect this data with other worldwide gazetteer-systems.</p>"
+    "body": "<p>The iDAI.gazetteer is a web service, which connects toponyms with coordinates and is meant to work in two directions. Internally it serves as the authority file for all geo-related information and information-systems of the German Archaeological Institute. It is also supposed to connect this data with other worldwide gazetteer systems.</p>"
   },  
 
   {
     "type": "intro_text",
     "title": "iDAI.chronontology",
-    "body": "<p>This web service that combines temporal terms with dates and allows further linking to any other object, place or web resource inside and outside of the iDAI.world. The ChronOntology project was funded by the Deutsche Forschungsgemeinschaft (DFG) from 2015 to 2018. The long-term availability of the data is guaranteed by the DAI within the scope of the iDAI.world. More information can be found here.</p>"
+    "body": "<p>TThis web service that combines temporal terms with dates and allows further linking to any other object, place or web resource inside and outside of the iDAI.world. The ChronOntology project was funded by the Deutsche Forschungsgemeinschaft (DFG) from 2015 to 2018. The long-term availability of the data is guaranteed by the DAI within the scope of the iDAI.world. More information can be found here.</p>"
   },
   
   {
     "type": "intro_text",
     "title": "iDAI.shapes",
-    "body": "<p>CIDOC CRM's goal is also to develop tools for addressing shapes. Again, the DAI can look back on a long tradition (Corpus volumes). We plan to develop the knowledge stored in Corpora on forms, classification and shape development through a service oriented to the shapes of objects.</p>"
+    "body": "<p>CIDOC CRM's goal is also to develop tools for addressing shapes. Again, the DAI can look back on a long tradition (corpus volumes). We plan to develop the knowledge stored in corpora on forms, classification and shape development through a service oriented to the shapes of objects.</p>"
   },
   
   {
@@ -40,54 +40,59 @@
       "title": "Thesauri and controlled vocabularies",
       "tiles": [        
         {
-            "type": "image_link",
+            "type": "text",
             "image": "assets/images/content/how/idai_thesauri_emil_braun.jpg",
-            "headline": "1836 - Emil Braun and the first library catalogue",
+            "headline": "1836 - Emil Braun and the first library catalog",
             "subhead": "",
             "link": {
                 "target": "http://arachne.uni-koeln.de/item/buch/5376",
                 "text": "1836 - Emil Braun and the first library catalogue"
-            }
+            },
+            "text":"A digitized viewer of Emil Braun’s first library catalog from 1836 that is available through Arachne. "
         },
         {
-            "type": "image_link",
+            "type": "text",
             "image": "assets/images/content/how/idai_thesauri_thesauri.jpg",
             "headline": "iDAI.thesauri",
             "subhead": "",
             "link": {
                 "target": "http://thesauri.dainst.org/de.html",
                 "text": "iDAI.thesauri"
-            }
+            },
+            "text":"An archaeological vocabulary management system for the semantic web."
         },
         {
-            "type": "image_link",
+            "type": "text",
             "image": "assets/images/content/how/idai_thesauri_gazetteer.jpg",
             "headline": "iDAI.gazetteer",
             "subhead": "",
             "link": {
                 "target": "https://gazetteer.dainst.org/app/#!/home",
                 "text": "iDAI.gazetteer"
-            }
+            },
+            "text":"A webservice connecting the names of places to the actual geographic coordinates. It also functions as a norm vocabulary and aims to connect gazetteer systems worldwide."
         },
         {
-            "type": "image_link",
+            "type": "text",
             "image": "assets/images/content/how/idai_thesauri_Chronontology.jpg",
             "headline": "iDAI.chronontology",
             "subhead": "",
             "link": {
                 "target": "http://chronontology.dainst.org/",
                 "text": "iDAI.chronontology"
-            }
+            },
+            "text":"iDAI.chronontology is a web service that connects period terms to dating."
         },
         {
-            "type": "image_link",
+            "type": "text",
             "image": "assets/images/content/how/idai_thesauri_vocab.jpg",
             "headline": "iDAI.vocab",
             "subhead": "",
             "link": {
                 "target": "http://archwort.dainst.org/de/vocab/",
                 "text": "iDAI.vocab"
-            }
+            },
+            "text":"iDAI.vocab is dictionary for archaeological terms showing the terms in many different languages."
         }        
       ]
     }

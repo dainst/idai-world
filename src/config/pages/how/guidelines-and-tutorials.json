@@ -8,66 +8,69 @@
   {
     "type": "intro_text",
     "title": "",
-    "body": "<p>To explore, preserve and communicate cultural heritage requires knowledge and Guidelines. This includes technological knowledge for documentation, for storage and simulation. The DAI and its partners are building multilingual services and guidelines in different languages.</p>"
+    "body": "<p>To explore, preserve and communicate cultural heritage requires knowledge and guidelines. This includes technological knowledge for documentation, for storage and simulation. The DAI and its partners are building multilingual services and guidelines in different languages.</p>"
   },  
   {
     "type": "intro_text",
-    "title": "Best practice Guidelines IT",
-    "body": "<p>The IT-recommendations describe minimum standards and best practices for the use of information techniques in classical studies.  They describe the ideal procedure for research activities from the project conception, through the application, implementation, publication, presentation to long-term data retention. For long-term archiving, suitable data formats are described as well as background information and practical examples.</p>"
+    "title": "Best practice guidelines IT",
+    "body": "<p>The IT recommendations describe minimum standards and best practices for the use of information techniques in classical studies.  They describe the ideal procedure for research activities from the project conception, through the application, implementation, publication, presentation to long-term data retention. For long-term archiving, suitable data formats are described as well as background information and practical examples.</p>"
   },  
   {
     "type": "intro_text",
-    "title": "International Standards  and Principles",
+    "title": "International standards  and principles",
     "body": "<p>The services of the DAI are based on international standards. The OAIS reference model is based on the long-term archiving service IANUS. The database Arachne is contributing to and using the CIDOC Conceptual Reference Model (CRM). The basis of the Hellespont Project is the combination of text and object data using the metadata format CIDOC CRM.</p>"
   },  
   {
     "type": "intro_text",
     "title": "Translation of international standards",
-    "body": "<p>In the framework of the project \"Zero Hour - A Future for the Aftermath of the Crisis\", funded by the Federal Foreign Office, international standards were also translated into Arabic, including the DFG practice guidelines „Digitalisierung“, Dublin Core Metadata Initiative (DCMI), Open Archival Information System. Reference Model (OAIS) and a primer for the CIDOC-CRM.</p>"
+    "body": "<p>In the framework of the project \"Hour Zero - A Future for the Aftermath of the Crisis\", funded by the Federal Foreign Office, international standards were also translated into Arabic, including the DFG practice guidelines „Digitalisierung“, Dublin Core Metadata Initiative (DCMI), Open Archival Information System. Reference Model (OAIS) and a primer for the CIDOC-CRM.</p>"
   },  
   {
     "type": "slider_tiles",
-    "title": "Tutorial Resources",
+    "title": "Tutorial resources",
     "tiles": [       
         {
-            "type": "image_link",
+            "type": "text",
             "image": "assets/images/content/how/idai_guidelines_it.jpg",
-            "headline": "IT Guidelines",
+            "headline": "IT guidelines",
             "subhead": "",
             "link": { 
                 "text": "ianus-fdz.de/it-empfehlungen",
                 "target": "http://www.ianus-fdz.de/it-empfehlungen/"
-            }
+            },
+            "text":"The IT guidelines of IANUS offer an insight into the guidelines that are recommended by the German Research Foundation on digital research data, such as long-term archiving. These also give tips and background information on the use of digital data."
             
         },         
         {
-            "type": "image_link",
+            "type": "text",
             "image": "assets/images/content/how/idai_guidelines_tutorials.jpg",
             "headline": "iDAI.tutorials",
-            "subhead": "Courses for Cultural Heritage Professionals",
+            "subhead": "",
             "link": {
                 "target": "https://tutorials.idai.world",
                 "text": "iDAI.tutorials"
-            }
+            },
+            "text":"Online courses for cultural heritage professionals"
         },
         {
-            "type": "image_link",
+            "type": "text",
             "image": "assets/images/content/how/idai_guidelines_hellespont.jpg",
             "headline": "The Hellespont Project",
             "subhead": "Integrating Arachne and Perseus via CIDOC CRM",
             "link": {
                 "target": "http://hellespont.dainst.org/startpage/",
                 "text": "The Hellespont Project: Integrating Arachne and Perseus via CIDOC CRM"
-            }
+            },
+            "text":"The Hellespont Project combines the digital collections of Greek and Roman antiquities of the Perseus Digital Library and the German Archaeological Institute with text using the metadata format CIDOC CRM."
         },
         {
             "type": "image_link",
             "image": "assets/images/content/how/idai_guidelines_arabic_translation.jpg",
-            "headline": "Arabic Translations of international standards and guidelines",
-            "subhead": "",
+            "headline": "Arabic translations of",
+            "subhead": "standards and guidelines",
             "link": {
                 "target": "https://moocs.dainst.org/course/view.php?id=18",
-                "text": "Arabic Translations of international standards and guidelines"
+                "text": "Arabic Translations of standards and guidelines"
             }
         }
       ]
