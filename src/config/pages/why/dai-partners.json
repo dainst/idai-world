@@ -261,7 +261,7 @@
         {
           "type": "image_link",
           "image": "assets/images/content/why/partners/logos/isai_partners_uni_koeln.jpg",
-          "headline": "Chair for Archaeoinformatics at the University of Cologne",
+          "headline": "Archaeoinformatics at the University of Cologne",
           "subhead": "",
           "link": {
             "target": "http://archaeologie.uni-koeln.de/archit.html",
@@ -281,7 +281,7 @@
         {
           "type": "image_link",
           "image": "assets/images/content/why/partners/logos/idai_partners_lmu.jpg",
-          "headline": "Chair for Database Systems and Data Mining at LMU Munich",
+          "headline": "Database Systems and Data Mining at LMU Munich",
           "subhead": "",
           "link": {
             "target": "http://www.dbs.ifi.lmu.de/cms/",
@@ -291,7 +291,7 @@
         {
           "type": "image_link",
           "image": "assets/images/content/why/partners/logos/isai_partners_uni_koeln.jpg",
-          "headline": "Chair for Digital Humanities at the University of Cologne",
+          "headline": "Digital Humanities at the University of Cologne",
           "subhead": "",
           "link": {
             "target": "http://dh.uni-koeln.de/oeide.html?&L=1",
