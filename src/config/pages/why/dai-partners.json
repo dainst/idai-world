@@ -73,7 +73,7 @@
           "type": "image_link",
           "image": "assets/images/content/why/partners/idai_partners_cidoc.jpg",
           "headline": "CIDOC Conceptual Reference Model (CRM)",
-          "subhead": "CiDOC Special Interest Group",
+          "subhead": "",
           "link": {
             "target": "http://www.cidoc-crm.org/Resources/the-arachne-project",
             "text": "External Link to 'CIDOC Conceptual Reference Model (CRM)'"
@@ -138,7 +138,7 @@
           "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_nahan.jpg",
           "headline": "NAHAN",
-          "subhead": "North African Heritage Archives Network",
+          "subhead": "",
           "link": {
             "target": "http://www.nahanweb.org/",
             "text": "NAHAN"
