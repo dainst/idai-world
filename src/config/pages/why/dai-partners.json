@@ -38,7 +38,7 @@
         },
         {
           "type": "text",
-          "image": "assets/images/content/what/archives/coming-soon.jpg",
+          "image": "assets/images/content/why/partners/idai_partners_berlin_sculpture_network.jpg",
           "headline": "The Berlin Sculpture Network",
           "subhead": "",
           "link": {
@@ -60,7 +60,7 @@
         },
         {
           "type": "text",
-          "image": "assets/images/content/what/archives/coming-soon.jpg",
+          "image": "assets/images/content/why/partners/idai_partners_ceramegypt.jpg",
           "headline": "CeramEgypt",
           "subhead": "",
           "link": {
@@ -125,7 +125,7 @@
         },
         {
           "type": "text",
-          "image": "assets/images/content/what/archives/coming-soon.jpg",
+          "image": "assets/images/content/why/partners/idai_partners_images_in_pausanias.jpg",
           "headline": "Images in Pausanias",
           "subhead": "",
           "link": {
@@ -169,7 +169,7 @@
         },
         {
           "type": "text",
-          "image": "assets/images/content/what/archives/coming-soon.jpg",
+          "image": "assets/images/content/why/partners/idai_partners_our_place.jpg",
           "headline": "Our Place: Our Place in the World",
           "subhead": "",
           "link": {
@@ -240,7 +240,7 @@
         },
         {
           "type": "image_link",
-          "image": "assets/images/content/why/partners/logos/isai_partners_lmu.jpg",
+          "image": "assets/images/content/why/partners/logos/idai_partners_archeaBioCentre.jpg",
           "headline": "ArchaeoBio Center at LMU Munich",
           "subhead": "",
           "link": {
@@ -280,7 +280,7 @@
         },
         {
           "type": "image_link",
-          "image": "assets/images/content/why/partners/logos/isai_partners_lmu.jpg",
+          "image": "assets/images/content/why/partners/logos/idai_partners_lmu.jpg",
           "headline": "Chair for Database Systems and Data Mining at LMU Munich",
           "subhead": "",
           "link": {
@@ -320,7 +320,7 @@
         },
         {
           "type": "image_link",
-          "image": "assets/images/content/why/partners/logos/isai_partners_nomisma.jpg",
+          "image": "assets/images/content/why/partners/logos/idai_partners_nomisma.jpg",
           "headline": "Nomisma",
           "subhead": "",
           "link": {
@@ -330,7 +330,7 @@
         },
         {
           "type": "image_link",
-          "image": "assets/images/content/why/partners/logos/isai_partners_smpk.jpg",
+          "image": "assets/images/content/why/partners/logos/idai_partners_open_context.jpg",
           "headline": "Open Context",
           "subhead": "",
           "link": {
@@ -340,7 +340,7 @@
         },
         {
           "type": "image_link",
-          "image": "assets/images/content/why/partners/logos/isai_partners_open_context.jpg",
+          "image": "assets/images/content/why/partners/logos/idai_partners_perseus_digital_library.jpg",
           "headline": "Perseus Digital Library",
           "subhead": "",
           "link": {
@@ -350,7 +350,7 @@
         },
         {
           "type": "image_link",
-          "image": "assets/images/content/why/partners/logos/isai_partners_pleiades.jpg",
+          "image": "assets/images/content/why/partners/logos/idai_partners_pleiades.jpg",
           "headline": "Pleiades",
           "subhead": "",
           "link": {

@@ -48,7 +48,7 @@
       },
       {
         "type": "text",
-        "image": "assets/images/content/what/archives/coming-soon.jpg",
+        "image": "assets/images/content/what/objects/idai_objects_ara_pacis.jpg",
         "headline": "Ara Pacis Browser",
         "subhead": "",
         "link": {
@@ -65,7 +65,7 @@
     "tiles": [
       {
         "type": "text",
-        "image": "assets/images/content/what/archives/coming-soon.jpg",
+        "image": "assets/images/content/what/objects/idai_objects_clarac.jpg",
         "headline": "Clarac, Musée du Sculpture",
         "subhead": "",
         "link": {
@@ -189,7 +189,7 @@
       },
       {
         "type": "text",
-        "image": "assets/images/content/what/archives/coming-soon.jpg",
+        "image": "assets/images/content/what/objects/idai_objects_museo_maffeiano.jpg",
         "headline": "Museo Maffeiano online-edition",
         "subhead": "",
         "link": {
