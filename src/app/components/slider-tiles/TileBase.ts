@@ -136,6 +136,5 @@ function getTextWidth(text, font) {
   const context = canvas.getContext('2d');
   context.font = font;
   const metrics = context.measureText(text);
-  console.log('measuring text:', text, font, metrics.width);
   return metrics.width;
 }
