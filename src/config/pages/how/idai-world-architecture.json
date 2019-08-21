@@ -18,19 +18,30 @@
   },
   {
     "type": "slider_tiles",
-    "title": "Digitization projects",
+    "title": "iDAI.world systems",
     "enableSliding": false,
     "tiles": [
       {
         "type": "text",
         "image": "assets/images/content/how/idai_idaiworldarchitecture_arachne.jpg",
         "headline": "iDAI.objects/Arachne",
-        "subhead": "",
+        "subhead": "Object database",
         "link": { 
             "target": "https://arachne.dainst.org/", 
             "text": "Link to Arachne" 
           },
           "text":"iDAI.objects also known as Arachne, is an online image database that combines descriptions, preservation state, dating, location, and literature on the object. Other related datasets are linked with the dataset and overarching categories as well."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_zenon.jpg",
+        "headline": "iDAI.bibliography/Zenon",
+        "subhead": "Online literature catalog",
+        "link": { 
+            "target": "https://zenon.dainst.org/", 
+            "text": "Link to Zenon" 
+          },
+          "text":"iDAI.bibliography is a search engine for archaeological literature, allowing the user to find monographs, journals, articles and reviews. Aside from being helpful in finding literature on a certain topic, it also functions as a catalog for all of the libraries of the DAI. "
       }
     ]
   }
