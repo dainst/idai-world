@@ -1,4 +1,5 @@
-[
+
+  [
   {
     "type": "title_banner",
     "title": "iDAI.world Architecture",
@@ -14,6 +15,26 @@
   {
     "type": "html",
     "content_html": "config/pages/how/architecture.html"
+  },
+  {
+    "type": "slider_tiles",
+    "title": "Digitization projects",
+    "enableSliding": false,
+    "tiles": [
+      {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_arachne.jpg",
+        "headline": "iDAI.objects/Arachne",
+        "subhead": "",
+        "link": { 
+            "target": "https://arachne.dainst.org/", 
+            "text": "Link to Arachne" 
+          },
+          "text":"iDAI.objects also known as Arachne, is an online image database that combines descriptions, preservation state, dating, location, and literature on the object. Other related datasets are linked with the dataset and overarching categories as well."
+      }
+    ]
   }
+    ]
  
-]
+
+
