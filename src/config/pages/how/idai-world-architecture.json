@@ -12,10 +12,7 @@
     "body": "<p>The iDAI.world is a grown structure. It consists of modules developed in cooperation with many partners. It includes the systematic development of analog and digital information such as archives, library collections, but also rich photographic libraries and image productions. We provide standard data that can be localized in time and space. We develop open source tools for documentation.</p><p>The iDAI.world is constantly evolving. It is a permanent beta system with clear goals and visions.</p>"
 
   },
-  {
-    "type": "html",
-    "content_html": "config/pages/how/architecture.html"
-  },
+ 
   {
     "type": "slider_tiles",
     "title": "iDAI.world systems",
@@ -23,14 +20,14 @@
     "tiles": [
       {
         "type": "text",
-        "image": "assets/images/content/how/idai_idaiworldarchitecture_arachne.jpg",
-        "headline": "iDAI.objects/Arachne",
-        "subhead": "Object database",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_books.jpg",
+        "headline": "iDAI.publications/books",
+        "subhead": "Digital book publications",
         "link": { 
-            "target": "https://arachne.dainst.org/", 
-            "text": "Link to Arachne" 
+            "target": "https://publications.dainst.org/books/index.php/dai", 
+            "text": "Link to iDAI.publications/books" 
           },
-          "text":"iDAI.objects also known as Arachne, is an online image database that combines descriptions, preservation state, dating, location, and literature on the object. Other related datasets are linked with the dataset and overarching categories as well."
+          "text":"As a subpage of iDAI.publications, iDAI.books compiles all of the DAI’s digitally published monographs and series in an open access environment. Together with iDAI.bibliography and iDAI.publications/journals, it forms the iDAI’s literature research infrastructure."
       },
       {
         "type": "text",
@@ -152,6 +149,17 @@
             "text": "Link to iDAI.publications/journals" 
           },
           "text":"As a subpage of iDAI.publications, iDAI.journals compiles all of the DAI’s digitally published journals in an open access environment. Together with iDAI.bibliography and iDAI.publications/books, it forms the DAI’s literature research infrastructure. "
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_bookbrowser.jpg",
+        "headline": "iDAI.objects/bookbrowser",
+        "subhead": "Browse digitized books",
+        "link": { 
+            "target": "https://arachne.dainst.org/category/?c=buch", 
+            "text": "Link to iDAI.objects/Arachne" 
+          },
+          "text":"As a part of ARACHNE, iDAI.books offers digital versions of book on classical studies published between the 16th and 19th century. Next to making the single book pages available to research in a broader sense as digital scans, they are also characterized and contextualized as well as digitally preserved."
       }
     ]
   }
