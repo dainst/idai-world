@@ -56,7 +56,7 @@
             "type": "text",
             "image": "assets/images/content/how/idai_guidelines_hellespont.jpg",
             "headline": "The Hellespont Project",
-            "subhead": "Integrating Arachne and Perseus via CIDOC CRM",
+            "subhead": "Integrating Arachne and Perseus",
             "link": {
                 "target": "http://hellespont.dainst.org/startpage/",
                 "text": "The Hellespont Project: Integrating Arachne and Perseus via CIDOC CRM"
@@ -72,6 +72,17 @@
                 "target": "https://moocs.dainst.org/course/view.php?id=18",
                 "text": "Arabic Translations of standards and guidelines"
             }
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/how/idai_guidelines_onlaah.jpg",
+          "headline": "ONLAAH",
+          "subhead": "Online learning on African archaeology",
+          "link": {
+            "target": "http://www.onlaah.com/",
+            "text": "ONLAAH"
+          },
+          "text":"As a project of a consortium of several institutions, the platform ONLAAH offers online courses on African archaeology, African heritage and African heritage management."
         }
       ]
     } 

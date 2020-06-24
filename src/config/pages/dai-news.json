@@ -7,8 +7,272 @@
     },
     {
       "type": "news",
-      "show": 5,
+      "show": 20,
       "articles": [
+       
+{
+          "date": "24.06.2020",
+          "category": "",
+          "headline": "Scholars, excavators and art dealers' - Quarantine Special: Gerhard's Odyssey",
+          "teaser": {
+            "content": "<p>Correspondence of Emil Braun and Eduard Gerhard during a cholera outbreak in 1836-1837<br><br>The corona crisis shows well how a pandemic can rule the world for months or even years as the measures for its containment and the fight against its consequences not only influence politics and economics but also change people’s every day lives and outlook on matters. <br>The 19th century is clouded over by extensive epidemics that were caused by viral or bacterial infections. Due to Europe-wide travel connections, these epidemics spread over many cities and states. Large cities, especially those with a port, open so-called cordons for restriction and quarantine facilities where travellers had to go into quarantine. <br>The letter exchange between Eduard Gerhard, cofounder as well as first secretary of the Instituto di Correspondenza Archeologica in Rome and Emil Braun, who was Gerhard’s assistant from 1833 onwards, deputy director of the Instituto and confidante, spans over the cholera wave between the years 1836 to 1837.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2020/idai_news_quarantine.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2020-06-24_quarantine.html"
+          }
+        },
+        {
+          "date": "28.05.2020",
+          "category": "",
+          "headline": "New data catalog on iDAI.world: Paracas Archaeological Material",
+          "teaser": {
+            "content": "<p>FAAK 16: Paracas Archaeological Material publishes material online via the iDAI.world.<br><br> This online catalog accompanies the book Sea Shells in the Mountains and Llamas on the Coast: The Economy of the Paracas Culture (800 to 200 BC) in Southern Peru (Mader 2019), published as part of the series “Research into the Archaeology of Non-European Cultures” by the German Archaeological Institute (DAI). The catalog provides data and images of archaeological finds and contexts which have been excavated since 1996 by the Nasca-Palpa Project of the DAI’s Commission for Archaeology of Non-European Cultures (KAAK).</p>",
+            "image": {
+              "src": "/assets/images/content/news/2020/idai_news_faak16.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2020-05-28_faak16.html"
+          }
+        },
+        {
+          "date": "06.05.2020",
+          "category": "",
+          "headline": "New data enhanced publication: Palilia 32 - 'Large statuettes' in Medma ",
+          "teaser": {
+            "content": "<p>Another publication that uses the iDAI.world systems for its catalog has appeared in the DAI's series 'Palilia'. It covers terracotta figures that used to measure from 40-60 cm, which were discovered in a  large votive depot at ‚Località Calderazzo‘ located in today's Rosarno (Calabria). A scared area of the Greek colony of Medma was situated here in antiquity. <br><br>The large statuettes were produced from 550-450 BC in the same production circle as the 'Lokrian pinakes'. They were crafted by using several handformed matrices that were later put together.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2020/idai_news_palilia32.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2020-05-06_palilia32.html"
+          }
+        },
+        {
+          "date": "05.05.2020",
+          "category": "",
+          "headline": "Newsroom #DAI4all: Get to know the iDAI.world projects",
+          "teaser": {
+            "content": "<p>The DAI has created a new online blog about all news happening at the DAI. Due to the limited research possibilities during these times, the DAI Newsroom currently promotes iDAI.world projects, such as OCRE, AthensDigital and many more. You should check out the website on a regular basis to find out more about our projects. Of course, you can also check our 'Projects' page and browse what we have got to offer.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2020/idai_news_blog.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2020-05-05_blog.html"
+          }
+        },
+        {
+          "date": "05.05.2020",
+          "category": "",
+          "headline": "eLibrary services in times of COVID-19: Greece special",
+          "teaser": {
+            "content": "<p>A list of services that can be used online as COVID-19 resulted in the closure of all DAI libraries.<br>The DAI’s sixteen libraries are a key resource for the international research community. Nearly one million books on a range of specialized subjects are available for users. The DAI libraries does not only hold physical volumes but also many electronic forms of media such as ebooks, ejournals and databases.<br><br> As a special service in the present COVID19 situation, the libraries have set up an eLibrary service list for its users. The list contains links to many open access sources and temporarily available resources covering the field of archaeological sciences as well as classical and ancient studies, all accessible without financial or licensing hurdles. The list is constantly being added to. <br><br> Click here to download the elibrary service list in various languages. The PDF is free to share, so feel free to pass it on.<br><br>A new special has been released too. Literature and sources on ancient Greece are compiled in a special version of the eLibrary service newsletter!</p>",
+            "image": {
+              "src": "/assets/images/content/news/2020/idai_news_covid.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2020-05-05_covid.html"
+          }
+        },
+        {
+          "date": "23.04.2020",
+          "category": "",
+          "headline": "iDAI.field tutorial now available in Arabic",
+          "teaser": {
+            "content": "<p>The iDAI.tutorial teaching iDAI.field is now available in Arabic as well! iDAI.field is an open access tool for field documentation developed by the German Archaeological Institute (DAI). It combines features of GIS, photo management, and database management systems in a unique and integrating manner, it aims at facilitating archaeological workflows by reducing the overhead of using multiple systems. It has an adjustable data model and is free to reuse and adjust depending on project needs. This course introduces this tool and provides the necessary basic information to help you use it for your project.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2020/idai_news_idaifieldarabic.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2020-04-23_idaifieldarabic.html"
+          }
+        },
+        
+        {
+          "date": "01.03.2020",
+          "category": "",
+          "headline": "World's largest digital photo archive given to Sudan",
+          "teaser": {
+            "content": "<p>The archive of the German Sudan researcher Friedrich W. Hinkel (1925-2007) was digitized by the German Archaeological Institute and can now be accessed digitally through the iDAI.world. It forms a basis for a first monument register of Sudan.<br><br>On Febrary 27th 2020 German president Frank-Walter Steinmayer visited the National Museum of Sudan in Khartoum. During his visit, the president was taught about the history of Sudan and the German contributions to further research regarding Sudanese history. Amongst others, the DAI presented four projects of its recent investigations. A copy of the Friedrich-Hinkel-Research-Archiv was given to the National Corporation for Antiquities and Museums (NCAM) in presence of representatives of the Qatar Sudan Archaeological Project. The valuable archive was digitized by the head office of the DAI in Berlin and is made accessible online to the scientific public through iDAI.world. This forms a basis for a urgently needed national monument register in Sudan.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2020/idai_news_sudan.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+
+          "more": {
+             "content_html": "config/pages/news/2020-03-01_sudan.html"
+          }
+        },
+        {
+          "date": "07.02.2020",
+          "category": "",
+          "headline": "Domitilla catacomb succesfully 3D-scanned",
+          "teaser": {
+            "content": "<p>The largest catacomb of Rome, the Domitilla catacomb, with its subterranean passageway of more than 12 km, has been documented between 2006-2012 with state-of-the-art 3D laser scanning techniques. The enormous point cloud of the four stories allows the users to visit and more importantly do research in the catacomb virtually.<br> Until recently a general plan of the aboveground area has not been created, which allows the connection to the modern road and building orientation as well as the slightly hilly terrain model to the catacomb. This is not only important for the reconstruction of the connection between the subterranean and aboveground necropolis but also for the planning of further conservational measures such as water management and road construction.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2020/idai_news_Domitilla.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+
+          "more": {
+             "content_html": "config/pages/news/2020-02-07_Domitilla.html"
+          }
+        },
+        {
+          "date": "18.12.2019",
+          "category": "",
+          "headline": "A new digital feature: Inden",
+          "teaser": {
+            "content": "<p>The iDAI.world has a new addition. The Inden project page can be used as a new digital feature for the documentation documents that were created during the excavation campaigns in Inden that took place from 1965 to 1967.<br>The drawings of the excavation surfaces, especially the house's floor plans, as well as single sites ('Stellen'), can be inferred from Excel-tables of the Stellen-numbers. In these tables, information on the kind of site, association to larger sites (buildings, fences), location within the general excavation ('square'/ 'roll'), sheet numbers of the A3 drawings with respective positions and the name of the drawer(s), as well as inventory numbers of the finds. Surely, some inconsistencies can be found, such as twice or never used numbers, that can be explained by the lack of time and problems in communication within a large excavation but could also have become hard to identify after 50 years - as seen for some find descriptions. Some scrolls without built find sites, drawings from trenches in the west outside of the Rössener settlement and profile drawings from these trenches that mostly contained Bronze Age sites were not scanned.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2019/idai_news_inden.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+
+          "more": {
+             "content_html": "config/pages/news/2019-12-18_inden.html"
+          }
+        },
+        {
+          "date": "04.12.2019",
+          "category": "",
+          "headline": "Improved project search in iDAI.world",
+          "teaser": {
+            "content": "<p>The iDAI.world has improved the accessibility of the digital projects that were previously not centrally assembled. The category 'What' has been updated with a subpage showing the projects either by topic or by letter.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2019/idai_news_projects.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+
+          "more": {
+             "content_html": "config/pages/news/2019-12_04_projects.html"
+          }
+        },
+        {
+          "date": "25.11.2019",
+          "category": "",
+          "headline": "New dainst.blog about ONLAAH",
+          "teaser": {
+            "content": "<p>The DAI has created a new dainst.blog website about the elearning platform ONLAAH that focuses on African heritage and archaeology. The blog features all things going on behind the scenes and will also inform about new features.</p><br><a href='https://www.dainst.blog/elearning-africa/''>Link to Onlaah-blog</a>",
+            "image": {
+              "src": "/assets/images/content/news/2019/idai_news_onlaah.jpg",
+              "title": "",
+              "caption": ""
+            }
+          }
+        },
+        {
+          "date": "20.11.2019",
+          "category": "",
+          "headline": "New journal-viewer with new Archäologischer Anzeiger",
+          "teaser": {
+            "content": "<p>With the current issue of the Archäologischer Anzeiger the German Archaeological Institute will take an important step forward into the digital future and will draw attention to new accents for an up-to-date publication format in archaeological and classical studiesjournals. <br> <br>From now on the journal’s printed version will be simultaneously accompanied by a redesigned and open access digital version in a responsive viewer format. For the first time within the field of Archaeology, the DAI-Journal-Viewer provides for the possibility of connecting and expanding articles with digital supplements or research data and will fit into the open online infrastructure of the iDAI.world, the comprehensive digital research environment of the German Archaeological Institute.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2019/idai_news_publications.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+
+          "more": {
+             "content_html": "config/pages/news/2019-11-20_publications.html"
+          }
+        },
+         {
+          "date": "13.11.2019",
+          "category": "",
+          "headline": "iDAI.world around the world",
+          "teaser": {
+            "content": "<p>For two days, the German National Academy of Sciences Leopoldina & Israel Academy of Sciences and Humanities have met in Jerusalem for a joint symposium on Computational Archaeology. The conference has reflected on the achievements of research in this field in Israel & Germany.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2019/idai_news_leopoldina.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+
+          "more": {
+             "content_html": "config/pages/news/2019-11-13_leopoldina.html"
+          }
+        },
+         {
+          "date": "16.10.2019",
+          "category": "",
+          "headline": "iDAI.world User Guide",
+          "teaser": {
+            "content": "<p>In the future the <b>iDAI.world will replace the access point to all of the iDAI.world’s systems</b> and all of its data. Although searching data through the respective systems will still be possible, a new search bar, which encompasses all of the DAI online systems, is going to allow for an easier and more integrated approach to finding the data you need. The user is given the opportunity to consider several facets when researching; topographies, objects, names, translations, archive material and concepts will be included in a single search.</p><p>The iDAI.world is divided into several categories: <b><u>What</u></b>, <b><u>Why</u></b> and <b><u>How</u></b>.  Each of these sections will be further explained.  <b><u>What</u></b> – What is the iDAI.world? What does it contain? <b><u>Why</u></b> – Why does the iDAI.world exist? What are its aims and functions? <b><u>How</u></b> – How does the iDAI.world reach its aims? Which strategies are used in order to conduct research in digital archaeology and archive research data in Germany?</p><p>The three main categories are further subdivided into smaller sections that explain the iDAI.world’s fields of use in a more detailed fashion. Here, one can also get access to projects that the DAI is or was involved in. The projects in the iDAI.world are continuously updated.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2019/idai_news_idaiworldguide.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+
+          "more": {
+             "content_html": "config/pages/news/2019-10-16_idaiguide.html"
+          }
+        },
+         {
+          "date": "11.09.2019",
+          "category": "",
+          "headline": "Technological Cooperation in Support of Afghan Cultural Heritage",
+          "teaser": {
+            "content": "<p><b>The German Archaeological Institute provides technological support and knowledge transfer for the creation of a digital heritage management platform in Afghanistan.</b><br><br>The President of the German Archaeological Institute (DAI), Friederike Fless, and the Acting Director of the Directorate for Preservation of Historic Cities at the Afghan Ministry of Urban Development and Land (MUDL), Reza Sharifi, signed a Memorandum of Understanding (MoU) on the premises of the DAI's Berlin head offices, in August 2019.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2019/idai_news_MoU.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+
+          "more": {
+             "content_html": "config/pages/news/2019-09-11_MoU.html"
+          }
+        },
+        {
+          "date": "28.08.2019",
+          "category": "",
+          "headline": "NARA and Rakob portal – two new portals of the DAI Rome Department on North Africa",
+          "teaser": {
+            "content": "<p><b>Two new portals on the bequest of Rakob and the North African Research Archive (NARA) are available in the object database iDAI.objects/Arachne.</b><br><br>Together, both portals offer a multilingual interface for a central cultural archive of the DAI, Rome Department that is concerned with archaeology, architecture and cultural history of North Africa.The Rakob portal is dedicated to the bequest of Friedrich Rakob (1931-2007) who, while working as a research in Roman architectural research at the Rome Department from 1962-1996, gained importance due to his research in the Maghreb region, especially in the northern Tunisian cities of Carthago and Chimtou. By funding of the Foreign Ministry of Germany, photographs, drawings and documents of his that were kept at the Rome Department, could be digitized and made available.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2019/idai_news_NAHA.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+
+          "more": {
+             "content_html": "config/pages/news/2019-08-28_NAHA.html"
+          }
+        },
         {
           "date": "13.08.2019",
           "category": "",
@@ -24,6 +288,23 @@
 
           "more": {
              "content_html": "config/pages/news/2019-08-13_Pelagios.html"
+          }
+        },
+         {
+          "date": "16.05.2019",
+          "category": "",
+          "headline": "Pergamon 3D",
+          "teaser": {
+            "content": "<p>The site of Pergamon, located northwest of the modern city of Bergama in Turkey, rises above the Bakirçay Plain. As the capital of the Hellenistic Attalid dynasty Pergamon was one of the most prominent urban centers of the ancient world. In addition to its political significance, the city was a cultural and religious center with a significant library, impressive temples, theaters and a gymnasium. The city later became capital of the Roman province of Asia, famous for its Asclepieion healing center.</p><p><b>World Heritage Site Pergamon</b><br/><a>For more than 130 years archaeologists of the <a href=\"https://www.dainst.org/projekt/-/project-display/14186\">German Archaeological Institute</a> have been working in the metropolis on the west coast of Turkey.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2019/idai_news_pergamon.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+
+          "more": {
+            "content_html": "config/pages/news/2019-05-16-pergamon3d.html"
           }
         },
         {
@@ -58,24 +339,6 @@
 
           "more": {
              "content_html": "config/pages/news/2019-04-08-ayda.html"
-          }
-        }
-      ,
-        {
-          "date": "16.05.2019",
-          "category": "",
-          "headline": "Pergamon 3D",
-          "teaser": {
-            "content": "<p>The site of Pergamon, located northwest of the modern city of Bergama in Turkey, rises above the Bakirçay Plain. As the capital of the Hellenistic Attalid dynasty Pergamon was one of the most prominent urban centers of the ancient world. In addition to its political significance, the city was a cultural and religious center with a significant library, impressive temples, theaters and a gymnasium. The city later became capital of the Roman province of Asia, famous for its Asclepieion healing center.</p><p><b>World Heritage Site Pergamon</b><br/><a>For more than 130 years archaeologists of the <a href=\"https://www.dainst.org/projekt/-/project-display/14186\">German Archaeological Institute</a> have been working in the metropolis on the west coast of Turkey.</p>",
-            "image": {
-              "src": "/assets/images/content/news/2019/idai_news_pergamon.jpg",
-              "title": "",
-              "caption": ""
-            }
-          },
-
-          "more": {
-            "content_html": "config/pages/news/2019-05-16-pergamon3d.html"
           }
         }
       ]

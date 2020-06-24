@@ -7,7 +7,7 @@
   {
     "type": "intro_text",
     "title": "",
-    "body": "<p>To cooperate trustworthily in building an open science world is the vision and mission of the iDAI.world. It is the result of a long joint development by many partners. Its origin lies in the initiatives of the Research Archive for Ancient Sculpture in Cologne. From this tradition, two key partners of the DAI in the stricter sense of informatics, programming and infrastructure are the <a href=\"http://archaeologie.uni-koeln.de/archit.html?&L=1\" target=\"_blank\">Cologne University’s chair for Archaeoinformatics</a> and the <a href=\"https://rrzk.uni-koeln.de/rrzk.html?&L=1\" target=\"_blank\">Regional Computing Center in Cologne (RRZK)</a>. They were joined by many others over time, namely the Chair for Computer Graphics at the University of Applied Sciences in Dresden, and the <a href=\"http://www.archaeocopter.de/\" target=\"_blank\">Archaeocopter and Archaeonautic</a> project at Dresden University and the Free University in Berlin. Numerous national and international cooperations are shaping the iDAI.world as a service for the community</p><p>Without their partners, friends and users, the offer of the iDAI.world would never have arisen in the present form.</p>"
+    "body": "<p>To cooperate trustworthily in building an open science world is the vision and mission of the iDAI.world. It is the result of a long joint development by many partners. Its origin lies in the initiatives of the Research Archive for Ancient Sculpture in Cologne. From this tradition, two key partners of the DAI in the stricter sense of informatics, programming and infrastructure are the <a href=\"http://archaeologie.uni-koeln.de/archit.html?&L=1\" target=\"_blank\">Cologne University’s chair for Archaeoinformatics</a> and the <a href=\"https://rrzk.uni-koeln.de/rrzk.html?&L=1\" target=\"_blank\">Regional Computing Center in Cologne (RRZK)</a>. They were joined by many others over time, namely the Chair for Computer Graphics at the University of Applied Sciences in Dresden, and the <a href=\"http://www.archaeocopter.de/\" target=\"_blank\">Archaeocopter and Archaeonautic</a> project at Dresden University and the Free University in Berlin. Numerous national and international cooperations are shaping the iDAI.world as a service for the community</p><p>Without its partners, friends and users, the offer of the iDAI.world would never have arisen in the present form.</p>"
   },
   {
     "type": "slider_tiles",
@@ -35,17 +35,6 @@
             "text": "External Link to 'Archaeocopter and Archaeonautic'"
           },
           "text":"Recording archaeology with low cost unmanned aerial vehicles."
-        },
-        {
-          "type": "text",
-          "image": "assets/images/content/why/partners/idai_partners_berlin_sculpture_network.jpg",
-          "headline": "The Berlin Sculpture Network",
-          "subhead": "",
-          "link": {
-            "target": "https://arachne.dainst.org/project/skulpberlinantik",
-            "text": "External Link to 'Berlin Sculpture Network'"
-          },
-          "text":"The Berlin Sculpture Network is a cooperation between the Antiquities Collection of the Berlin State Museums, the DAI and the Institute of Classical Archaeology at the Free University of Berlin and aims to reconstruct the spatial, functional and substantive contexts context of ancient sculptures."
         },
         {
           "type": "text",
@@ -93,7 +82,7 @@
         {
           "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_dariah_eu.jpg",
-          "headline": "Dariah-EU",
+          "headline": "DARIAH-EU",
           "subhead": "",
           "link": {
             "target": "https://www.dariah.eu/2019/03/20/working-groups-stories-6-setting-up-e-infrastructure-for-collaborative-work-on-thesaurus-integration/",
@@ -169,6 +158,17 @@
         },
         {
           "type": "text",
+          "image": "assets/images/content/why/partners/idai_partners_onlaah.jpg",
+          "headline": "ONLAAH",
+          "subhead": "Online learning on African archaeology",
+          "link": {
+            "target": "http://www.onlaah.com/",
+            "text": "ONLAAH"
+          },
+          "text":"As a project of a consortium of several institutions, the platform ONLAAH offers online courses on African archaeology, African heritage and African heritage management."
+        },
+        {
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_our_place.jpg",
           "headline": "Our Place: Our Place in the World",
           "subhead": "",
@@ -184,7 +184,7 @@
           "headline": "Pelagios",
           "subhead": "",
           "link": {
-            "target": "http://commons.pelagios.org/2012/06/arachne-void-descriptions/",
+            "target": "https://pelagios.org/",
             "text": "Pelagios"
           },
           "text":"The Pelagios Network links information online through common references to places. The core activities of Pelagios are annotation, collaboration, gazetteers, pedagogy, registry and visualization."

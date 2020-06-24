@@ -1,0 +1,29 @@
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+@import "./node_modules/bootstrap/scss/utilities/sizing";
+@import "./node_modules/bootstrap/scss/type";
+
+@import "./node_modules/bootstrap/scss/grid";
+
+@import "./variables";
+@import "./reset";
+@import "./base";
+@import "./decoration";
+@import "./fonts";
+@import "./header";
+@import "./nav";
+
+body {
+  background-color: grey;
+}
+
+.ico-griffin {
+  background: url(../assets/ico-griffin.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  width: 53px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0px;
+}

@@ -1,0 +1,115 @@
+
+[
+    
+  {
+    "type": "sub_nav",
+    "items": [
+      {
+        "image": "assets/images/temp/circle-hover.jpg",
+        "route": "/what/projectsbytopic",
+        "title": "Projects<br>by topic"
+      },
+      {
+        "image": "assets/images/content/banner-libraries.jpg",
+        "route": "/what/projectsbyletter",
+        "title": "Projects<br>by letter"
+      }
+    ]
+  },
+{
+      "type": "intro_text",
+      "title": "A",
+      "body": "<p><a href='https://arachne.dainst.org/project/spornsiegel'>Suermondt-Ludwig-Museum Aachen</a><br><a href='http://afe.dainst.org/'>AFE (part of OCRE)</a><br><a href='https://arachne.dainst.org/project/afrarchcologne'>African Archaeological Archive Cologne</a><br><a href='https://geoserver.dainst.org/maps/984'>Al Idrisi - Archaeological Atlas of Algeria and Tunisia</a><br><a href='https://arachne.dainst.org/project/antikeplastik'>Antike Plastik 5.0://</a><br><a href='https://arachne.dainst.org/project/arapacis'>Ara Pacis Browser</a><br><a href='https://arachne.dainst.org/project/ariadne'>ARIADNE</a><br><a href='https://arachne.dainst.org/project/athenDigital'>Athens Department - a scienfitic legacy archive</a></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "B",
+      "body": "<p><a href='https://arachne.dainst.org/project/basilaemil'>The Basilica Aemilia on the Forum Romanum</a><br><a href='https://arachne.dainst.org/project/antiksammlberlin'>Sculptures in the Antikensammlung Berlin</a><br><!-- <a href='https://arachne.dainst.org/project/skulpberlinantik'>The Berlin Sculpture Network</a><br> --><a href='https://arachne.dainst.org/project/fotoarchivdaiberlin'>Berlin Head Office Photo Library</a><br><a href='https://arachne.dainst.org/project/daiorient'>Berlin Orient Department Photo Library</a><br><a href='https://arachne.dainst.org/project/berlinsamml'>Plaster Casts in Berlin</a><br><a href='https://geoserver.dainst.org/maps/981'>Lead Ingots from Shipwrecks (Bizerte)</a><br><a href='https://arachne.dainst.org/project/idaibookbrowser'>iDAI.bookbrowser</a><br><a href='https://arachne.dainst.org/project/sammlakakunst'>Plaster Cast Collection, University Bonn</a><br><a href='http://arachne.uni-koeln.de/item/buch/5376'>1836 - Emil Braun and the first library catalog</a></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "C",
+      "body": "<p><a href='https://arachne.dainst.org/project/fotokairo'>Cairo Department - Photo Library</a><br><a href='https://arachne.dainst.org/project/carare'>CARARE</a><br><a href='https://arachne.dainst.org/project/ceramegypt'>CeramEgypt</a><br><a href='http://chronontology.dainst.org/search?q=*&fq=tags:%27ancient_egypt%27'>Chronontology: Ancient Egypt</a><br><a href='http://chronontology.dainst.org/search?q=*&fq=tags:%27bronze_age_europe%27'>Chronontology: European Bronze Age</a><br><a href='http://chronontology.dainst.org/search?q=*&fq=tags:%27geological_time_scale%27'>Chronontology: Geological Time Scale</a><br><a href='https://chronontology.dainst.org/search?q=*&fq=tags:%27roman_chronology%27'</a>Chronontology: Roman Times<br><a href='https://arachne.dainst.org/project/claracstart'>Clarac, Musée du Sculpture</a><br><a href='https://arachne.dainst.org/project/corpusantsark'>Corpus of Ancient Sarcophagi</a><br><a href='https://arachne.dainst.org/project/cilopac'>Corpus Inscriptionum Latinarium (CIL)</a><br><a href='https://arachne.dainst.org/project/corpusminmyk'>Corpus of Minoan and Mycenaean Seals</a><br><a href='in prep'>Corpus of Roman Finds in the European Babaricum (CRFB) - in preparation</a></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "D",
+      "body": "<p><a href='https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/124822'>Damascus Branch - Photo Library</a><br><a href='https://arachne.dainst.org/project/centurions'>Dressed to Drill. Roman Centurions' Equipment</a></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "E",
+      "body": "<p><a href='https://arachne.dainst.org/project/emagines'>Glass negatives within the framework of Emagines</a><br><a href='https://arachne.dainst.org/project/teheran_digital'>Eurasia Department - Teheran Digital</a></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "F",
+      "body": "<p><a href='https://arachne.dainst.org/project/rezeptionantike'>Digital Facsimiles of Historical Books</a><br><a href='https://arachne.dainst.org/project/schlossfulda'>Schloss Fasanerie (Adelophseck) near Fulda</a></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "G",
+      "body": "<p><a href='https://arachne.dainst.org/project/langwiss'>Figurative Reception of Greek Poets and Philosophers</a></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "H",
+      "body": "<p><a href='https://arachne.dainst.org/project/hafen'>Images and Imaginations of Roman Harbors</a><br><a href='http://hellespont.dainst.org/startpage/'>The Hellespont Project</a><br><a href='https://arachne.dainst.org/project/hinkel'>Friedrich Hinkel Archive of Sudan</a></p>"
+    },
+    {
+      "type": "intro_text", 
+      "title": "I",
+      "body": "<p><a href='https://arachne.dainst.org/project/inden1'>Inden</a><br><a href='https://arachne.dainst.org/project/fotoistanbul'>Istanbul Department - Photo Library</a></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "K",
+      "body": "<p><a href='https://arachne.dainst.org/project/kanatha'>Sanctuaries in Kanatha - From Hellenism to Late Antiquity</a><br><a href='https://arachne.dainst.org/project/kossack'>Scientific Legacy of Georg Kossack</a></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "L",
+      "body": "<p><a href='https://arachne.dainst.org/project/gipsleipzigsamml'>Museum and Plaster Cast Collection, Leipzig</a></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "M",
+      "body": "<p><a href='https://arachne.dainst.org/project/fotomadrid'>Madrid Department - Photo Library</a><br><a href='https://arachne.dainst.org/project/museomaff'>Museo Maffeiano online-edition</a><br><a href='https://arachne.dainst.org/project/fotothekmuenchen'>Munich Photo Library of the LMU</a><br><a href='https://arachne.dainst.org/project/abguesseMuenchen'>Plaster Cast Collection, Munich, LMU</a><br></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "N",
+      "body": "<p><a href='https://arachne.dainst.org/project/nara'>North African Research Archive</a></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "O",
+      "body": "<p><a href='http://numismatics.org/ocre/'>Online Coins of the Roman Empire (OCRE)</a><br><a href='http://archwort.dainst.org/de/vocab/'>Open Access Dictionary</a><br><a href='https://arachne.dainst.org/project/oppenheim'>The Photographic Collection of Max von Oppenheim</a><br><a href='https://arachne.dainst.org/project/wohnkulturOstia'>Domestic Culture in Late Antique Ostia</a><br><a href='https://arachne.dainst.org/project/jtfourplace'>Our Place: Our Place in the World</a><br><a href=''></a><br></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "P",
+      "body": "<p><a href='https://publications.dainst.org/books/index.php/dai/catalog/series/palilia'>Palilia</a><br><a href='https://arachne.dainst.org/project/palilia20'> - No. 20: Military in Rome</a><br><a href='https://arachne.dainst.org/project/lippsbasilica'> - No. 24: Basilica Aemilia</a><br><a href='https://arachne.dainst.org/project/palilia25'> - No. 25: Republican otium-villas in Tivoli</a><br><a href='https://arachne.dainst.org/project/palilia26'> - No. 26: Wall Paintings in Campania</a><br><a href='https://geoserver.dainst.org/maps/4935'>Palmyra Digital Atlas</a><br><a href='https://arachne.dainst.org/project/palmyra-gis'>Palmyra-GIS</a><br><a href='https://arachne.dainst.org/project/faak16'>Paracas Archaeological Material</a><br><a href='https://arachne.dainst.org/project/databasepausanias'>Images in Pausanias</a><br><a href='https://arachne.dainst.org/project/pergamenischeforschungen17'>Pergamenische Forschungen No. 17: Terracottas from Pergamon</a><br><a href='https://arachne.dainst.org/project/pergaltarbrowser'>Pergamon Altar Browser</a><br><a href='https://arachne.dainst.org/project/preussdenk'>Prussian Monuments</a></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "R",
+      "body": "<p><a href='https://arachne.dainst.org/project/rakob'>Bequest of Friedrich Rakob</a><br><a href='https://arachne.dainst.org/project/rwwa'>Archive of Rhine-Westphalian Economy</a><br><a href='https://arachne.dainst.org/project/rm121'>Römische Mitteilungen No. 121: Brick Stamps Palatine Hill</a><br><a href='https://arachne.dainst.org/project/gelehrtenbriefe'>Rome Department - Correspondences</a><br><a href='https://arachne.dainst.org/project/gelehrtenbriefe_quarantaene'>- Quarantine Special</a><br><a href='https://arachne.dainst.org/project/handzeichnungen'>Rome Department - Historical Drawings</a><br><a href='https://arachne.dainst.org/project/fotorom'>Rome Department - Photo Library / Microfiches</a><br><a href='https://arachne.dainst.org/project/skulpturnegdairom'> - Sculpture Negatives of the DAI Rome</a><br><a href='https://arachne.dainst.org/project/nachlassroeder'> - Scholarly Bequest of Josef Röder</a><br><a href='https://arachne.dainst.org/project/invbuecherrom'> - Inventory Registers</a><br><a href='https://arachne.dainst.org/project/imagegrid'> - Image Grid</a></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "S",
+      "body": "<p><a href='https://arachne.dainst.org/project/sammlsaarbr'>Plaster Cast Collection, University Saarbrücken</a><br><a href='https://arachne.dainst.org/project/schulzmeer'>Sea Creatures on Roman Sarcophagi</a><br><a href='https://arachne.dainst.org/project/siracusa_citta_e_mura'>Siracusa - La città e le sue mura</a><br><a href='https://arachne.dainst.org/project/spacodices'>Madrid Department - Spanish Codices</a><br><a href='https://arachne.dainst.org/project/steindorff'>Scientific Legacy of Georg Steindorff</a><br><a href='https://arachne.dainst.org/project/stendal'>Winckelmann-Society and Museum, Stendal</a><br><a href='https://arachne.dainst.org/project/syrher'>Syrian Heritage Archive Project</a></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "T",
+      "body": "<p><a href='https://www.dainst.org/en/standort/-/organization-display/ZI9STUj61zKB/71364'>Teheran Branch - Photo Library</a><br><a href='https://arachne.dainst.org/project/roseterra'>Roman Terracotta Masks</a><br><a href='https://arachne.dainst.org/project/katalogskulpthess'>Archaeological Museum, Thessaloniki</a><br><a href='https://arachne.dainst.org/project/traianssaeule'>Trajan's Column Browser</a><br><a href='https://geoserver.dainst.org/maps/980'>Triphylia - Map of a Greek landscape</a><br></p>"
+    },
+    {
+      "type": "intro_text",
+      "title": "W",
+      "body": "<p><a href='https://arachne.dainst.org/project/villaWolkonsky'>Villa Wolkonsky, Antiquities Collection, Rome</a></p>"
+    }
+  ]
+

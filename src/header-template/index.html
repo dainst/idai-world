@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <base href="./" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>iDAI</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+
+    <link href="dest/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--- THIS IS THE RELEVANT TEMPLATE SNIPPET --->
+    <!-- 
+      The classes for the columns/groups (col-md-3 here) depend on the amount of columns.
+      The formula is: 
+      const n = clamp(Math.round(12 / items.length), 2, 12)
+      const class = 'col-md-' + n;
+    -->
+    <header id="app-header" class="header sticky">
+      <div class="header__inner">
+        <div class="header__container">
+          <a class="nav-trigger" (click)="onNavTriggerClick($event)">
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+          </a>
+          <div class="navs">
+            <div class="row no-gutters">
+              <div class="col-md-3">
+                <nav class="nav h-100 nav--first decoration-bg-light-gray">
+                  <h3>Category 1</h3>
+                  <ul>
+                    <li>
+                      <a href="#">Item 1</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 2</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 3</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 4</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 5</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col-md-3">
+                <nav class="nav h-100 decoration-bg-gray">
+                  <h3>Category 2</h3>
+                  <ul>
+                    <li>
+                      <a href="#">Item 1</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 2</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 3</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 4</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 5</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col-md-3">
+                <nav class="nav h-100 decoration-bg-dark-gray">
+                  <h3>Category 3</h3>
+                  <ul>
+                    <li>
+                      <a href="#">Item 1</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 2</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 3</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 4</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 5</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col-md-3">
+                <nav class="nav h-100 decoration-bg-gray">
+                  <h3>Category 3</h3>
+                  <ul>
+                    <li>
+                      <a href="#">Item 1</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 2</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 3</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 4</a>
+                    </li>
+                    <li>
+                      <a href="#">Item 5</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.header__container -->
+
+        <div class="logo">
+          <a href="#">
+            <i class="ico-logo"></i>
+          </a>
+        </div>
+        <!-- /.logo -->
+
+        <div class="header__container">
+          <a href="#">
+            <i class="ico-griffin"></i>
+          </a>
+        </div>
+        <!-- /.header__container -->
+      </div>
+      <!-- /.header__inner -->
+
+      <!-- /.navs -->
+    </header>
+
+    <!--- ./ THIS IS THE RELEVANT TEMPLATE SNIPPET --->
+
+    <div style="height: 1800px; padding: 200px 30px 30px 30px;">
+      CONTENT
+    </div>
+
+    <script src="src/header.js" type="module"></script>
+  </body>
+</html>

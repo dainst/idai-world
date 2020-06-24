@@ -15,20 +15,16 @@ const createItem = (name: string, link: string, order: number): MenuItem => {
   return item;
 };
 const getOrCreateGroup = (key, collection: MenuTree) => {
-  const segments = key.split('.');
-  let currentGroup;
-  segments.forEach(key => {
-    currentGroup = collection.find(
-      element => element.name === key && !!element.items
-    );
+  let currentGroup = collection.find(
+    element => element.name === key && !!element.items
+  );
 
-    if (!currentGroup) {
-      currentGroup = createGroup(key, []);
+  if (!currentGroup) {
+    currentGroup = createGroup(key, []);
 
-      collection.push(currentGroup);
-    }
-    collection = currentGroup.items;
-  });
+    collection.push(currentGroup);
+  }
+
   return currentGroup;
 };
 
@@ -40,7 +36,7 @@ const addToGroup = (
   const group = getOrCreateGroup(key, collection);
   group.items.push(item);
 
-  const getCompareValue = (item: MenuItem) =>
+  const getCompareValue = (item: any) =>
     item.order !== undefined ? item.order : Infinity;
 
   group.items.sort((a, b) => getCompareValue(a) - getCompareValue(b));

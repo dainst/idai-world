@@ -73,34 +73,34 @@ $transition-time: 0.4s;
   }
 }
 
-@include media-breakpoint-up(sm) {
-  .header {
-    .header__inner {
-      height: 70px;
-    }
-  }
-}
+// @include media-breakpoint-up(lg) {
+//   .header {
+//     .header__inner {
+//       height: 70px;
+//     }
+//   }
+// }
 
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(xl) {
   .header {
     .header__inner {
-      padding: 0px 40px;
-      height: 150px;
+      padding: 0px 34px;
+      height: 100px;
     }
 
     .nav-trigger {
       span {
-        width: 50px;
-        height: 10px;
+        width: 34px;
+        height: 8px;
 
         & + span {
-          margin-top: 10px;
+          margin-top: 8px;
         }
       }
 
       &.active {
         span:nth-child(1) {
-          transform: translateY(20px) rotate(45deg);
+          transform: translateY(16px) rotate(45deg);
         }
 
         span:nth-child(2) {
@@ -108,17 +108,59 @@ $transition-time: 0.4s;
         }
 
         span:nth-child(3) {
-          transform: translateY(-20px) rotate(-45deg);
+          transform: translateY(-16px) rotate(-45deg);
         }
       }
     }
 
     .ico-griffin {
-      transform: scale(1.5) translateX(-15px);
+      transform: scale(1.25) translateX(-15px);
     }
 
     .logo {
-      transform: scale(2.575);
+      transform: scale(1.9);
     }
   }
 }
+
+// @include media-breakpoint-up(xl) {
+//   .header {
+//     .header__inner {
+//       padding: 0px 40px;
+//       height: 150px;
+//     }
+
+//     .nav-trigger {
+//       span {
+//         width: 50px;
+//         height: 10px;
+
+//         & + span {
+//           margin-top: 10px;
+//         }
+//       }
+
+//       &.active {
+//         span:nth-child(1) {
+//           transform: translateY(20px) rotate(45deg);
+//         }
+
+//         span:nth-child(2) {
+//           opacity: 0;
+//         }
+
+//         span:nth-child(3) {
+//           transform: translateY(-20px) rotate(-45deg);
+//         }
+//       }
+//     }
+
+//     .ico-griffin {
+//       transform: scale(1.5) translateX(-15px);
+//     }
+
+//     .logo {
+//       transform: scale(2.575);
+//     }
+//   }
+// }

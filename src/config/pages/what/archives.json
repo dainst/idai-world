@@ -102,7 +102,6 @@
           "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_steinhoff.jpg",
           "headline": "Scientific Legacy of Georg Steindorff",
           "subhead": "",
-          "subhead": "",
           "link": {
             "target": "https://arachne.dainst.org/project/steindorff",
             "text": "External Link to Scientific Legacy of Georg Steindorff"
@@ -119,6 +118,17 @@
             "text": "External Link to Syrian Heritage Archive"
           },
           "text": "<p class='description'>Implementation of a digital cultural heritage register for Syria in order to conserve cultural heritage in Syria, which is currently threatened by war.</p>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archives_NAHA.jpg", 
+          "headline": "NARA",
+          "subhead": "North African Research Archive",
+          "link": {
+            "target": "https://arachne.dainst.org/project/nara",
+            "text": "External Link to NARA"
+          },
+          "text": "<p class='description'>The aim of the ‘North African Research Archive’ (NARA) is to provide a platform for archaeological cultural heritage from North Africa, in particular the Maghreb states of Tunisia, Algeria, Libya and Morocco.</p>"
         }
       ]
     },
@@ -184,11 +194,6 @@
       ]
     },
     {
-      "type": "amount_docs",
-      "amount": 260.947 ,
-      "text": "archive documents"
-    },
-    {
       "type": "info_box",
       "headline": "Access to memory and archiving of data",
       "content": [
@@ -220,7 +225,7 @@
           "headline": "Berlin Head Office",
           "subhead": "Archival finding aids online",
           "link": {
-            "target": "https://archives.dainst.org/index.php/deutschland-deutsches-archaologisches-archive-archiv-der-zentrale",
+            "target": "https://archives.dainst.org/index.php/deutsches-archaologisches-institut-berlin-archiv-der-zentrale",
             "text": "External Link to 'Berlin Head Office'"
           },
           "text":"<p class='description'>The archive documents the history and projects of the institute through acquisition, recording and evaluation of the respective files of the departments of the institute.</p>"

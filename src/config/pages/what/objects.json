@@ -18,7 +18,7 @@
   "type": "search_box",
   "headline": "Search for objects, architecture and collections",
   "placeholder": "Search through all 323,356 objects",
-  "text": "<p>Search in the Arachne/iDAI.objects database for objects of material culture, for architecture and in collections. A challenge in object and architectural research is the identification of form and material, the determination of origin and function as well as the temporal classification and distribution, up to the contextualization. Traditionally this has been done via corpora. Today, digital formats are common. Standardized criteria and vocabularies facilitate the search. You can also search for specific monuments, for objects in collections and for architecture.</p>"
+  "text": "<p>Search in the iDAI.objects database for objects of material culture, architecture, topography and collections. A challenge in object and architectural research is the identification of form and material, the determination of origin and function, as well as the temporal classification and distribution, up to the contextualization. Traditionally, this has been done with the help of corpora. Today, digital formats are becoming more common. Standardized criteria and vocabularies facilitate the search. You can also search for specific monuments, for objects that are parts of collections and for architecture.</p>"
   },
   {
     "type": "slider_tiles",
@@ -37,7 +37,7 @@
       },
       {
         "type": "text",
-        "image": "assets/images/content/what/objects/idai_objects_trojans_column.jpg",
+        "image": "assets/images/content/what/objects/idai_objects_trajans_column.jpg",
         "headline": "Trajan's Column Browser",
         "subhead": "",
         "link": {
@@ -78,7 +78,7 @@
         "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_creb.jpg",
         "headline": "Corpus of Roman Finds in the European Babaricum (CRFB)",
-        "subhead": ""
+        "subhead": "In preparation"
       },
       {
         "type": "text",
@@ -114,7 +114,7 @@
         "headline": "AFE",
         "subhead": "(a part of OCRE)",
         "link": {
-          "target": "http://afe.dainst.org/AFE_RGK/",
+          "target": "http://afe.dainst.org/",
           "text": "External Link to 'AFE (a part of OCRE)'"
         },
         "text":"<p class='description'>A joint project of Databases and Information Systems (DBIS) and the Römisch-Germanische Kommission (RGK) is investigating the logical integration of different coin find databases using ontologies.</p>"
@@ -153,26 +153,28 @@
   {
     "type": "slider_tiles",
     "title": "Catalogs hosted for museums and plaster cast collections",
-    "tiles": [
-      {
-        "type": "text",
-        "image": "assets/images/content/what/objects/idai_objects_plaster_casts_berlin.jpg",
-        "headline": "Plaster Casts in Berlin",
-        "subhead": "",
-        "link": {
-          "target": "https://arachne.dainst.org/project/antiksammlberlin",
-          "text": "Plaster casts after greco-roman sculptures in Berlin"
-        },
-        "text":"<p class='description'>The complete catalog of sculptures in the Antikensammlung der Staatlichen Museen zu Berlin contains approximately 2,600 Greek, Cypriot, Etruscan, and Roman sculptures in stone, as well as several large bronzes.</p>"
-      },
+    "enablesliding": true,
+    "rows": 2,
+     "tiles": [
       {
         "type": "text",
         "image": "assets/images/content/what/objects/idai_objects_plaster_casts_antikensammlung.jpg",
         "headline": "Sculptures in the Antikensammlung, Berlin",
         "subhead": "",
         "link": {
-          "target": "https://arachne.dainst.org/project/berlinsamml",
+          "target": "https://arachne.dainst.org/project/antiksammlberlin",
           "text": "Sculptures in the Antikensammlung, Berlin"
+        },
+        "text":"<p class='description'>The complete catalog of sculptures in the Antikensammlung der Staatlichen Museen zu Berlin contains approximately 2,600 Greek, Cypriot, Etruscan, and Roman sculptures in stone, as well as several large bronzes.</p>"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/objects/idai_objects_plaster_casts_berlin.jpg",
+        "headline": "Plaster Casts in Berlin",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/berlinsamml",
+          "text": "Plaster casts after greco-roman sculptures in Berlin"
         },
         "text":"<p class='description'>Every plaster cast in Berlin (from Freie Universität, Humboldt-Universität, and the Antikensammlung/State Museums of Berlin) representing an ancient object was systematically recorded and entered into ARACHNE.</p>"
       },

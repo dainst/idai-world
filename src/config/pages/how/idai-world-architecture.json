@@ -9,10 +9,9 @@
   {
     "type": "intro_text",
     "title": "",
-    "body": "<p>The iDAI.world is a grown structure. It consists of modules developed in cooperation with many partners. It includes the systematic development of analog and digital information such as archives, library collections, but also rich photographic libraries and image productions. We provide standard data that can be localized in time and space. We develop open source tools for documentation.</p><p>The iDAI.world is constantly evolving. It is a permanent beta system with clear goals and visions.</p>"
+    "body": "<p>The iDAI.world is a grown structure that has developed over the last years. It is made up of different systems that have been developed in cooperation with many partners. The term iDAI.world is an overarching infrastructure that connects systems on archives, library collections, rich photographic libraries, geographic data, place names, chronological terms, bibliographical references, electronic publications, and thesauri.Together they form comprehensive infrastructure for research in Archaeology and neighboring fields of study. Further information is provided below.</p><p>The iDAI.world is also constantly evolving. It is a permanent beta system with clear goals and visions and continuously developing new tools.</p>"
 
   },
- 
   {
     "type": "slider_tiles",
     "title": "iDAI.world systems",
@@ -20,14 +19,14 @@
     "tiles": [
       {
         "type": "text",
-        "image": "assets/images/content/how/idai_idaiworldarchitecture_books.jpg",
-        "headline": "iDAI.publications/books",
-        "subhead": "Digital book publications",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_arachne.jpg",
+        "headline": "iDAI.objects/Arachne",
+        "subhead": "Object database",
         "link": { 
-            "target": "https://publications.dainst.org/books/index.php/dai", 
-            "text": "Link to iDAI.publications/books" 
+            "target": "https://arachne.dainst.org/", 
+            "text": "Link to iDAI.objects/Arachne" 
           },
-          "text":"As a subpage of iDAI.publications, iDAI.books compiles all of the DAI’s digitally published monographs and series in an open access environment. Together with iDAI.bibliography and iDAI.publications/journals, it forms the iDAI’s literature research infrastructure."
+          "text":"iDAI.objects also known as Arachne, is an online image database that combines descriptions, preservation state, dating, location, and literature on the object. Other related datasets are linked with the dataset and overarching categories as well."
       },
       {
         "type": "text",
@@ -49,7 +48,7 @@
             "target": "http://field.dainst.org/", 
             "text": "Link to iDAI.field" 
           },
-          "text":"iDAI.field 2.0 is a database for excavation documentation. Areas, trenches, finds and sites can be marked with polygons and layers with drawings or photographs can be stacked upon each others. The datasets are connected to the plans and a matrix is also automatically generated."
+          "text":"iDAI.field 2.0 is a database for excavation documentation. Areas, trenches, finds and sites can be marked with polygons and layers with drawings or photographs can be stacked upon each other. The datasets are connected to the plans and a matrix is also automatically generated."
       },
       {
         "type": "text",
@@ -60,7 +59,7 @@
             "target": "https://gazetteer.dainst.org/app/#!/home", 
             "text": "Link to iDAI.gazetteer" 
           },
-          "text":"Aside from assigning coordinates to place names, it also list the several different names of a place and shows related places. The parent and child locations are also linked to the dataset as are datasets in iDAI.objects, iDAI.bibliography and Pelagios."
+          "text":"Aside from assigning coordinates to place names, it also lists the several different names of a place and shows related places. The parent and child locations are also linked to the datasets as are datasets in iDAI.objects, iDAI.bibliography and Pelagios."
       },
        {
         "type": "text",
@@ -82,7 +81,7 @@
             "target": "https://archwort.dainst.org/de/vocab/", 
             "text": "Link to iDAI.vocab" 
           },
-          "text":"iDAI.vocab is a helpful tool when dealing with international publications while conducting research. Often, archaeological terms are not included in regular dictionaries, which shows the need to create a vocabulary just for terms neccessary in archaeological research."
+          "text":"iDAI.vocab is a helpful tool when dealing with international publications while conducting research. Often, archaeological terms are not included in regular dictionaries, which shows the need to create a vocabulary just for terms necessary in archaeological research."
       },
       {
         "type": "text",
@@ -115,7 +114,7 @@
             "target": "https://www.ianus-fdz.de/", 
             "text": "Link to IANUS" 
           },
-          "text":"developed within a project  aiming to create a national research data structure for classical studies and archaeology. At the moment, IANUS works with  partners from the Cultural Heritage Ministries, museums and universities to establish IANUS as a standard in classical studies in Germany."
+          "text":"IANUS was developed within a project aiming to create a national research data structure for classical studies and archaeology. At the moment, IANUS works with partners from the Cultural Heritage Ministries, museums and universities to establish IANUS as a standard in classical studies in Germany."
       },
       {
         "type": "text",
@@ -123,7 +122,7 @@
         "headline": "iDAI.thesauri",
         "subhead": "Labels, concepts, alternative terms",
         "link": { 
-            "target": "https://thesauri.dainst.org/", 
+            "target": "http://thesauri.dainst.org/de.html", 
             "text": "Link to iDAI.thesauri" 
           },
           "text":"iDAI.thesauri combines all of the DAI’s thesauri, giving labels to concepts and showing alternative terms to labels in various languages."
@@ -159,7 +158,7 @@
             "target": "https://arachne.dainst.org/category/?c=buch", 
             "text": "Link to iDAI.objects/Arachne" 
           },
-          "text":"As a part of ARACHNE, iDAI.books offers digital versions of book on classical studies published between the 16th and 19th century. Next to making the single book pages available to research in a broader sense as digital scans, they are also characterized and contextualized as well as digitally preserved."
+          "text":"As a part of ARACHNE, iDAI.books offers digital versions of books on classical studies published between the 16th and 19th century. Next to making the single book pages available to research in a broader sense as digital scans, they are also characterized and contextualized as well as digitally preserved."
       }
     ]
   }

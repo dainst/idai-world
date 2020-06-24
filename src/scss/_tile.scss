@@ -196,19 +196,17 @@
   transition: 0.66s opacity;
 }
 
-@media (hover: hover) {
-  .tile:hover {
-    .tile--head-up {
-      bottom: calc(-120% + 10px);
-    }
+.tile:hover {
+  .tile--head-up {
+    bottom: calc(-120% + 10px);
+  }
 
-    .tile--head-up-full {
-      bottom: -50%;
-    }
+  .tile--head-up-full {
+    bottom: -50%;
+  }
 
-    .reveal-on-hov {
-      opacity: 1;
-    }
+  .reveal-on-hov {
+    opacity: 1;
   }
 }
 

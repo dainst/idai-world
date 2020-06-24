@@ -1,13 +1,5 @@
 <div *ngFor="let group of items; index as idx" [class]="groupClass">
-  <nav
-    class="nav h-100"
-    [ngClass]="{
-      'nav--first': idx === 0 && level === 0,
-      'decoration-bg-light-gray': idx === 0,
-      'decoration-bg-gray': idx === 1,
-      'decoration-bg-dark-gray': idx >= 2
-    }"
-  >
+  <nav class="nav h-100" [ngClass]="getBgClass(idx, level)">
     <h3 *ngIf="group.name">
       {{ group.name }}
     </h3>
@@ -22,7 +14,12 @@
           }"
         ></dai-link>
 
-        <dai-navmenu *ngIf="entry.items" [level]="level + 1" [items]="[entry]" (linkClick)="onLinkClick($event)"></dai-navmenu>
+        <dai-navmenu
+          *ngIf="entry.items"
+          [level]="level + 1"
+          [items]="[entry]"
+          (linkClick)="onLinkClick($event)"
+        ></dai-navmenu>
       </li>
     </ul>
   </nav>

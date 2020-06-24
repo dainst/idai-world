@@ -17,20 +17,20 @@
     "align": "right",
     "content": [
       {
-        "src": "assets/images/content/what/publications/slider/idai_publications_slider_Samos23.jpg",
-        "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/66"
+        "src": "assets/images/content/what/publications/slider/idai_publications_Slider_GeschArch.jpg",
+        "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/75"
       },
       {
         "src": "assets/images/content/what/publications/slider/idai_publications_slider_antike_plastik_31.jpg",
         "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/62"
       },
       {
-        "src": "assets/images/content/what/publications/slider/idai_publications_slider_aa_2017_2.jpg",
-        "target": "https://publications.dainst.org/journals/aa/issue/165"
+        "src": "assets/images/content/what/publications/slider/idai_publications_slider_aa_2019_1.jpg",
+        "target": "https://publications.dainst.org/journals/aa/issue/375"
       },
       {
-        "src": "assets/images/content/what/publications/slider/idai_publications_slider_e-papers1.19.jpg",
-        "target": "https://publications.dainst.org/journals/efb/issue/168"
+        "src": "assets/images/content/what/publications/slider/idai_publications_slider_aa_2019_2.jpg",
+        "target": "https://publications.dainst.org/journals/aa/issue/386"
       },
       {
         "src": "assets/images/content/what/publications/slider/idai_publications_slider_pf_17.jpg",
@@ -49,10 +49,22 @@
     "tiles": [
       {
         "type": "link_list",
-        "image": "assets/images/content/what/publications/idai_publications_journals_aa.jpg",
+        "image": "assets/images/content/what/publications/idai_publications_journals_aa_2.jpg",
         "headline": "Archäologischer Anzeiger",
         "subhead": "Current global research projects",
         "links": [
+          {
+            "text": "AA 2019, 2",
+            "target": "https://publications.dainst.org/journals/aa/issue/386"
+          },
+          {
+            "text": "AA 2019, 1",
+            "target": "https://publications.dainst.org/journals/aa/issue/375"
+          },
+          {
+            "text": "AA 2018, 1",
+            "target": "https://publications.dainst.org/journals/aa/issue/384"
+          },
           {
             "text": "AA 2017, 2",
             "target": "https://publications.dainst.org/journals/aa/issue/165"
@@ -1080,6 +1092,38 @@
       },
       {
         "type": "link_list",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_BGeschArchA.jpg",
+        "headline": "Beiträge zur Geschichte der Archäologie",
+        "subhead": "und der Altertumswissenschaften",
+        "link": {
+          "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/BGeschArchA",
+          "text": ""
+        },
+        "links": [
+          {
+            "text": "No. 2: German Archaeologists in Greece (1874-1933)",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/75"
+          }
+        ]
+      },
+      {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_monographsKerameikos-19.jpg",
+        "headline": "Kerameikos",
+        "subhead": "Research in the Kerameikos",
+        "link": {
+          "target": "https://publications.dainst.org/books/index.php/dai/catalog/series/kerameikos",
+          "text": ""
+        },
+        "links": [
+          {
+            "text": "No. 19: The Holy Gate",
+            "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/73"
+          }
+        ]
+      },
+      {
+        "type": "link_list",
         "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_bogazkoe.jpg",
         "headline": "Boğazköy-Hattuša.",
         "subhead": "Boğazköy/Turkey ",
@@ -1286,6 +1330,50 @@
     "title": "Data enhanced print publications with partners",
     "rows": 2,
     "tiles": [
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_faak16.jpg",
+        "headline": "FAAK 16: Paracas Archaeological Materials",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/faak16",
+          "text": "External Link to 'faak16'"
+        },
+        "text":"The catalog provides data and images of archaeological finds and contexts which have been excavated since 1996 by the Nasca-Palpa Project."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_palilia32.jpg",
+        "headline": "Palilia 32: 'Large statuettes' in Medma (Calabria)",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/palilia32",
+          "text": "External Link to 'palilia32'"
+        },
+        "text":"Online catalog to the publication by D. Döpner"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_siracusa.jpg",
+        "headline": "Siracusa - La città e le sue mura",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/siracusa_citta_e_mura",
+          "text": "External Link to 'Siracusa'"
+        },
+        "text":"Studies on the Sicilian city of Syracuse"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/inden.jpg",
+        "headline": "Inden",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/inden1",
+          "text": "External Link to 'Inden'"
+        },
+        "text":"A digital documentation of an excavation of the 1960s"
+      },
       {
         "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_antike_plastik_5.0.jpg",

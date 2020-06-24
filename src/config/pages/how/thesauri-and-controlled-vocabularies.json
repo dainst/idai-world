@@ -20,19 +20,19 @@
   {
     "type": "intro_text",
     "title": "iDAI.gazetteer",
-    "body": "<p>The iDAI.gazetteer is a web service, which connects toponyms with coordinates and is meant to work in two directions. Internally it serves as the authority file for all geo-related information and information-systems of the German Archaeological Institute. It is also supposed to connect this data with other worldwide gazetteer systems.</p>"
+    "body": "<p>The iDAI.gazetteer is a web service, which connects toponyms with coordinates and works two ways. Internally it serves as the authority file for all geo-related information and information-systems of the German Archaeological Institute. It is also supposed to connect this data with other worldwide gazetteer systems.</p>"
   },  
 
   {
     "type": "intro_text",
     "title": "iDAI.chronontology",
-    "body": "<p>TThis web service that combines temporal terms with dates and allows further linking to any other object, place or web resource inside and outside of the iDAI.world. The ChronOntology project was funded by the Deutsche Forschungsgemeinschaft (DFG) from 2015 to 2018. The long-term availability of the data is guaranteed by the DAI within the scope of the iDAI.world. More information can be found here.</p>"
+    "body": "<p>This web service that combines temporal terms with dates and allows further linking to any other object, place or web resource inside and outside of the iDAI.world. The ChronOntology project was funded by the Deutsche Forschungsgemeinschaft (DFG) from 2015 to 2018. The long-term availability of the data is guaranteed by the DAI within the scope of the iDAI.world. More information can be found here.</p>"
   },
   
   {
     "type": "intro_text",
     "title": "iDAI.shapes",
-    "body": "<p>CIDOC CRM's goal is also to develop tools for addressing shapes. Again, the DAI can look back on a long tradition (corpus volumes). We plan to develop the knowledge stored in corpora on forms, classification and shape development through a service oriented to the shapes of objects.</p>"
+    "body": "<p>CIDOC CRM's goal is also to develop tools for addressing shapes. Again, the DAI can look back on a long tradition (corpus volumes). We plan to develop the knowledge stored about forms, classification and shape development that can be found in corpora through a service oriented towards the shapes of objects.</p>"
   },
   
   {

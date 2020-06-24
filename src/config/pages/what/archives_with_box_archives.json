@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "type": "sub_nav",
+      "items": [
+        {
+          "image": "assets/images/temp/circle-hover.jpg",
+          "route": "/what/archives",
+          "title": "Archives"
+        },
+        {
+          "image": "assets/images/content/banner-libraries.jpg",
+          "route": "/what/libraries",
+          "title": "Libraries"
+        }
+      ]
+    },
+    {
+      "type": "intro_text",
+      "title": "Discover our rich historical archives",
+      "body": "<p>Our archives date back to the 19th century. They contain not only archaeological finds, but also detailed excavation documents, letters, journals, administrative documents, etc. They are being digitized to let future generations retrace specific projects, to build monument registers and to stimulate new research. All archives are in the process of being recorded with the archive software AtoM. IANUS was developed for the long-term archiving of digital data. It builds on the OAIS reference model.</p>"
+    },
+    {
+      "type": "slider_tiles",
+      "title": "Archives hosted for partners",
+      "tiles": [
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_hosted_partners_1_aaa.jpg",
+          "headline": "African Archaeological Archive Cologne",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/afrarchcologne",
+            "text": "External Link to African Archaeological Archive Cologne"
+          },
+          "text": "<p class='description'>The African Archaeology Archive Cologne (AAArC) has made it a priority to digitize the present archieve documents and to make them accessible through the object database ARACHNE.</p>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_hosted_partners_2_rww.jpg",
+          "headline": "Archive of Rhine-Westphalian Economy",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/rwwa",
+            "text": "External Link to to Archive of Rhine-Westphalian Economy"
+          },
+          "text": "<p class='description'>The negatives of the archive are depicting people in their working environments, productions techniques, machines and products, as well as industrial architecture or factories.</p>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_oppenheim.jpg",
+          "headline": "The Photographic Collection of Max von Oppenheim",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/oppenheim",
+            "text": "External Link to Collection of Max von Oppenheim"
+          },
+          "text": "<p class='description'>Max Freiherr von Oppenheim (1860-1946) was always accompanied by professional photographers when on his travels.The result was a collection of 13,000 photos that captured the life and culture of a world gone by.</p>"
+        }
+      ]
+    },
+    {
+      "type": "slider_tiles",
+      "title": "Archives in cooperation with partners",
+      "enableSliding": true,
+      "tiles": [
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_rakob.jpg", 
+          "headline": "Bequest of Friedrich Rakob",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/rakob",
+            "text": "External Link to Bequest of Friedrich Rakob"
+          },
+          "text": "<p class='description'>Friedrich Rakob (1931-2007) was an architectural historian specialized in the architectural history of towns and cities in Northern Tunisia. Friedrich Rakob’s bequest includes a total of more than 63,000 photographic negatives, slides and contact prints as well as around 190 crates and folders. </p>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_hinkel.jpg",
+          "headline": "Friedrich Hinkel Archive of Sudan",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/hinkel",
+            "text": "External Link to Hinkel Archive of Sudan"
+          },
+          "text": "<p class='description'>The archive of Friedrich W. Hinkel represents one of the largest collections of research material concerning the archaeology of ancient Sudan.</p>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_kossack.jpg",
+          "headline": "Scientific Legacy of Georg Kossack",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/kossack",
+            "text": "External Link to Scientific Legacy of Georg Kossack"
+          },
+          "text": "<p class='description'>The integration of the archaeological material collection from the Kossack archive into existing datasets within the Arachne system allows a bidirectional connection between Kossack and the already existing data in Arachne.</p>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_cooperation_partner_steinhoff.jpg",
+          "headline": "Scientific Legacy of Georg Steindorff",
+          "subhead": "",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/steindorff",
+            "text": "External Link to Scientific Legacy of Georg Steindorff"
+          },
+          "text": "<p class='description'>Steindorff’s diaries and letters always deal with the political processes in Germany, besides scientific questions.</p>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_dai_4_syrian.jpg",
+          "headline": "Syrian Heritage Archive Project",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/syrher",
+            "text": "External Link to Syrian Heritage Archive"
+          },
+          "text": "<p class='description'>Implementation of a digital cultural heritage register for Syria in order to conserve cultural heritage in Syria, which is currently threatened by war.</p>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archives_NAHA.jpg", 
+          "headline": "NAHA",
+          "subhead": "North African Heritage Archive",
+          "link": {
+            "target": "https://arachne.dainst.org/project/naha",
+            "text": "External Link to NAHA"
+          },
+          "text": "<p class='description'>The aim of the ‘North African Heritage Archive’ (NAHA) is to provide a platform for archaeological cultural heritage from North Africa, in particular the Maghreb states of Tunisia, Algeria, Libya and Morocco.</p>"
+        }
+      ]
+    },
+    {
+      "type": "slider_tiles",
+      "title": "Archive digitization projects of the DAI",
+      "tiles": [
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_athen_department.jpg",
+          "headline": "Athens Department",
+          "subhead": "A scientific legacy archive",
+          "link": {
+            "target": "https://arachne.dainst.org/project/athenDigital",
+            "text": "External Link to Athens Department: A scientific legacy archive"
+          },
+          "text": "<p class='description'>Studies on the history of archaeology as well as on the history of academic institutions, such as the DAI, have demonstrated the importance of archival research and investigation of primary source material.</p>"
+          },
+          {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_teheran_archiv.jpg",
+          "headline": "Eurasia Department - Teheran Branch",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org/project/teheran_digital",
+            "text": "External Link to Eurasia Department - Teheran Branch: Digitization of the archive"
+          },
+          "text": "<p class='description'>The Project TehranDigital has started the digitization of the archive of the Tehran Branch of the Eurasia Department of the German Archaeological Institute.</p>"
+          },
+           {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_spanish_codices.jpg",
+          "headline": "Madrid Department",
+          "subhead": "Spanish Codices",
+          "link": {
+            "target": "https://arachne.dainst.org/project/spacodices",
+            "text": "External Link to Madrid Department - Spanish Codices"
+          },
+          "text": "<p class='description'>The digital catalog of illuminated manuscripts of medieval Spain is based on an inventory of about 4,500 colored small image slides, located in the Madrid Department of the German Archaeological Institute (DAI).</p>"
+          },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_dai_1_antike_Zeichnung.jpg",
+          "headline": "Rome Department",
+          "subhead": "Historical drawings",
+          "link": {
+            "target": "https://arachne.dainst.org/project/handzeichnungen",
+            "text": "External Link to Rome Department: Historical drawings"
+          },
+          "text": "<p class='description'>Antiquity in drawings, maps and architectural surveys: primary documentary materials of the 19th and 20th century in the German Archaeological Institute at Rome.</p>"
+          },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/archives/idai_archive_dai_2_gelehrten.jpg",
+          "headline": "Rome Department",
+          "subhead": "Correspondences of the DAI",
+          "link": {
+            "target": "https://arachne.dainst.org/project/gelehrtenbriefe",
+            "text": "External Link to Rome Department: Correspondences"
+          },
+          "text": "<p class='description'>The drawings, aquarelles, maps, cross-sections, etc. of the two collections show ancient buildings and objects that document sites and finds that have been changed or destroyed in the course of the last years.</p>"
+          }
+      ]
+    },
+    {
+     "type": "amount_docs",
+     "amount": 260947 ,
+     "text": "archive documents"
+     },
+    {
+      "type": "info_box",
+      "headline": "Access to memory and archiving of data",
+      "content": [
+        {
+          "headline": "iDAI.archives",
+          "text": "Archival descriptions give access to analog records",
+          "link": {
+            "target": "https://archives.dainst.org",
+            "text": "foo link"
+          }
+        },
+        {
+          "headline": "IANUS",
+          "text": "Long-term archiving according to the OAIS standard",
+          "link": {
+            "target": "https://www.ianus-fdz.de/",
+            "text": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "slider_tiles",
+      "title": "Analog archives of the DAI",
+      "tiles": [
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/archives/idai_archive_berlin_head_office.jpg",
+          "headline": "Berlin Head Office",
+          "subhead": "Archival finding aids online",
+          "link": {
+            "target": "https://archives.dainst.org/index.php/deutschland-deutsches-archaologisches-archive-archiv-der-zentrale",
+            "text": "External Link to 'Berlin Head Office'"
+          },
+          "text":"<p class='description'>The archive documents the history and projects of the institute through acquisition, recording and evaluation of the respective files of the departments of the institute.</p>"
+        },
+        {
+          "type": "image_link",
+          "image": "assets/images/content/what/archives/idai_archive_frankfurt_commision.jpg",
+          "headline": "Frankfurt Commission",
+          "subhead": "Archival finding aids online",
+          "link": {
+            "target": "https://archives.dainst.org/index.php/deutsches-archaologisches-institut-romisch-germanische-kommission-archiv",
+            "text": "External Link to 'Frankfurt Commission'"
+          },
+        "text": "<p class='description'>Digitized records of the Frankfurt Commission, scientific documentation and compilation, bequests of archaeologists in the field of prehistory or corpora.</p>"
+        }
+      ]
+    }
+  ]
+}

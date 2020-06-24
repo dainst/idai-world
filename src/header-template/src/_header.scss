@@ -1,0 +1,132 @@
+$bg-color-left: #6aa4b8;
+$bg-color-right: #477bc7;
+
+$transition-time: 0.4s;
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+  .header__inner {
+    padding: 0px 20px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    transition: all $transition-time ease-out;
+
+    //background alpha is set dynamically in header.js on scroll event
+    // you can turn this behaviour off, see header.js
+    background: linear-gradient(
+      to right,
+      rgba(106, 164, 184, 1) 0%,
+      rgba(71, 123, 199, 1) 100%
+    );
+
+    .logo,
+    .nav-trigger,
+    .ico-griffin {
+      transition: all $transition-time ease-out;
+    }
+  }
+}
+
+.sticky {
+  position: fixed;
+}
+
+.shrink {
+  &.header {
+    .header__inner {
+      padding: 0px 20px !important;
+      height: 55px !important;
+    }
+
+    .nav-trigger {
+      span {
+        width: 26px;
+        height: 6px;
+
+        & + span {
+          margin-top: 5px;
+        }
+      }
+
+      &.active {
+        span:nth-child(1) {
+          transform: translateY(11px) rotate(45deg);
+        }
+
+        span:nth-child(2) {
+          opacity: 0;
+        }
+
+        span:nth-child(3) {
+          transform: translateY(-11px) rotate(-45deg);
+        }
+      }
+    }
+
+    .ico-griffin {
+      transform: scale(1);
+    }
+
+    .logo {
+      transform: scale(1);
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .header {
+    .header__inner {
+      height: 70px;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .header {
+    .header__inner {
+      padding: 0px 40px;
+      height: 150px;
+    }
+
+    .nav-trigger {
+      span {
+        width: 50px;
+        height: 10px;
+
+        & + span {
+          margin-top: 10px;
+        }
+      }
+
+      &.active {
+        span:nth-child(1) {
+          transform: translateY(20px) rotate(45deg);
+        }
+
+        span:nth-child(2) {
+          opacity: 0;
+        }
+
+        span:nth-child(3) {
+          transform: translateY(-20px) rotate(-45deg);
+        }
+      }
+    }
+
+    .ico-griffin {
+      transform: scale(1.5) translateX(-15px);
+    }
+
+    .logo {
+      transform: scale(2.575);
+    }
+  }
+}

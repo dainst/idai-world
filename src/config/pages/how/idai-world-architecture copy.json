@@ -1,0 +1,161 @@
+
+  [
+  {
+    "type": "title_banner",
+    "title": "iDAI.world Architecture",
+    "image": "assets/images/content/header/idai_how_header.jpg"
+  },  
+    
+  {
+    "type": "intro_text",
+    "title": "",
+    "body": "<p>The iDAI.world is a grown structure. It consists of modules developed in cooperation with many partners. It includes the systematic development of analog and digital information such as archives, library collections, but also rich photographic libraries and image productions. We provide standard data that can be localized in time and space. We develop open source tools for documentation.</p><p>The iDAI.world is constantly evolving. It is a permanent beta system with clear goals and visions.</p>"
+
+  },
+  {
+    "type": "html",
+    "content_html": "config/pages/how/architecture.html"
+  },
+  {
+    "type": "slider_tiles",
+    "title": "Publications",
+    "enableSliding": false,
+    "tiles": [
+      {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_books.jpg",
+        "headline": "iDAI.publications/books",
+        "subhead": "Digital book publications",
+        "link": { 
+            "target": "https://publications.dainst.org/books/index.php/dai", 
+            "text": "Link to iDAI.publications/books" 
+          },
+          "text":"As a subpage of iDAI.publications, iDAI.books compiles all of the DAI’s digitally published monographs and series in an open access environment. Together with iDAI.bibliography and iDAI.publications/journals, it forms the iDAI’s literature research infrastructure."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_zenon.jpg",
+        "headline": "iDAI.bibliography/Zenon",
+        "subhead": "Online literature catalog",
+        "link": { 
+            "target": "https://zenon.dainst.org/", 
+            "text": "Link to Zenon" 
+          },
+          "text":"iDAI.bibliography is a search engine for archaeological literature, allowing the user to find monographs, journals, articles and reviews. Aside from being helpful in finding literature on a certain topic, it also functions as a catalog for all of the libraries of the DAI. "
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_idaifield.jpg",
+        "headline": "iDAI.field 2.0",
+        "subhead": "Excavation database",
+        "link": { 
+            "target": "http://field.dainst.org/", 
+            "text": "Link to iDAI.field" 
+          },
+          "text":"iDAI.field 2.0 is a database for excavation documentation. Areas, trenches, finds and sites can be marked with polygons and layers with drawings or photographs can be stacked upon each others. The datasets are connected to the plans and a matrix is also automatically generated."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_gazetteer.jpg",
+        "headline": "iDAI.gazetteer",
+        "subhead": "Connects names with coordinates",
+        "link": { 
+            "target": "https://gazetteer.dainst.org/app/#!/home", 
+            "text": "Link to iDAI.gazetteer" 
+          },
+          "text":"Aside from assigning coordinates to place names, it also list the several different names of a place and shows related places. The parent and child locations are also linked to the dataset as are datasets in iDAI.objects, iDAI.bibliography and Pelagios."
+      },
+       {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_chronontology.jpg",
+        "headline": "iDAI.chronontology",
+        "subhead": "Periods, dating, places",
+        "link": { 
+            "target": "https://chronontology.dainst.org/", 
+            "text": "Link to iDAI.chronontology" 
+          },
+          "text":"Connecting descriptive period terms to fixed datings and areas, for which the chronological term is used. The previous and following periods are shown, as are related datings, subcategories, the type material that is described by the chronological term and a description of the period."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_vocab.jpg",
+        "headline": "iDAI.vocab",
+        "subhead": "Archaeological dictionary",
+        "link": { 
+            "target": "https://archwort.dainst.org/de/vocab/", 
+            "text": "Link to iDAI.vocab" 
+          },
+          "text":"iDAI.vocab is a helpful tool when dealing with international publications while conducting research. Often, archaeological terms are not included in regular dictionaries, which shows the need to create a vocabulary just for terms neccessary in archaeological research."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_archives.jpg",
+        "headline": "iDAI.archives",
+        "subhead": "Archive catalog of the DAI",
+        "link": { 
+            "target": "https://archives.dainst.org/index.php/", 
+            "text": "Link to iDAI.archives" 
+          },
+          "text":"The archival holdings of the DAI make up an important research basis for current archaeological scholarship as well as for the institute’s history, the history of archaeology and its protagonists as well as history of sciences in general."
+      },
+       {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_geoserver.jpg",
+        "headline": "iDAI.geoserver",
+        "subhead": "Geospatial data",
+        "link": { 
+            "target": "https://geoserver.dainst.org/", 
+            "text": "Link to iDAI.geoserver" 
+          },
+          "text":"iDAI.geoserver is an open data platform for sharing geospatial data and maps. It includes open GIS datasets in layer, maps and documents relating to cultural heritage and archaeology. The data can be edited by registered users and thus be shared with other researchers."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_ianus.jpg",
+        "headline": "IANUS",
+        "subhead": "Research data center",
+        "link": { 
+            "target": "https://www.ianus-fdz.de/", 
+            "text": "Link to IANUS" 
+          },
+          "text":"developed within a project  aiming to create a national research data structure for classical studies and archaeology. At the moment, IANUS works with  partners from the Cultural Heritage Ministries, museums and universities to establish IANUS as a standard in classical studies in Germany."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_thesauri.jpg",
+        "headline": "iDAI.thesauri",
+        "subhead": "Labels, concepts, alternative terms",
+        "link": { 
+            "target": "https://thesauri.dainst.org/", 
+            "text": "Link to iDAI.thesauri" 
+          },
+          "text":"iDAI.thesauri combines all of the DAI’s thesauri, giving labels to concepts and showing alternative terms to labels in various languages."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_books.jpg",
+        "headline": "iDAI.publications/books",
+        "subhead": "Digital book publications",
+        "link": { 
+            "target": "https://publications.dainst.org/books/index.php/dai", 
+            "text": "Link to iDAI.publications/books" 
+          },
+          "text":"As a subpage of iDAI.publications, iDAI.books compiles all of the DAI’s digitally published monographs and series in an open access environment. Together with iDAI.bibliography and iDAI.publications/journals, it forms the iDAI’s literature research infrastructure."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_journals.jpg",
+        "headline": "iDAI.publications/journals",
+        "subhead": "Digital journal publications",
+        "link": { 
+            "target": "https://publications.dainst.org/journals/index.php/dai", 
+            "text": "Link to iDAI.publications/journals" 
+          },
+          "text":"As a subpage of iDAI.publications, iDAI.journals compiles all of the DAI’s digitally published journals in an open access environment. Together with iDAI.bibliography and iDAI.publications/books, it forms the DAI’s literature research infrastructure. "
+      }
+    ]
+  }
+    ]
+ 
+
+

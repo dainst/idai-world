@@ -36,6 +36,7 @@
 
   h3 {
     margin-bottom: 15px;
+    font-size: 42px;
   }
 
   li {
@@ -48,6 +49,7 @@
 
   a {
     transition: 0.3s;
+    font-size: 22px;
 
     &:hover {
       opacity: 0.5;
@@ -131,33 +133,6 @@
 }
 
 @media (max-width: 767px) {
-  //   .nav-trigger {
-  //     transition: 0.5s;
-  //     span {
-  //       width: 26px;
-  //       height: 6px;
-
-  //       & + span {
-  //         margin-top: 5px;
-  //       }
-  //     }
-
-  //     &.active {
-  //       transform: translateY(-25px);
-  //       span {
-  //         height: 3px;
-  //       }
-
-  //       span:nth-child(1) {
-  //         transform: translateY(8px) rotate(45deg);
-  //       }
-
-  //       span:nth-child(3) {
-  //         transform: translateY(-8px) rotate(-45deg);
-  //       }
-  //     }
-  //   }
-
   .navs {
     overflow-y: auto;
     height: 100%;

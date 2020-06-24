@@ -2,9 +2,12 @@
 	Slick Default
 \* ------------------------------------------------------------ */
 
+$arrow-height: 80px;
+$arrow-width: 80px;
+
 .slick-arrow {
   position: absolute;
-  top: calc(50% - 20px);
+  top: calc(50% - #{$arrow-height/2});
 
   font-size: 0;
   border: 0;
@@ -19,7 +22,15 @@
 
 .slick-next {
   background: url("assets/images/arrow-right.png") no-repeat 0 0;
-  right: 44px;
+
+  right: $arrow-width;
+
+  @include media-breakpoint-up(lg) {
+    right: 23px;
+  }
+  @include media-breakpoint-up(xxl) {
+    right: 0px;
+  }
 
   &:hover {
     transform: translateX(5px);
@@ -27,7 +38,14 @@
 }
 
 .slick-prev {
-  left: 15px;
+  left: 0;
+
+  @include media-breakpoint-up(lg) {
+    left: -55px;
+  }
+  @include media-breakpoint-up(xxl) {
+    left: -$arrow-width;
+  }
   &:hover {
     transform: translateX(5px);
   }
@@ -90,8 +108,8 @@
   background-size: cover;
 
   position: absolute;
-  height: 50px;
-  width: 30px;
+  height: $arrow-height;
+  width: $arrow-width;
   transform: rotate(-180deg);
 }
 
@@ -111,8 +129,8 @@
   background-size: cover;
 
   position: absolute;
-  height: 50px;
-  width: 30px;
+  height: $arrow-height;
+  width: $arrow-width;
 }
 
 .tiles-slider.decoration-bg-blue .slick-prev:before,
@@ -133,7 +151,7 @@
 
 .tiles-slider.tiles-slider-two-rows .slick-prev,
 .tiles-slider.tiles-slider-two-rows .slick-next {
-  top: calc(50% - 45px);
+  top: calc(50% - #{$arrow-height});
 }
 
 .tiles-slider .slick-prev.slick-disabled,

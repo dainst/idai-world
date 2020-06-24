@@ -64,7 +64,6 @@
         "order": 1
       }
     },
-
     {
       "comment": "WHAT",
       "=================================================================": "",
@@ -110,6 +109,19 @@
         "group": "What",
         "name": "Documentation Tools & Instruments"
       }
+    },
+
+    {
+      "path": "what/projectsbytopic",
+      "page": "config/pages/what/projectsbytopic.json",
+      "menu": {
+        "group": "What",
+        "name": "Projects"
+      }
+    },
+    {
+      "path": "what/projectsbyletter",
+      "page": "config/pages/what/projectsbyletter.json"
     },
 
     {
@@ -191,12 +203,28 @@
     {
       "comment": "HOW",
       "=================================================================": "",
+      "path": "news/sub/guide",
+      "page": "config/pages/news/sub/guide.json",
+      "menu": {
+        "group": "How",
+        "name": "<b> to navigate the iDAI.world<b>",
+        "order": 1
+      }
+    },
+    {
+      "path": "",
+      "page": "",
+      "menu": {
+        "group": "How",
+        "name": ".........................................................................."
+      }
+    },
+    {
       "path": "how/thesauri-and-controlled-vocabularies",
       "page": "config/pages/how/thesauri-and-controlled-vocabularies.json",
       "menu": {
         "group": "How",
-        "name": "Thesauri & Controlled Vocabularies",
-        "order": 1
+        "name": "Thesauri & Controlled Vocabularies"
       }
     },
 
@@ -214,7 +242,7 @@
       "page": "config/pages/how/idai-world-architecture.json",
       "menu": {
         "group": "How",
-        "name": "iDAI World Architecture"
+        "name": "iDAI.world Architecture"
       }
     },
 
@@ -231,7 +259,7 @@
       "page": "config/pages/how/tools-of-documentation.json",
       "menu": {
         "group": "How",
-        "name": "Documentation & Simulation"
+        "name": "Theories of Documentation & Simulation"
       }
     },
 
@@ -266,6 +294,100 @@
     {
       "path": "news",
       "page": "config/pages/dai-news.json"
+    },
+    {
+      "path": "news/sub/guide",
+      "page": "config/pages/news/sub/guide.json"
+    },
+    {
+      "comment": "iDAI.systems",
+      "=================================================================": "",
+      "menu": {
+        "group": "iDAI\u200B.systems",
+        "name": "iDAI\u200B.archives",
+        "url": "https://archives.dainst.org",
+        "order": 1
+      }
+    },
+    {
+      "menu": {
+        "group": "iDAI\u200B.systems",
+        "name": "iDAI\u200B.bibliography",
+        "url": "https://zenon.dainst.org",
+        "order": 2
+      }
+    },
+    {
+      "menu": {
+        "group": "iDAI\u200B.systems",
+        "name": "iDAI\u200B.chronontology",
+        "url": "https://chronontology.dainst.org",
+        "order": 3
+      }
+    },
+    {
+      "menu": {
+        "group": "iDAI\u200B.systems",
+        "name": "iDAI\u200B.field2.0",
+        "url": "http://field.dainst.org",
+        "order": 4
+      }
+    },
+    {
+      "menu": {
+        "group": "iDAI\u200B.systems",
+        "name": "iDAI\u200B.gazetteer",
+        "url": "https://gazetteer.dainst.org/app/#!/home",
+        "order": 5
+      }
+    },
+    {
+      "menu": {
+        "group": "iDAI\u200B.systems",
+        "name": "iDAI\u200B.geoserver",
+        "url": "https://geoserver.dainst.org",
+        "order": 6
+      }
+    },
+    {
+      "menu": {
+        "group": "iDAI\u200B.systems",
+        "name": "iDAI\u200B.publications/books",
+        "url": "https://publications.dainst.org/books/index.php/dai",
+        "order": 7
+      }
+    },
+    {
+      "menu": {
+        "group": "iDAI\u200B.systems",
+        "name": "iDAI\u200B.publications/journals",
+        "url": "https://publications.dainst.org/journals",
+        "order": 8
+      }
+    },
+    {
+      "menu": {
+        "group": "iDAI\u200B.systems",
+        "name": "iDAI\u200B.objects",
+        "url": "https://arachne.dainst.org",
+        "order": 9
+      }
+    },
+    {
+      "menu": {
+        "group": "iDAI\u200B.systems",
+        "name": "iDAI\u200B.thesauri",
+        "url": "http://thesauri.dainst.org/de.html",
+        "order": 10
+      }
+    },
+    {
+      "menu": {
+        "group": "iDAI\u200B.systems",
+        "name": "iDAI\u200B.vocab",
+        "url": "https://archwort.dainst.org/de/vocab/",
+        "order": 11
+      }
     }
   ]
 }

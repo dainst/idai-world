@@ -17,6 +17,12 @@ export class NavmenuComponent implements OnInit {
 
   public groupClass = '';
 
+  public bgClasses = [
+    'decoration-bg-light-gray',
+    'decoration-bg-gray',
+    'decoration-bg-dark-gray'
+  ];
+
   ngOnInit() {}
 
   getColumnSize() {
@@ -38,5 +44,16 @@ export class NavmenuComponent implements OnInit {
 
   onLinkClick(link) {
     this.linkClick.emit(link);
+  }
+
+  public getBgClass(index: number, level: number) {
+    const classes =
+      (index === 0 && level === 0 ? 'nav-first ' : ' ') +
+      this.bgClasses[index % this.bgClasses.length];
+    return classes;
+    // {
+    //   'nav--first': idx === 0 && level === 0,
+    //   [bgClasses[bgClasses.length%idx]] === true
+    // }
   }
 }

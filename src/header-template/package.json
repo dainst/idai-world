@@ -1,0 +1,14 @@
+{
+  "name": "idai-header-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "build": "node-sass --output-style nested --indent-width 2 src/styles.scss dest/styles.css"
+  }
+}

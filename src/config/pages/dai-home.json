@@ -13,25 +13,25 @@
           "src": "assets/images/content/home/idai_home_images_objects_1.jpg",
           "title": "Images & Objects",
           "target": "route://what/images",
-          "description": "<div class='sliderdesc'>From our very beginnings 1829 to the future – <br /> We constantly share and digitize archaeological objects for a better understanding of the world.</div>"
+          "description": "<div class='sliderdesc'>From our very beginnings 1829 to the future – <br /> We constantly share and digitize archaeological objects for a better understanding of the world. <br><br>A vast amount of digitized objects and images can be accessed through the iDAI.world.</div>"
         },
         {
-          "src": "assets/images/content/home/idai_home_images_objects_2.jpg",
+          "src": "assets/images/content/home/idai_home_images_objects_6.jpg",
           "title": "Images & Objects",
           "target": "route://what/images",
-          "description": "<div class='sliderdesc'>From our very beginnings 1829 to the future – <br /> We constantly share and digitize archaeological objects for a better understanding of the world.</div>"
+          "description": "<div class='sliderdesc'>From our very beginnings 1829 to the future – <br /> We constantly share and digitize archaeological objects for a better understanding of the world. <br><br>A vast amount of digitized objects and images can be accessed through the iDAI.world.</div>"
         },
         {
           "src": "assets/images/content/home/idai_home_images_objects_3.jpg",
           "title": "Images & Objects",
           "target": "route://what/images",
-          "description": "<div class='sliderdesc'>From our very beginnings 1829 to the future – <br /> We constantly share and digitize archaeological objects for a better understanding of the world.</div>"
+          "description": "<div class='sliderdesc'>From our very beginnings 1829 to the future – <br /> We constantly share and digitize archaeological objects for a better understanding of the world. <br><br>A vast amount of digitized objects and images can be accessed through the iDAI.world.</div>"
         },
         {
           "src": "assets/images/content/home/idai_home_images_objects_4.jpg",
           "title": "Images & Objects",
           "target": "route://what/images",
-          "description": "<div class='sliderdesc'>From our very beginnings 1829 to the future – <br /> We constantly share and digitize archaeological objects for a better understanding of the world.</div>"
+          "description": "<div class='sliderdesc'>From our very beginnings 1829 to the future – <br/> We constantly share and digitize archaeological objects for a better understanding of the world. <br><br>A vast amount of digitized objects and images can be accessed through the iDAI.world.</div>"
         }
       ]
     },
