@@ -10,7 +10,24 @@
       "show": 20,
       "articles": [
        
+
 {
+          "date": "28.07.2020",
+          "category": "",
+          "headline": "EC Chronoi: The multilingualism of time",
+          "teaser": {
+            "content": "<p>The iDAI.world now also contains a new project called „The multilingualism of time“ that has been conducted in cooperation with the Einstein Center Chronoi, aiming at developing a tool that is able to normalize and detect time expressions in archaeological literature of varying source languages. This was done by developing a multilingual corpus of archaeological texts,  and secondly by adding period terms to an already in use time parser, in this case Heideltime.<br><br>The problem we are facing is the fact that computers cannot process period terms in the same way as human beings. Many temporal terms are simply a relative expression to a given date and time, which is understandable to a human being by context. Computers need absolute temporal terms such as a definite year or date. Time periods pose a similar problem as the definition is not always the same in each region of the world. It is necessary to use a time parser that can detect a temporal term and thus normalized it, e.g. give it a numerical value.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2020/idai_news_chronoi.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2020-07-28_chronoi.html"
+          }
+        },
+        {
           "date": "24.06.2020",
           "category": "",
           "headline": "Scholars, excavators and art dealers' - Quarantine Special: Gerhard's Odyssey",
