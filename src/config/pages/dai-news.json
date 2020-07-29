@@ -12,6 +12,22 @@
        
 
 {
+          "date": "29.07.2020",
+          "category": "",
+          "headline": "SPP “Entangled Africa” and iDAI.world - A digital connection of time and space",
+          "teaser": {
+            "content": "<p>The SPP 'Entangled Africa' demonstrates how the iDAI.world is able to aid in research and present project data in a digital and modern way.<br><br>The project on research data management (RDM) and the coordination of the priority program “Entangled Africa” (SPP2143) also pursue these questions. In a virtual exchange with specialists from the Department of Scientific Information Technology (Scientific IT) of the German Archaeological Institute (DAI), they create new tools for the scientific discourse of all of the program’s projects on the temporal and spatial networking of the inhabitants of North Africa.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2020/idai_news_entangledafrica.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2020-07-29_entangledafrica.html"
+          }
+        },
+{
           "date": "28.07.2020",
           "category": "",
           "headline": "EC Chronoi: The multilingualism of time",
