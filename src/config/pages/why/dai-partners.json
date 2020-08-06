@@ -103,6 +103,17 @@
         },
         {
           "type": "text",
+          "image": "assets/images/content/why/partners/idai_partners_chronoi.jpg",
+          "headline": "Einstein Center: Chronoi",
+          "subhead": "",
+          "link": {
+            "target": "hhttps://www.ec-chronoi.de/",
+            "text": "EC-Chronoi"
+          },
+          "text":"The Einstein Center Chronoi has been founded in order to investigate time and related aspects such as awareness of time, time management, time reckoning and temporality in interdisciplinary and transdisciplinary formats under the rubric of 'Chronoi'."
+        },
+        {
+          "type": "text",
           "image": "assets/images/content/why/partners/idai_partners_ianus.jpg",
           "headline": "IANUS",
           "subhead": "A research data center",

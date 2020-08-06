@@ -124,6 +124,25 @@
         }
       ]
     },
+
+    {
+      "type": "slider_tiles",
+      "title": "Use cases of chronontology data",
+      "text": "",
+      "tiles": [
+        {
+          "type": "text",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_chronoi.jpg",
+          "headline": "EC-Chronoi: Multilingualism of Time",
+          "subhead": "",
+          "link": {
+            "target": "https://arachne.dainst.org//project/chronoi",
+            "text": "External Link to 'Multilingualism of time'"
+          },
+          "text":"<p class='description'>The project developed a tool that is able to normalize and detect time expressions in archaeological literature of varying source languages.</p>"
+        }
+      ]
+    },
     {
       "type": "intro_text",
       "title": "Gazetteer",
