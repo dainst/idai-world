@@ -31,7 +31,7 @@
           "headline": "Archaeocopter and Archaeonautic",
           "subhead": "",
           "link": {
-            "target": "https://www.htw-dresden.de/news-2016/article/archaeocopter-bei-cnn-1.html",
+            "target": "http://www.archaeocopter.de/",
             "text": "External Link to 'Archaeocopter and Archaeonautic'"
           },
           "text":"Recording archaeology with low cost unmanned aerial vehicles."
@@ -151,7 +151,7 @@
           "headline": "Open Context",
           "subhead": "",
           "link": {
-            "target": "https://opencontext.dainst.org",
+            "target": "https://opencontext.dainst.org/",
             "text": "Open Context"
           },
           "text":"Open Context reviews, edits, plans and prepares data, cleans and organizes it, annotates digital data with stable web identifiers for correct citation, digitally archives it and also collaborates with other publishers."

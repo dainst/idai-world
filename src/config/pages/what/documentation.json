@@ -115,7 +115,7 @@
         "headline": "MayaArch3D",
         "subhead": "",
         "link": {
-          "target": "http://www.mayaarch3d.org/language/en/sample-page/",
+          "target": "https://mayaarch3d.org/en/",
           "text": "MayaArch3D - A web-based 3D GIS for archaeological research"
         },
         "text":"<p class='description'>A web-based 3D GIS for archaeological research</p>"

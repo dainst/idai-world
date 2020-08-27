@@ -148,7 +148,7 @@
         "headline": "iDAI.publications/journals",
         "subhead": "Digital journal publications",
         "link": { 
-            "target": "https://publications.dainst.org/journals/index.php/dai", 
+            "target": "https://publications.dainst.org/journals/", 
             "text": "Link to iDAI.publications/journals" 
           },
           "text":"As a subpage of iDAI.publications, iDAI.journals compiles all of the DAI’s digitally published journals in an open access environment. Together with iDAI.bibliography and iDAI.publications/books, it forms the DAI’s literature research infrastructure. "
