@@ -65,10 +65,10 @@
     "content": [
       {
         "headline": "iDAI.objects",
-        "text": "Repository for images and objects as a common information infrastructure, also called Arachne",
+        "text": "A database for images and objects as a common information infrastructure, also called Arachne",
         "link": {
           "target": "https://arachne.dainst.org/",
-          "alt": "Repository for images and objects as a common information infrastructure, also called Arachne"
+          "alt": "A database for images and objects as a common information infrastructure, also called Arachne"
         }
       }
     ]
