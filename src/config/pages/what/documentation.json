@@ -95,11 +95,11 @@
     "description": "Recording data on site is still at the heart of archaeological fieldwork. Excavations, large-area surveys, monument surveys and related activities require means to capture data digitally that are as fast and flexible as the traditional notebook but result in borne-digital data without the need for a separate digitization workflow. The DAI’s primary client for field data recording is iDAI.field2, an open source approach to customizable database design, deployment and maintenance, including reliable ad hoc data synchronization and backup methods. Our client is designed to provide a basic workflow and data structure that matches the essential characteristics of most archaeological field workers. But it is also highly customizable to cater for the individual settings and objects of interest encountered in the vast variety of working environments and research projects. Modern technologies such as NoSQL backend and JSON-based data structures make iDAI.field2 a flexible, open source tool for free use on all major operating systems.",
     "content": [
       {
-        "headline": "IDAI.field",
-        "text": "Recording systems of field projects",
+        "headline": "iDAI.field 2.0",
+        "text": "DAI's recording system for field projects",
         "link": {
           "target": "http://field.dainst.org",
-          "alt": "IDAI.field"
+          "alt": "iDAI.field"
         }
       }
     ]
