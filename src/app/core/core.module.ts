@@ -17,6 +17,8 @@ import { TitleBannerComponent } from './components/title-banner/title-banner.com
 import { HtmlComponent } from './components/html/html.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
 import { FooterMenuComponent } from './components/footer-menu/footer-menu.component';
+import { SearchApiModule } from '../search';
+import { IdaiSearchComponent } from './components/idai-search/idai-search.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { FooterMenuComponent } from './components/footer-menu/footer-menu.compon
     TitleBannerComponent,
     HtmlComponent,
     SpinnerComponent,
-    FooterMenuComponent
+    FooterMenuComponent,
+    IdaiSearchComponent
   ],
   exports: [
     PageComponent,
@@ -45,7 +48,8 @@ import { FooterMenuComponent } from './components/footer-menu/footer-menu.compon
     TitleBannerComponent,
     HtmlComponent,
     SpinnerComponent,
-    FooterMenuComponent
+    FooterMenuComponent,
+    IdaiSearchComponent
   ],
   entryComponents: [
     PageComponent,
@@ -56,6 +60,6 @@ import { FooterMenuComponent } from './components/footer-menu/footer-menu.compon
     TitleBannerComponent,
     HtmlComponent
   ],
-  imports: [CommonModule, RouterModule, HttpClientModule, NgxdModule]
+  imports: [CommonModule, RouterModule, HttpClientModule, NgxdModule, SearchApiModule]
 })
 export class CoreModule {}

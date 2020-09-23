@@ -8,7 +8,8 @@
     "test": "ng test",
     "test-headless": "ng test --watch=false --browsers=ChromeHeadless",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "api:generate":"openapi-generator generate -g typescript-angular -i ./spec/search-api.yml -o src/app/search --additional-properties apiModulePrefix=Search,supportsES6=true,ngVersion=8.1.2"
   },
   "private": true,
   "dependencies": {
@@ -41,6 +42,7 @@
     "@angular/cli": "~8.1.2",
     "@angular/compiler-cli": "~8.1.2",
     "@angular/language-service": "~8.1.2",
+    "@openapitools/openapi-generator-cli": "^1.0.18-4.3.1",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/lodash": "^4.14.123",
