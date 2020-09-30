@@ -16,9 +16,14 @@
     "fullWidth": false,
     "align": "right",
     "content": [
+      
       {
         "src": "assets/images/content/what/publications/slider/idai_publications_Slider_GeschArch.jpg",
         "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/75"
+      },
+      {
+        "src": "assets/images/content/what/publications/slider/idai_publications_slider_joga1.jpg",
+        "target": "https://publications.dainst.org/journals/index.php/joga/issue/view/403"
       },
       {
         "src": "assets/images/content/what/publications/slider/idai_publications_slider_antike_plastik_31.jpg",
@@ -332,6 +337,22 @@
           {
             "text": "Chiron 1, 1971",
             "target": "https://publications.dainst.org/journals/chiron/issue/51"
+          }
+        ]
+      },
+       {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/idai_publications_joga.jpg",
+        "headline": "Journal of Global Archaeology",
+        "subhead": "Worldwide research projects",
+        "link": {
+          "target": "https://publications.dainst.org/journals/index.php/joga",
+          "text": "Joga"
+        },
+        "links": [
+          {
+            "text": "JoGA, 1",
+            "target": "https://publications.dainst.org/journals/index.php/joga/issue/view/403"
           }
         ]
       },
