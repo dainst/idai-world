@@ -3,13 +3,15 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "postinstall": "yarn api:generate",
     "start": "ng serve",
+    "prebuild": "yarn api:generate",
     "build": "ng build --prod",
     "test": "ng test",
     "test-headless": "ng test --watch=false --browsers=ChromeHeadless",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "api:generate":"openapi-generator generate -g typescript-angular -i ./spec/search-api.yml -o src/app/search --additional-properties apiModulePrefix=Search,supportsES6=true,ngVersion=8.1.2"
+    "api:generate": "openapi-generator generate -g typescript-angular -i ./spec/search-api.yml -o src/app/generated/search --additional-properties apiModulePrefix=Search,supportsES6=true,ngVersion=8.1.2"
   },
   "private": true,
   "dependencies": {
@@ -43,11 +45,13 @@
     "@angular/compiler-cli": "~8.1.2",
     "@angular/language-service": "~8.1.2",
     "@openapitools/openapi-generator-cli": "^1.0.18-4.3.1",
+    "@types/faker": "^5.1.2",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/lodash": "^4.14.123",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.1",
+    "faker": "^5.1.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.0.0",

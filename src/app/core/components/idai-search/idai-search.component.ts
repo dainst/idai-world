@@ -1,29 +1,36 @@
-import { Component, OnInit, Input, Inject } from "@angular/core";
-import { HttpClient } from "@angular/common/http";
+import { Component, Inject, Input, OnInit } from "@angular/core";
+import { Subject } from "rxjs";
+import { debounceTime, distinctUntilChanged } from "rxjs/operators";
+
 import { GLOBALS } from "../../injectionTokens";
 
 import get from "lodash/get";
-import { debounceTime, distinctUntilChanged } from "rxjs/operators";
-import { Subject } from "rxjs";
+import { Router } from "@angular/router";
+import { DefaultService, Project } from "src/app/generated/search";
 
 interface Suggestion {
-  link: string;
   term: string;
+  project: Project;
 }
+
+interface TranslatedContent {
+  de?: string;
+  en?: string;
+}
+
 @Component({
-  selector: "dai-arachne-searchbar",
-  templateUrl: "./arachne-searchbar.component.html",
-  styleUrls: ["./arachne-searchbar.component.scss"],
+  selector: "dai-idai-search",
+  templateUrl: "./idai-search.component.html",
+  styleUrls: ["./idai-search.component.scss"],
 })
-export class ArachneSearchbarComponent implements OnInit {
+export class IdaiSearchComponent implements OnInit {
   @Input() public placeholder: string;
   @Input() public disableCategories: boolean;
-  @Input() public targetUrl = "https://arachne.dainst.org/search";
-  @Input() public suggestionUrl = "https://arachne.dainst.org/data/suggest";
   @Input() public resultProp = "suggestions";
   @Input() public showCategory = true;
 
   @Input() public categories: string[];
+
   public selectedCategory: string;
   public suggestions: Suggestion[] = [];
   public selectedSuggestionIndex = -1;
@@ -33,7 +40,11 @@ export class ArachneSearchbarComponent implements OnInit {
   private termChange: Subject<any> = new Subject();
   private inputFocusChange: Subject<boolean> = new Subject();
 
-  constructor(@Inject(GLOBALS) private globals, private http: HttpClient) {
+  constructor(
+    @Inject(GLOBALS) private globals,
+    private service: DefaultService,
+    private router: Router
+  ) {
     this.termChange
       .pipe(debounceTime(200), distinctUntilChanged())
       .subscribe((term) => this.search(term));
@@ -44,11 +55,6 @@ export class ArachneSearchbarComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.targetUrl = this.targetUrl || get(this.globals, "search.targetUrl");
-    this.resultProp = this.resultProp || get(this.globals, "search.resultProp");
-    this.suggestionUrl =
-      this.suggestionUrl || get(this.globals, "search.suggestionUrl");
-
     this.categories = this.categories || get(this.globals, "search.categories");
 
     this.showCategory =
@@ -94,9 +100,7 @@ export class ArachneSearchbarComponent implements OnInit {
         return;
       }
       if (event.key === "Enter" && this.selectedSuggestionIndex) {
-        window.location.href = this.suggestions[
-          this.selectedSuggestionIndex
-        ].link;
+        this.onSuggestionClick(this.suggestions[this.selectedSuggestionIndex]);
       }
     }
 
@@ -104,27 +108,23 @@ export class ArachneSearchbarComponent implements OnInit {
   }
 
   search(term: string) {
-    // https://arachne.dainst.org/search?fq=facet_kategorie:%22Einzelobjekte%22&amp;fl=20&amp;q=athen
+    this.service.searchGet(term).subscribe((result) => {
+      console.log(`Search results for ${term}:`, result);
 
-    this.http
-      .get<{ suggestions: string[] }>(this.requestUrl(term))
-      .subscribe((result) => {
-        this.suggestions = this.makeLinks(get(result, this.resultProp));
-      });
+      this.suggestions = this.makeLinks(result.results);
+    });
   }
 
-  private makeLinks(terms: string[] = []) {
-    // https://arachne.dainst.org/search?${fq:}q=${term}
-    const categoryParam = this.selectedCategory
-      ? `fq=facet_kategorie:"${this.selectedCategory}"&`
-      : "";
-    return terms.map((term) => ({
-      link: encodeURI(`${this.targetUrl}?${categoryParam}q=${term}`),
-      term,
+  onSuggestionClick(suggestion: Suggestion) {
+    this.router.navigate(["/project"], {
+      state: { project: suggestion },
+    });
+  }
+
+  private makeLinks(projects: Project[] = []) {
+    return projects.map((project) => ({
+      term: (project.title as TranslatedContent).de,
+      project: project,
     }));
-  }
-
-  private requestUrl(term) {
-    return `${this.suggestionUrl}?q=${term}`;
   }
 }

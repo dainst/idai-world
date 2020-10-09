@@ -1,0 +1,89 @@
+<div class="search-bar input-group">
+  <!-- Dropdown handle Desktop -->
+  <div *ngIf="!disableCategories" class="input-group-prepend d-none d-md-flex">
+    <button
+      class="btn dropdown-toggle"
+      type="button"
+      data-toggle="dropdown"
+      data-display="static"
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
+      <span><i class="fas fa-chevron-right fa-fw"></i>Categories</span>
+    </button>
+    <div class="dropdown-menu dropdown-menu-lg-left">
+      <div class="d-flex flex-wrap align-content-end">
+        <a
+          *ngFor="let category of categories"
+          (click)="onCategoryClick(category)"
+          class="dropdown-item"
+          [class.active]="selectedCategory === category"
+          >{{ category }}</a
+        >
+      </div>
+    </div>
+  </div>
+  <!-- Dropdown handle Mobile -->
+  <div *ngIf="!disableCategories" class="input-group-prepend d-md-none d-flex">
+    <button
+      class="btn dropdown-toggle"
+      type="button"
+      data-toggle="dropdown"
+      data-display="static"
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
+      <span><i class="fas fa-chevron-down"></i></span>
+    </button>
+
+    <div class="dropdown-menu dropdown-menu-lg-left">
+      <div
+        class="d-flex flex-wrap flex-column align-content-start align-items-stretch"
+      >
+        <a
+          *ngFor="let category of categories"
+          (click)="onCategoryClick(category)"
+          class="dropdown-item"
+          [class.active]="selectedCategory === category"
+          >{{ category }}</a
+        >
+      </div>
+    </div>
+  </div>
+  <div
+    *ngIf="selectedCategory && showCategory"
+    class="input-group-append d-flex"
+  >
+    <span class="input-group-text ico-searchbar">{{ selectedCategory }}</span>
+  </div>
+  <div class="form-control searchbar-container">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="{{ placeholder }}"
+      aria-label="Search"
+      (keyup)="onSearchInputKeyup($event)"
+      (focus)="onSearchInputFocus()"
+      (blur)="onSearchInputBlur()"
+    />
+
+    <div *ngIf="isInputFocused" class="suggestions">
+      <ul>
+        <li
+          *ngFor="let suggestion of suggestions; index as idx"
+          [class.highlight]="idx === selectedSuggestionIndex"
+          (click)="onSuggestionClick(suggestion)"
+        >
+          <!-- <a routerLink="/searchresults"> -->
+          {{ suggestion.term }}
+          <!-- </a> -->
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="input-group-append d-flex">
+    <span class="input-group-text ico-searchbar"
+      ><i class="fas fa-search fa-lg"></i
+    ></span>
+  </div>
+</div>
