@@ -12,6 +12,38 @@
        
 
 {
+          "date": "22.10.2020",
+          "category": "",
+          "headline": "Tuna el-Gebel: Celebrating with the dead' and the Krause archive on the iDAI.world",
+          "teaser": {
+            "content": "<p> <a href='https://arachne.dainst.org/project/tuna_el_gebel'>To project and data > </a><br><br>iDAI.objects/Arachne is proud to present new datasets and images from an external project 'Tuna el-Gebel: Celebrating with the dead' and the Krause Archive.<br><br>Temples, houses, and tombs, animal worship and human necropolis – Tuna el-Gebel is a fascinating site located about 270 km south of Cairo and 10 km west of the ancient city of Hermopolis Magna, a metropolis of Middle Egypt. Most of the buildings belong to the Ptolemaic and Roman periods between 300 BC and 300 AD.<br><br>Some of the tomb houses excavated by Sami Gabra as well as their associated parts of buildings with wall paintings, photographically documented by Bernd Harald Krause, are now digitally available as datasets in Arachne.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2020/idai_news_tuna.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2020-10-22_tuna.html"
+          }
+        },
+{
+          "date": "20.10.2020",
+          "category": "",
+          "headline": "Digital Publishing Award 2020 for Archäologischer Anzeiger and DAI Journal Viewer",
+          "teaser": {
+            "content": "<p>Jury praises concept und realization as 'modern and ground-breaking journal format' in the category Process/Technology.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2020/idai_news_award.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2020-10-20_award.html"
+          }
+        },
+{
           "date": "29.07.2020",
           "category": "",
           "headline": "SPP “Entangled Africa” and iDAI.world - A digital connection of time and space",
