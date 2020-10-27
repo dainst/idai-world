@@ -1,5 +1,6 @@
-import { Component, OnInit } from "@angular/core";
-import { ActivatedRoute, Router } from "@angular/router";
+import { Component } from "@angular/core";
+
+import { ConfigurableComponent } from "src/app/core/components/configurable/ConfigurableComponent";
 import { Project } from "src/app/generated/search";
 
 @Component({
@@ -7,20 +8,20 @@ import { Project } from "src/app/generated/search";
   templateUrl: "./search-results.component.html",
   styleUrls: ["./search-results.component.scss"],
 })
-export class SearchResultsComponent implements OnInit {
-  public project: Project;
+export class SearchResultsComponent extends ConfigurableComponent {
+  public term: string;
 
-  public result: string;
+  public results: Project[];
 
-  constructor(private route: ActivatedRoute) {}
+  constructor() {
+    super();
+  }
 
   ngOnInit() {
-    console.log("navigation extras:", history.state.project);
+    this.term = window.history.state.searchTerm;
 
-    if (history.state.project) {
-      this.project = history.state.project;
-
-      this.result = JSON.stringify(this.project, null, 2);
-    }
+    console.log("history term => ", this.term);
   }
+
+  onSearchResultChange(results: Project[]) {}
 }

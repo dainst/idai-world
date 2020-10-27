@@ -1,22 +1,18 @@
-import { Component, Inject, Input, OnInit } from "@angular/core";
+import {
+  Component,
+  EventEmitter,
+  Inject,
+  Input,
+  OnInit,
+  Output,
+} from "@angular/core";
 import { Subject } from "rxjs";
 import { debounceTime, distinctUntilChanged } from "rxjs/operators";
 
 import { GLOBALS } from "../../injectionTokens";
 
 import get from "lodash/get";
-import { Router } from "@angular/router";
 import { DefaultService, Project } from "src/app/generated/search";
-
-interface Suggestion {
-  term: string;
-  project: Project;
-}
-
-interface TranslatedContent {
-  de?: string;
-  en?: string;
-}
 
 @Component({
   selector: "dai-idai-search",
@@ -24,34 +20,47 @@ interface TranslatedContent {
   styleUrls: ["./idai-search.component.scss"],
 })
 export class IdaiSearchComponent implements OnInit {
+  @Input() public disabled: boolean = false;
   @Input() public placeholder: string;
   @Input() public disableCategories: boolean;
   @Input() public resultProp = "suggestions";
   @Input() public showCategory = true;
+  @Input() public term: string;
 
   @Input() public categories: string[];
 
-  public selectedCategory: string;
-  public suggestions: Suggestion[] = [];
-  public selectedSuggestionIndex = -1;
+  @Output() public resultChange = new EventEmitter<Project[]>();
+  @Output() public searchTermChange = new EventEmitter<string>();
+  @Output() public submit = new EventEmitter<string>();
 
-  public isInputFocused = false;
+  public selectedCategory: string;
 
   private termChange: Subject<any> = new Subject();
-  private inputFocusChange: Subject<boolean> = new Subject();
 
   constructor(
     @Inject(GLOBALS) private globals,
-    private service: DefaultService,
-    private router: Router
+    private service: DefaultService
   ) {
-    this.termChange
-      .pipe(debounceTime(200), distinctUntilChanged())
-      .subscribe((term) => this.search(term));
+    if (this.disabled) {
+      this.termChange.pipe(debounceTime(300));
+    }
 
-    this.inputFocusChange
-      .pipe(debounceTime(300), distinctUntilChanged())
-      .subscribe((isFocused) => (this.isInputFocused = isFocused));
+    this.termChange.pipe(distinctUntilChanged());
+
+    this.termChange.subscribe((term) => {
+      this.term = term;
+      this.searchTermChange.emit(term);
+
+      if (this.disabled) {
+        return;
+      }
+
+      if (term) {
+        this.search(term);
+      } else {
+        this.resultChange.emit([]);
+      }
+    });
   }
 
   ngOnInit() {
@@ -59,12 +68,13 @@ export class IdaiSearchComponent implements OnInit {
 
     this.showCategory =
       this.showCategory === undefined ? true : this.showCategory;
+
+    if (this.term) {
+      this.search(this.term);
+    }
   }
 
   onSearchTermChange(term: string) {
-    if (!term) {
-      this.suggestions = [];
-    }
     this.termChange.next(term);
   }
 
@@ -73,58 +83,19 @@ export class IdaiSearchComponent implements OnInit {
       category === this.selectedCategory ? undefined : category;
   }
 
-  onSearchInputFocus() {
-    this.selectedSuggestionIndex = -1;
-    this.inputFocusChange.next(true);
-  }
-
-  onSearchInputBlur() {
-    this.selectedSuggestionIndex = -1;
-    this.inputFocusChange.next(false);
-  }
-
   onSearchInputKeyup(event: KeyboardEvent) {
-    if (this.suggestions.length) {
-      if (event.key === "ArrowDown") {
-        event.preventDefault();
-        this.selectedSuggestionIndex < this.suggestions.length - 1
-          ? this.selectedSuggestionIndex++
-          : this.selectedSuggestionIndex;
-        return;
-      }
-      if (event.key === "ArrowUp") {
-        event.preventDefault();
-        this.selectedSuggestionIndex > 0
-          ? this.selectedSuggestionIndex--
-          : this.selectedSuggestionIndex;
-        return;
-      }
-      if (event.key === "Enter" && this.selectedSuggestionIndex) {
-        this.onSuggestionClick(this.suggestions[this.selectedSuggestionIndex]);
-      }
-    }
-
     this.onSearchTermChange((event.target as HTMLInputElement).value);
+  }
+
+  onKeyupEnter() {
+    this.submit.emit(this.term);
   }
 
   search(term: string) {
     this.service.searchGet(term).subscribe((result) => {
       console.log(`Search results for ${term}:`, result);
 
-      this.suggestions = this.makeLinks(result.results);
+      this.resultChange.emit(result.results);
     });
-  }
-
-  onSuggestionClick(suggestion: Suggestion) {
-    this.router.navigate(["/project"], {
-      state: { project: suggestion },
-    });
-  }
-
-  private makeLinks(projects: Project[] = []) {
-    return projects.map((project) => ({
-      term: (project.title as TranslatedContent).de,
-      project: project,
-    }));
   }
 }

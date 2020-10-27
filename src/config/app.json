@@ -65,11 +65,16 @@
       }
     },
     {
-      "comment": "Search Result / Project Page",
+      "comment": "Search Result Page",
       "=================================================================": "",
-      "path": "project",
+      "path": "search",
       "page": "config/pages/search-results.json",
-      "disabled": false
+      "disabled": false,
+      "menu": {
+        "group": "DEMO",
+        "name": "Search",
+        "order": 2
+      }
     },
     {
       "comment": "WHAT",

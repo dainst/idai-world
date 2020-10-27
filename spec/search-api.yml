@@ -70,9 +70,7 @@ servers:
   - url: https://projects.idai.world/api
 
 components:
-
   schemas:
-
     SearchResult:
       type: object
       properties:
@@ -131,7 +129,6 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/ExternalLink"
-            
 
     Concept:
       description: A thematic concept taken from a controlled vocabulary (i.e.
@@ -144,7 +141,8 @@ components:
           $ref: "#/components/schemas/TranslatedContent"
 
     TemporalConcept:
-      description: A temporal concept or named period taken from a controlled vocabulary
+      description:
+        A temporal concept or named period taken from a controlled vocabulary
         (i.e. iDAI.chronontology).
       properties:
         uri:
@@ -192,9 +190,8 @@ components:
             - MultiLineString
         coordinates:
           type: array
-          items: 
+          items:
             type: object
-          
 
     Image:
       properties:
@@ -223,7 +220,7 @@ components:
             - Funding
             - Partner
             - Participant
-    
+
     ExternalLink:
       properties:
         uri:
@@ -260,6 +257,9 @@ components:
 
     TranslatedContent:
       type: object
+      properties:
+        de: { type: string }
+        en: { type: string }
       example:
         en: English label
         de: Deutsche Beschriftung

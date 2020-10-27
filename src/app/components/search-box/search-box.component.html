@@ -1,29 +1,18 @@
-<!-- <section
-  class="section__textbox textbox-with-search section-open-access decoration-bg-lighter-gray"
-> -->
 <div class="container">
-  <header class="section__head">
+  <div class="section__head">
     <h3 [innerHtml]="config?.headline"></h3>
     <hr class="line__dotted--blue" />
-  </header>
+  </div>
 
   <div class="section__body">
     <div [innerHtml]="config?.text"></div>
-    <!-- <dai-arachne-searchbar
-      [placeholder]="config?.placeholder"
-      [disableCategories]="config?.disableCategories"
-      [categories]="config?.categories"
-      [showCategory]="config?.showCategory"
-      [targetUrl]="config?.targetUrl"
-      [suggestionUrl]="config?.suggestionUrl"
-      [resultProp]="config?.resultProp"
-    ></dai-arachne-searchbar> -->
     <dai-idai-search
+      [disabled]="true"
       [placeholder]="config?.placeholder"
       [disableCategories]="config?.disableCategories"
       [categories]="config?.categories"
       [showCategory]="config?.showCategory"
+      (submit)="onSearchSubmit($event)"
     ></dai-idai-search>
   </div>
 </div>
-<!-- </section> -->

@@ -1,1 +1,22 @@
-<pre>{{ result }}</pre>
+<div class="container section__textbox">
+  <dai-idai-search
+    class="textbox-with-search"
+    placeholder="test"
+    [term]="term"
+    (resultChange)="results = $event"
+    (searchTermChange)="term = $event"
+  >
+  </dai-idai-search>
+
+  <ng-container *ngIf="results?.length">
+    <div class="section__head">
+      <h3 class="txt-center">
+        Results for <span class="darkBlue">{{ term }}</span>
+      </h3>
+      <hr class="line__dotted--blue" />
+    </div>
+
+    <dai-idai-search-result-item *ngFor="let res of results" [data]="res">
+    </dai-idai-search-result-item>
+  </ng-container>
+</div>

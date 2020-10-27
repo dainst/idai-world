@@ -13,7 +13,7 @@ import {
 } from "src/app/generated/search";
 import faker from "faker";
 
-export function makeSearchResult(results: number = 2): SearchResult {
+export function makeSearchResult(results: number = 10): SearchResult {
   return {
     results: makeResults(results),
     filters: makeFilters(5),
@@ -89,13 +89,13 @@ function makeTranslatedContent(
 function makeImages(amount: number): Image[] {
   return arrayWith(amount, () => ({
     label: makeTranslatedContent(),
-    uri: faker.image.imageUrl(),
+    uri: `${faker.image.nature(200, 200)}?random=${Date.now()}`,
   }));
 }
 
 function makeExternalLinks(amount: number = 1): ExternalLink[] {
   return arrayWith<ExternalLink>(amount, () => ({
-    label: makeTranslatedContent(),
+    label: makeTranslatedContent(() => faker.lorem.words()),
     role: "Data",
     uri: faker.internet.url(),
   }));

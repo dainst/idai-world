@@ -1,0 +1,43 @@
+@import "./../../../../scss/variables";
+
+:host {
+  display: flex;
+  flex-flow: row nowrap;
+
+  border: 1px solid white;
+
+  > .content {
+    padding: 80px;
+  }
+
+  h4 {
+    color: $blue;
+    margin-bottom: 25px;
+  }
+
+  > img {
+    min-width: 33%;
+    max-width: 33%;
+    height: auto;
+  }
+
+  a {
+    color: $blue;
+  }
+
+  ul.categories {
+    display: flex;
+    list-style: none;
+
+    > li {
+      margin-right: 10px;
+      color: darken($blue, 20);
+
+      .line__dotted--blue {
+        display: block;
+        margin: 0;
+        margin-top: 5px;
+      }
+    }
+  }
+}

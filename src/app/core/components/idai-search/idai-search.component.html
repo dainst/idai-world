@@ -62,24 +62,10 @@
       class="form-control"
       placeholder="{{ placeholder }}"
       aria-label="Search"
+      value="{{ term }}"
       (keyup)="onSearchInputKeyup($event)"
-      (focus)="onSearchInputFocus()"
-      (blur)="onSearchInputBlur()"
+      (keyup.enter)="onKeyupEnter()"
     />
-
-    <div *ngIf="isInputFocused" class="suggestions">
-      <ul>
-        <li
-          *ngFor="let suggestion of suggestions; index as idx"
-          [class.highlight]="idx === selectedSuggestionIndex"
-          (click)="onSuggestionClick(suggestion)"
-        >
-          <!-- <a routerLink="/searchresults"> -->
-          {{ suggestion.term }}
-          <!-- </a> -->
-        </li>
-      </ul>
-    </div>
   </div>
   <div class="input-group-append d-flex">
     <span class="input-group-text ico-searchbar"

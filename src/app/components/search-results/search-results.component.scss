@@ -1,0 +1,15 @@
+@import "./../../../scss/variables";
+
+:host {
+  dai-idai-search + * {
+    margin-top: 50px;
+  }
+
+  dai-idai-search-result-item {
+    margin-bottom: 20px;
+  }
+
+  .darkBlue {
+    color: darken($color: $blue, $amount: 20);
+  }
+}
