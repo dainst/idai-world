@@ -1,21 +1,9 @@
-
-[
-    
-  {
-    "type": "sub_nav",
-    "items": [
-      {
-        "image": "assets/images/temp/circle-hover.jpg",
-        "route": "/what/projectsbytopic",
-        "title": "Projects<br>by topic"
-      },
-      {
-        "image": "assets/images/content/banner-libraries.jpg",
-        "route": "/what/projectsbyletter",
-        "title": "Projects<br>by letter"
-      }
-    ]
+{
+  "banner": {
+    "title": "Projects",
+    "image": "assets/images/content/header/idai_space_time_header.jpg"
   },
+  "components": [
 {
       "type": "intro_text",
       "title": "A",
@@ -112,4 +100,5 @@
       "body": "<p><a href='https://arachne.dainst.org/project/villaWolkonsky'>Villa Wolkonsky, Antiquities Collection, Rome</a></p>"
     }
   ]
+}
 
