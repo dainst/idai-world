@@ -112,16 +112,12 @@
     },
 
     {
-      "path": "what/projectsbytopic",
-      "page": "config/pages/what/projectsbytopic.json",
+      "path": "what/projectsbyletter",
+      "page": "config/pages/what/projectsbyletter.json",
       "menu": {
         "group": "What",
         "name": "Projects"
       }
-    },
-    {
-      "path": "what/projectsbyletter",
-      "page": "config/pages/what/projectsbyletter.json"
     },
 
     {
@@ -209,14 +205,6 @@
         "group": "How",
         "name": "<b> to navigate the iDAI.world<b>",
         "order": 1
-      }
-    },
-    {
-      "path": "",
-      "page": "",
-      "menu": {
-        "group": "How",
-        "name": ".........................................................................."
       }
     },
     {
