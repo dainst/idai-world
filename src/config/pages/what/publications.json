@@ -163,6 +163,18 @@
         },
         "links": [
           {
+            "text": "Chiron 47, 2017",
+            "target": "https://publications.dainst.org/journals/index.php/chiron/issue/view/402"
+          },
+          {
+            "text": "Chiron 46, 2016",
+            "target": "https://publications.dainst.org/journals/index.php/chiron/issue/view/401"
+          },
+          {
+            "text": "Chiron 45, 2015",
+            "target": "https://publications.dainst.org/journals/index.php/chiron/issue/view/167"
+          },
+          {
             "text": "Chiron 44, 2014",
             "target": "https://publications.dainst.org/journals/chiron/issue/63"
           },
@@ -351,7 +363,7 @@
         },
         "links": [
           {
-            "text": "JoGA, 1",
+            "text": "JoGA 2020",
             "target": "https://publications.dainst.org/journals/index.php/joga/issue/view/403"
           }
         ]
@@ -366,6 +378,22 @@
           "text": "Research E-Papers"
         },
         "links": [
+          {
+            "text": "eDAI-F 2020, 1",
+            "target": "https://publications.dainst.org/journals/index.php/efb/issue/view/424"
+          },
+          {
+            "text": "eDAI-F 2020, 1",
+            "target": "https://publications.dainst.org/journals/index.php/efb/issue/view/387"
+          },
+          {
+            "text": "eDAI-F 2019, 3",
+            "target": "https://publications.dainst.org/journals/index.php/efb/issue/view/382"
+          },
+          {
+            "text": "eDAI-F 2019, 2",
+            "target": "https://publications.dainst.org/journals/index.php/efb/issue/view/376"
+          },
           {
             "text": "eDAI-F 2019, 1",
             "target": "https://publications.dainst.org/journals/efb/issue/168"
@@ -435,6 +463,10 @@
         },
         "links": [
           {
+            "text": "eDAI-J 2019",
+            "target": "https://publications.dainst.org/journals/index.php/ejb/issue/view/404"
+          },
+          {
             "text": "eDAI-J 2018",
             "target": "https://publications.dainst.org/journals/ejb/issue/325"
           },
@@ -470,6 +502,10 @@
           "text": "Germania"
         },
         "links": [
+          {
+            "text": "Germania 96, 2018",
+            "target": "https://publications.dainst.org/journals/index.php/ger/issue/view/374"
+          },
           {
             "text": "Germania 95, 2017",
             "target": "https://publications.dainst.org/journals/ger/issue/319"
