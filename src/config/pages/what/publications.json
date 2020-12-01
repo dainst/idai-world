@@ -55,6 +55,10 @@
         "subhead": "Current global research projects",
         "links": [
           {
+            "text": "AA 2020, 1",
+            "target": "https://publications.dainst.org/journals/index.php/aa/issue/view/410"
+          },
+          {
             "text": "AA 2019, 2",
             "target": "https://publications.dainst.org/journals/aa/issue/386"
           },
