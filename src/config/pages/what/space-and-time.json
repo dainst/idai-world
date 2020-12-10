@@ -17,6 +17,17 @@
       "tiles": [
         {
           "type": "text",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_pergamonmap.jpg",
+          "headline": "Pergamon Digital Archaeological Map",
+          "subhead": "",
+          "link": {
+            "target": "https://geoserver.dainst.org/maps/5548",
+            "text": "External Link to 'Pergamon Digital Map'"
+          },
+          "text":"<p class='description'>The new archaeological map of Pergamon represents all known archaeological building remains. The map is an updated and extended version of the map of Pergamon published in 1973. Current excavations of the Pergamon Excavation Project and the Museum Bergama are shown, but also older excavations from the 1930s and 1950s on the Musalla Mezarlığı.</p>"
+        },
+        {
+          "type": "text",
           "image": "assets/images/content/what/space-and-time/idai_space_time_al_idrisi.jpg",
           "headline": "Al Idrisi - Archaeological Atlas of Algeria and Tunisia",
           "subhead": "",
@@ -28,17 +39,6 @@
         },
         {
           "type": "text",
-          "image": "assets/images/content/what/space-and-time/idai_space_time_lead_ingots.jpg",
-          "headline": "Lead Ingots from Shipwrecks (Bizerte)",
-          "subhead": "",
-          "link": {
-            "target": "https://geoserver.dainst.org/maps/981",
-            "text": "External Link to 'Lead Ingots from Shipwrecks (Bizerte)'"
-          },
-          "text":"<p class='description'>Geoserver showing lead ingots that come from shipwrecks from the western Mediterranean.</p>"
-        },
-        {
-          "type": "text",
           "image": "assets/images/content/what/space-and-time/idai_space_time_palmyra_gis_video.jpg",
           "headline": "Palmyra-GIS",
           "subhead": "",
@@ -47,6 +47,17 @@
             "text": "External Link to 'Palmyra-GIS'"
           },
           "text":"<p class='description'>With the application Palmyra-GIS and the corresponding 3D print of the terrain model of the ancient Syrian city of ruins Palmyra, researchers want to contribute to the protection of the world heritage from the war in Syria.</p>"
+        },
+        {
+          "type": "text",
+          "image": "assets/images/content/what/space-and-time/idai_space_time_lead_ingots.jpg",
+          "headline": "Lead Ingots from Shipwrecks (Bizerte)",
+          "subhead": "",
+          "link": {
+            "target": "https://geoserver.dainst.org/maps/981",
+            "text": "External Link to 'Lead Ingots from Shipwrecks (Bizerte)'"
+          },
+          "text":"<p class='description'>Geoserver showing lead ingots that come from shipwrecks from the western Mediterranean.</p>"
         },
         {
           "type": "text",

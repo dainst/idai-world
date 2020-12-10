@@ -10,7 +10,22 @@
       "show": 20,
       "articles": [
        
-
+        {
+          "date": "08.12.2020",
+          "category": "",
+          "headline": "Pergamon Digital Archaeological Map",
+          "teaser": {
+            "content": "<p><a href='https://geoserver.dainst.org/maps/5548'>To Geoserver project ></a><br><br>The new archaeological map of Pergamon represents all known archaeological building remains. The map is an updated and extended version of the map of Pergamon published in 1973. Current excavations of the Pergamon Excavation Project and the Museum Bergama are shown, but also older excavations from the 1930s and 1950s on the Musalla Mezarlığı.<br><br>The publication of the new archaeological map of Pergamon is an important milestone in the study of the ancient metropolis. For the first time since 1973 a new cartographic basis for the ancient city of Pergamon is available. The new map represents all known archaeological remains. Excavations, for example, from the 1930s and 1950s at the Musalla Mezarlığı or the excavations of the Bergama Museum over the last fifteen years have now also been included.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2020/idai_news_pergamonmap.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2020-12-08_pergamonmap.html"
+          }
+        },
 {
           "date": "22.10.2020",
           "category": "",
