@@ -379,7 +379,11 @@
         },
         "links": [
           {
-            "text": "eDAI-F 2020, 1",
+            "text": "eDAI-F 2020, 3",
+            "target": "https://publications.dainst.org/journals/index.php/efb/issue/view/430"
+          },
+          {
+            "text": "eDAI-F 2020, 2",
             "target": "https://publications.dainst.org/journals/index.php/efb/issue/view/424"
           },
           {
@@ -517,6 +521,42 @@
           {
             "text": "Germania 93, 2015",
             "target": "https://publications.dainst.org/journals/ger/issue/317"
+          },
+          {
+            "text": "Germania 92, 2014",
+            "target": "https://publications.dainst.org/journals/ger/issue/400"
+          },
+          {
+            "text": "Germania 91, 2013",
+            "target": "https://publications.dainst.org/journals/ger/issue/399"
+          },
+          {
+            "text": "Germania 90, 2012",
+            "target": "https://publications.dainst.org/journals/ger/issue/398"
+          },
+          {
+            "text": "Germania 89, 2011",
+            "target": "https://publications.dainst.org/journals/ger/issue/380"
+          },
+          {
+            "text": "Germania 88, 2010",
+            "target": "https://publications.dainst.org/journals/ger/issue/397"
+          },
+          {
+            "text": "Germania 87.2, 2009",
+            "target": "https://publications.dainst.org/journals/ger/issue/396"
+          },
+          {
+            "text": "Germania 87.1, 2009",
+            "target": "https://publications.dainst.org/journals/ger/issue/453"
+          },
+          {
+            "text": "Germania 86.2, 2008",
+            "target": "https://publications.dainst.org/journals/ger/issue/326"
+          },
+          {
+            "text": "Germania 86.1, 2008",
+            "target": "https://publications.dainst.org/journals/ger/issue/327"
           },
           {
             "text": "Germania 85.2, 2007",
@@ -1387,6 +1427,28 @@
     "title": "Data enhanced print publications with partners",
     "rows": 2,
     "tiles": [
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_mar41.jpg",
+        "headline": "MAR 41: Reproduction and image",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/mar41",
+          "text": "External Link to 'mar41'"
+        },
+        "text":"Catalog belonging to the publication MAR 41: Reproduction and image. Repetition and reproduction of Roman reliefs by Arne Reinhardt"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_resafa9.jpg",
+        "headline": "Resafa 9,1: The city walls of Resafa (Syria)",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/resafa",
+          "text": "External Link to 'resafa'"
+        },
+        "text":"Supplemental data to the publication about the city walls of Resafa"
+      },
       {
         "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_faak16.jpg",
