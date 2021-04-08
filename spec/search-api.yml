@@ -67,7 +67,7 @@ paths:
                 $ref: "#/components/schemas/Project"
 
 servers:
-  - url: https://projects.idai.world/api
+  - url: http://api.idai.world
 
 components:
   schemas:

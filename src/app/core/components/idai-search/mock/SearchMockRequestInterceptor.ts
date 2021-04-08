@@ -20,7 +20,7 @@ export class SearchMockRequestInterceptor implements HttpInterceptor {
   ): Observable<HttpEvent<any>> {
     console.log("Intercepted http call:", request.url);
 
-    if (request.url.endsWith("api/search") && request.method == "GET") {
+    if (request.url.endsWith("search") && request.method == "GET") {
       return new Observable((observer) => {
         observer.next(
           new HttpResponse<SearchResult>({
