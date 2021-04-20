@@ -195,17 +195,6 @@
       "tiles": [
         {
           "type": "text",
-          "image": "assets/images/content/what/space-and-time/idai_space_time_ayda.jpg",
-          "headline": "AYDA",
-          "subhead": "Ancient Yemen Digital Atlas",
-          "link": {
-            "target": "https://www.archernet.org/2018/10/25/ayda-ein-digitales-denkmalregister-fuer-den-jemen/",
-            "text": "AYDA – Ancient Yemen Digital Atlas"
-          },
-          "text":"<p class='description'>An online information system compiling monuments in Yemen aiming at registering Yeminite heritage sites and documenting them in the way they are still available.</p>"
-        },
-        {
-          "type": "text",
           "image": "assets/images/content/what/space-and-time/idai_space_time_syrian_heritage_project.jpg",
           "headline": "Syrian Heritage Archive",
           "subhead": "A monument register for Syria",
