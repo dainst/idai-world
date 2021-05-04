@@ -30,8 +30,8 @@
         "target": "https://publications.dainst.org/books/index.php/dai/catalog/book/62"
       },
       {
-        "src": "assets/images/content/what/publications/slider/idai_publications_slider_aa_2020_1.jpg",
-        "target": "https://publications.dainst.org/journals/index.php/aa/issue/view/410"
+        "src": "assets/images/content/what/publications/slider/idai_publications_slide_aa2020_2.jpg",
+        "target": "https://publications.dainst.org/journals/index.php/aa/issue/view/431"
       },
       {
         "src": "assets/images/content/what/publications/slider/idai_publications_slider_pf_17.jpg",
@@ -54,6 +54,10 @@
         "headline": "Archäologischer Anzeiger",
         "subhead": "Current global research projects",
         "links": [
+          {
+            "text": "AA 2020, 2",
+            "target": "https://publications.dainst.org/journals/index.php/aa/issue/view/431"
+          },
           {
             "text": "AA 2020, 1",
             "target": "https://publications.dainst.org/journals/index.php/aa/issue/view/410"
@@ -162,6 +166,10 @@
           "text": "Chiron"
         },
         "links": [
+          {
+            "text": "Chiron 48, 2018",
+            "target": "https://publications.dainst.org/journals/index.php/chiron/issue/view/473"
+          },
           {
             "text": "Chiron 47, 2017",
             "target": "https://publications.dainst.org/journals/index.php/chiron/issue/view/402"
@@ -466,6 +474,10 @@
           "text": "Annual E-Report"
         },
         "links": [
+          {
+            "text": "eDAI-J 2020",
+            "target": "https://publications.dainst.org/journals/index.php/ejb/issue/view/472"
+          },
           {
             "text": "eDAI-J 2019",
             "target": "https://publications.dainst.org/journals/index.php/ejb/issue/view/404"
