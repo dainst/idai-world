@@ -11,6 +11,22 @@
       "articles": [
        
         {
+          "date": "09.06.2021",
+          "category": "",
+          "headline": "The iDAI.world in light of the new digital policies of the Federal Republic of Germany",
+          "teaser": {
+            "content": "<p>With the second Open-Data-Directive the federal government of Germany is implementing the revised EU directive 2019/1024 (<a href='https://eur-lex.europa.eu/legal-content/EN/LSU/?uri=celex:32019L1024'>Directive on open data and the reuse of public-sector information</a>) of the year 2019 into national policy.<br>Further, an amendment to Section 12a of the <a href='https://www.bundesrat.de/SharedDocs/beratungsvorgaenge/2021/0101-0200/0141-21.html'>E-Government Act</a> is intended to achieve the most comprehensive publication of open federal data.<br><br>A necessary cornerstone for digital information infrastructure of the German Archaeological Institute was laid out in the 90s at the Research Archive for Ancient Sculpture of the University of Cologne. The iDAI.world emerged from this as a grown and complex digital offer, on which numerous institutions and scientists have cooperated. A working group has evaluated how the iDAI.world finds its place against the backdrop of these new digital laws.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2021/idai_news_fdai.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2021-06-09_fdai.html"
+          }
+        },
+        {
           "date": "08.12.2020",
           "category": "",
           "headline": "Pergamon Digital Archaeological Map",
