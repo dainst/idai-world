@@ -13,6 +13,10 @@
 
   },
   {
+    "type": "html",
+    "content_html": "config/pages/how/architecture2.html"
+  },
+  {
     "type": "slider_tiles",
     "title": "iDAI.world systems",
     "enableSliding": false,
