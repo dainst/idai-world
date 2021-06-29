@@ -137,8 +137,18 @@ components:
         uri:
           type: string
           format: uri
-        title:
+        label:
           $ref: "#/components/schemas/Translations"
+        resource:
+          $ref: "#/components/schemas/ConceptResource"
+
+    ConceptResource:
+      properties:
+        label:
+          $ref: "#/components/schemas/Translations"
+        uri:
+          type: string
+          format: uri
 
     TemporalConcept:
       description:
