@@ -3,9 +3,14 @@
 <div class="content">
   <h4 *ngIf="data?.title">{{ data.title|t }}</h4>
 
-  <ul class="categories">
-    <li *ngFor="let cat of data.subject">
-      <span>{{ cat.title[0].text }}</span>
+  <ul class="categories" *ngIf="data.subject?.length">
+    <li *ngFor="let concept of data.subject">
+        <span *ngIf="concept?.label">{{concept.label|t}}</span>
+        <div *ngIf="concept.resource?.label">
+          <a [href]="concept.resource.uri">
+            {{concept.resource.label|t}}
+          </a>
+        </div>
       <span class="line__dotted--blue"></span>
     </li>
   </ul>
