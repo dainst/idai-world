@@ -20,7 +20,9 @@ import { FooterMenuComponent } from "./components/footer-menu/footer-menu.compon
 
 import { IdaiSearchComponent } from "./components/idai-search/idai-search.component";
 import { SearchApiModule } from "../generated/search";
-import { IdaiSearchResultItemComponent } from "./components/idai-search-result-item/idai-search-result-item.component";
+import { IdaiSearchResultItemComponent } from "./components/idai-search-result-item/idai-search-result-item.component';
+
+import { TranslatePipe } from './pipe/translate.pipe';
 
 @NgModule({
   declarations: [
@@ -39,6 +41,7 @@ import { IdaiSearchResultItemComponent } from "./components/idai-search-result-i
     FooterMenuComponent,
     IdaiSearchComponent,
     IdaiSearchResultItemComponent,
+    TranslatePipe
   ],
   exports: [
     PageComponent,
@@ -54,6 +57,7 @@ import { IdaiSearchResultItemComponent } from "./components/idai-search-result-i
     FooterMenuComponent,
     IdaiSearchComponent,
     IdaiSearchResultItemComponent,
+    TranslatePipe,
   ],
   entryComponents: [
     PageComponent,
