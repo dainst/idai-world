@@ -5,9 +5,6 @@ import {TranslatedContent} from 'src/app/generated/search';
 
 export class TranslatePipe implements PipeTransform {
   transform(value: Array<TranslatedContent>, ...args: any[]): any {
-
-    console.log('TO_TRANS', value);
-
     // No value leads to empty result
     if (value.length === 0) {
       return '';
