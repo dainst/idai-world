@@ -25,6 +25,13 @@
     color: $blue;
   }
 
+  ul.links {
+    list-style: none;
+    > li:before {
+      content: "> ";
+    }
+  }
+
   ul.categories {
     display: flex;
     list-style: none;

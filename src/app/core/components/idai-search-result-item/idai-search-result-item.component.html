@@ -12,7 +12,9 @@
 
   <p>{{ data.description|t }}</p>
 
-  <a [href]="data.external_links[0].uri">{{
-    data.external_links[0].label
-  }}</a>
+  <ul class="links" *ngIf="data.external_links?.length">
+    <li *ngFor="let link of data.external_links">
+      <a [href]="link.uri">{{ link.label|t }}</a>
+    </li>
+  </ul>
 </div>
