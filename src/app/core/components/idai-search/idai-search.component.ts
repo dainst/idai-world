@@ -41,26 +41,24 @@ export class IdaiSearchComponent implements OnInit {
     @Inject(GLOBALS) private globals,
     private service: DefaultService
   ) {
-    if (this.disabled) {
-      this.termChange.pipe(debounceTime(300));
-    }
+    this.termChange.pipe(
+      debounceTime(300),
+      distinctUntilChanged()
+    ).subscribe(((term) => {
+        this.term = term;
+        this.searchTermChange.emit(term);
 
-    this.termChange.pipe(distinctUntilChanged());
+        if (this.disabled) {
+          return;
+        }
 
-    this.termChange.subscribe((term) => {
-      this.term = term;
-      this.searchTermChange.emit(term);
-
-      if (this.disabled) {
-        return;
-      }
-
-      if (term) {
-        this.search(term);
-      } else {
-        this.resultChange.emit([]);
-      }
-    });
+        if (term) {
+          this.search(term);
+        } else {
+          this.resultChange.emit([]);
+        }
+      })
+    );
   }
 
   ngOnInit() {
