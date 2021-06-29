@@ -93,9 +93,9 @@ components:
           type: string
           example: "60856"
         title:
-          $ref: "#/components/schemas/TranslatedContent"
+          $ref: "#/components/schemas/Translations"
         description:
-          $ref: "#/components/schemas/TranslatedContent"
+          $ref: "#/components/schemas/Translations"
         doi:
           type: string
           example: 10.1594/PANGAEA.726855
@@ -138,7 +138,7 @@ components:
           type: string
           format: uri
         title:
-          $ref: "#/components/schemas/TranslatedContent"
+          $ref: "#/components/schemas/Translations"
 
     TemporalConcept:
       description:
@@ -149,7 +149,7 @@ components:
           type: string
           format: uri
         title:
-          $ref: "#/components/schemas/TranslatedContent"
+          $ref: "#/components/schemas/Translations"
         begin:
           type: integer
           description: Earliest begin year
@@ -164,7 +164,7 @@ components:
           type: string
           format: uri
         title:
-          $ref: "#/components/schemas/TranslatedContent"
+          $ref: "#/components/schemas/Translations"
         geometry:
           type: array
           items:
@@ -196,7 +196,7 @@ components:
     Image:
       properties:
         label:
-          $ref: "#/components/schemas/TranslatedContent"
+          $ref: "#/components/schemas/Translations"
         uri:
           type: string
           format: uri
@@ -207,7 +207,7 @@ components:
           type: string
           format: uri
         label:
-          $ref: "#/components/schemas/TranslatedContent"
+          $ref: "#/components/schemas/Translations"
         type:
           type: string
           enum:
@@ -227,7 +227,7 @@ components:
           type: string
           format: uri
         label:
-          $ref: "#/components/schemas/TranslatedContent"
+          $ref: "#/components/schemas/Translations"
         role:
           type: string
           enum:
@@ -240,7 +240,7 @@ components:
           type: string
           example: subject
         label:
-          $ref: "#/components/schemas/TranslatedContent"
+          $ref: "#/components/schemas/Translations"
         values:
           type: array
           items:
@@ -250,18 +250,20 @@ components:
                 type: string
                 example: buildings
               label:
-                $ref: "#/components/schemas/TranslatedContent"
+                $ref: "#/components/schemas/Translations"
               count:
                 type: number
                 example: 42
 
-    TranslatedContent:
+    Translations:
       type: array
       items:
-        type: object
-        properties:
-          lang: { type: string }
-          text: { type: string }
-        example:
-          lang: de
-          text: Deutsche Beschriftung
+        $ref: "#/components/schemas/TranslatedContent"
+
+    TranslatedContent:
+      type: object
+      properties:
+        lang:
+          type: string
+        text:
+          type: string
