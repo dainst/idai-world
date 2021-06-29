@@ -1,26 +1,26 @@
-import { Component, OnInit, Input, Inject } from "@angular/core";
-import { HttpClient } from "@angular/common/http";
-import { GLOBALS } from "../../injectionTokens";
+import { Component, OnInit, Input, Inject } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { GLOBALS } from '../../injectionTokens';
 
-import get from "lodash/get";
-import { debounceTime, distinctUntilChanged } from "rxjs/operators";
-import { Subject } from "rxjs";
+import get from 'lodash/get';
+import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
+import { Subject } from 'rxjs';
 
 interface Suggestion {
   link: string;
   term: string;
 }
 @Component({
-  selector: "dai-arachne-searchbar",
-  templateUrl: "./arachne-searchbar.component.html",
-  styleUrls: ["./arachne-searchbar.component.scss"],
+  selector: 'dai-arachne-searchbar',
+  templateUrl: './arachne-searchbar.component.html',
+  styleUrls: ['./arachne-searchbar.component.scss'],
 })
 export class ArachneSearchbarComponent implements OnInit {
   @Input() public placeholder: string;
   @Input() public disableCategories: boolean;
-  @Input() public targetUrl = "https://arachne.dainst.org/search";
-  @Input() public suggestionUrl = "https://arachne.dainst.org/data/suggest";
-  @Input() public resultProp = "suggestions";
+  @Input() public targetUrl = 'https://arachne.dainst.org/search';
+  @Input() public suggestionUrl = 'https://arachne.dainst.org/data/suggest';
+  @Input() public resultProp = 'suggestions';
   @Input() public showCategory = true;
 
   @Input() public categories: string[];
@@ -44,12 +44,12 @@ export class ArachneSearchbarComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.targetUrl = this.targetUrl || get(this.globals, "search.targetUrl");
-    this.resultProp = this.resultProp || get(this.globals, "search.resultProp");
+    this.targetUrl = this.targetUrl || get(this.globals, 'search.targetUrl');
+    this.resultProp = this.resultProp || get(this.globals, 'search.resultProp');
     this.suggestionUrl =
-      this.suggestionUrl || get(this.globals, "search.suggestionUrl");
+      this.suggestionUrl || get(this.globals, 'search.suggestionUrl');
 
-    this.categories = this.categories || get(this.globals, "search.categories");
+    this.categories = this.categories || get(this.globals, 'search.categories');
 
     this.showCategory =
       this.showCategory === undefined ? true : this.showCategory;
@@ -79,21 +79,21 @@ export class ArachneSearchbarComponent implements OnInit {
 
   onSearchInputKeyup(event: KeyboardEvent) {
     if (this.suggestions.length) {
-      if (event.key === "ArrowDown") {
+      if (event.key === 'ArrowDown') {
         event.preventDefault();
         this.selectedSuggestionIndex < this.suggestions.length - 1
           ? this.selectedSuggestionIndex++
           : this.selectedSuggestionIndex;
         return;
       }
-      if (event.key === "ArrowUp") {
+      if (event.key === 'ArrowUp') {
         event.preventDefault();
         this.selectedSuggestionIndex > 0
           ? this.selectedSuggestionIndex--
           : this.selectedSuggestionIndex;
         return;
       }
-      if (event.key === "Enter" && this.selectedSuggestionIndex) {
+      if (event.key === 'Enter' && this.selectedSuggestionIndex) {
         window.location.href = this.suggestions[
           this.selectedSuggestionIndex
         ].link;
@@ -117,7 +117,7 @@ export class ArachneSearchbarComponent implements OnInit {
     // https://arachne.dainst.org/search?${fq:}q=${term}
     const categoryParam = this.selectedCategory
       ? `fq=facet_kategorie:"${this.selectedCategory}"&`
-      : "";
+      : '';
     return terms.map((term) => ({
       link: encodeURI(`${this.targetUrl}?${categoryParam}q=${term}`),
       term,

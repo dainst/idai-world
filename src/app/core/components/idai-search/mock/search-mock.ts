@@ -10,8 +10,8 @@ import {
   SearchResult,
   Stakeholder,
   TemporalConcept,
-} from "src/app/generated/search";
-import faker from "faker";
+} from 'src/app/generated/search';
+import faker from 'faker';
 
 export function makeSearchResult(results: number = 10): SearchResult {
   return {
@@ -66,8 +66,8 @@ function makeConcepts(amount: number): Concept[] {
 
 function makeStakeholder(amount: number): Stakeholder[] {
   return arrayWith(amount, () => ({
-    role: "Manager",
-    type: "Person",
+    role: 'Manager',
+    type: 'Person',
     label: makeTranslatedContent(),
     uri: faker.internet.url(),
   }));
@@ -83,7 +83,10 @@ function makeTemporal(amount: number): TemporalConcept[] {
 function makeTranslatedContent(
   fn: (...args: any[]) => string = faker.random.word
 ) {
-  return { de: fn(), en: fn() };
+  return [
+    { lang: 'de', text: fn() },
+    { lang: 'en', text: fn() },
+  ];
 }
 
 function makeImages(amount: number): Image[] {
@@ -96,7 +99,7 @@ function makeImages(amount: number): Image[] {
 function makeExternalLinks(amount: number = 1): ExternalLink[] {
   return arrayWith<ExternalLink>(amount, () => ({
     label: makeTranslatedContent(() => faker.lorem.words()),
-    role: "Data",
+    role: 'Data',
     uri: faker.internet.url(),
   }));
 }
@@ -111,7 +114,7 @@ function makePlaces(amount: number = 1): Place[] {
 
 function makeGeomentry(): Geometry {
   return {
-    type: "Point",
+    type: 'Point',
     coordinates: null,
   };
 }

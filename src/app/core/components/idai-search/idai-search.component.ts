@@ -5,25 +5,25 @@ import {
   Input,
   OnInit,
   Output,
-} from "@angular/core";
-import { Subject } from "rxjs";
-import { debounceTime, distinctUntilChanged } from "rxjs/operators";
+} from '@angular/core';
+import { Subject } from 'rxjs';
+import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
 
-import { GLOBALS } from "../../injectionTokens";
+import { GLOBALS } from '../../injectionTokens';
 
-import get from "lodash/get";
-import { DefaultService, Project } from "src/app/generated/search";
+import get from 'lodash/get';
+import { DefaultService, Project } from 'src/app/generated/search';
 
 @Component({
-  selector: "dai-idai-search",
-  templateUrl: "./idai-search.component.html",
-  styleUrls: ["./idai-search.component.scss"],
+  selector: 'dai-idai-search',
+  templateUrl: './idai-search.component.html',
+  styleUrls: ['./idai-search.component.scss'],
 })
 export class IdaiSearchComponent implements OnInit {
-  @Input() public disabled: boolean = false;
+  @Input() public disabled = false;
   @Input() public placeholder: string;
   @Input() public disableCategories: boolean;
-  @Input() public resultProp = "suggestions";
+  @Input() public resultProp = 'suggestions';
   @Input() public showCategory = true;
   @Input() public term: string;
 
@@ -64,7 +64,7 @@ export class IdaiSearchComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.categories = this.categories || get(this.globals, "search.categories");
+    this.categories = this.categories || get(this.globals, 'search.categories');
 
     this.showCategory =
       this.showCategory === undefined ? true : this.showCategory;

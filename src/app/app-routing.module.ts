@@ -1,7 +1,7 @@
-import { NgModule, Type } from "@angular/core";
-import { Routes, RouterModule, Router } from "@angular/router";
+import { NgModule, Type } from '@angular/core';
+import { Routes, RouterModule, Router } from '@angular/router';
 // import { NotFoundComponent } from './not-found/not-found.component';
-import { DaiAppConfig } from "./core/config/DaiAppConfig";
+import { DaiAppConfig } from './core/config/DaiAppConfig';
 
 const routes: Routes = [];
 

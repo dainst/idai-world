@@ -1,20 +1,20 @@
-import { Component, Inject, NgZone } from "@angular/core";
+import { Component, Inject, NgZone } from '@angular/core';
 import {
   Router,
   NavigationEnd,
   RouterEvent,
   NavigationStart
-} from "@angular/router";
-import { DOCUMENT } from "@angular/common";
-import { filter } from "rxjs/operators";
-import { Angulartics2Piwik } from "angulartics2/piwik";
+} from '@angular/router';
+import { DOCUMENT } from '@angular/common';
+import { filter } from 'rxjs/operators';
+import { Angulartics2Piwik } from 'angulartics2/piwik';
 
-import * as $ from "jquery";
+import * as $ from 'jquery';
 
 @Component({
-  selector: "dai-app",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.scss"]
+  selector: 'dai-app',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   public isPageLoaded = false;
@@ -28,13 +28,13 @@ export class AppComponent {
     router.events
       .pipe(filter(e => e instanceof NavigationEnd))
       .subscribe((event: RouterEvent) => {
-        const isHome = event.url === "" || event.url === "/";
+        const isHome = event.url === '' || event.url === '/';
         if (!isHome) {
-          this.document.body.classList.add("subpage");
-          this.document.body.classList.remove("isHome");
+          this.document.body.classList.add('subpage');
+          this.document.body.classList.remove('isHome');
         } else {
-          this.document.body.classList.remove("subpage");
-          this.document.body.classList.add("isHome");
+          this.document.body.classList.remove('subpage');
+          this.document.body.classList.add('isHome');
         }
 
         window.scrollTo(0, 0);
@@ -48,15 +48,15 @@ export class AppComponent {
   interceptLinks() {
     const { router, zone } = this;
 
-    const isExternal = (href: string = "") => href.startsWith("http");
+    const isExternal = (href: string = '') => href.startsWith('http');
     const me = this;
 
-    $(window).on("pageconfig_loaded", () => {
+    $(window).on('pageconfig_loaded', () => {
       me.isPageLoaded = true;
     });
 
-    $(document).on("click", "a", function(e) {
-      const href = $(this).attr("href");
+    $(document).on('click', 'a', function(e) {
+      const href = $(this).attr('href');
       if (href === undefined) {
         return;
       }
@@ -64,7 +64,7 @@ export class AppComponent {
       if (isExternal(href)) {
         e.preventDefault();
 
-        window.open(href, "blank");
+        window.open(href, 'blank');
       } else {
         e.preventDefault();
 

@@ -4,28 +4,28 @@ declare global {
   }
 }
 
-import * as $ from "jquery";
+import * as $ from 'jquery';
 window.$ = $;
 
-import "simplebar";
-import "slick-carousel";
-import "bootstrap";
+import 'simplebar';
+import 'slick-carousel';
+import 'bootstrap';
 
-import { enableProdMode } from "@angular/core";
-import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
+import { enableProdMode } from '@angular/core';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { AppModule } from "./app/app.module";
-import { environment } from "./environments/environment";
-import { DaiAppConfig } from "./app/core/config/DaiAppConfig";
-import { AppConfigLoader } from "./app/core/config/ConfigLoader";
-import { TextLimits } from "./app/core/service/text-limits.service";
-import { GLOBALS } from "./app/core/injectionTokens";
+import { AppModule } from './app/app.module';
+import { environment } from './environments/environment';
+import { DaiAppConfig } from './app/core/config/DaiAppConfig';
+import { AppConfigLoader } from './app/core/config/ConfigLoader';
+import { TextLimits } from './app/core/service/text-limits.service';
+import { GLOBALS } from './app/core/injectionTokens';
 
 if (environment.production) {
   enableProdMode();
 }
 
-import("./app/core/components/idai-search/mock/search-mock").then((module) => {
+import('./app/core/components/idai-search/mock/search-mock').then((module) => {
   AppConfigLoader.loadAppConfig().then((config) => {
     platformBrowserDynamic([
       { provide: DaiAppConfig, deps: [], useValue: config },
