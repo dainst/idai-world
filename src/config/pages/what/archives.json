@@ -183,13 +183,13 @@
         {
           "type": "text",
           "image": "assets/images/content/what/archives/idai_archive_dai_2_gelehrten.jpg",
-          "headline": "Rome Department",
+          "headline": "Rome and Berlin Headoffice",
           "subhead": "Correspondences of the DAI",
           "link": {
             "target": "https://arachne.dainst.org/project/gelehrtenbriefe",
             "text": "External Link to Rome Department: Correspondences"
           },
-          "text": "<p class='description'>The drawings, aquarelles, maps, cross-sections, etc. of the two collections show ancient buildings and objects that document sites and finds that have been changed or destroyed in the course of the last years.</p>"
+          "text": "<p class='description'>Scholars, excavators and art dealers: Correspondence of the Instituto di Corrispondenza Archeologicaas a source for knowledge and network indicator</p>"
           }
       ]
     },
