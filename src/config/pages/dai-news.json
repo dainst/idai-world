@@ -11,6 +11,22 @@
       "articles": [
        
         {
+          "date": "20.07.2021",
+          "category": "",
+          "headline": "New MOOC: Instruction for the archaeological drawing of ceramic sherds",
+          "teaser": {
+            "content": "<p>Register for the Massive Open Online Course (MOOC) <a href='https://tutorials.idai.world/enrol/index.php?id=38'>Instruction for the archaeological drawing of ceramic sherds</a> on iDAI.tutorials. The course and resources will continuously be updated and supported by the project <a href='https://www.archernet.org/2020/09/27/kulturgutretter-kgr-ein-mechanismus-zur-schnellen-hilfe-fuer-kulturerbe-in-krisensituationen/'>KulturGutRetter</a> as well as the <a href='https://www.archernet.org/'>Archaeological Heritage Network (ArcHerNet)</a>.  The autodidactic course can be completed at any time without cost in either English or Arabic.<br><br>Just like photographs, archaeological drawings form an integral part of the visual documentation of excavations and archaeological objects. This course is an introduction to the drawing of pottery sherds and vessels in archaeology. It teaches basic tools and abilities to students of archaeology and illustrators that are needed to draw pottery by hand. This guideline is based on the experiences of numerous excavations in various countries over the years. The participants will get to know the necessary tools and materials and will learn to draw simple pottery profiles and decorative patterns.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2021/idai_news_mooc_pottery.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2021-07-20_mooc.html"
+          }
+        },
+        {
           "date": "09.06.2021",
           "category": "",
           "headline": "The iDAI.world in light of the new digital policies of the Federal Republic of Germany",
