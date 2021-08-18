@@ -9,7 +9,22 @@
       "type": "news",
       "show": 20,
       "articles": [
-       
+        {
+          "date": "17.08.2021",
+          "category": "",
+          "headline": "First iDAI.field web project: Ayamonte",
+          "teaser": {
+            "content": "<p>The necropolis of Ayamonte (Huelva, Spain) was first discovered in 2007 and belongs to the westernmost known Phoenician colony of the first wave of expansion in the 8th c. BC.<br> The estuary of the Guadiana into the Atlantic Ocean offered protected anchorage sites and ideal requirements for the development of a settlement and thus the exchange with indigenous trader partners of the hinterland rich in resources. A Spanish-German project 'The Phoenician necropolis of Ayamonte (Huleva, Andalusia, Spain)' investigated the settlement starting in 2013.</p><p>For the documentation of the excavation iDAI.field was used, a relational FileMaker-database management system that had been developed by the IT department of the DAI in cooperation with the Cologne Digital Archaeology Laboratory (University of Cologne, previously “Research Archive for Ancient Sculpture”) from 2006 onwards. It has been in us by various archaeological field research projects of differing time periods and geographical regions. The Ayamonte excavation data was migrated into the newly conceptionalized version of iDAI.field of 2016 (also called “iDAI.field 2”), which is based on Open Source and web technologies, can be used freely (<a href='https://field.dainst.org'>https://field.dainst.org</a>) and allows an online publication of the archaeological databases through the iDAI.field Web component. </p>",
+            "image": {
+              "src": "/assets/images/content/news/2021/idai_news_ayamonte2.jpg",
+              "title": "",
+              "caption": ""
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2021-08-17_ayamonte.html"
+          }
+        },
         {
           "date": "20.07.2021",
           "category": "",
