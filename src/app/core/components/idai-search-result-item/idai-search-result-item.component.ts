@@ -28,16 +28,5 @@ export class IdaiSearchResultItemComponent implements OnInit {
 
     this.externalLinks = get(this.data, 'core_fields.external_links', []).filter(v => v.type !== 'image');
     this.externalImages = get(this.data, 'core_fields.external_links', []).filter(v => v.type === 'image');
-    //
-    // this.images = [{
-    //   url: 'https://collections.idai.world/media/fotoarchivdaiberlin/idai_images_photothek_berlin.jpg',
-    //   type: 'image',
-    //   label: [
-    //     {
-    //       text: '1',
-    //       lang: 'en'
-    //     }
-    //   ]
-    // }];
   }
 }
