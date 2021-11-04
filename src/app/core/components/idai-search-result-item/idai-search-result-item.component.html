@@ -3,7 +3,12 @@
 
   <div class="card-body">
     <!-- title -->
-    <h4 *ngIf="data?.core_fields?.title">{{ data?.core_fields?.title|t }}</h4>
+    <h4 class="card-title" *ngIf="data?.core_fields?.title">
+      {{ data.core_fields.title|t }}
+      <span *ngIf="data?.core_fields?.type" class="color-gray">
+        [{{ data.core_fields.type }}]
+      </span>
+    </h4>
 
     <!-- description -->
     <p *ngIf="data?.core_fields?.description">{{ data?.core_fields?.description|t }}</p>
@@ -12,16 +17,19 @@
     <div class="topics" *ngIf="topics.length">
         <a *ngFor="let topic of topics"  [href]="topic.resource.core_fields.uri">
           {{ topic?.resource?.core_fields?.title | t }}
-          <span *ngIf="topic?.resource?.core_fields?.type">[{{ topic.resource.core_fields.type }}]</span>
+          <span *ngIf="topic?.resource?.core_fields?.type" class="color-gray">[{{ topic.resource.core_fields.type }}]</span>
         </a>
     </div>
 
     <!-- external links (that are not images) -->
     <div class="links" *ngIf="externalLinks">
         <a *ngFor="let link of externalLinks" [href]="link.url">
-          <span class="title">{{ link.label | t }}</span><br>
-          <span class="url">{{ link.url }}</span>
+          {{ link.label | t }}<br>
+          <span class="color-dark-gray">{{ link.url }}</span>
         </a>
     </div>
+
+    <!-- main link if search result has an url -->
+    <a *ngIf="primaryLink" [href]="primaryLink" rel="noopener" target="_blank">Mehr erfahren &gt;</a>
   </div>
 </div>

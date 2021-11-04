@@ -13,6 +13,7 @@ export class IdaiSearchResultItemComponent implements OnInit {
   public topics: Array<GeneralTopic>;
   public externalImages: Array<ExternalLink>;
   public externalLinks: Array<ExternalLink>;
+  public primaryLink?: string;
 
   constructor() {
     this.topics = [];
@@ -28,5 +29,10 @@ export class IdaiSearchResultItemComponent implements OnInit {
 
     this.externalLinks = get(this.data, 'core_fields.external_links', []).filter(v => v.type !== 'image');
     this.externalImages = get(this.data, 'core_fields.external_links', []).filter(v => v.type === 'image');
+
+    // Get a primary link to the search result, but skip collections as this just leads to a json result
+    if (get(this.data, 'core_fields.type') !== 'collection') {
+      this.primaryLink = get(this.data, 'core_fields.uri');
+    }
   }
 }

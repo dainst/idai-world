@@ -8,6 +8,12 @@
         max-height: 300px;
       }
     }
+
+    .card-body > a {
+      display: inline-block;
+      margin-top: 1em;
+      color: #5882c2;
+    }
   }
 
   .topics {
@@ -52,14 +58,6 @@
     a {
       &:not(:last-child) {
         margin-bottom: 1em;
-      }
-
-      .title {
-        font-weight: 500;
-      }
-
-      .url {
-        color: rgba(0,0,0,0.7);
       }
     }
   }
