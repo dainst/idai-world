@@ -25,18 +25,16 @@ if (environment.production) {
   enableProdMode();
 }
 
-import('./app/core/components/idai-search/mock/search-mock').then((module) => {
-  AppConfigLoader.loadAppConfig().then((config) => {
-    platformBrowserDynamic([
-      { provide: DaiAppConfig, deps: [], useValue: config },
-      {
-        provide: TextLimits,
-        deps: [],
-        useValue: new TextLimits(config.textLimits),
-      },
-      { provide: GLOBALS, deps: [], useValue: config.globals },
-    ])
-      .bootstrapModule(AppModule)
-      .catch((err) => console.error(err));
-  });
+AppConfigLoader.loadAppConfig().then((config) => {
+  platformBrowserDynamic([
+    { provide: DaiAppConfig, deps: [], useValue: config },
+    {
+      provide: TextLimits,
+      deps: [],
+      useValue: new TextLimits(config.textLimits),
+    },
+    { provide: GLOBALS, deps: [], useValue: config.globals },
+  ])
+    .bootstrapModule(AppModule)
+    .catch((err) => console.error(err));
 });

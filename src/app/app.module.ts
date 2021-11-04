@@ -1,32 +1,32 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { Angulartics2Module } from 'angulartics2';
-import { Angulartics2Piwik } from 'angulartics2/piwik';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {Angulartics2Module} from 'angulartics2';
+import {Angulartics2Piwik} from 'angulartics2/piwik';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { CoreModule } from './core/core.module';
-import { ComponentResolver } from './core/service/component-resolver.service';
-import { IntroTextComponent } from './components/intro-text/intro-text.component';
-import { SliderTilesComponent } from './components/slider-tiles/slider-tiles.component';
-import { SliderCirclesComponent } from './components/slider-circles/slider-circles.component';
-import { OrganizationChartComponent } from './components/organization-chart/organization-chart.component';
-import { SliderImageComponent } from './components/slider-image/slider-image.component';
-import { InfoBoxComponent } from './components/info-box/info-box.component';
-import { SearchBoxComponent } from './components/search-box/search-box.component';
-import { ComponentsModule } from './components/components.module';
-import { SubNavigationComponent } from './core/components/sub-navigation/sub-navigation.component';
-import { TitleBannerComponent } from './core/components/title-banner/title-banner.component';
-import { AmountDocumentsComponent } from './components/amount-documents/amount-documents.component';
-import { HtmlComponent } from './core/components/html/html.component';
-import { NewsComponent } from './components/news/news.component';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {NotFoundComponent} from './not-found/not-found.component';
+import {CoreModule} from './core/core.module';
+import {ComponentResolver} from './core/service/component-resolver.service';
+import {IntroTextComponent} from './components/intro-text/intro-text.component';
+import {SliderTilesComponent} from './components/slider-tiles/slider-tiles.component';
+import {SliderCirclesComponent} from './components/slider-circles/slider-circles.component';
+import {OrganizationChartComponent} from './components/organization-chart/organization-chart.component';
+import {SliderImageComponent} from './components/slider-image/slider-image.component';
+import {InfoBoxComponent} from './components/info-box/info-box.component';
+import {SearchBoxComponent} from './components/search-box/search-box.component';
+import {ComponentsModule} from './components/components.module';
+import {SubNavigationComponent} from './core/components/sub-navigation/sub-navigation.component';
+import {TitleBannerComponent} from './core/components/title-banner/title-banner.component';
+import {AmountDocumentsComponent} from './components/amount-documents/amount-documents.component';
+import {HtmlComponent} from './core/components/html/html.component';
+import {NewsComponent} from './components/news/news.component';
 
 import localeDe from '@angular/common/locales/de';
-import { registerLocaleData } from '@angular/common';
-import { HTTP_INTERCEPTORS } from '@angular/common/http';
-import { SearchMockRequestInterceptor } from './core/components/idai-search/mock/SearchMockRequestInterceptor';
-import { SearchResultsComponent } from './components/search-results/search-results.component';
+import {registerLocaleData} from '@angular/common';
+import {SearchResultsComponent} from './components/search-results/search-results.component';
+import {BASE_PATH} from './generated/search';
+import {environment} from '../environments/environment';
 
 // the second parameter 'fr' is optional
 registerLocaleData(localeDe, 'de');
@@ -43,7 +43,8 @@ registerLocaleData(localeDe, 'de');
     AppComponent,
     NotFoundComponent
   ],
-  providers: [
+  providers: [,
+    {provide: BASE_PATH, useValue: environment.searchBasePath},
     {
       provide: ComponentResolver,
       useValue: new ComponentResolver({
@@ -61,13 +62,9 @@ registerLocaleData(localeDe, 'de');
         html: HtmlComponent,
         news: NewsComponent,
       }),
-    },
-    {
-      provide: HTTP_INTERCEPTORS,
-      useClass: SearchMockRequestInterceptor,
-      multi: true,
-    },
+    }
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+}

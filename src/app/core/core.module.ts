@@ -23,6 +23,7 @@ import { SearchApiModule } from '../generated/search';
 import { IdaiSearchResultItemComponent } from './components/idai-search-result-item/idai-search-result-item.component';
 
 import { TranslatePipe } from './pipe/translate.pipe';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -74,6 +75,7 @@ import { TranslatePipe } from './pipe/translate.pipe';
     HttpClientModule,
     NgxdModule,
     SearchApiModule,
+    FormsModule
   ],
 })
 export class CoreModule {}

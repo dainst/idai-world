@@ -23,6 +23,7 @@
       </div>
     </div>
   </div>
+
   <!-- Dropdown handle Mobile -->
   <div *ngIf="!disableCategories" class="input-group-prepend d-md-none d-flex">
     <button
@@ -62,8 +63,8 @@
       class="form-control"
       placeholder="{{ placeholder }}"
       aria-label="Search"
-      value="{{ term }}"
-      (keyup)="onSearchInputKeyup($event)"
+      [(ngModel)]="term"
+      (ngModelChange)="termChange.emit($event)"
       (keyup.enter)="onKeyupEnter()"
     />
   </div>

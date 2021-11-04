@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import { ConfigurableComponent } from 'src/app/core/components/configurable/ConfigurableComponent';
-import { Project } from 'src/app/generated/search';
+import { Collection } from 'src/app/generated/search';
 
 @Component({
   selector: 'dai-search-results',
@@ -11,7 +11,7 @@ import { Project } from 'src/app/generated/search';
 export class SearchResultsComponent extends ConfigurableComponent {
   public term: string;
 
-  public results: Project[];
+  public results: Collection[];
 
   constructor() {
     super();
@@ -23,5 +23,5 @@ export class SearchResultsComponent extends ConfigurableComponent {
     console.log('history term => ', this.term);
   }
 
-  onSearchResultChange(results: Project[]) {}
+  onSearchResultChange(results: Collection[]) {}
 }

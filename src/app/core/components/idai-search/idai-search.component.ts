@@ -11,8 +11,9 @@ import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
 
 import { GLOBALS } from '../../injectionTokens';
 
-import get from 'lodash/get';
-import { DefaultService, Project } from 'src/app/generated/search';
+import {get} from 'lodash';
+import { DefaultService, Collection } from 'src/app/generated/search';
+import {ActivatedRoute} from '@angular/router';
 
 @Component({
   selector: 'dai-idai-search',
@@ -29,24 +30,27 @@ export class IdaiSearchComponent implements OnInit {
 
   @Input() public categories: string[];
 
-  @Output() public resultChange = new EventEmitter<Project[]>();
+  @Output() public resultChange = new EventEmitter<Collection[]>();
   @Output() public searchTermChange = new EventEmitter<string>();
   @Output() public submit = new EventEmitter<string>();
 
   public selectedCategory: string;
 
-  private termChange: Subject<any> = new Subject();
+  @Output() public termChange = new EventEmitter<string>();
 
   constructor(
     @Inject(GLOBALS) private globals,
-    private service: DefaultService
+    private service: DefaultService,
+    private route: ActivatedRoute
   ) {
+  }
+
+  ngOnInit() {
     this.termChange.pipe(
-      debounceTime(300),
+      debounceTime(500),
       distinctUntilChanged()
     ).subscribe(((term) => {
-        this.term = term;
-        this.searchTermChange.emit(term);
+        console.log('Searching for:', term);
 
         if (this.disabled) {
           return;
@@ -59,38 +63,44 @@ export class IdaiSearchComponent implements OnInit {
         }
       })
     );
-  }
 
-  ngOnInit() {
+    // Ensure the query param "q" triggers an initial search, to allow search linking
+    this.route.queryParams.subscribe(params => {
+      if (params.q) {
+        this.term = params.q;
+        this.termChange.emit(params.q);
+      }
+    });
+
     this.categories = this.categories || get(this.globals, 'search.categories');
 
     this.showCategory =
       this.showCategory === undefined ? true : this.showCategory;
-
-    if (this.term) {
-      this.search(this.term);
-    }
+    //
+    // if (this.term) {
+    //   this.search(this.term);
+    // }
   }
-
-  onSearchTermChange(term: string) {
-    this.termChange.next(term);
-  }
+  //
+  // onSearchTermChange(term: string) {
+  //   this.termChange.next(term);
+  // }
 
   onCategoryClick(category: string) {
     this.selectedCategory =
       category === this.selectedCategory ? undefined : category;
   }
 
-  onSearchInputKeyup(event: KeyboardEvent) {
-    this.onSearchTermChange((event.target as HTMLInputElement).value);
-  }
-
+  // onSearchInputKeyup(event: KeyboardEvent) {
+  //   this.onSearchTermChange((event.target as HTMLInputElement).value);
+  // }
+  //
   onKeyupEnter() {
     this.submit.emit(this.term);
   }
 
   search(term: string) {
-    this.service.searchGet(term).subscribe((result) => {
+    this.service.search(term).subscribe((result) => {
       console.log(`Search results for ${term}:`, result);
 
       this.resultChange.emit(result.results);

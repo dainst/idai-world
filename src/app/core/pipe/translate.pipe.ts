@@ -1,10 +1,13 @@
 import {Pipe, PipeTransform } from '@angular/core';
-import {TranslatedContent} from 'src/app/generated/search';
+
+export interface TranslatedTitle {
+  lang: string;
+  text: string;
+}
 
 @Pipe({name: 't'})
-
 export class TranslatePipe implements PipeTransform {
-  transform(value: Array<TranslatedContent>, ...args: any[]): any {
+  transform(value: Array<TranslatedTitle>, ...args: any[]): any {
     // No value leads to empty result
     if (value.length === 0) {
       return '';
