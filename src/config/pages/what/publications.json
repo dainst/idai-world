@@ -69,6 +69,7 @@
   {
     "type": "slider_tiles",
     "title": "Journals",
+	"rows": 2,
     "tiles": [
       {
         "type": "link_list",
@@ -79,22 +80,6 @@
 		 {
             "text": "Issues",
             "target": "https://publications.dainst.org/journals/aa/issue/archive"
-          }
-        ]
-      },
-	   {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/idai_publications_journals_brgk.jpg",
-        "headline": "Bericht der Römisch-Germanischen Kommission",
-        "subhead": "Romano-Germanic Commission",
-        "link": {
-          "target": "https://publications.dainst.org/journals/brgk/issue/archive",
-          "text": "Bericht der Römisch-Germanischen Kommission"
-        },
-        "links": [
-          {
-            "text": "Issues",
-            "target": "https://publications.dainst.org/journals/brgk/issue/archive"
           }
         ]
       },
@@ -182,7 +167,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/idai_publications_journals_germania.jpg",
         "headline": "Germania",
-        "subhead": "Romano-Germanic Commission",
+        "subhead": "Journal of the Romano-Germanic Commission",
         "link": {
           "target": "https://publications.dainst.org/journals/ger",
           "text": "Germania"
@@ -198,7 +183,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/idai_publications_journals_rm.jpg",
         "headline": "Römische Mitteilungen",
-        "subhead": "Journal of the Roman Department, DAI",
+        "subhead": "Journal of the Rome Department, DAI",
         "link": {
           "target": "https://publications.dainst.org/journals/rm/issue/archive",
           "text": "Römische Mitteilungen"
@@ -225,6 +210,22 @@
             "target": "https://publications.dainst.org/journals/mm/issue/archive"
           }
         ]
+      },
+	  {
+        "type": "link_list",
+        "image": "assets/images/content/what/publications/idai_publications_journals_brgk.jpg",
+        "headline": "Bericht der Römisch-Germanischen Kommission",
+        "subhead": "Journal of the Romano-Germanic Commission",
+        "link": {
+          "target": "https://publications.dainst.org/journals/brgk/issue/archive",
+          "text": "Bericht der Römisch-Germanischen Kommission"
+        },
+        "links": [
+          {
+            "text": "Issues",
+            "target": "https://publications.dainst.org/journals/brgk/issue/archive"
+          }
+        ]
       }
     ]
   },
@@ -232,6 +233,7 @@
   {
     "type": "slider_tiles",
     "title": "Series and monographs",
+	"rows": 2,
     "tiles": [
       {
         "type": "link_list",
@@ -430,11 +432,77 @@
   },
   {
     "type": "slider_tiles",
-    "enableSliding": true,
+    "enableSliding": false,
     "title": "Data enhanced print publications with partners",
     "rows": 2,
     "tiles": [
-      {
+	  {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_AF39.jpg",
+        "headline": "AF 39: Mummy masks of the Roman Empire",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/mumienmasken",
+          "text": "External Link to 'mumienmasken'"
+        },
+        "text":"Database-Catalog in iDAI.objects belonging to the publication AF 39: Ägyptens schöne Gesichter. Die Mumienmasken der römischen Kaiserzeit und ihre Funktion im Totenritual by Asja Müller"
+      },
+	   {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_PF19.jpg",
+        "headline": "PF 19: Architecture under the Attalids",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/pergamenischeforschungen19",
+          "text": "External Link to 'pf19'"
+        },
+        "text":"Catalog of digital objects belonging to the publication PF 19: Architektur unter den Attaliden. Pergamon und die Städte zwischen herrscherlichem Bauengagement und Lokaltradition by Eric Laufer"
+      },
+	   {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_faak18.jpg",
+        "headline": "FAAK 18: The vault in Mayan architecture",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/faak18",
+          "text": "External Link to 'mar41'"
+        },
+        "text":"Complete catalog of digital objects belonging to the publication FAAk 19: La bóveda en la arquitectura maya by Laura Gilabert Sansalvador"
+      },
+	  	  {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_ayamonte.jpg",
+        "headline": "MB 37: Ayamonte. Digital documentation of an excavation",
+        "subhead": "iDAI.field-web",
+        "link": {
+          "target": "https://field.idai.world/project/ayamonte",
+          "text": "External Link to 'ayamonte'"
+        },
+        "text":"Digital documentation of an excavation published with iDAI.field-web. It belongs to the publication Madrider Beiträge 37: Die phönizische Nekropole von Ayamonte: Die Ausgrabung im Jahre 2013 und ihre Vor- und Begleituntersuchungen by Dirce Marzoli and Elisabet García Teyssandier (Eds.)"
+      },
+	  {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_boha29.jpg",
+        "headline": "Boha 29: Small finds from the upper city of Hattusa",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/boha29",
+          "text": "External Link to 'boha29'"
+        },
+        "text":"Catalog belonging to the publication Boha 29: Kleinfunde aus der Oberstadt von Hattusa: Das zentrale Tempelviertel und die Tempelviertel am Königs- und Löwentor by Suzanne Herbordt and Alwo von Wickede"
+      },
+	  {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_miletV4.jpg",
+        "headline": "Milet V 4: Finds from Miletus",
+        "subhead": "Laconian and Chian Fine Ware Pottery",
+        "link": {
+          "target": "https://arachne.dainst.org/project/milet_V4",
+          "text": "External Link to 'milet_V4'"
+        },
+        "text":"Catalog belonging to the publication Milet V 4: Funde aus Milet. Teil 4, Laconian and Chian Fine Ware Pottery at Miletus by Gerald P. Schaus"
+      },
+	  {
         "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_mar41.jpg",
         "headline": "MAR 41: Reproduction and image",
@@ -606,21 +674,15 @@
         ]
       },
       {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_pergamenische_forschungen.jpg",
-        "headline": "Pergamenische Forschungen",
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_terrakotten_pergamon.jpg",
+        "headline": "PF 17: Terracottas from Pergamon",
         "subhead": "",
         "link": {
-          "target": "https://arachne.dainst.org/project/pergamenischeforschungen17?lang=de",
-          "text": "No. 17: Terracottas from Pergamon"
+          "target": "https://arachne.dainst.org/project/pergamenischeforschungen17",
+          "text": "Terracottas from Pergamon"
         },
-
-        "links": [
-          {
-            "text": "No. 17: Terracottas from Pergamon",
-            "target": "https://arachne.dainst.org/project/pergamenischeforschungen17?lang=de"
-          } 
-        ]
+		"text":"Catalog belonging to the publication PF 17:  Terrakotten aus Pergamon. Tonfiguren und -objekte aus der Wohnstadt am Südhang der Akropolis und von weiteren Fundorten by Sven Kielau"
       },
       {
         "type": "link_list",
