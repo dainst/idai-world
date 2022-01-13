@@ -23,6 +23,8 @@ jobs:
         with:
           node-version: '15'
 
+      # TODO: cache dependencies
+
       - name: Install dependencies
         run: yarn install
 
@@ -55,9 +57,11 @@ jobs:
         uses: distributhor/workflow-webhook@v2
         env:
           webhook_url: ${{ secrets.WEBHOOK_URL_TEST }}
+          webhook_secret: 'no'
 
       - name: Trigger image update via portainer
         if: github.ref == 'refs/heads/master'
         uses: distributhor/workflow-webhook@v2
         env:
           webhook_url: ${{ secrets.WEBHOOK_URL_MASTER }}
+          webhook_secret: 'no'
