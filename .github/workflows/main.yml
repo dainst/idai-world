@@ -23,6 +23,9 @@ jobs:
         with:
           node-version: '15'
 
+      - name: Install dependencies
+        run: yarn install
+
       - name: Build Angular App
         run: yarn build
 
