@@ -49,3 +49,15 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+
+      - name: Trigger image update via portainer
+        if: github.ref == 'refs/heads/test'
+        uses: distributhor/workflow-webhook@v2
+        env:
+          webhook_url: ${{ secrets.WEBHOOK_URL_TEST }}
+
+      - name: Trigger image update via portainer
+        if: github.ref == 'refs/heads/master'
+        uses: distributhor/workflow-webhook@v2
+        env:
+          webhook_url: ${{ secrets.WEBHOOK_URL_MASTER }}
