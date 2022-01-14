@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-      - test
+      - stable
 
 env:
   REGISTRY: ghcr.io
@@ -38,30 +38,16 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Extract metadata (tags, labels) for Docker
-        id: meta
-        uses: docker/metadata-action@v3
-        with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.ref == 'refs/heads/stable' && 'stable' || 'latest' }}
           labels: ${{ steps.meta.outputs.labels }}
 
       - name: Trigger image update via portainer
-        if: github.ref == 'refs/heads/test'
         uses: distributhor/workflow-webhook@v2
         env:
-          webhook_url: ${{ secrets.WEBHOOK_URL_TEST }}
-          webhook_secret: 'no'
-
-      - name: Trigger image update via portainer
-        if: github.ref == 'refs/heads/master'
-        uses: distributhor/workflow-webhook@v2
-        env:
-          webhook_url: ${{ secrets.WEBHOOK_URL_MASTER }}
+          webhook_url: ${{ github.ref == 'refs/heads/stable' && secrets.WEBHOOK_URL_STABLE || secrets.WEBHOOK_URL_MASTER }}
           webhook_secret: 'no'
