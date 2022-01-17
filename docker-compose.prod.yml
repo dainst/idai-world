@@ -3,7 +3,7 @@ version: "3.7"
 services:
 
   nginx:
-    image: "dainst/idai-portal-nginx:latest"
+    image: "ghcr.io/dainst/idai-world:stable"
     expose:
       - "80"
     networks:
