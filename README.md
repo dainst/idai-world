@@ -31,9 +31,10 @@ Run `docker-compose build` to build the image and `docker-compose up` to start a
 container locally. The running container can then be accessed under
 http://localhost:8080.
 
-Run the following commands to publish a new version `x.x.x` on dockerhub:
+## Continuous Delivery
 
-    yarn build
-    docker build -t dainst/idai-portal-nginx:x.x.x .
-    docker login
-    docker push dainst/idai-portal-nginx:x.x.x
+In order to simplify updates to the content a CD pipeline has been configured with
+GitHub Actions. This pipeline makes sure that the docker image is automatically built
+and deployed on every push. The target system depends on the branch. The master branch
+is deployed in the test environment, the stable branch is deployed in the production
+environment.
