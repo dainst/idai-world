@@ -167,7 +167,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/idai_publications_journals_germania.jpg",
         "headline": "Germania",
-        "subhead": "Journal of the Romano-Germanic Commission",
+        "subhead": "Romano-Germanic Commission",
         "link": {
           "target": "https://publications.dainst.org/journals/ger",
           "text": "Germania"
@@ -183,7 +183,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/idai_publications_journals_rm.jpg",
         "headline": "Römische Mitteilungen",
-        "subhead": "Journal of the Rome Department, DAI",
+        "subhead": "Rome Department",
         "link": {
           "target": "https://publications.dainst.org/journals/rm/issue/archive",
           "text": "Römische Mitteilungen"
@@ -199,7 +199,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/idai_publications_journals_mm.jpg",
         "headline": "Madrider Mitteilungen",
-        "subhead": "Journal of the Madrid Department, DAI",
+        "subhead": "Madrid Department",
         "link": {
           "target": "https://publications.dainst.org/journals/mm/issue/archive",
           "text": "Römische Mitteilungen"
@@ -215,7 +215,7 @@
         "type": "link_list",
         "image": "assets/images/content/what/publications/idai_publications_journals_brgk.jpg",
         "headline": "Bericht der Römisch-Germanischen Kommission",
-        "subhead": "Journal of the Romano-Germanic Commission",
+        "subhead": "Romano-Germanic Commission",
         "link": {
           "target": "https://publications.dainst.org/journals/brgk/issue/archive",
           "text": "Bericht der Römisch-Germanischen Kommission"
@@ -472,8 +472,8 @@
 	  	  {
         "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_ayamonte.jpg",
-        "headline": "MB 37: Ayamonte. Digital documentation of an excavation",
-        "subhead": "iDAI.field-web",
+        "headline": "MB 37: Ayamonte. Digital documentation",
+        "subhead": "of an excavation",
         "link": {
           "target": "https://field.idai.world/project/ayamonte",
           "text": "External Link to 'ayamonte'"
