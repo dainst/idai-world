@@ -24,7 +24,7 @@
   {
     "type": "intro_text",
     "title": "Open Source",
-    "body": "The iDAI.world systems are often being developed in cooperation with open source initiatives. iDAI.archives is based on ATOM, iDAI.bibliography on Koha, iDAI.thesauri is based on iQvoc and iDAI.geoserver is based on the open geoserver software-stack of the Open Source Geospatial Foundation. Other iDAI.world systems are being developed in house, like the excavation database iDAI.field2, but all the code of the DAI is being shared and published in the GitHub repository. No proprietary software is used inside of the iDAI.world."
+    "body": "The iDAI.world systems are often being developed in cooperation with open source initiatives. iDAI.archives is based on ATOM, iDAI.bibliography on Koha, iDAI.thesauri is based on iQvoc and iDAI.geoserver is based on the open geoserver software-stack of the Open Source Geospatial Foundation. Other iDAI.world systems are being developed in house, like the excavation database iDAI.field, but all the code of the DAI is being shared and published in the GitHub repository. No proprietary software is used inside of the iDAI.world."
   } 
  
 ]

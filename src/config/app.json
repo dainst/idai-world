@@ -316,8 +316,8 @@
     {
       "menu": {
         "group": "iDAI\u200B.systems",
-        "name": "iDAI\u200B.field2.0",
-        "url": "http://field.dainst.org",
+        "name": "iDAI\u200B.field",
+        "url": "https://field.idai.world",
         "order": 4
       }
     },
