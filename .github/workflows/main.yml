@@ -27,7 +27,7 @@ jobs:
         run: yarn install
 
       - name: Build Angular App
-        run: yarn build
+        run: export NODE_OPTIONS=--openssl-legacy-provider &&  yarn build
 
       - name: Log in to the Container registry
         uses: docker/login-action@v1
