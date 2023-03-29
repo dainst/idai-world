@@ -13,8 +13,8 @@
 
   {
     "type": "intro_text",
-    "title": "iDAI.thesauri & iDAI.vocab",
-    "body": "<p>Today, the thesauri compiled in iDAI.thesauri form the backbone of the iDAI.world. The „DAI-worldwide thesaurus“ is intended to merge vocabularies already in use throughout the libraries and projects of the German Archaeological Institute according to the guidelines of <a href=\"https://www.dariah.eu/\" target=\"_blank\">DARIAH-EU</a>. With iDAI.vocab you have a multilingual dictionary available.</p>"
+    "title": "iDAI.thesauri",
+    "body": "<p>Today, the thesauri compiled in iDAI.thesauri form the backbone of the iDAI.world. The „DAI-worldwide thesaurus“ is intended to merge vocabularies already in use throughout the libraries and projects of the German Archaeological Institute according to the guidelines of <a href=\"https://www.dariah.eu/\" target=\"_blank\">DARIAH-EU</a>.</p>"
   },  
 
   {
@@ -82,18 +82,7 @@
                 "text": "iDAI.chronontology"
             },
             "text":"iDAI.chronontology is a web service that connects period terms to dating."
-        },
-        {
-            "type": "text",
-            "image": "assets/images/content/how/idai_thesauri_vocab.jpg",
-            "headline": "iDAI.vocab",
-            "subhead": "",
-            "link": {
-                "target": "http://archwort.dainst.org/de/vocab/",
-                "text": "iDAI.vocab"
-            },
-            "text":"iDAI.vocab is dictionary for archaeological terms showing the terms in many different languages."
-        }        
+        }    
       ]
     }
  

@@ -78,17 +78,6 @@
       },
       {
         "type": "text",
-        "image": "assets/images/content/how/idai_idaiworldarchitecture_vocab.jpg",
-        "headline": "iDAI.vocab",
-        "subhead": "Archaeological dictionary",
-        "link": { 
-            "target": "https://archwort.dainst.org/de/vocab/", 
-            "text": "Link to iDAI.vocab" 
-          },
-          "text":"iDAI.vocab is a helpful tool when dealing with international publications while conducting research. Often, archaeological terms are not included in regular dictionaries, which shows the need to create a vocabulary just for terms necessary in archaeological research."
-      },
-      {
-        "type": "text",
         "image": "assets/images/content/how/idai_idaiworldarchitecture_archives.jpg",
         "headline": "iDAI.archives",
         "subhead": "Archive catalog of the DAI",

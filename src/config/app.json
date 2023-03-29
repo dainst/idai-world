@@ -368,14 +368,6 @@
         "url": "http://thesauri.dainst.org/de.html",
         "order": 10
       }
-    },
-    {
-      "menu": {
-        "group": "iDAI\u200B.systems",
-        "name": "iDAI\u200B.vocab",
-        "url": "https://archwort.dainst.org/de/vocab/",
-        "order": 11
-      }
     }
   ]
 }
