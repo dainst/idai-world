@@ -444,17 +444,6 @@
           "text":"<p class='description'>Geoserver of the Greek landscape of Triphylia that shows soils, terrain, settlements, rivers, etc.</p>"
         },
         {
-        "type": "text",
-        "image": "assets/images/content/what/libraries/idai_libraries_vocab.jpg",
-        "headline": "Open Access Dictionary",
-        "subhead": "",
-        "link": {
-          "target": "http://archwort.dainst.org/de/vocab/",
-          "text": "External Link to 'Open Access Dictionary'"
-        },
-      "text": "<p class='description'>A comprehensive dictionary for archaeological terms that offers translations into the common languages in the field of archaeology.</p>"
-},
-        {
           "type": "text",
           "image": "assets/images/content/what/space-and-time/idai_space_time_roman_chronology.jpg",
           "headline": "Roman Chronology",

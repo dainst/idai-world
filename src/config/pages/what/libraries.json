@@ -47,17 +47,6 @@
       },
       {
         "type": "text",
-        "image": "assets/images/content/what/libraries/idai_libraries_vocab.jpg",
-        "headline": "Open Access Dictionary",
-        "subhead": "",
-        "link": {
-          "target": "http://archwort.dainst.org/de/vocab/",
-          "text": "External Link to 'Open Access Dictionary'"
-        },
-      "text": "<p class='description'>A comprehensive dictionary for archaeological terms that offers translations into the common languages in the field of archaeology.</p>"
-},
-      {
-        "type": "text",
         "image": "assets/images/content/what/libraries/idai_libraries_dai_publications.jpg",
         "headline": "Open Access Publications of the DAI",
         "subhead": "",
