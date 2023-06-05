@@ -10,6 +10,22 @@
       "show": 20,
       "articles": [
         {
+          "date": "14.04.2022",
+          "category": "",
+          "headline": "Field Desktop 3.0 released",
+          "teaser": {
+            "content": "<p>A new major version 3.0.0 of Field Desktop (formerly iDAI.field) has been released.</p><p>In order to open up the application for users outside the DAI, considerable work has been done to streamline workflows and to enable external users to customize their projects without the need to consult the DAI's IT department.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2022/idai-field-3-0-0-project-configurator.png",
+              "title": "Field Desktop screenshot",
+              "caption": "The new Field Desktop project configuration editor"
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2022-04-14-idaifield-3-0-0.html"
+          }
+        },
+        {
           "date": "17.08.2021",
           "category": "",
           "headline": "First iDAI.field web project: Ayamonte",
