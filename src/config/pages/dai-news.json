@@ -10,6 +10,22 @@
       "show": 20,
       "articles": [
         {
+          "date": "14.11.2022",
+          "category": "",
+          "headline": "Field Desktop 3.1 release",
+          "teaser": {
+            "content": "<p>A new minor version 3.1.0 of Field Desktop has been released</p><p>With multilingual text inputs, the application is finally language agnostic in respect to data entry. Additionally, the user interface has been translated to Ukrainian and will get used in Ukraine to record damages caused by the war as one effort within the <a href='https://www.kulturgutretter.org/en/project/'>KulturGutRetter</a> project.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2022/idai-field-3-1-0-ukrainian.jpg",
+              "title": "Field Desktop screenshot",
+              "caption": "Ukrainian Field Desktop interface."
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2022-11-14-idaifield-3-1-0.html"
+          }
+        },
+        {
           "date": "14.04.2022",
           "category": "",
           "headline": "Field Desktop 3.0 released",
