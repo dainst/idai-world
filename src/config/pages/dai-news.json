@@ -10,6 +10,22 @@
       "show": 20,
       "articles": [
         {
+          "date": "21.03.2023",
+          "category": "",
+          "headline": "Issue monitoring in FieldHub",
+          "teaser": {
+            "content": "<p>A new version of FieldHub (the central syncing server application for <a href='https://github.com/dainst/idai-field/wiki'>Field Desktop</a> the DAI is providing at <a href='https://server.field.idai.world'>https://server.field.idai.world</a>) adds a project overview and issue monitoring. This feature should give institutions that run FieldHub another layer of quality assurance, especially towards the end of a project's livecycle heading towards publication.</p><p>The monitoring focuses primarily on high level data integrity and synchronization checks:<ul><li>Are all relations in the project intact?</li><li>Have all image files been uploaded to the central server?</li><li>Do all images have copyright metadata?</li><li>etc.</li></ul></p>",
+            "image": {
+              "src": "/assets/images/content/news/2023/fieldhub-issues.png",
+              "title": "iDAI.publications screenshot",
+              "caption": "Screenshot of the new iDAI.publications theme"
+            }
+          },
+          "more": {
+             "content_html": "config/pages/news/2023-01-01_fieldhub-issues.html"
+          }
+        },
+        {
           "date": "09.12.2022",
           "category": "",
           "headline": "iDAI.publications update and redesign",
