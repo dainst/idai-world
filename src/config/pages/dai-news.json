@@ -14,15 +14,12 @@
           "category": "",
           "headline": "iDAI.publications Relaunch",
           "teaser": {
-            "content": "<p>iDAI.publications got a (design) update. In parallel to a version upgrade to the underlying software components <a href='https://pkp.sfu.ca/software/ojs/' target='_blank'>OJS</a> and <a href='https://pkp.sfu.ca/software/omp/' target='_blank'>OMP</a>, a new shared theme is now live.</p>",
+            "content": "<p>iDAI.publications got a (design) update. In parallel to a version upgrade to the underlying software components <a href='https://pkp.sfu.ca/software/ojs/' target='_blank'>OJS</a> and <a href='https://pkp.sfu.ca/software/omp/' target='_blank'>OMP</a>, a new shared theme is now live.</p><hr>You can find iDAI.publications <a href='https://publications.dainst.org' target='_blank'>here</a>.",
             "image": {
               "src": "/assets/images/content/news/2022/screenshot-publications-3-3-0.png",
               "title": "iDAI.publications screenshot",
               "caption": "Screenshot of the new iDAI.publications theme"
             }
-          },
-          "more": {
-             "content_html": "config/pages/news/2022-12-09-publications-redesign.html"
           }
         },
         {

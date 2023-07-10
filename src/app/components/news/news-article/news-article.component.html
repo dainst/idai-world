@@ -36,6 +36,7 @@
   </div>
 
   <button
+    *ngIf="config.more"
     class="show-more {{ showMore ? 'ahide' : 'ashow' }}"
     (click)="onShowMoreClick()"
   >
