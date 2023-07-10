@@ -12,9 +12,9 @@
         {
           "date": "09.12.2022",
           "category": "",
-          "headline": "iDAI.publications Relaunch",
+          "headline": "iDAI.publications update and redesign",
           "teaser": {
-            "content": "<p>iDAI.publications got a (design) update. In parallel to a version upgrade to the underlying software components <a href='https://pkp.sfu.ca/software/ojs/' target='_blank'>OJS</a> and <a href='https://pkp.sfu.ca/software/omp/' target='_blank'>OMP</a>, a new shared theme is now live.</p><hr>You can find iDAI.publications <a href='https://publications.dainst.org' target='_blank'>here</a>.",
+            "content": "<p>iDAI.publications got a (design) update. In parallel to a version upgrade to the underlying software components <a href='https://pkp.sfu.ca/software/ojs/' target='_blank'>OJS</a> and <a href='https://pkp.sfu.ca/software/omp/' target='_blank'>OMP</a>, a new shared theme is now live.</p><hr><a href='https://publications.dainst.org'>iDAI.publication</a> contains journals and books edited by the DAI.",
             "image": {
               "src": "/assets/images/content/news/2022/screenshot-publications-3-3-0.png",
               "title": "iDAI.publications screenshot",
