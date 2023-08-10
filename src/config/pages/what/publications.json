@@ -16,7 +16,7 @@
     "fullWidth": false,
     "align": "right",
     "content": [
-      
+
       {
         "src": "assets/images/content/what/publications/slider/idai_publications_Slider_GeschArch.jpg",
         "target": "https://publications.dainst.org/books/dai/catalog/book/75"
@@ -436,7 +436,95 @@
     "title": "Data enhanced print publications with partners",
     "rows": 2,
     "tiles": [
-	  {
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_MKT20.jpg",
+        "headline": "MKT 20: Kulte, Orte, Körperteile: Eine Neubewertung der Weihung anatomischer Votive in Latiums Heiligtümer",
+        "subhead": "",
+        "link": {
+          "target": "https://doi.org/10.34780/ku93-c80u",
+          "text": "External Link to 'MKT 20'"
+        },
+        "text":"Catalogue of 116 find spots in iDAI.objects"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/submission_1842_1749_coverImage_de_DE.jpg",
+        "headline": "DAA 21: Die römische Kaiservilla Pausilypon: Gesamtanlage und Bauten des oberen Plateaus",
+        "subhead": "",
+        "link": {
+          "target": "https://doi.org/10.34780/96w6-nh0w",
+          "text": "External Link to 'DAA 21'"
+        },
+        "text":"Catalogue of digital images in iDAI.objects showing ground plans and sections of the complexes of the Villa Pausilypon."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_AF42.jpg",
+        "headline": "AF 42: Von Blüten und Krisen: Eine wirtschaftsarchäologische Studie zum kaiserzeitlichen Südetrurien",
+        "subhead": "",
+        "link": {
+          "target": "https://doi.org/10.34780/6i6h-9q66",
+          "text": "External Link to 'AF 42'"
+        },
+        "text":"Collection of GIS resources accessible via iDAI.geoserver"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_af44.jpg",
+        "headline": "AF 44: Praktiken der Aneignung: Kulturelle Kontakte im nordöstlichen Azovraum vom späten 7.–3. Jh. v. Chr.",
+        "subhead": "",
+        "link": {
+          "target": "https://doi.org/10.34780/7se6-sm5h",
+          "text": "External Link to 'AF 44'"
+        },
+        "text":"Supplementary online catalogues of finds from Novo Zolotovka and Dugino in iDAI.objects"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_boha28.jpg",
+        "headline": "Boğazköy-Ḫattuša 28: Fouilles archéologiques de la ville basse I (1935–1978)",
+        "subhead": "",
+        "link": {
+          "target": "https://doi.org/10.34780/v0e8-6una",
+          "text": "External Link to 'Boğazköy-Ḫattuša 28'"
+        },
+        "text":"Supplementary research data and archival material were published via IANUS"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_Tayma2.jpg",
+        "headline": "Taymāʾ II: Catalogue of the Inscriptions Discovered in the Saudi-German Excavations at Taymāʾ 2004–2015",
+        "subhead": "",
+        "link": {
+          "target": "https://doi.org/10.34780/b216-d6dz",
+          "text": "External Link to 'Tayma II'"
+        },
+        "text":"Collection of artifacts documented with Reflectance Transformation Imaging (RTI)"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_AF43.jpg",
+        "headline": "AF 43: Studies on the Urban History of Meninx (Djerba)",
+        "subhead": "The Meninx Archaeological Project 2015–2019",
+        "link": {
+          "target": "https://doi.org/10.34780/76fu-8peb",
+          "text": "External Link to 'AF 43'"
+        },
+        "text":"Digital documentation of an excavation published with iDAI.field-web."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_AvP17.jpg",
+        "headline": "AvP 17: Das Grottenheiligtum am Osthang: Eine Mikrostudie zur späthellenistischen Kultpraxis",
+        "subhead": "",
+        "link": {
+          "target": "https://doi.org/10.34780/21b5-01te",
+          "text": "External Link to 'AvP 17'"
+        },
+        "text":"Extended online catalogue in iDAI.objects belonging to the publication AvP 17"
+      },
+	    {
         "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_AF39.jpg",
         "headline": "AF 39: Mummy masks of the Roman Empire",
@@ -697,7 +785,7 @@
           {
             "text": "No.121: Brick Stamps Palatine Hill",
             "target": "https://arachne.dainst.org/project/rm121"
-          } 
+          }
         ]
       },
       {
