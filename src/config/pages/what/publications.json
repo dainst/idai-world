@@ -229,213 +229,23 @@
       }
     ]
   },
-
-  {
-    "type": "slider_tiles",
-    "title": "Series and monographs",
-	"rows": 2,
-    "tiles": [
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_antike_plastik_31.jpg",
-        "headline": "Antike Plastik",
-        "subhead": "Ancient sculpture",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/antpl",
-          "text": "Antike Plastik"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/antpl"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_BGeschArchA.jpg",
-        "headline": "Beiträge zur Geschichte der Archäologie",
-        "subhead": "und der Altertumswissenschaften",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/BGeschArchA",
-          "text": ""
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/BGeschArchA"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographsKerameikos-19.jpg",
-        "headline": "Kerameikos",
-        "subhead": "Research in the Kerameikos",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/kerameikos",
-          "text": ""
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/kerameikos"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_bogazkoe.jpg",
-        "headline": "Boğazköy-Hattuša.",
-        "subhead": "Boğazköy/Turkey ",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/boghattusa",
-          "text": "Boğazköy-Hattuša."
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/boghattusa"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_das_dai.jpg",
-        "headline": "Das DAI. Geschichte und Dokumente",
-        "subhead": "",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/DAIGeschDok",
-          "text": "Das DAI. Geschichte und Dokumente"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/DAIGeschDok"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_forschung_aussereuropaeischer.jpg",
-        "headline": "Forschungen Archäologie Außereurop. Kulturen",
-        "subhead": "",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/faak",
-          "text": "Forschungen zur Archäologie Außereuropäischer Kulturen"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/faak"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_olympische_forschungen.jpg",
-        "headline": "Olympische Forschungen",
-        "subhead": "Research in Olympia",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/of",
-          "text": "Olympische Forschungen"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/of"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_palilia_26.jpg",
-        "headline": "Palilia",
-        "subhead": "Italy and neighboring regions",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/antpl",
-          "text": "Palilia"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/antpl"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_terrakotten_pergamon.jpg",
-        "headline": "Pergamenische Forschungen",
-        "subhead": "",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/pf",
-          "text": "Pergamenische Forschungen"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/pf"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_resafa_7.jpg",
-        "headline": "Resafa",
-        "subhead": "Research in Resafa",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/Resafa",
-          "text": "Resafa"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/Resafa"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_samos_23.jpg",
-        "headline": "Samos",
-        "subhead": "Research in Samos",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/samos",
-          "text": "Samos"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/samos"
-          }
-        ]
-      },
-
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_tayma.jpg",
-        "headline": "Taymāʾ",
-        "subhead": "Research in Taymāʾ",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/Tayma",
-          "text": "Tayma"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/Tayma"
-          }
-        ]
-      }
-    ]
-  },
   {
     "type": "slider_tiles",
     "enableSliding": false,
     "title": "Data enhanced print publications with partners",
     "rows": 2,
     "tiles": [
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Schloss_Glienicke_S-Wand_IV_Innenhof.jpg",
+        "headline": "Catalog of Antiquity Spoils in Glienicke Palace",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/glienickerantiken",
+          "text": "External Link to 'glienickerantiken'"
+        },
+        "text":"Objects from the collection of Prince Carl of Prussia, edited by Sepp-Gustav Gröschel."
+      },
       {
         "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_MKT20.jpg",
@@ -461,8 +271,8 @@
       {
         "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_AF42.jpg",
-        "headline": "AF 42: Heydays and crises in roman-imperial Etruria",
-        "subhead": "an economic-archaeological study",
+        "headline": "AF 42: Heydays and Crises in Roman Imperial Etruria",
+        "subhead": "An economic-archaeological study",
         "link": {
           "target": "https://doi.org/10.34780/6i6h-9q66",
           "text": "External Link to 'AF 42'"
@@ -483,7 +293,7 @@
       {
         "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_boha28.jpg",
-        "headline": "Boğazköy-Ḫattuša 28: Excavations in the lower city I",
+        "headline": "Boğazköy-Ḫattuša 28: Excavations in the Lower City I",
         "subhead": "",
         "link": {
           "target": "https://doi.org/10.34780/v0e8-6una",
@@ -516,7 +326,7 @@
       {
         "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_AvP17.jpg",
-        "headline": "AvP 17: The grotto sanctuary on the 'Osthang' of Pergamon",
+        "headline": "AvP 17: The grotto sanctuary on the 'Osthang'",
         "subhead": "",
         "link": {
           "target": "https://arachne.dainst.org/project/avp17_engels",
