@@ -16,7 +16,7 @@
     "fullWidth": false,
     "align": "right",
     "content": [
-      
+
       {
         "src": "assets/images/content/what/publications/slider/idai_publications_Slider_GeschArch.jpg",
         "target": "https://publications.dainst.org/books/dai/catalog/book/75"
@@ -229,214 +229,112 @@
       }
     ]
   },
-
-  {
-    "type": "slider_tiles",
-    "title": "Series and monographs",
-	"rows": 2,
-    "tiles": [
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_antike_plastik_31.jpg",
-        "headline": "Antike Plastik",
-        "subhead": "Ancient sculpture",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/antpl",
-          "text": "Antike Plastik"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/antpl"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_BGeschArchA.jpg",
-        "headline": "Beiträge zur Geschichte der Archäologie",
-        "subhead": "und der Altertumswissenschaften",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/BGeschArchA",
-          "text": ""
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/BGeschArchA"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographsKerameikos-19.jpg",
-        "headline": "Kerameikos",
-        "subhead": "Research in the Kerameikos",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/kerameikos",
-          "text": ""
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/kerameikos"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_bogazkoe.jpg",
-        "headline": "Boğazköy-Hattuša.",
-        "subhead": "Boğazköy/Turkey ",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/boghattusa",
-          "text": "Boğazköy-Hattuša."
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/boghattusa"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_das_dai.jpg",
-        "headline": "Das DAI. Geschichte und Dokumente",
-        "subhead": "",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/DAIGeschDok",
-          "text": "Das DAI. Geschichte und Dokumente"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/DAIGeschDok"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_forschung_aussereuropaeischer.jpg",
-        "headline": "Forschungen Archäologie Außereurop. Kulturen",
-        "subhead": "",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/faak",
-          "text": "Forschungen zur Archäologie Außereuropäischer Kulturen"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/faak"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_olympische_forschungen.jpg",
-        "headline": "Olympische Forschungen",
-        "subhead": "Research in Olympia",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/of",
-          "text": "Olympische Forschungen"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/of"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_palilia_26.jpg",
-        "headline": "Palilia",
-        "subhead": "Italy and neighboring regions",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/antpl",
-          "text": "Palilia"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/antpl"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_terrakotten_pergamon.jpg",
-        "headline": "Pergamenische Forschungen",
-        "subhead": "",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/pf",
-          "text": "Pergamenische Forschungen"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/pf"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_resafa_7.jpg",
-        "headline": "Resafa",
-        "subhead": "Research in Resafa",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/Resafa",
-          "text": "Resafa"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/Resafa"
-          }
-        ]
-      },
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_samos_23.jpg",
-        "headline": "Samos",
-        "subhead": "Research in Samos",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/samos",
-          "text": "Samos"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/samos"
-          }
-        ]
-      },
-
-      {
-        "type": "link_list",
-        "image": "assets/images/content/what/publications/Kacheln_Publications_monographs_tayma.jpg",
-        "headline": "Taymāʾ",
-        "subhead": "Research in Taymāʾ",
-        "link": {
-          "target": "https://publications.dainst.org/books/dai/catalog/series/Tayma",
-          "text": "Tayma"
-        },
-        "links": [
-          {
-            "text": "Books",
-            "target": "https://publications.dainst.org/books/dai/catalog/series/Tayma"
-          }
-        ]
-      }
-    ]
-  },
   {
     "type": "slider_tiles",
     "enableSliding": false,
     "title": "Data enhanced print publications with partners",
     "rows": 2,
     "tiles": [
-	  {
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Schloss_Glienicke_S-Wand_IV_Innenhof.jpg",
+        "headline": "Catalog of Antiquity Spoils in Glienicke Palace",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/glienickerantiken",
+          "text": "External Link to 'glienickerantiken'"
+        },
+        "text":"Objects from the collection of Prince Carl of Prussia, edited by Sepp-Gustav Gröschel."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_MKT20.jpg",
+        "headline": "MKT 20: Anatomical Votives in the Sanctuaries of Latium",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/mkt20_boecker",
+          "text": "External Link to 'MKT 20'"
+        },
+        "text":"Catalogue of 116 find spots in iDAI.objects"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_daa21.jpg",
+        "headline": "DAA 21: The Roman Imperial Villa Pausilypon",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/daa21_pausilypon",
+          "text": "External Link to 'DAA 21'"
+        },
+        "text":"Catalogue of digital images in iDAI.objects showing ground plans and sections of the complexes of the Villa Pausilypon."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_AF42.jpg",
+        "headline": "AF 42: Heydays and Crises in Roman Imperial Etruria",
+        "subhead": "An economic-archaeological study",
+        "link": {
+          "target": "https://doi.org/10.34780/6i6h-9q66",
+          "text": "External Link to 'AF 42'"
+        },
+        "text":"Collection of GIS resources accessible via iDAI.geoserver"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_af44.jpg",
+        "headline": "AF 44: Cultural Contacts in the north-eastern Azov region",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/af44_huy",
+          "text": "External Link to 'AF 44'"
+        },
+        "text":"Supplementary online catalogues of finds from Novo Zolotovka and Dugino in iDAI.objects"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_boha28.jpg",
+        "headline": "Boğazköy-Ḫattuša 28: Excavations in the Lower City I",
+        "subhead": "",
+        "link": {
+          "target": "https://doi.org/10.34780/v0e8-6una",
+          "text": "External Link to 'Boğazköy-Ḫattuša 28'"
+        },
+        "text":"Supplementary research data and archival material accessible via IANUS"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_Tayma2.jpg",
+        "headline": "Taymāʾ II: New Inscriptions discovered in Tayma",
+        "subhead": "",
+        "link": {
+          "target": "https://doi.org/10.13149/001.pi46vf-z",
+          "text": "External Link to 'Tayma II'"
+        },
+        "text":"Collection of artifacts documented with Reflectance Transformation Imaging (RTI)"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_AF43.jpg",
+        "headline": "AF 43: Studies on the Urban History of Meninx (Djerba)",
+        "subhead": "The Meninx Archaeological Project 2015–2019",
+        "link": {
+          "target": "https://field.idai.world/project/meninx-project",
+          "text": "External Link to 'meninx-project'"
+        },
+        "text":"Digital documentation of an excavation published with iDAI.field-web."
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_AvP17.jpg",
+        "headline": "AvP 17: The grotto sanctuary on the 'Osthang'",
+        "subhead": "",
+        "link": {
+          "target": "https://arachne.dainst.org/project/avp17_engels",
+          "text": "External Link to 'avp17_engels'"
+        },
+        "text":"Extended online catalogue in iDAI.objects belonging to the publication AvP 17"
+      },
+	    {
         "type": "text",
         "image": "assets/images/content/what/publications/Kacheln_Publications_data_publications_AF39.jpg",
         "headline": "AF 39: Mummy masks of the Roman Empire",
@@ -445,7 +343,7 @@
           "target": "https://arachne.dainst.org/project/mumienmasken",
           "text": "External Link to 'mumienmasken'"
         },
-        "text":"Database-Catalog in iDAI.objects belonging to the publication AF 39: Ägyptens schöne Gesichter. Die Mumienmasken der römischen Kaiserzeit und ihre Funktion im Totenritual by Asja Müller"
+        "text":"Database-Catalog in iDAI.objects belonging to the publication AF 39"
       },
 	   {
         "type": "text",
@@ -697,7 +595,7 @@
           {
             "text": "No.121: Brick Stamps Palatine Hill",
             "target": "https://arachne.dainst.org/project/rm121"
-          } 
+          }
         ]
       },
       {
