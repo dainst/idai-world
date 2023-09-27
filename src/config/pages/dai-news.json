@@ -85,6 +85,19 @@
           }
         },
         {
+          "date": "22.04.2022",
+          "category": "",
+          "headline": "iDAI.field web release: <a href='https://field.idai.world/project/bourgou-online'>Henchir Bourgou</a>",
+          "teaser": {
+            "content": "<p>Henchir Bourgou is an ancient settlement of about 20 ha in the north-eastern hinterland of the island of Djerba. This release serves as a supplement to the publication in <a href='https://publications.dainst.org/journals/aa/article/view/3634'>Archäologischer Anzeiger 2021/2</a>.</p><p>This was the first time that a publication in Archäologischer Anzeiger has been linked to iDAI.field web. This ability to publish research data quickly, extensively and in detail online, and supplementary to a journal or monography, is a great advantage in using iDAI.field.</p><p>Another considerable benefit of direct online publication in iDAI.world is the possibility of providing type catalogues. In the case of Bourgou, the local <a href='https://field.idai.world/type/bourgou-online/1f3b1879-0c5a-47c2-8129-45548743e390'>type catalogue</a> could thus be made available publically available in a timely manner, which is especially helpful for researchers in the region. The evaluation and publication of the Bourgou project data within the framework of iDAI.world worked well and served as a basis for further publications in an interactive and online accessible research environment.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2022/idai_news_bourgou.jpg",
+              "title": "Henchir Bourgou. Planum Schnitt 3–5",
+              "caption": "Henchir Bourgou. Planum Schnitt 3–5<br/><small>Source: Silvio Reichmuth, DAI. All rights reserved</small>"
+            }
+          }
+        },
+        {
           "date": "14.04.2022",
           "category": "",
           "headline": "Field Desktop 3.0 released",
