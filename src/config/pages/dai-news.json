@@ -14,7 +14,7 @@
           "category": "",
           "headline": "Field Desktop 3.3 release",
           "teaser": {
-            "content": "<p>A new minor version 3.3.0 of Field Desktop has been released</p><p>The release introduces new composite input fields and reworks several spatial relations.</p><p>Additionally, in an effort to improve community participation and to streamline the application's localization, a Weblate instance has been setup. Any researcher interested in helping can create an account and start translating into one or more preferred languages at <a href='https://weblate.dainst.org' target='_blank'>weblate.dainst.org</a>",
+            "content": "<p>A new minor version 3.3.0 of Field Desktop has been released</p><p>The release introduces new composite input fields and reworks several spatial relations.</p><p>Additionally, in an effort to improve community participation and to streamline the application's localization, a Weblate instance has been setup. Any researcher interested in helping can create an account and start translating into one or more preferred languages at <a href='https://weblate.dainst.org' target='_blank'>weblate.dainst.org</a>. For more information see also our Wiki on <a href='https://github.com/dainst/idai-field/wiki/Translating-Field-Desktop'>Github</a>.",
             "image": {
               "src": "/assets/images/content/news/2023/field-3-3-0_weblate_screenshot.png",
               "title": "Weblate screenshot"
