@@ -10,6 +10,22 @@
       "show": 20,
       "articles": [
         {
+          "date": "16.10.2023",
+          "category": "",
+          "headline": "iDAI.field web demo publication: <a href='https://field.idai.world/project/olympia-context-online'>Olympia online</a>",
+          "teaser": {
+            "content": "<p>This <a href='https://field.idai.world/project/olympia-context-online'>publication</a> demonstrates how <a href='https://github.com/dainst/idai-field/wiki'>FieldDesktop</a> can be utilized not only to conduct new excavations, but also to reconstruct historical excavations from the 19th century using the example of the German excavation campaign in Olympia from 1875 to 1876.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2023/olympia-context.png",
+              "title": "",
+              "caption": "Historical map overlayed with modern GIS data within <i>Field Desktop</i><small>Source: Arne Kimmig, DAI Zentrale. All rights reserved</small>"
+            }
+          },
+          "more": {
+            "content_html": "config/pages/news/2023-10-16_olympia.html"
+          }
+        },
+        {
           "date": "13.09.2023",
           "category": "",
           "headline": "Field Desktop 3.3 release",
@@ -22,7 +38,7 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2023-09-13_field-3-3-0.html"
+            "content_html": "config/pages/news/2023-09-13_field-3-3-0.html"
           }
         },
         {
@@ -37,7 +53,7 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2023-03-24_field-3-2-0.html"
+            "content_html": "config/pages/news/2023-03-24_field-3-2-0.html"
           }
         },
         {
@@ -53,7 +69,7 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2023-01-01_fieldhub-issues.html"
+            "content_html": "config/pages/news/2023-01-01_fieldhub-issues.html"
           }
         },
         {
@@ -82,13 +98,13 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2022-11-14-idaifield-3-1-0.html"
+            "content_html": "config/pages/news/2022-11-14-idaifield-3-1-0.html"
           }
         },
         {
           "date": "22.04.2022",
           "category": "",
-          "headline": "iDAI.field web release: <a href='https://field.idai.world/project/bourgou-online'>Henchir Bourgou</a>",
+          "headline": "iDAI.field web publication: <a href='https://field.idai.world/project/bourgou-online'>Henchir Bourgou</a>",
           "teaser": {
             "content": "<p>Henchir Bourgou is an ancient settlement of about 20 ha in the north-eastern hinterland of the island of Djerba. The <a href='https://field.idai.world/project/bourgou-online'>release</a> serves as a supplement to the publication in <a href='https://doi.org/10.34780/f05j-59fd'>Archäologischer Anzeiger 2021/2</a>.</p><p>This was the first time that a publication in Archäologischer Anzeiger has been linked to iDAI.field web. This ability to publish research data quickly, extensively and in detail online, and supplementary to a journal or monography, is a great advantage in using iDAI.field.</p><p>Another considerable benefit of direct online publication in iDAI.world is the possibility of providing type catalogues. In the case of Bourgou, the local <a href='https://field.idai.world/type/bourgou-online/1f3b1879-0c5a-47c2-8129-45548743e390'>type catalogue</a> could thus be made publically available in a timely manner, which is especially helpful for researchers in the region. The evaluation and publication of the Bourgou project data within the framework of iDAI.world worked well and served as a basis for further publications in an interactive and online accessible research environment.</p>",
             "image": {
@@ -114,7 +130,7 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2022-04-14-idaifield-3-0-0.html"
+            "content_html": "config/pages/news/2022-04-14-idaifield-3-0-0.html"
           }
         },
         {
@@ -130,7 +146,7 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2021-08-17_ayamonte.html"
+            "content_html": "config/pages/news/2021-08-17_ayamonte.html"
           }
         },
         {
@@ -146,7 +162,7 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2021-07-20_mooc.html"
+            "content_html": "config/pages/news/2021-07-20_mooc.html"
           }
         },
         {
@@ -162,7 +178,7 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2021-06-09_fdai.html"
+            "content_html": "config/pages/news/2021-06-09_fdai.html"
           }
         },
         {
@@ -178,10 +194,10 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2020-12-08_pergamonmap.html"
+            "content_html": "config/pages/news/2020-12-08_pergamonmap.html"
           }
         },
-{
+        {
           "date": "22.10.2020",
           "category": "",
           "headline": "Tuna el-Gebel: Celebrating with the dead' and the Krause archive on the iDAI.world",
@@ -194,10 +210,10 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2020-10-22_tuna.html"
+            "content_html": "config/pages/news/2020-10-22_tuna.html"
           }
         },
-{
+        {
           "date": "20.10.2020",
           "category": "",
           "headline": "Digital Publishing Award 2020 for Archäologischer Anzeiger and DAI Journal Viewer",
@@ -210,10 +226,10 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2020-10-20_award.html"
+            "content_html": "config/pages/news/2020-10-20_award.html"
           }
         },
-{
+        {
           "date": "29.07.2020",
           "category": "",
           "headline": "SPP “Entangled Africa” and iDAI.world - A digital connection of time and space",
@@ -226,10 +242,10 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2020-07-29_entangledafrica.html"
+            "content_html": "config/pages/news/2020-07-29_entangledafrica.html"
           }
         },
-{
+        {
           "date": "28.07.2020",
           "category": "",
           "headline": "EC Chronoi: The multilingualism of time",
@@ -242,7 +258,7 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2020-07-28_chronoi.html"
+            "content_html": "config/pages/news/2020-07-28_chronoi.html"
           }
         },
         {
@@ -258,7 +274,7 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2020-06-24_quarantine.html"
+            "content_html": "config/pages/news/2020-06-24_quarantine.html"
           }
         },
         {
@@ -274,7 +290,7 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2020-05-28_faak16.html"
+            "content_html": "config/pages/news/2020-05-28_faak16.html"
           }
         },
         {
@@ -290,7 +306,7 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2020-05-06_palilia32.html"
+            "content_html": "config/pages/news/2020-05-06_palilia32.html"
           }
         },
         {
@@ -306,7 +322,7 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2020-05-05_blog.html"
+            "content_html": "config/pages/news/2020-05-05_blog.html"
           }
         },
         {
@@ -322,7 +338,7 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2020-05-05_covid.html"
+            "content_html": "config/pages/news/2020-05-05_covid.html"
           }
         },
         {
@@ -338,10 +354,9 @@
             }
           },
           "more": {
-             "content_html": "config/pages/news/2020-04-23_idaifieldarabic.html"
+            "content_html": "config/pages/news/2020-04-23_idaifieldarabic.html"
           }
         },
-        
         {
           "date": "01.03.2020",
           "category": "",
@@ -354,9 +369,8 @@
               "caption": ""
             }
           },
-
           "more": {
-             "content_html": "config/pages/news/2020-03-01_sudan.html"
+            "content_html": "config/pages/news/2020-03-01_sudan.html"
           }
         },
         {
@@ -371,9 +385,8 @@
               "caption": ""
             }
           },
-
           "more": {
-             "content_html": "config/pages/news/2020-02-07_Domitilla.html"
+            "content_html": "config/pages/news/2020-02-07_Domitilla.html"
           }
         },
         {
@@ -388,9 +401,8 @@
               "caption": ""
             }
           },
-
           "more": {
-             "content_html": "config/pages/news/2019-12-18_inden.html"
+            "content_html": "config/pages/news/2019-12-18_inden.html"
           }
         },
         {
@@ -405,9 +417,8 @@
               "caption": ""
             }
           },
-
           "more": {
-             "content_html": "config/pages/news/2019-12_04_projects.html"
+            "content_html": "config/pages/news/2019-12_04_projects.html"
           }
         },
         {
@@ -435,12 +446,11 @@
               "caption": ""
             }
           },
-
           "more": {
-             "content_html": "config/pages/news/2019-11-20_publications.html"
+            "content_html": "config/pages/news/2019-11-20_publications.html"
           }
         },
-         {
+        {
           "date": "13.11.2019",
           "category": "",
           "headline": "iDAI.world around the world",
@@ -452,12 +462,11 @@
               "caption": ""
             }
           },
-
           "more": {
-             "content_html": "config/pages/news/2019-11-13_leopoldina.html"
+            "content_html": "config/pages/news/2019-11-13_leopoldina.html"
           }
         },
-         {
+        {
           "date": "16.10.2019",
           "category": "",
           "headline": "iDAI.world User Guide",
@@ -469,9 +478,8 @@
               "caption": ""
             }
           },
-
           "more": {
-             "content_html": "config/pages/news/2019-10-16_idaiguide.html"
+            "content_html": "config/pages/news/2019-10-16_idaiguide.html"
           }
         },
         {
@@ -486,9 +494,8 @@
               "caption": ""
             }
           },
-
           "more": {
-             "content_html": "config/pages/news/2019-08-28_NAHA.html"
+            "content_html": "config/pages/news/2019-08-28_NAHA.html"
           }
         },
         {
@@ -503,12 +510,11 @@
               "caption": ""
             }
           },
-
           "more": {
-             "content_html": "config/pages/news/2019-08-13_Pelagios.html"
+            "content_html": "config/pages/news/2019-08-13_Pelagios.html"
           }
         },
-         {
+        {
           "date": "16.05.2019",
           "category": "",
           "headline": "Pergamon 3D",
@@ -520,7 +526,6 @@
               "caption": ""
             }
           },
-
           "more": {
             "content_html": "config/pages/news/2019-05-16-pergamon3d.html"
           }
@@ -537,7 +542,6 @@
               "caption": ""
             }
           },
-
           "more": {
             "content_html": "config/pages/news/2019-05-10-lidar-scans.html"
           }
@@ -554,9 +558,8 @@
               "caption": ""
             }
           },
-
           "more": {
-             "content_html": "config/pages/news/2019-04-08-ayda.html"
+            "content_html": "config/pages/news/2019-04-08-ayda.html"
           }
         }
       ]
