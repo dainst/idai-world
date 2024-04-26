@@ -101,6 +101,17 @@
           "text": "External Link to 'Online coins of the roman empire, (OCRE contains AFE)'"
         },
         "text": "<p class='description'>A tool designed to help in the identification, cataloging, and research of the rich and varied coinage of the Roman Empire. The project records every published type of Roman Imperial coinage from Augustus in 31 BC, until the death of Zeno in AD 491.</p>"
+      },
+      {
+        "type": "text",
+        "image": "assets/images/content/what/objects/idai_objects_ock.png",
+        "headline": "OCK - Corpus Vasorum Arretinorum",
+        "subhead": "",
+        "link": {
+          "target": "https://zenon.dainst.org/Record/003059504",
+          "text": "External Link to 'OCK'"
+        },
+        "text": "<p class='description'>Web-Datenbank zu A. Oxé/H. Comfort/Ph. Kenrick, Corpus Vasorum Arretinorum: A Catalogue of the Signatures, Shapes, and Chronology of Italian Sigillata (Bonn 2000).</p>"
       }
     ]
   },
@@ -129,17 +140,6 @@
           "text": "External Link to 'Corpus of ancient sarcophagi'"
         },
         "text": "<p class='description'>The re-conception of the Corpus of Ancient Sarcophagi and from an IT point of view, assuming responsibility for backing up an online-presence of the material, which is to be as coherent as possible.</p>"
-      },
-      {
-        "type": "text",
-        "image": "assets/images/content/what/objects/idai_objects_ock.png",
-        "headline": "OCK - Corpus Vasorum Arretinorum",
-        "subhead": "",
-        "link": {
-          "target": "https://zenon.dainst.org/Record/003059504",
-          "text": "External Link to 'OCK'"
-        },
-        "text": "<p class='description'>Web-Datenbank zu A. Oxé/H. Comfort/Ph. Kenrick, Corpus Vasorum Arretinorum: A Catalogue of the Signatures, Shapes, and Chronology of Italian Sigillata (Bonn 2000).</p>"
       }
     ]
   },
