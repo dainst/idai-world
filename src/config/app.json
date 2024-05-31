@@ -340,9 +340,17 @@
     {
       "menu": {
         "group": "iDAI\u200B.systems",
+        "name": "iDAI\u200B.objects",
+        "url": "https://arachne.dainst.org",
+        "order": 7
+      }
+    },
+    {
+      "menu": {
+        "group": "iDAI\u200B.systems",
         "name": "iDAI\u200B.publications/books",
         "url": "https://publications.dainst.org/books/index.php/dai",
-        "order": 7
+        "order": 8
       }
     },
     {
@@ -350,15 +358,15 @@
         "group": "iDAI\u200B.systems",
         "name": "iDAI\u200B.publications/journals",
         "url": "https://publications.dainst.org/journals",
-        "order": 8
+        "order": 9
       }
     },
     {
       "menu": {
         "group": "iDAI\u200B.systems",
-        "name": "iDAI\u200B.objects",
-        "url": "https://arachne.dainst.org",
-        "order": 9
+        "name": "iDAI\u200B.repo",
+        "url": "https://repo.dainst.org/",
+        "order": 10
       }
     },
     {
@@ -366,7 +374,7 @@
         "group": "iDAI\u200B.systems",
         "name": "iDAI\u200B.thesauri",
         "url": "http://thesauri.dainst.org/de.html",
-        "order": 10
+        "order": 11
       }
     }
   ]
