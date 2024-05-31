@@ -144,14 +144,14 @@
       },
       {
         "type": "text",
-        "image": "assets/images/content/how/idai_idaiworldarchitecture_bookbrowser.jpg",
-        "headline": "iDAI.objects/bookbrowser",
-        "subhead": "Browse digitized books",
+        "image": "assets/images/content/how/idai_idaiworldarchitecture_repo.jpg",
+        "headline": "iDAI.repo",
+        "subhead": "Publish research data",
         "link": { 
-            "target": "https://arachne.dainst.org/category/?c=buch", 
-            "text": "Link to iDAI.objects/Arachne" 
+            "target": "https://repo.dainst.org", 
+            "text": "Link to iDAI.repo" 
           },
-          "text":"As a part of ARACHNE, iDAI.books offers digital versions of books on classical studies published between the 16th and 19th century. Next to making the single book pages available to research in a broader sense as digital scans, they are also characterized and contextualized as well as digitally preserved."
+          "text":"iDAI.repo makes it possible to publish research data in accordance with the FAIR principles with persistent identifiers, thereby making it citable and reusable."
       }
     ]
   }
