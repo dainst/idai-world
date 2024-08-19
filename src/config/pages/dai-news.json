@@ -9,6 +9,24 @@
       "type": "news",
       "show": 20,
       "articles": [
+
+
+        {
+          "date": "14.08.2024",
+          "category": "",
+          "headline": "PalatinGIS - a constantly growing analysis tool for the research history of the Palatine",
+          "teaser": {
+            "content": "<p><a href='https://arachne.dainst.org/project/palatinGIS?lang=en'>PalatinGIS</a> is an analysis tool that is being developed as part of a research project on the visualization history of the Palatine within the <a href='https://idai.world/'>iDAI.world</a>.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2024/palatinGIS.jpg",
+              "title": "",
+              "caption": "Detail of the Palatine Hill with Circus Maximus in the foreground. Copper engraving by Aegidius Sadeler (1570-1629)."
+            }
+          },
+          "more": {
+            "content_html": "config/pages/news/2024-08-14_palatinGIS.html"
+          }
+        },
         {
           "date": "16.10.2023",
           "category": "",
