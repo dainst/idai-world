@@ -9,8 +9,6 @@
       "type": "news",
       "show": 20,
       "articles": [
-
-
         {
           "date": "14.08.2024",
           "category": "",
@@ -25,6 +23,22 @@
           },
           "more": {
             "content_html": "config/pages/news/2024-08-14_palatinGIS.html"
+          }
+        },
+        {
+          "date": "23.04.2024",
+          "category": "",
+          "headline": "Field Desktop 3.4 release",
+          "teaser": {
+            "content": "<p>A new minor version 3.4.0 of Field Desktop has been released.</p><p>The release introduces a new Turkish UI, storage management, data quality management and QR code support.</p>",
+            "image": {
+              "src": "/assets/images/content/news/2024/idai-field-turkish.png",
+              "title": "Turkish UI",
+              "caption": "Screenshot of the new Turkish UI"
+            }
+          },
+          "more": {
+            "content_html": "config/pages/news/2024-05-23_field-3-4-0.html"
           }
         },
         {
