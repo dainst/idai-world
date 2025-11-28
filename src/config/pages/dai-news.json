@@ -10,11 +10,27 @@
       "show": 20,
       "articles": [
         {
+          "date": "21.10.2025",
+          "category": "",
+          "headline": "Field Desktop 3.6 release",
+          "teaser": {
+            "content":"<p>Version 3.6 of Field Desktop has been released!</p> <p>The new version now allows workflow ('Process') management, automatic backups, and other noticeable features such as: </p>",
+            "image": {
+              "src": "/assets/images/content/news/2025/2025-11-25_Field_3-6_schema_workflow.png",
+              "title": "Field 3.6.0",
+              "caption": "Conceptual schema of the new feature developed for documenting processes carried out on soil samples"
+            }
+          },
+          "more": {
+            "content_html": "config/pages/news/2025-10-21_field-3-6-0.html"
+          }
+        },
+        {
           "date": "11.02.2025",
           "category": "",
           "headline": "Field Desktop 3.5 release",
           "teaser": {
-            "content": "<p>Version 3.5.0 of Field Desktop has been released!</p><p>The release introduces project-specific relations, export of matrices, zooming in images and a new manual chapter on data import and export.</p>",
+            "content": "<p>Version 3.5.0 of Field Desktop has been released!</p><p>The release introduces a project-specific relations, export of matrices, zooming in images and a new manual chapter on data import.</p>",
             "image": {
               "src": "/assets/images/content/news/2025/2025-02-11_Field_3-5_Screenshot.png",
               "title": "Field 3.5.0",
