@@ -16,9 +16,9 @@
           "teaser": {
             "content":"<p>Version 3.6 of Field Desktop has been released!</p> <p>The new version now allows workflow ('Process') management, automatic backups, and other noticeable features such as: </p>",
             "image": {
-              "src": "/assets/images/content/news/2025/2025-11-25_Field_3-6_loading_field.png",
+              "src": "/assets/images/content/news/2025/2025-11-25_Field_3-6_schema_workflow.png",
               "title": "Field 3.6.0",
-              "caption": ""
+              "caption": "Conceptual schema of the new feature developed for documenting processes carried out on soil samples"
             }
           },
           "more": {
