@@ -10,6 +10,22 @@
       "show": 20,
       "articles": [
         {
+          "date": "24.03.2026",
+          "category": "",
+          "headline": "Field Desktop 3.7 release",
+          "teaser": {
+            "content":"<p>Version 3.7 of Field Desktop has been released! <p> We have just released Field Desktop 3.7.0. The new version provides the technical foundation for the forthcoming QGIS plugin \"Field Connect\" and also includes the following new features and changes: </p>",
+            "image": {
+              "src": "config/pages/news/2025-10-21_field-3-6-0.html",
+              "title": "Field 3.7.0",
+              "caption": "if needed, add a caption here"
+            }
+          },
+          "more": {
+            "content_html": "config/pages/news/2025-10-21_field-3-6-0.html"
+          }
+        },
+        {
           "date": "21.10.2025",
           "category": "",
           "headline": "Field Desktop 3.6 release",
