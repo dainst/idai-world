@@ -16,9 +16,9 @@
           "teaser": {
             "content":"<p>Version 3.7 of Field Desktop has been released! <p> We have just released Field Desktop 3.7.0. The new version provides the technical foundation for the forthcoming QGIS plugin \"Field Connect\" and also includes the following new features and changes: </p>",
             "image": {
-              "src": "config/pages/news/2026-03-24_field-3-7-0.html",
+              "src": "/assets/images/content/news/2026/2026-03-24_Field_3-7_geometry_type_selection_feature.png",
               "title": "Field 3.7.0",
-              "caption": "if needed, add a caption here"
+              "caption": "Screenshot of the new version"
             }
           },
           "more": {
