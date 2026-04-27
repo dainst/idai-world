@@ -1,0 +1,35 @@
+<section>
+              <h3>Features</h3>
+              <ul> 
+                <li>Support for upcoming QGIS plugin "Field Connect.</li>
+                <li>New option in field editor for selecting allowed geometry types for the geometry field of a category.</li> 
+                <li>New context menu in warnings menu providing the options "View in context" and "Edit"</li> 
+                <li>New REST API endpoints
+                  <ul>
+                    <li>POST /fileImport (Import images and world files)</li>
+                    <li>GET /fileExport (Export images and world files)</li>
+                  </ul>
+                </li> 
+              </ul>
+              
+              <h3>Changes</h3>
+              <ul>
+                <li>QR codes can now be enabled for resources of category "Type"</li> 
+                <li>Types can now be linked to find resources by scanning the QR code via the context menu option "Scan type" (if QR codes are also enabled for storage places, the option is called "Scan type or storage place")</li> 
+                <li>The semicolon character is not allowed anymore in the field "Identifier" and in the fields "Staff" and "Campaigns" of the project properties</li> 
+                <li>The semicolon character cannot be used anymore when entering the identifier of a new value of a valuelist</li> 
+                <li>When exporting fields of input type "Single line text (List)" to CSV, one column is now always created for each list entry (before, this was only true for fields with input in multiple languages). Importing CSV files that contain fields of this input type with entries separated by a semicolon will no longer work.</li> 
+                <li>Improved synchronization performance for newly downloaded projects</li> 
+                <li>The read-only field "Original filename" is now displayed for image resources and included in exported CSV files</li> 
+                <li>When restoring a backup file, the restored project is now opened immediately</li> 
+                <li>The REST API endpoint "/import" now allows adding data to import processes across multiple POST requests via the new parameters "command" and "importId"</li> 
+                <li>An error message is now shown when trying to import a QR code that is already used for another resource</li> 
+                <li>A new warning is now shown for duplicate QR codes</li> 
+                <li>Warnings can now be resolved by editing the affected resources via import (please note that the import will still fail if the warnings are not resolved by the import)</li> 
+                <li>When importing data via REST API, the resources view is now updated immediately to show newly imported resources</li> 
+                <li>When validating fields of input type "Dating", it is now checked that each entry contains only allowed subfields</li> 
+              </ul>
+              <p>The application download and a full list of changes can be found on GitHub: </p>
+              <p>
+                <h3><a href='https://github.com/dainst/idai-field/releases/tag/v3.7.0' target="_blank">Field version 3.7</a></h3>
+</section>
