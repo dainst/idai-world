@@ -18,11 +18,11 @@
             "image": {
               "src": "/assets/images/content/news/2026/2026-04-29_lecture_idaifield.webp",
               "title": "Lecture iDAI.field",
-              "caption": "placeholder"
+              "caption": ""
             }
           },
           "more": {
-            "content_html": "config/pages/news/2026-04-29_lecture_idaifield.html"
+            "content_html": "config/pages/news/2026-04-29-lecture-idaifield.html"
           }
         },
         {
