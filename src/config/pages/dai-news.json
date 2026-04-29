@@ -9,6 +9,22 @@
       "type": "news",
       "show": 20,
       "articles": [
+       {
+          "date": "29.04.2026",
+          "category": "",
+          "headline": "Lecture: iDAI.field",
+          "teaser": {
+            "content":"<p>On the 24. April 2026 Fabian Riebschläger and Lisa Steinmann from DAI gave a lecture on iDAI.field at the Institute of Archeology in Prague. This lecture is now available to watch on YouTube. </p>",
+            "image": {
+              "src": "/assets/images/content/news/2026/2026-04-29_lecture_idaifield.webp",
+              "title": "Lecture iDAI.field",
+              "caption": "placeholder"
+            }
+          },
+          "more": {
+            "content_html": "config/pages/news/2026-04-29_lecture_idaifield.html"
+          }
+        },
         {
           "date": "27.04.2026",
           "category": "",
