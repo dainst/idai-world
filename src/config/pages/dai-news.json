@@ -10,6 +10,22 @@
       "show": 20,
       "articles": [
         {
+          "date": "27.04.2026",
+          "category": "",
+          "headline": "Field Connect",
+          "teaser": {
+            "content":"<p>Release of a QGIS-plugin for Field Desktop.</p> <p> The new QGIS-plugin \"Field Connect\" has now been released. The plugin enables the exchange of data between a QGIS project and a Field Desktop installation running on the same computer. In this context, it can also be used to create GeoPackage files from data recorded in Field Desktop. </p>",
+            "image": {
+              "src": "/assets/images/content/news/2026/2026-04-27-field-connect.webp",
+              "title": "Field Connect",
+              "caption": "Screenshot of the new plugin"
+            }
+          },
+          "more": {
+            "content_html": "config/pages/news/2026-04-27_field_connect.html"
+          }
+        },
+        {
           "date": "24.03.2026",
           "category": "",
           "headline": "Field Desktop 3.7 release",
