@@ -43,17 +43,6 @@
         },         
         {
             "type": "text",
-            "image": "assets/images/content/how/idai_guidelines_tutorials.jpg",
-            "headline": "iDAI.tutorials",
-            "subhead": "",
-            "link": {
-                "target": "https://tutorials.idai.world",
-                "text": "iDAI.tutorials"
-            },
-            "text":"Online courses for cultural heritage professionals"
-        },
-        {
-            "type": "text",
             "image": "assets/images/content/how/idai_guidelines_hellespont.jpg",
             "headline": "The Hellespont Project",
             "subhead": "Integrating Arachne and Perseus",
