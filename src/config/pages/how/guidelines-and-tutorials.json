@@ -47,20 +47,10 @@
             "headline": "The Hellespont Project",
             "subhead": "Integrating Arachne and Perseus",
             "link": {
-                "target": "http://hellespont.dainst.org/startpage/",
+                "target": "https://doi.org/10.17613/k3kkp-82191",
                 "text": "The Hellespont Project: Integrating Arachne and Perseus via CIDOC CRM"
             },
-            "text":"The Hellespont Project combines the digital collections of Greek and Roman antiquities of the Perseus Digital Library and the German Archaeological Institute with text using the metadata format CIDOC CRM."
-        },
-        {
-            "type": "image_link",
-            "image": "assets/images/content/how/idai_guidelines_arabic_translation.jpg",
-            "headline": "Arabic translations of",
-            "subhead": "standards and guidelines",
-            "link": {
-                "target": "https://tutorials.idai.world/course/view.php?id=34&section=3&lang=en",
-                "text": "Arabic Translations of standards and guidelines"
-            }
+            "text":"The Hellespont Project combined the digital collections of Greek and Roman antiquities of the Perseus Digital Library and the German Archaeological Institute with text using the metadata format CIDOC CRM."
         },
         {
           "type": "text",
